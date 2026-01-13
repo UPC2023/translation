@@ -4,13 +4,13 @@ from huggingface_hub import snapshot_download
 # 可以用镜像站或官方 Hugging Face
 # os.environ['HF_ENDPOINT'] = 'https://hf-mirror.com'
 
-print("--- 正在下载 Qwen2.5-0.5B-Instruct ---")
+print("--- 正在下载---")
 
 # 只改这一段
 try:
     snapshot_download(
-        repo_id='Qwen/Qwen2.5-0.5B-Instruct', 
-        local_dir='./Qwen2.5-0.5B',            
+        repo_id=input('网址：'), 
+        local_dir=input('保存路径：'),            
         resume_download=True,
         max_workers=8
     )
