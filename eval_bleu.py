@@ -37,24 +37,52 @@ def _md_fenced(text: str) -> str:
     return f"```text\n{safe}\n```"
 
 
+def _ensure_path(name: str, path: str, force_ask: bool = False) -> str:
+    """If path does not exist or force_ask=True, prompt user for a path."""
+    if force_ask or not os.path.exists(path):
+        print(f"[警告] {name}文件不存在: {path}")
+        prompt = f"请重新输入{name}文件路径: "
+        entered = input(prompt).strip()
+        if entered:
+            path = entered
+    if not os.path.exists(path):
+        raise FileNotFoundError(path)
+    return path
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(
-        description="BLEU 评分：test(原文) + out(Qwen译文) + outgo(标准译文) -> 输出对比表 qwen_bleu"
+        description="BLEU 评分：可交互输入或通过命令行参数指定原文、译文、标准答案，并输出对比报告。"
     )
     parser.add_argument("--src", default="test.txt", help="翻译前原文文件 (Japanese)")
-    parser.add_argument("--hyp", default="out.txt", help="Qwen 翻译结果文件 (English hypothesis)")
+    parser.add_argument("--hyp", default="out.txt", help="待评估的翻译结果文件 (English hypothesis)")
     parser.add_argument("--ref", default="outgo.txt", help="标准答案文件 (English reference)")
-    parser.add_argument("--out", default="qwen_bleu", help="输出文件名（不带后缀时会生成 .md 和 .tsv 两份）")
+    parser.add_argument("--out", default="bleu_report", help="输出文件名（不带后缀时会生成 .md 和 .tsv）")
     parser.add_argument("--tokenize", default="13a", help="sacrebleu tokenize 方式（默认 13a）")
+    parser.add_argument("--no-prompt", action="store_true", help="跳过交互，直接使用命令行提供的路径")
     args = parser.parse_args()
 
-    for p in (args.src, args.hyp, args.ref):
-        if not os.path.exists(p):
-            raise FileNotFoundError(p)
+    if args.no_prompt:
+        src_path = _ensure_path("原文", args.src)
+        hyp_path = _ensure_path("译文", args.hyp)
+        ref_path = _ensure_path("标准答案", args.ref)
+        out_base = args.out
+    else:
+        src_path_in = input(f"请输入原文文件路径 (回车默认: {args.src}): ").strip()
+        src_path = _ensure_path("原文", src_path_in or args.src)
 
-    src_lines = _read_non_empty_lines(args.src)
-    hyp_lines = _read_non_empty_lines(args.hyp)
-    ref_lines = _read_non_empty_lines(args.ref)
+        hyp_path_in = input(f"请输入待评估的译文文件路径 (回车默认: {args.hyp}): ").strip()
+        hyp_path = _ensure_path("译文", hyp_path_in or args.hyp)
+
+        ref_path_in = input(f"请输入标准答案文件路径 (回车默认: {args.ref}): ").strip()
+        ref_path = _ensure_path("标准答案", ref_path_in or args.ref)
+
+        out_in = input(f"请输入输出报告名前缀 (回车默认: {args.out}): ").strip()
+        out_base = out_in or args.out
+
+    src_lines = _read_non_empty_lines(src_path)
+    hyp_lines = _read_non_empty_lines(hyp_path)
+    ref_lines = _read_non_empty_lines(ref_path)
 
     n = max(len(src_lines), len(hyp_lines), len(ref_lines))
     if len(src_lines) != len(hyp_lines) or len(hyp_lines) != len(ref_lines):
@@ -67,7 +95,6 @@ def main() -> int:
     hyps: List[str] = []
     sent_scores: List[float] = []
 
-    out_base = args.out
     if out_base.endswith(".md"):
         out_md = out_base
         out_tsv = out_base[: -3] + ".tsv"
@@ -80,7 +107,7 @@ def main() -> int:
 
     # TSV：便于 Excel/表格软件
     with open(out_tsv, "w", encoding="utf-8") as f:
-        f.write("idx\tbleu\tsrc_line\thyp_line\tref_line\tsource\tqwen\tref\n")
+        f.write("idx\tbleu\tsrc_line\thyp_line\tref_line\tsource\thyp\tref\n")
 
         for i in range(n):
             src_no, src = src_lines[i] if i < len(src_lines) else (0, "")
@@ -124,8 +151,8 @@ def main() -> int:
 
     # Markdown：竖向对比（不使用表格）
     with open(out_md, "w", encoding="utf-8") as f:
-        f.write("# Qwen Translation BLEU Report\n\n")
-        f.write(f"- Source: `{args.src}`\n- Hypothesis (Qwen): `{args.hyp}`\n- Reference (Gold): `{args.ref}`\n")
+        f.write("# Translation BLEU Report\n\n")
+        f.write(f"- Source: `{src_path}`\n- Hypothesis: `{hyp_path}`\n- Reference: `{ref_path}`\n")
         f.write(f"- sacrebleu tokenize: `{args.tokenize}`\n\n")
 
         for i in range(n):
@@ -140,19 +167,19 @@ def main() -> int:
                 bleu_cell = ""
 
             f.write(f"## {i + 1}\n\n")
-            f.write(f"BLEU评分：{bleu_cell}\n\n")
-            f.write("原文：\n")
+            f.write(f"BLEU Score: {bleu_cell}\n\n")
+            f.write("Source:\n")
             f.write(_md_fenced(_md_escape(src)) + "\n\n")
-            f.write("译文：\n")
+            f.write("Hypothesis:\n")
             f.write(_md_fenced(_md_escape(hyp)) + "\n\n")
-            f.write("标准译文：\n")
+            f.write("Reference:\n")
             f.write(_md_fenced(_md_escape(ref)) + "\n\n")
             f.write("---\n\n")
 
         if hyps and refs:
             corpus = sacrebleu.corpus_bleu(hyps, [refs], tokenize=args.tokenize)
             avg_sent = sum(sent_scores) / len(sent_scores)
-            f.write(f"**句子平均 BLEU**: {avg_sent:.2f}  \n")
+            f.write(f"**Average Sentence BLEU**: {avg_sent:.2f}  \n")
             f.write(f"**Corpus BLEU**: {corpus.score:.2f}  \n")
             f.write(f"**Scored pairs**: {len(hyps)}\n")
         else:

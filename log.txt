@@ -1,0 +1,11 @@
+Start RSS GB: 0.452
+
+=== LiquidAI-350M ===Baseline RSS GB: 0.452
+After load RSS GB: 1.918 (delta: 1.465)
+After gen RSS GB: 1.933 (delta: 0.016)
+
+=== Qwen2.5-0.5B ===Baseline RSS GB: 1.082
+After load RSS GB: 2.081 (delta: 0.999)
+After gen RSS GB: 2.085 (delta: 0.005)
+
+End RSS GB: 0.652

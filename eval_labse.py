@@ -1,9 +1,9 @@
 import argparse
-import os
 from typing import List, Tuple
 import torch
 from sentence_transformers import SentenceTransformer, util
-
+import os
+os.environ['HF_ENDPOINT'] = 'https://hf-mirror.com'
 
 def _read_non_empty_lines(path: str) -> List[Tuple[int, str]]:
     lines: List[Tuple[int, str]] = []
@@ -21,22 +21,72 @@ def _md_escape_cell(text: str) -> str:
     return text.replace("\\", "\\\\").replace("|", "\\|").replace("\r", " ").replace("\n", "<br>")
 
 
+def _ensure_path(name: str, path: str, force_ask: bool = False) -> str:
+    """If path does not exist or force_ask=True, prompt user for a path."""
+    if force_ask or not os.path.exists(path):
+        print(f"[警告] {name}文件不存在: {path}")
+        prompt = f"请重新输入{name}文件路径 : "
+        entered = input(prompt).strip()
+        if entered:
+            path = entered
+    if not os.path.exists(path):
+        raise FileNotFoundError(path)
+    return path
+
+
+def _prompt_name(label: str, default: str) -> str:
+    entered = input(f"请为{label}起一个名称 (当前: {default}): ").strip()
+    return entered or default
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(
-        description="使用 LaBSE 计算日语原文与英文译文的语义相似度，并比较 Qwen vs Google。"
+        description="使用 LaBSE 计算日语原文与英文译文的语义相似度，可交互输入两个译文文件与名称。"
     )
     parser.add_argument("--src", default="test.txt", help="日语原文文件")
-    parser.add_argument("--qwen", default="outqw.txt", help="Qwen 翻译结果文件")
-    parser.add_argument("--google", default="outgo.txt", help="Google/标准答案文件")
-    parser.add_argument("--out", default="labse_report.md", help="输出 Markdown 报告文件")
+    parser.add_argument("--qwen", default="outqw.txt", help="目标1翻译文件路径 (默认值，用于非交互)")
+    parser.add_argument("--google", default="outlq.txt", help="目标2翻译文件路径 (默认值，用于非交互)")
+    parser.add_argument("--out", default="labse_report.md", help="输出 Markdown 报告文件 (默认值，用于非交互)")
     parser.add_argument("--model", default="sentence-transformers/LaBSE", help="Sentence-Transformers 模型")
     parser.add_argument("--device", default="auto", choices=["auto", "cpu", "cuda"], help="推理设备")
     parser.add_argument("--batch_size", type=int, default=32)
+    parser.add_argument("--no-prompt", action="store_true", help="跳过交互，直接使用命令行提供的路径与名称")
+    parser.add_argument("--name1", default="模型1", help="目标1名称")
+    parser.add_argument("--name2", default="模型2", help="目标2名称")
     args = parser.parse_args()
 
-    for p in (args.src, args.qwen, args.google):
-        if not os.path.exists(p):
-            raise FileNotFoundError(p)
+    # 默认交互；如需无交互可加 --no-prompt。
+    if args.no_prompt:
+        src_path = _ensure_path("原文", args.src)
+        path1 = _ensure_path("目标1", args.qwen)
+        path2 = _ensure_path("目标2", args.google)
+        name1 = args.name1
+        name2 = args.name2
+        out_path = args.out if args.out.lower().endswith(".md") else args.out + ".md"
+    else:
+        src_in = input(f"请输入原文文件路径 (回车默认: {args.src}): ").strip()
+        src_path = src_in or args.src
+        src_path = _ensure_path("原文", src_path)
+
+        path1_in = input(f"请输入第一个译文文件路径 (回车默认: {args.qwen}): ").strip()
+        path1 = path1_in or args.qwen
+        path1 = _ensure_path("目标1", path1)
+
+        name1 = _prompt_name("第一个译文", args.name1)
+
+        path2_in = input(f"请输入第二个译文文件路径 (回车默认: {args.google}): ").strip()
+        path2 = path2_in or args.google
+        path2 = _ensure_path("目标2", path2)
+
+        name2 = _prompt_name("第二个译文", args.name2)
+
+        out_in = input(f"请输入输出报告文件名 (默认: {args.out}, 自动补 .md): ").strip()
+        out_path = out_in or args.out
+        if not out_path.lower().endswith(".md"):
+            out_path += ".md"
+
+    if not os.path.exists(src_path):
+        raise FileNotFoundError(src_path)
 
     device = args.device
     if device == "auto":
@@ -46,15 +96,15 @@ def main() -> int:
     st_model = SentenceTransformer(args.model, device=device)
     print("开始评测...\n")
 
-    src_lines = _read_non_empty_lines(args.src)
-    qwen_lines = _read_non_empty_lines(args.qwen)
-    google_lines = _read_non_empty_lines(args.google)
+    src_lines = _read_non_empty_lines(src_path)
+    qwen_lines = _read_non_empty_lines(path1)
+    google_lines = _read_non_empty_lines(path2)
 
     n = max(len(src_lines), len(qwen_lines), len(google_lines))
     if len(src_lines) != len(qwen_lines) or len(qwen_lines) != len(google_lines):
         print(
             "[WARN] 三个文件非空行数不一致："
-            f"src={len(src_lines)}, qwen={len(qwen_lines)}, google={len(google_lines)}。将按顺序对齐到最大长度。"
+            f"src={len(src_lines)}, 目标1={len(qwen_lines)}, 目标2={len(google_lines)}。将按顺序对齐到最大长度。"
         )
 
     aligned: List[Tuple[int, str, str, str]] = []
@@ -125,10 +175,10 @@ def main() -> int:
             qwen_sum += sq
             google_sum += sg
             if sq > sg:
-                winner = "Qwen"
+                winner = name1
                 qwen_wins += 1
             elif sg > sq:
-                winner = "Google"
+                winner = name2
                 google_wins += 1
             else:
                 winner = "平手"
@@ -143,24 +193,28 @@ def main() -> int:
     qwen_avg = (qwen_sum / scored) if scored else float("nan")
     google_avg = (google_sum / scored) if scored else float("nan")
 
-    with open(args.out, "w", encoding="utf-8") as f:
+    with open(out_path, "w", encoding="utf-8") as f:
         f.write("# 翻译质量评估报告 (LaBSE 语义相似度)\n\n")
-        f.write(f"- 原文文件: `{args.src}`\n")
-        f.write(f"- Qwen 文件: `{args.qwen}`\n")
-        f.write(f"- Google 文件: `{args.google}`\n")
+        f.write(f"- 原文文件: `{src_path}`\n")
+        f.write(f"- {name1} 文件: `{path1}`\n")
+        f.write(f"- {name2} 文件: `{path2}`\n")
         f.write(f"- LaBSE 模型: `{args.model}`\n")
         f.write(f"- device: `{device}`\n\n")
 
         f.write("## 统计\n\n")
-        f.write(f"- Qwen 平均得分: {qwen_avg:.4f}\n")
-        f.write(f"- Google 平均得分: {google_avg:.4f}\n")
-        f.write(f"- Qwen 优于 Google: {qwen_wins}\n")
-        f.write(f"- Google 优于 Qwen: {google_wins}\n")
+        f.write(f"- {name1} 平均得分: {qwen_avg:.4f}\n")
+        f.write(f"- {name2} 平均得分: {google_avg:.4f}\n")
+        f.write(f"- {name1} 优于 {name2}: {qwen_wins}\n")
+        f.write(f"- {name2} 优于 {name1}: {google_wins}\n")
         f.write(f"- 平手: {ties}\n")
         f.write(f"- 参与统计句子数: {scored}\n\n")
 
         f.write("## 明细对比表\n\n")
-        f.write("| 序号 | 日语原文 | Qwen翻译 | Qwen得分 | Google翻译 | Google得分 | 优胜方 |\n")
+        header_name1 = _md_escape_cell(name1)
+        header_name2 = _md_escape_cell(name2)
+        f.write(
+            f"| 序号 | 日语原文 | {header_name1}翻译 | {header_name1}得分 | {header_name2}翻译 | {header_name2}得分 | 优胜方 |\n"
+        )
         f.write("|---:|---|---|---:|---|---:|---|\n")
         for idx, src, qwen, sq, google, sg, winner in rows:
             sq_cell = "" if sq != sq else f"{sq:.4f}"  # NaN check
@@ -181,10 +235,11 @@ def main() -> int:
                 + " |\n"
             )
 
-    print(f"已写出: {args.out}")
-    print(f"Qwen 平均得分: {qwen_avg:.4f}")
-    print(f"Google 平均得分: {google_avg:.4f}")
-    print(f"Qwen>Google: {qwen_wins}, Google>Qwen: {google_wins}, 平手: {ties}, 参与统计: {scored}")
+    print(f"已写出: {out_path}")
+    print(f"{name1} 和 {name2} 的评分如下：")
+    print(f"{name1} 平均得分: {qwen_avg:.4f}")
+    print(f"{name2} 平均得分: {google_avg:.4f}")
+    print(f"{name1}>{name2}: {qwen_wins}, {name2}>{name1}: {google_wins}, 平手: {ties}, 参与统计: {scored}")
     return 0
 
 

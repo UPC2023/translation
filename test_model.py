@@ -2,7 +2,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 import torch
 
 # 1. 路径
-model_path = "./Qwen2.5-0.5B"
+model_path = "/home/cyw/Qwen2.5-0.5B"
 print("--- 正在加载 Qwen 0.5B ---")
 
 # 2. 加载 (注意这里是 CausalLM，和混元不一样)
@@ -28,7 +28,6 @@ generated_ids = [
 ]
 response = tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
 
-print("-" * 30)
+
 print(f"原文: {text}")
 print(f"结果: {response}")
-print("-" * 30)

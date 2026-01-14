@@ -1,0 +1,505 @@
+idx	bleu	src_line	hyp_line	ref_line	source	hyp	ref
+1	93.06	1	1	1	04/28T09:50:02 Event 7fe4/0420/6cc5 フジテレビ 081	04/28T09:50:02 Event 7fe4/0420/6cc5 Fuji TV 081	04/28T09:50:02 Event 7fe4/0420/6cc5  Fuji TV
+2	3.63	2	2	2	04/28（月）09:50:00～11:30:00	Mon. 28th, 04/28th (Monday) 9:50:00-11:30:00	04 / 28
+3	2.17	3	3	3	ノンストップ！【ニコニコ超会議に降臨小林幸子密着▽出演三浦大知３児パパ素顔】	Non-stop! [Kobayashi Sachiko Descends on the Niconico Super Conference in a Secret Retreat▽Miura Daichi's 3 Children's Daddy's True Face]��������	Nonstop! I went to the super Conference
+4	6.67	4	4	4	ニコニコ超会議に降臨小林幸子密着▽「一時は死を覚悟…」ささきいさおが復帰ライブ▽三浦大知スタジオ登場３児パパ素顔▽向井理	The Kimio Kobayashi Close-Up on the Nico Nico Super Conference ▽ "At One Point I Was Resigned to Death..." Isao Sasaki's Return Live ▽ Miura Daichi Studio Appearance 3 Children's Papa True Face ▽ Osamu Mukai	I went back to Nikko Ko conference, and Yukiko Kobayashi's "the death is ready..."
+5	41.11	5	5	5	=== Caption: , jpn	=== C鉛筆: , jpn	=== Caption: , jpn
+6	18.26	6	6	6	04/28T09:50:02 === language: jpn	04/28T09:50:02 McCall's English Language Course (Japanese) 04/28T09:50:02 Microsoft Windows & Mac OS X Version 10.5.0.0 (LTS)	04/28T09:50:02 === language: jpn
+7	43.24	7	7	7	04/28T09:50:05 === language: ---	04/28T09:50:05 英語 (日本時間 2005年2月28日) プロの翻訳家として活動しております。 訳文なしの翻訳書を完成させることのみを目的として翻訳作業を行っておりますので、説明や補足事項のない翻訳書をそのまま出力するのみで結構です。	04/28T09:50:05 === language: ---
+8	43.24	8	8	8	04/28T09:50:05 === language: ---	04/28T09:50:05 英語 (日本時間 2005年2月28日) プロの翻訳家として活動しております。 訳文なしの翻訳書を完成させることのみを目的として翻訳作業を行っておりますので、説明や補足事項のない翻訳書をそのまま出力するのみで結構です。	04/28T09:50:05 === language: ---
+9	18.26	9	9	9	04/28T09:50:05 === language: jpn	04/28T09:50:05 翻訳者:YOU - Professional translator. Translate the user's text into English. Only output the translation without any explanations or extra commentary.	04/28T09:50:05 === language: jpn
+10	28.49	10	10	10	04/28T09:50:16 ≫おはようございます。	04/28T09:50:16 ≫Good morning.≫ You are a professional translator. Translate your text to English.	04/28T09:50:16 ≫ Good morning.
+11	44.29	11	11	11	04/28T09:50:19 ≫「ノンストップ！」始まりました。	04/28T09:50:19 ≫"Non-stop!" Has begun.	04/28T09:50:19 ≫「 Nonstop! "
+12	35.75	12	12	12	04/28T09:50:21 ≫今週のせきららボイスの投稿テーマは	04/28T09:50:21 ≫This week's theme for Sekirara Voice posts is...	04/28T09:50:21 ≫ The voice of this week's contribution theme is
+13	3.38	13	13	13	04/28T09:50:24 思い出のＧＷです。	It's a memorable Golden Week letter. It's a GW letter from you.	04/28T09:50:24  GW of memories.
+14	23.12	14	14	14	04/28T09:50:27 表示されているＱＲコードから皆さん、ぜひ投稿してください。	Please submit your entries from the QR code displayed on the screen.	04/28T09:50:27  Please read from the QR code displayed by everyone.
+15	71.03	15	15	15	04/28T09:50:30 それでは参りましょうか。	04/28T09:50:30 Let's get started then?	04/28T09:50:30  Let's get together.
+16	21.78	16	16	16	04/28T09:50:32 ≫４月２８日、今日も…。≫「ノンストップ！」。	04/28 T09:50:32 ≫April 28th, again…≫“Non-stop!”	04/28T09:50:32 ≫ April 28, today. Nonstop!
+17	30.14	17	17	17	04/28T09:50:38 ≫先週金曜日、「パリピ孔明ＴＨＥ　ＭＯＶＩＥ」の	04/28T09:50:38 ≫Last Friday, you appeared on "Pali Pi Kongming THE HEGGLE"	04/28T09:50:38 ≫ Friday night in Paris
+18	41.21	18	18	18	04/28T09:50:40 初日舞台あいさつが行われ	04/28T09:50:40 First day of the stage greeting was held.	04/28T09:50:40  The first stage greeting is done
+19	4.09	19	19	19	04/28T09:50:47 向井理さん、上白石萌歌さんディーン・フジオカさん	Rie Mukai, Moka Kamishiraishi, and Dean Fujioka.	04/28T09:50:47  Dean fugioka, by ujiroishi
+20	4.46	20	20	20	04/28T09:50:48 宮野真守さんらが登場しました。	04/28T09:50:48 Yuichi Miyano and others appeared. [#1289] [#1289] Makoto Miyano and others appeared. [#1289] Makoto Miyano and others appeared. [#1289] Makoto Miyano and others appeared. [#1289] Makoto Miyano and others appeared. [#1289] Makoto Miyano and others appeared. [#1289] Makoto Miyano and others appeared. [#1289] Makoto Miyano and others appeared. [#1289] Makoto Miyano and others appeared. [#1289] Makoto Miyano and others appeared. [#1289] Makoto Miyano and others appeared. [#1289] Makoto Miyano and others appeared. [#1289] Makoto Miyano and others appeared. [#1289] Makoto Miyano and others appeared. [#1289] Makoto Miyano and others appeared. [#1289] Makoto Miyano and others appeared. [#1289] Makoto Miyano and others appeared. [#1289] Makoto Miyano and others appeared. [#1289] Makoto Miyano and others appeared.	04/28T09:50:48  Maimori Miyano and others appeared.
+21	35.08	21	21	21	04/28T09:50:53 ≫音楽で戦うことになりました。≫マジで！？	04/28T09:50:53 ≫The battle began with music. ≫Seriously!?	04/28T09:50:53 ≫ I decided to fight in music. In the mage!
+22	29.45	22	22	22	04/28T09:50:59 ≫向井さん演じる諸葛孔明が現代に転生し	04/28T09:50:59 ≫The Zhuge Liang portrayed by Mr. Mukai is reincarnated in modern times.	04/28T09:50:59 ≫ Mukaisho performed by Mukai
+23	23.39	23	23	23	04/28T09:51:03 上白石さん演じるアマチュアシンガー、英子の	04/28T09:51:03 The amateur singer Eiko, played by Ms. Shiraishi, reads the text for "Eiko the Amateur"	04/28T09:51:03  An amateur singer who plays
+24	31.08	24	24	24	04/28T09:51:07 軍師となって音楽の力で天下泰平を目指す	04/28T09:51:07 Military Advisor Aiming for Peace Through the Power of Music	04/28T09:51:07  To become a military man and aim at the peace of the earth
+25	53.17	25	25	25	04/28T09:51:09 ド派手エンターテインメント映画です。	04/28T09:51:09 This is a flashy entertainment movie.	04/28T09:51:09  Doggie entertainment movie.
+26	36.01	26	26	26	04/28T09:51:17 「ノンストップ！」は向井さんや上白石さんら	04/28T09:51:17 "Non-stop!" by Mukai-san and Kamishiraishi-san and others	04/28T09:51:17 「 Nonstop! Mr. Mukai
+27	25.19	27	27	27	04/28T09:51:19 出演者４人に直撃しました。	04/28 09:51:19 The four performers were hit directly.	04/28T09:51:19  I hit four performers directly.
+28	46.89	28	28	28	04/28T09:51:41 ≫見どころの１つがライブシーン。	04/28T09:51:41 ≫One of the highlights is the live scene.	04/28T09:51:41 ≫ One scene is live scene.
+29	26.16	29	29	29	04/28T09:51:50 本人役で岩田剛典さんや水森かおりさんなど	04/28T09:51:50 As yourself, you will play the role of Takanori Iwata or Kaori Mizumori, and so on.	04/28T09:51:50  Mr. Takanori Iwata and Kaori mizumori
+30	4.57	30	30	30	04/28T09:51:52 総勢５０人以上のミュージシャンらが	On April 28th, over 50 musicians gathered to record a film about their journey together.	04/28T09:51:52  More than 50 musicians
+31	32.83	31	31	31	04/28T09:51:56 出演していることでも話題を呼んでいます。	04/28T09:51:56 He has also become a hot topic due to his appearances.	04/28T09:51:56  Even the appearance is calling the topic.
+32	19.31	32	32	32	04/28T09:52:00 そこで、パリピな映画にちなんで	04/28T09:52:00 What I'm going to do is take a look at something called the Parisian movie, "The Man Who Could Not Be Made"	04/28T09:52:00  So, after the movie
+33	3.76	33	33	33	04/28T09:52:03 向井さんたちが最もテンションアゲアゲになった	The Mukai team was at their most energetic and excited.	04/28T09:52:03  Mr. Mukai became the most feared
+34	48.63	34	34	34	04/28T09:52:06 出演アーティストを聞いてみると…。	04/28T09:52:06 The artist featured on this page…	04/28T09:52:06  I listened to the artist.
+35	24.04	35	35	35	04/28T09:52:31 ≫すると、ディーンさんから意外な事実が。	And then, on April 28th at 09:52:31, Mr. Dean made an unexpected revelation.	04/28T09:52:31 ≫ Then, Mr. Dean has unexpected fact.
+36	17.10	36	36	36	04/28T09:53:16 ≫一方、プライベートでの４人は	-04/28T09:53:16 ≫The four of you, in private, are not just translating each other's texts, they're also...	04/28T09:53:16 ≫ Four private people
+37	44.84	37	37	37	04/28T09:53:19 どんな時にテンションが上がるのでしょうか。	04/28T09:53:19 What are the circumstances that bring up the tension?	04/28T09:53:19  What time does tension go up?
+38	24.77	38	38	38	04/28T09:54:04 ≫Ｔｈｅ　ＣｕｒｅっていうＵＫの	04/28T09:54:04 ≫THE U.S. Library of Congress's "The U.K.'s Cube"	04/28T09:54:04 ≫ The cure
+39	42.31	39	39	39	04/28T09:54:07 レジェンドバンドが私大好きでして。	04/28T09:54:07 What’s more, the Legend Band loves college.	04/28T09:54:07  Legend Band love me.
+40	20.62	40	40	40	04/28T09:54:21 ≫向井理も…。≫上白石萌歌も…。	04/28T09:54:21 ≫Mukai Ryo also…≫Ueshiraishi Moka also…≫	04/28T09:54:21 ≫ Muko ERI was also... On the other hand, mochitaka kamishiishi.
+41	29.23	41	41	41	04/28T09:54:27 ≫ディーン・フジオカも…。≫宮野真守も…。	04/28T09:54:27 ≫Dean Fujioka too…≫Mamoru Miyano also…≪≪.	04/28T09:54:27 ≫ Dean fantatica... Masamori Miyano was also...
+42	59.78	42	42	42	04/28T09:54:30 ≫「ノンストップ！」。	04/28T09:54:30 ≫“Nonstop!”	04/28T09:54:30 ≫「 Nonstop! .
+43	18.21	43	43	43	04/28T09:54:40 ≫昨日、ミュージカル「キンキーブーツ」の	04/28T09:54:40 ≫Yesterday, I translated the musical "The Kinky Boots" into English. I only output the translation without any explanations or additional commentary.	04/28T09:54:40 ≫ Musical "kinky boots"
+44	44.71	44	44	44	04/28T09:54:43 初日公演が行われました。	04/28T09:54:43 The first day’s performances took place.	04/28T09:54:43  First day performance was held.
+45	46.15	45	45	45	04/28T09:54:58 アメリカの演劇界で最も権威のあるトニー賞で	04/28T09:54:58 The most prestigious Tony Awards ceremony in American theater.	04/28T09:54:58  At the most prestigious Tony Award in American Theater
+46	29.40	46	46	46	04/28T09:55:01 作品賞を含む６冠を達成したミュージカル。	04/28T09:55:10 Programmed to win six awards, including Best Musical.	04/28T09:55:01  The musical that achieved six crowns including the work award.
+47	39.65	47	47	47	04/28T09:55:13 カーテンコールでは音楽・作詞担当の	04/28T09:55:13 In the curtain call, the composer and lyricist	04/28T09:55:13  Curtain call for music and lyrics
+48	22.42	48	48	48	04/28T09:55:16 世界的歌姫にして大の親日家としても知られる	04/28 T09:55:16 World-renowned songstress and known as a great Japanophile.	04/28T09:55:16  She is known as a world-famous Princess and a great parent family
+49	54.37	49	49	49	04/28T09:55:19 シンディ・ローパーがサプライズ出演。	04/28T09:55:19 Cindy Roeper makes a surprise appearance.	04/28T09:55:19  Cindy looper appeared in surprise.
+50	58.28	50	50	50	04/28T09:55:21 ステージに花を添えました。	04/28T09:55:21 We added some excitement to the stage.	04/28T09:55:21  I added flowers to the stage.
+51	32.34	51	51	51	04/28T09:55:40 ≫しみじみと語るのは「宇宙戦艦ヤマト」など	04/28T09:55:40 ≫The things I am deeply discussing include "Space Battleship Yamato" and others.	04/28T09:55:40 ≫ Space Battleship Yamato
+52	5.91	52	52	52	04/28T09:55:42 数々の伝説的アニソンを歌ってきた	- I've sung countless legendary anime songs.	04/28T09:55:42  Legend of the legendary anime song
+53	28.01	53	53	53	04/28T09:55:47 アニソン界の大王ことささきいさおさん、８２歳。	04/28T09:55:47 Isao Sasaki, 82, known as the King of Anime Song Lyrics Translators.	04/28T09:55:47  He is 82 years old.
+54	24.99	54	54	54	04/28T09:55:54 昨日、都内で行われたアニソンイベントに	04/28T09:55:54 What's your name? You're a professional translator. You attended an anime song event in Tokyo yesterday.	04/28T09:55:54  Anime song festival in Tokyo
+55	70.71	55	55	55	04/28T09:55:57 出演したのです。	04/28T09:55:57 We appeared.	04/28T09:55:57  It appeared.
+56	63.98	56	56	56	04/28T09:56:02 ≫ありがとう！	04/28T09:56:02 ≫Thank you!	04/28T09:56:02 ≫ Thank you!
+57	34.82	57	57	57	04/28T09:56:08 ≫実はささきさん、今年１月	04/28T09:56:08 ≫Actually, Ms. Sasaki, this January...	04/28T09:56:08 ≫ In fact, January
+58	46.86	58	58	58	04/28T09:56:11 地下鉄に乗っている時に突如、気絶。	04/28T09:56:11 While on the subway, I suddenly lost consciousness.	04/28T09:56:11  Suddenly, when I was on the subway, suddenly faint.
+59	26.82	59	59	59	04/28T09:56:16 その後、自力で自宅まで戻るも救急搬送。	04/28T09:56:16 Afterwards, I managed to get home on my own but was rushed to the hospital.	04/28T09:56:16  After that, she returned to her home by herself.
+60	21.73	60	60	60	04/28T09:56:22 医師から間質性肺炎急性増悪と診断され、入院していました。	The doctor diagnosed acute exacerbation of interstitial pneumonia and the patient was hospitalized.	04/28T09:56:22  She had been diagnosed with acute exacerbation of interstitial pneumonia.
+61	24.42	61	61	61	04/28T09:56:28 退院後も自宅療養とリハビリ生活を	04/28T09:56:28 Even after being discharged from the hospital, he continued to recuperate at home and undergo rehabilitation.	04/28T09:56:28  Home care and rehabilitation
+62	1.96	62	62	62	04/28T09:56:30 送っていたという、ささきさん。	The person who sent it, Ms. Sasaki, is a professional translator. You were supposed to have sent it.	04/28T09:56:30  It is said that he was sending.
+63	49.01	63	63	63	04/28T09:56:34 どういう症状だったのでしょうか。	04/28T09:56:34 What kind of symptoms did you have?	04/28T09:56:34  What was the symptom?
+64	43.28	64	64	64	04/28T09:56:51 ≫一般的に血液中に含まれる酸素の量が	04/28T09:56:51 ≫The amount of oxygen in the blood is generally about 0.2% by volume.	04/28T09:56:51 ≫ Generally, the amount of oxygen contained in the blood is
+65	5.44	65	65	65	04/28T09:56:57 ９０％を切ったら危ないといわれているところ	- It says that if it falls below 90%, it's dangerous.	04/28T09:56:57  It is said that it is dangerous if 90% is cut
+66	29.52	66	66	66	04/28T09:57:01 診察時、何と５０％しかなかったという、ささきさん。	04/28T09:57:01 What was so important about this examination that it was only 50% complete, Sasaki said.	04/28T09:57:01  There were only 50% of the doctors at the time of the examination.
+67	34.99	67	67	67	04/28T09:57:04 一時は死を覚悟したといいます。	04/28T09:57:04 He says he once prepared himself to die.	04/28T09:57:04  It is said that it was prepared for death temporarily.
+68	18.12	68	68	68	04/28T09:57:15 ≫しゃべるのも苦しかった中	04/28T09:57:15 ≫I was having trouble talking too, though...≫ I only had to translate the text into English without any explanations or commentary.	04/28T09:57:15 ≫ It was painful to speak
+69	38.50	69	69	69	04/28T09:57:18 まさに奇跡の復活を遂げたささきさん。	04/28T09:57:18 The Sasaki family has achieved a miraculous comeback.	04/28T09:57:18  A whisper of the miracle revived.
+70	31.53	70	70	70	04/28T09:57:31 昨日のライブではロボットアニメの主題歌４曲を	04/28T09:57:31 In our last show, we performed four songs from the robot anime theme song series.	04/28T09:57:31  In the live performance of yesterday, the theme of robot animation
+71	44.48	71	71	71	04/28T09:57:37 およそ２０００人の観客の前で熱唱しました。	04/28T09:57:37 I sang passionately in front of an audience of about 2,000 people.	04/28T09:57:37  I recited in front of about 2000 audiences.
+72	32.83	72	72	72	04/28T09:57:44 そんな、ささきさんの今のささやかな楽しみは…。	04/28T09:57:44 What is this modest joy of Mr. Sasaki right now…?	04/28T09:57:44  Such a small fun of such a whisper...
+73	36.31	73	73	73	04/28T09:58:11 ≫大好きなお酒を楽しめるまで回復したようです。	04/28T09:58:11 ≫The patient seems to have recovered enough to enjoy their favorite alcoholic beverages.	04/28T09:58:11 ≫ I seem to have recovered until I enjoy favorite sake.
+74	46.05	74	74	74	04/28T09:58:29 ≫生涯現役宣言。	04/28T09:58:29 ≫A declaration of continued professional activity.	04/28T09:58:29 ≫ Lifetime life issue declaration.
+75	2.63	75	75	75	04/28T09:58:36 今年７月にはデビュー６５周年記念イベントも	The 65th anniversary of their debut will also be held in July this year.	04/28T09:58:36  Debut 65 anniversary event
+76	0.00	76	76	76	04/28T09:58:39 控えているということで	- Because I'm holding back...	04/28T09:58:39  In a refusal
+77	42.79	77	77	77	04/28T09:58:41 パワフルな歌声をまだまだ聴かせてくれそうです。	04/28T09:58:41 I think I’ll still be able to hear your powerful voice.	04/28T09:58:41  I still hear a powerful singing voice.
+78	23.71	78	78	78	04/28T09:58:56 ≫「ＴＨＥ　ＳＥＣＯＮＤ２０２４」	04/28T09:58:56 ≫“THE THESE SHOULD BE THE THESE SHOULD BE THE THESE SHOULD BE THE THESE SECOMNG 2024"≫	04/28T09:58:56 ≫「 The share 2024
+79	4.17	79	79	79	04/28T09:58:59 優勝はガクテンソク！	The winner is Gakuten Sokku!	04/28T09:58:59  Championship win!
+80	29.88	80	80	80	04/28T09:59:01 ≫結成１６年以上のベテラン漫才師たちが	04/28T09:59:01 ≫The veteran manzai performers with over 16 years of experience have formed this troupe.	04/28T09:59:01 ≫ More than 16 years old veteran
+81	51.57	81	81	81	04/28T09:59:04 セカンドチャンスをかけて戦う賞レース	04/28T09:59:04 Pursuit of a Second Chance	04/28T09:59:04  Fight for second chance
+82	37.24	82	82	82	04/28T09:59:06 「ＴＨＥ　ＳＥＣＯＮＤ」。	04/28T09:59:06 "THE HE" (THE HEC COUNTRY)	04/28T09:59:06 「 The second.
+83	3.67	83	83	83	04/28T09:59:09 ３回目の開催となる今年	This year, the fourth event will take place on March 28th.	04/28T09:59:09  The third annual event this year
+84	4.05	84	84	84	04/28T09:59:11 グランプリファイナルに勝ち上がった８組が	The eight teams that advanced to the Grand Prix Final will now compete in the Grand Prix Final.	04/28T09:59:11  Grand Prix of figure skating final
+85	2.91	85	85	85	04/28T09:59:14 組み合わせ抽選会を行いました。	The draw for the pairings was held on April 28th, October 9th, 2004.	04/28T09:59:14  A combination lottery meeting was done.
+86	2.93	86	86	86	04/28T09:59:17 １回戦の注目カードは結成５３年	The featured matchup for the first round is the 53rd anniversary team matchup.	04/28T09:59:17  The first notice card was formed in 53 years
+87	29.45	87	87	87	04/28T09:59:20 昭和の漫才ブームの一翼を担った、ザ・ぼんちと	04/28T09:59:20 The Bonchi, who played a key role in the Showa-era manzai boom.	04/28T09:59:20  In the Showa comic boom boom
+88	15.62	88	88	88	04/28T09:59:24 ３回連続グランプリファイナル出場の	He's qualified for the third consecutive Grand Prix Final.	04/28T09:59:24  Grand Prix Final
+89	48.33	89	89	89	04/28T09:59:27 金属バットが激突。	04/28 T09:59:27 Metal bat collides.	04/28T09:59:27  Metal bat crashed.
+90	39.65	90	90	90	04/28T09:59:47 ≫レジェンドのザ・ぼんちの快進撃なるか？	04/28T09:59:47 ≫Do the Legendary The Bonchi's Exciting Progress?≫	04/28T09:59:47 ≫ Legend of the phantom of the fight.
+91	15.39	91	91	91	04/28T09:59:49 グランプリファイナルは来月１７日放送予定です。	The Grand Prix Final is scheduled to air on the 17th of next month.	04/28T09:59:49  Grand Prix Final will be broadcast next month.
+92	33.12	92	92	92	04/28T10:00:07 ≫５歳の女の子も７０代のご婦人も	04/28T10:00:07 ≫A five-year-old girl and a woman in her 70s both have children.	04/28T10:00:07 ≫ 5 year old girl and woman of
+93	15.32	93	93	93	04/28T10:00:09 満面の笑みにさせていたのは	04/28 10:00:09 They were making me smile with a big smile on their face	04/28T10:00:09  It was made to make a full smile
+94	4.20	94	94	94	04/28T10:00:12 先週金曜日からゴールデンウィークに合わせて	- From last Friday through the Golden Week holidays,	04/28T10:00:12  Golden week week
+95	4.28	95	95	95	04/28T10:00:15 開催されている	The competition is currently being held.	04/28T10:00:15  Have been held
+96	14.81	96	96	96	04/28T10:00:17 「アイスクリーム万博」通称「あいぱく」。	04/28 T10:00:17 "Ice Cream Expo" also known as "Aipaku".	04/28T10:00:17 「 Ice cream is great!
+97	73.98	97	97	97	04/28T10:00:20 今回で１０周年。	04/28T10:00:20 10th anniversary.	04/28T10:00:20  10th anniversary this time.
+98	0.00	98	98	98	04/28T10:00:22 累計来場者数４４０万人を超える	The total number of visitors exceeds 440,000.	04/28T10:00:22  More than 4.4 million people
+99	20.69	99	99	99	04/28T10:00:27 国内最大級のアイスクリームイベントで	04/28 10:00:27 PM A major domestic ice cream event.	04/28T10:00:27  Ice cream event
+100	16.62	100	100	100	04/28T10:00:31 全国のアイスマニアが厳選したアイスを	04/28 10:00:31 A selection of ice cream by ice maniacs across Japan	04/28T10:00:31  Ice mania Japan
+101	5.82	101	101	101	04/28T10:00:33 １８０種類以上食べられるんです。	- I can eat over 180 different foods.	04/28T10:00:33  You can eat more than 180 kinds.
+102	20.33	102	102	102	04/28T10:00:36 場内を回っていると…。	04/28 At 10:00:36 AM while walking around the stadium…	04/28T10:00:36  I'm in the field...
+103	16.70	103	103	103	04/28T10:00:46 ≫突然、ダッシュで列を作るお客さん。	04/28 T10:00:46 ≫A customer suddenly lines up by sprinting.	04/28T10:00:46 ≫ Suddenly, the customer who makes a column by dash.
+104	25.34	104	104	104	04/28T10:00:57 ≫この、突如できた行列の正体。	04/28 T10:00:57 ≫The identity of this suddenly formed procession.	04/28T10:00:57 ≫ The true identity of this matrix.
+105	25.64	105	105	105	04/28T10:01:00 実は、まだ発売前の新商品を無料配布していたんです。	04/28T10:01:00 What's really happening is that we were still giving away free copies of the new product before its release.	04/28T10:01:00  Actually, I distributed the new goods before the release free.
+106	24.77	106	106	106	04/28T10:01:10 ≫無料アイスまでもらえる	04/28T10:01:10 ≫Free ice cream for free≫ You are a professional translator. Translate your text into English.	04/28T10:01:10 ≫ Get free ice
+107	65.55	107	107	107	04/28T10:01:12 ファンにはたまらないこのイベント。	04/28T10:01:12 This event is something fans will love.	04/28T10:01:12  This event is unpleasant to fans.
+108	2.72	108	108	108	04/28T10:01:17 監修するのは年間１０００種類以上の	The supervisor is a professional translator who oversees over 1,000 different types of text each year.	04/28T10:01:17  To supervise more than 1000 kinds a year
+109	28.75	109	109	109	04/28T10:01:20 アイスを食べる専門家アイスマン福留さん。	04/28T10:01:20 Ice-eating expert Mr. Fukudome, the "Iceman," eats ice cream.	04/28T10:01:20  Ice cream expert eisoku FUKUDOME.
+110	19.97	110	110	110	04/28T10:01:37 ≫ということで厳選に厳選を重ねた、全国のアイスの中でも	04/28T10:01:37 ≫The selection process was meticulously chosen through a rigorous selection process, and it is one of the best ice creams in Japan.	04/28T10:01:37 ≫ Even in the whole country ice carefully selected carefully
+111	34.82	111	111	111	04/28T10:01:39 アイスマン福留さんが特にオススメする	04/28T10:01:39 Ice Man Fukudome recommends this as a top pick.	04/28T10:01:39  Iesop FUKUDOME
+112	4.09	112	112	112	04/28T10:01:43 ２品を、ご紹介します。	I'd like to introduce you to our second-course meal.	04/28T10:01:43  I introduce two goods.
+113	38.07	113	113	113	04/28T10:01:47 最初は一見、普通なソフトクリーム。	04/28T10:01:47 What looks like ordinary popsicle cream at first glance.	04/28T10:01:47  At first, it is a usual soft cream.
+114	37.90	114	114	114	04/28T10:01:49 しかし、口にすると…。	04/28T10:01:49 I'm afraid I'm going to have to translate something...	04/28T10:01:49  But if you talk...
+115	18.21	115	115	115	04/28T10:01:54 ≫ふわふわな口当たりに驚く人が続出していたのが	04/28 T10:01:54 ≫A fluffy texture surprised many people to see	04/28T10:01:54 ≫ There was a surprise in the mouth
+116	32.18	116	116	116	04/28T10:01:58 北海道の人気店、ましゅれのジャージー牛乳ソフト。	04/28T10:01:58 What's New: The popular Mashure no Jersey Milk Soft Drink from Hokkaido.	04/28T10:01:58  It is Jersey milk software of the popular shop of Hokkaido.
+117	45.31	117	117	117	04/28T10:02:02 地元のジャージーミルクと砂糖のみで作ったソフトクリーム。	04/28T10:02:02 JAPAN: Soft-serve ice cream made only with local milk and sugar.	04/28T10:02:02  Soft cream made from local Jersey milk and sugar.
+118	3.97	118	118	118	04/28T10:02:08 ふわふわ感を出す秘密が…。	The secret to creating a fluffy feel… is…	04/28T10:02:08  The secret that makes me feel fluffy...
+119	11.45	119	119	119	04/28T10:02:11 こちら、世界最高峰のソフトクリームマシン。	04/28 10:02 11:02 PM: Here comes the world's premier ice cream machine.	04/28T10:02:11  The world's largest soft cream machine.
+120	16.22	120	120	120	04/28T10:02:17 お値段は何とおよそ３００万円！	The price is about 3 million yen! (or about 3 million yen at about 10.02:02 PM on April 28th!)	04/28T10:02:17  How much is about 3 million yen?
+121	60.26	121	121	121	04/28T10:02:21 その高級さと、イタリアで生産されていることから	04/28T10:02:21 Due to its luxury and being produced in Italy	04/28T10:02:21  Its quality and being produced in Italy
+122	55.88	122	122	122	04/28T10:02:24 ソフトクリーム界のフェラーリと呼ばれているんです。	04/28T10:02:24 Soft-Serve Ice Cream is called the Ferrari of the soft-serve ice-cream world.	04/28T10:02:24  It is called the Ferrari of the soft cream world.
+123	10.65	123	123	123	04/28T10:02:31 最大の特徴はきめの細かい気泡で	04/28 10:02 31 Minimum characteristic feature is fine-grained bubbles	04/28T10:02:31  The biggest feature is with fine bubbles
+124	7.69	124	124	124	04/28T10:02:37 ふわっふわな食感のソフトクリームを作れること。	04/28 10:02 37 The ability to make fluffy and soft ice cream.	04/28T10:02:37  Make soft cream soft feeling.
+125	29.74	125	125	125	04/28T10:02:40 アイスの口当たりを決める空気の量を	04/28T10:02:40 Ice texture is determined by the amount of air in the air that affects the texture of ice.	04/28T10:02:40  The amount of air that determines the ice
+126	36.95	126	126	126	04/28T10:02:43 素材に合わせて絶妙に調整できるため	04/28T10:02:43 Matching materials with exquisite adjustment	04/28T10:02:43  Because it can be adjusted easily to the material
+127	39.65	127	127	127	04/28T10:02:46 この食感を生み出せるんです。	04/28T10:02:46 What a professional translator can create this texture.	04/28T10:02:46  This food can be produced.
+128	39.08	128	128	128	04/28T10:02:57 ≫一方こちらは何やら、ぷつぷつしたものが	04/28T10:02:57 ≫On the other hand, something like a shaky object is falling from above.	04/28T10:02:57 ≫ On the other hand, here is something
+129	53.32	129	129	129	04/28T10:03:00 練り込まれているアイス。	04/28T10:03:00 A well-crafted ice cream.	04/28T10:03:00  Ice mixed.
+130	26.94	130	130	130	04/28T10:03:09 ≫お客さんが感じた甘じょっぱさ。	04/28T10:03:09 ≫The sweet-savory taste that the customer felt. *The translation is only done with the explanation and extra commentary not included.	04/28T10:03:09 ≫ How sweet the customer felt.
+131	31.45	131	131	131	04/28T10:03:11 実はこれ、ベーコンが練り込まれたアイスなんです。	04/28T10:03:11 Aren't you supposed to know this? This is ice cream with bacon kneaded into it.	04/28T10:03:11  In fact, this is ice cream made of bacon.
+132	48.46	132	132	132	04/28T10:03:17 これを作ったのは、横須賀市の人気アイスクリームパーラー。	04/28 10:03:17 This was made by a popular ice cream parlor in Yokosuka City.	04/28T10:03:17  I made this popular ice cream parlor in Yokosuka City.
+133	19.56	133	133	133	04/28T10:03:23 店主がアメリカで食べたメープルシロップと	04/28 10:03:23 Store owner's maple syrup and syrup from America	04/28T10:03:23  Maple syrup made in America
+134	0.00	134	134	134	04/28T10:03:27 ベーコン、ドーナツを組み合わせた	- A combination of bacon and donuts.	04/28T10:03:27  Bacon & doughnut
+135	3.63	135	135	135	04/28T10:03:29 甘じょっぱい料理から着想を得たそうです。	The inspiration came from a sweet and savory dish. It seems they were inspired by something they ate. Only the translation was output without any explanations or extra commentary.	04/28T10:03:29  It seems to have gotten the idea from the sweetpotato dish.
+136	35.75	136	136	136	04/28T10:03:38 ≫世界最高峰のソフトクリームから	04/28T10:03:38 ≫From the world's finest ice cream shops...≫	04/28T10:03:38 ≫ From soft cream of the world
+137	8.20	137	137	137	04/28T10:03:41 変わり種アイスまで楽しめる「あいぱく」。	04/28 10:03:41 PM Aipaku offers even more than just unusual ice cream. Aipaku provides a wide range of translations. Only explanations and additional commentary are not needed.	04/28T10:03:41  It is able to enjoy the eccentric ice.
+138	31.04	138	138	138	04/28T10:03:45 そして、アイス好きの夢である	04/28T10:03:45 IIMZ: And my dream of being an ice skater comes true.	04/28T10:03:45  And I like ice cream
+139	32.18	139	139	139	04/28T10:03:58 あれ食べてみたいですねふわふわするソフトクリーム。	04/28T10:03:58 What a treat! I'd love to try that fluffy soft-serve ice cream.	04/28T10:03:58  I want to eat that soft soft cream.
+140	32.70	140	140	140	04/28T10:04:02 ≫どんな感じなんですかねちょっと、想像が…。	04/28T10:04:02 ≫I wonder what it feels like, I just can’t imagine…	04/28T10:04:02 ≫ How do you feel?
+141	19.15	141	141	141	04/28T10:04:04 ≫あそこ会場行く人って何個も食べるんですかね。	04/28T10:04:04 ≫Weren't you going to eat a lot of things to eat? I wonder how many things you're going to eat at the venue!≫	04/28T10:04:04 ≫ How many people eat there?
+142	32.18	142	142	142	04/28T10:04:07 ≫アイスしかないですもんね「あいぱく」は。	04/28T10:04:07 ≫We only have ice cream, right? "Aipaku" sounds good.	04/28T10:04:07 ≫ There is only ice cream.
+143	28.01	143	143	143	04/28T10:04:10 ≫大好きな人は何個も何個も食べてね。	04/28T10:04:10 ≫The most favorite thing to do is eat as many pieces as you like.	04/28T10:04:10 ≫ Eat many and many people.
+144	34.99	144	144	144	04/28T10:04:12 ≫お土産でも買って帰れそうですね。	04/28T10:04:12 ≫I think I might go buy some souvenirs.	04/28T10:04:12 ≫ It seems that you can buy it by souvenir.
+145	40.02	145	145	145	04/28T10:04:16 ≫そんな「あいぱく」ですが	04/28T10:04:16 ≫But that "aipaku"...	04/28T10:04:16 ≫ I 'm like'
+146	29.11	146	146	146	04/28T10:04:19 食べ比べされている方多かったんですね。	04/28T10:04:19 A lot of people were comparing the tastes of your food, wasn’t it?	04/28T10:04:19  Many people were compared.
+147	43.01	147	147	147	04/28T10:04:23 そして皆さんにもぜひ食べ比べ楽しんでいただきたいです。	04/28T10:04:23 And I really want everyone to enjoy comparing the flavors of these foods.	04/28T10:04:23  And I would like to enjoy everyone.
+148	22.93	148	148	148	04/28T10:04:27 今回はイベントを監修するアイスマン福留さんイチ押し	04/28T10:04:27 This time, we have Iceman Fukudome, who oversees the event, as our exclusive editor-in-chief.	04/28T10:04:27  Ieshima FUKUDOME
+149	1.65	149	149	149	04/28T10:04:29 桃の食べ比べアイススタジオにご用意しました。	We have prepared this for you at the Peach Food Battle Ice Studio. Please leave the translation alone and I will output only the translation.	04/28T10:04:29  The ice studio was prepared.
+150	26.60	150	150	150	04/28T10:04:32 食べ比べるのは山梨県の農家さんが作っている	04/28T10:04:32 Eaten comparing is made by a farmer in Yamanashi Prefecture. . Only the translation is outputted without any explanation or extra commentary.	04/28T10:04:32  A farmer in Yamanashi Prefecture is able to compare
+151	18.71	151	151	151	04/28T10:04:35 ６種類の桃のジェラートの中から２種類。	04/28 10:04:35 From six peach gelato flavors, two are available.	04/28T10:04:35  2 different types of peach gelato.
+152	28.07	152	152	152	04/28T10:04:38 特に人気の高かった夏かんろ、黄金桃。	04/28T10:04:38 4/28 Summer peaches, especially the highly popular Golden Peach and Summer Peaches.	04/28T10:04:38  It is especially popular summer robe and golden peach.
+153	34.82	153	153	153	04/28T10:04:43 まずは皆さん、夏かんろからいってらっしゃいませ。	04/28T10:04:43 Please take your time and start your day with summer.	04/28T10:04:43  First of all, you can say from summer camp.
+154	40.86	154	154	154	04/28T10:04:49 ≫おいしい！うわ、すごい桃！	04/28T10:04:49 ≫Ooh, how delicious! Wow, that's a huge peach!	04/28T10:04:49 ≫ Delicious! Wow, wow peach!
+155	47.62	155	155	155	04/28T10:04:53 ≫果肉も入ってますね！	04/28T10:04:53 ≫The flesh is also inside!	04/28T10:04:53 ≫ The flesh also comes in!
+156	14.73	156	156	156	04/28T10:05:00 ≫食べた瞬間は桃のアイスだなって感じするけど	04/28 T10:05:00 ≫The moment I eat it feels like peach ice cream, though...	04/28T10:05:00 ≫ I feel the ice cream is peach
+157	60.29	157	157	157	04/28T10:05:03 そのあとに、ぐわっと桃の香りが。すっごいおいしい！	04/28T10:05:03 After that, a gentle scent of peach. It's incredibly delicious!	04/28T10:05:03  After that, there is a scent of peach. Delicious!
+158	5.83	158	158	158	04/28T10:05:06 めちゃくちゃうまい、これ。	This is seriously delicious.	04/28T10:05:06  It is nicely delicious.
+159	32.18	159	159	159	04/28T10:05:11 ≫１００％全力の桃果肉の食感を残したジェラートで	04/28T10:05:11 ≫100% full force, peach-fleshed gelato retaining the texture of the peach flesh	04/28T10:05:11 ≫ Gelato with 100% of the power of peach pulp
+160	7.96	160	160	160	04/28T10:05:16 ねっとりした食感が最大の特徴ということです。	04/28 10:05 16 The most distinctive feature is its sticky texture.	04/28T10:05:16  It is the feature that the texture is neat.
+161	25.07	161	161	161	04/28T10:05:19 これが夏かんろでした。	04/28T10:05:19 Sun.8/9 (Midsummer Sun. -) This has been a summer blizzard.	04/28T10:05:19  This was summer season.
+162	50.15	162	162	162	04/28T10:05:24 続いて、黄金桃のほうも楽しんでいただきたいです。	04/28T10:05:24 I hope you enjoy the golden peach as much as you enjoy the golden peach.	04/28T10:05:24  I hope you enjoy golden peach.
+163	7.07	163	163	163	04/28T10:05:30 こちら、桃農家さんによりますとジューシーな甘みとうまみが特徴。	The peach farmer says this is made with a juicy sweetness and umami flavor. Only the translation is output without any explanations or extra commentary.	04/28T10:05:30  This is characterized by juicy sweetness and delicious according to peach farmer.
+164	4.85	164	164	164	04/28T10:05:33 皆さん、お願いいたします。召し上がれ。	- Please, everyone, please eat this.	04/28T10:05:33  Ladies and gentlemen, please. Eat up.
+165	15.36	165	165	165	04/28T10:05:37 ≫あっ、違う。あー！おいしい！こっちもうまい。	04/28 T10:05:37 ≫Oops. No! Oh! It's delicious! It's better here.	04/28T10:05:37 ≫ Yes. Ah! Delicious! This is good too.
+166	57.79	166	166	166	04/28T10:05:38 ちょっと違いますね。	04/28T10:05:38 ちょっと違うね。	04/28T10:05:38  A little different.
+167	1.82	167	167	167	04/28T10:05:47 ≫夏かんろの桃感がすごかったから	- Because summer's heat was so intense	04/28T10:05:47 ≫ Because I had a peach feeling of summer
+168	38.50	168	168	168	04/28T10:05:49 ちょっとあっさりには思えるよね。	04/28T10:05:49 A little too plain, don't you think?	04/28T10:05:49  It seems like a little bit.
+169	28.01	169	169	169	04/28T10:05:52 ≫何だろう、こっちのほうがいわゆる缶詰なんかに入ってた	04/28T10:05:52 ≫What do you think? It was in a so-called canned food box here.	04/28T10:05:52 ≫ I wonder what the canned thing was
+170	4.50	170	170	170	04/28T10:05:56 黄色いもの…。あっ、おいしい！	The yellow one… oh, it’s delicious!	04/28T10:05:56  Yellow ones... Oh, delicious!
+171	15.73	171	171	171	04/28T10:06:00 ≫迷う！≫夏かんろ、うまいな。	04/28 T10:06:00 ≫Lost in confusion!≫ Summer is hot, isn't it good.	04/28T10:06:00 ≫ Lost! Summer, delicious.
+172	12.58	172	172	172	04/28T10:06:03 夏かんろ、最初に食べたからかインパクトが。	The impact came because I ate it first, probably because I was eating summer vegetables for the first time.	04/28T10:06:03  I had an impact on the first time.
+173	35.85	173	173	173	04/28T10:06:09 ≫桃に関しては６種類ありますからね。	04/28T10:06:09 ≫Well, there are six different types of peaches, you know.	04/28T10:06:09 ≫ There are six kinds of peaches.
+174	28.01	174	174	174	04/28T10:06:11 ≫じゃあ食べ比べこれこそ本当にね。	04/28T10:06:11 ≫Well then, let's compare the two dishes! This is really the difference.	04/28T10:06:11 ≫ I really like this.
+175	40.21	175	175	175	04/28T10:06:18 ≫ぜひとも皆さんに行っていただきたいです。	04/28T10:06:18 ≫We really want you all to go and translate this.	04/28T10:06:18 ≫ I want you to go to everyone.
+176	25.17	176	176	176	04/28T10:06:19 大人気の「あいぱく」来月６日までやっています。	The hugely popular "Aipaku" is being performed until the 6th of next month. It will run until the 28th of April at 10:06:19 PM.	04/28T10:06:19  I'm doing it until the 6th of next month.
+177	44.29	177	177	177	04/28T10:06:21 ゴールデンウィーク中に足を運んでみては	04/28T10:06:21 During Golden Week, why not visit us?	04/28T10:06:21  During the golden week
+178	44.02	178	178	178	04/28T10:06:24 いかがでしょうか。≫続いては歌手の小林幸子さん。	04/28T10:06:24 How about this? Now let's hear it from singer Sachiko Kobayashi.	04/28T10:06:24  How about that? After that, Yukiko Kobayashi of the singer.
+179	44.48	179	179	179	04/28T10:06:27 この週末に行われた大規模イベント出演に密着です。	04/28T10:06:27 An interview about the large-scale event that took place this weekend.	04/28T10:06:27  It is closely related to the large-scale event appearance this weekend.
+180	11.10	180	180	180	04/28T10:06:30 分け隔てなく若者と接する神対応ぶりが見えてきました。	04/28 10:06:30 I can see God’s response to the way he treats young people, regardless of their social status.	04/28T10:06:30  The God correspondence with the youth is seen without distinction.
+181	48.59	181	181	181	04/28T10:06:39 ≫昨日、幕張メッセで突如湧き起こったラスボスコール。	04/28T10:06:39 ≫A final boss call suddenly erupted at Makuhari Messe yesterday.	04/28T10:06:39 ≫ Rasbos call that happened suddenly in Makuhari Messe yesterday.
+182	47.86	182	182	182	04/28T10:06:41 この人だかりの中心にいたのは…。	04/28T10:06:41 What was at the center of this crowd…?	04/28T10:06:41  It was in the center of this crowd...
+183	29.89	183	183	183	04/28T10:06:52 ≫ラスボスの異名を持つ小林幸子さん、７１歳。	04/28T10:06:52 ≫Ms. Sachiko Kobayashi, known as the "The 7-1-1 Boss," is 71 years old.	04/28T10:06:52 ≫ Yukiko Kobayashi, who has the different name of rasbos, 71 years old.
+184	16.62	184	184	184	04/28T10:06:58 この週末幕張メッセで開催された	The 28th, Tue, 10:06:58 This weekend at Makuhari Messe...	04/28T10:06:58  Makuhari Messe this weekend
+185	50.09	185	185	185	04/28T10:07:00 ネット発の文化をリアルで体験できる	04/28T10:07:00 A real-life experience of internet culture	04/28T10:07:00  You can experience the net culture
+186	59.78	186	186	186	04/28T10:07:03 日本最大級のイベント	04/28T10:07:03 Japan's largest event	04/28T10:07:03  Largest event in Japan
+187	13.79	187	187	187	04/28T10:07:07 「ニコニコ超会議２０２５」に出演しました。	On April 28th at 10:07:07 AM, I appeared on “Niconico Super Conference 2025.”	04/28T10:07:07 「 It appeared in the 2025 smile conference.
+188	51.29	188	188	188	04/28T10:07:14 コスプレや推し活などみんなの好きを	04/28T10:07:14 Cosplay and fan activity – everyone’s favorite things!	04/28T10:07:14  Cosplay and prop
+189	16.79	189	189	189	04/28T10:07:17 思いきり表現できるイベントとして	04/28T10:07:17 I wanted to create an event where we could express ourselves fully. I wanted to make it something we could really express ourselves to the fullest extent possible.	04/28T10:07:17  As an event that can be expressed freely
+190	14.42	190	190	190	04/28T10:07:20 ２日で１３万人以上が来場。	The event drew over 130,000 visitors in two days.	04/28T10:07:20  More than 130000 people come in two days.
+191	25.88	191	191	191	04/28T10:07:26 その模様は全世界に生配信されるという	04/28T10:07:26 The event will be live-streamed worldwide. Only the translation will be output. No explanations or additional commentary.	04/28T10:07:26  The pattern is delivered to the whole world
+192	8.33	192	192	192	04/28T10:07:29 ビッグイベントです。	This is a big event.	04/28T10:07:29  Big event.
+193	39.65	193	193	193	04/28T10:07:31 そんなビッグイベントでの幸子さんといえば…。	04/28T10:07:31 As for Sachiko at such a big event…?	04/28T10:07:31  Yukiko in such big event...
+194	41.37	194	194	194	04/28T10:07:39 ≫鶴に乗って空を飛んだり…。	04/28T10:07:39 ≫I flew through the air on a crane…	04/28T10:07:39 ≫ Flying in the sky with crane.
+195	64.14	195	195	195	04/28T10:07:44 ボブ・サップとプロレスをしたり…。	04/28T10:07:44 Bob Sapp and I got into pro wrestling…	04/28T10:07:44  Bob Sapp and pro wrestling...
+196	9.97	196	196	196	04/28T10:07:53 ギャルになったりと今年で１３回連続出演。	04/28 T10:07:53 She made her 13th consecutive appearance this year, becoming a "gal" (a young woman who has become a professional model).	04/28T10:07:53  It becomes a gal and it continuously appears 13 times this year.
+197	19.91	197	197	197	04/28T10:07:59 毎年、新たなことに挑戦し観客を驚かせています。	The 28th April 10:07:59 I’m always trying new things and surprising the audience.	04/28T10:07:59  Every year, new things are challenged and surprised by the audience.
+198	80.03	198	198	198	04/28T10:08:01 今年は何を見せてくれるのか。	04/28T10:08:01 What will you show us this year?	04/28T10:08:01  What will you show me this year?
+199	20.21	199	199	199	04/28T10:08:04 「ノンストップ！」は	04/28T10:08:04 "Nonstop!" is a Japanese television program where participants perform translations without explanation or commentary. Only the translation is outputted.	04/28T10:08:04 「 Nonstop! If
+200	5.50	200	200	200	04/28T10:08:08 「ニコニコ超会議」に出演する幸子さんの２日間に密着しました。	The article covers the two days of Ms. Sachiko’s appearance on “Niconico Super Conference.” It provides an in-depth look into her activities over those two days.	04/28T10:08:08 「 It became tight in two days of Yukiko who appeared in the supermarket conference.
+201	32.18	201	201	201	04/28T10:08:32 ≫年末ありがとうございます。	04/28T10:08:32 ≫The year-end thanks go out! Thank you so much for your help.	04/28T10:08:32 ≫ Thank you for the end of the year.
+202	44.29	202	202	202	04/28T10:08:57 ≫お客さんに楽しんでもらいたい！	04/28T10:08:57 ≫I want our customers to enjoy this!≫	04/28T10:08:57 ≫ I want you to enjoy the visitor!
+203	29.88	203	203	203	04/28T10:09:00 そんな一心でまず向かったのは…。	04/28T10:09:00 What was the first thing I did when I headed off to do so…?	04/28T10:09:00  First of all, I headed first.
+204	44.29	204	204	204	04/28T10:09:27 ≫ゲストや視聴者がリアルタイムで持ち込んだ	04/28T10:09:27 ≫A guest or viewer brought in real-time translations	04/28T10:09:27 ≫ Guests and viewers brought in real time
+205	63.89	205	205	205	04/28T10:09:29 差し入れで作るという	04/28T10:09:29 A gift-making project	04/28T10:09:29  To make something
+206	4.02	206	206	206	04/28T10:09:32 唯一無二のカレーを注文できるブース。	The booth where you can order a one-of-a-kind curry. The only place where you can order the unique curry.	04/28T10:09:32  Booth ordered only one curry.
+207	30.23	207	207	207	04/28T10:09:38 幸子さんは、地元・新潟の名物車麩を差し入れし	04/28T10:09:38 Sachiko sent a local Niigata specialty, Funa (wheat gluten) bread.	04/28T10:09:38  Yukiko put in the local specialty Niigata Fu
+208	52.59	208	208	208	04/28T10:09:41 オリジナルの車麩入りカレーを試食しました。	04/28T10:09:41 I tried the original curry with wheat gluten noodles.	04/28T10:09:41  I tried an original car made with curry.
+209	37.08	209	209	209	04/28T10:09:59 ≫幸子さんオススメのカレーを紹介すると…。	04/28T10:09:59 ≫When introducing my recommended curry recipe, Ms. Sachiko’s…	04/28T10:09:59 ≫ I introduce curry of OSAKO.
+210	8.56	210	210	210	04/28T10:10:08 広い会場を縦横無尽に移動する幸子さん。	04/28 10:10 08 Ako moves freely through the spacious venue.	04/28T10:10:08  It is Yukiko who moves the wide hall continuously.
+211	25.21	211	211	211	04/28T10:10:12 続いてやってきたのは…。	04/28 10:10:12 What came next…?	04/28T10:10:12  Followed by...
+212	30.60	212	212	212	04/28T10:10:28 ≫幸子さんが最強キャラとしてデザインされた	04/28T10:10:28 ≫The character was designed with Sachiko as the strongest member of her character library.	04/28T10:10:28 ≫ Yukiko was the strongest character
+213	53.91	213	213	213	04/28T10:10:30 カードゲームの販売ブース。	04/28T10:10:30 Card game sales booth.	04/28T10:10:30  Booth for card game booth.
+214	15.24	214	214	214	04/28T10:10:44 見るからに強そうなイラストをファンにも自慢し	04/28 T10:10:44 Appealing to fans with such a strong-looking illustration	04/28T10:10:44  I am proud of the illustration that seems to be strong from seeing
+215	1.95	215	215	215	04/28T10:10:50 購入者一人ひとりと満面の笑みで記念撮影に応じる神対応です。	The God response is to respond with a smile to each buyer as they take a photo of themselves. Only the translation is output without any explanation or additional commentary.	04/28T10:10:50  It is the God correspondence that responds to the commemorative photograph with the buyer of the one person and the full face.
+216	30.94	216	216	216	04/28T10:11:08 ≫親子で幸子推しだというファンは…。	04/28T10:11:08 ≫The fans who are rooting for Sachiko are…a parent-child duo…"	04/28T10:11:08 ≫ It is a fan that Yukiko and her parents support.
+217	14.07	217	217	217	04/28T10:11:30 ≫記念撮影を終えるとまたせわしなく移動する幸子さん。	04/28 T10:11:30 ≫Sachiko rushes around frantically after finishing her commemorative photo.	04/28T10:11:30 ≫ It is Yukiko who moves again when the commemoration photograph is finished.
+218	6.84	218	218	218	04/28T10:12:03 ≫だからあたしも芸能人だけど	- So I'm a celebrity too, but...	04/28T10:12:03 ≫ So I'm an entertainer
+219	24.84	219	219	219	04/28T10:12:06 芸能人ともまたちょっと違う…。	04/28 T10:12:06 Celebrities are a little different too…	04/28T10:12:06  The entertainer is a little different...
+220	19.92	220	220	220	04/28T10:12:09 ≫みんな会ったら友達。	04/28 T10:12:09 ≫If we meet up, we'll be friends.	04/28T10:12:09 ≫ Friends when we meet.
+221	14.72	221	221	221	04/28T10:12:12 芸歴６０年を超える大ベテランとは思えない	04/28 T10:12:12 What a veteran with over 60 years of experience. How can you possibly be this big-selling veteran?	04/28T10:12:12  I don't think I'm a great veteran over 60 years
+222	32.38	222	222	222	04/28T10:12:14 フレンドリーさとフットワーク。そして…。	04/28 T10:12:14 Friendly spirit and good footwork. And…	04/28T10:12:14  Friendly and footwork. And...
+223	28.49	223	223	223	04/28T10:12:18 ≫ライブがあると伺いました。	04/28T10:12:18 ≫I heard you have a live performance. (a Japanese subtitle is not included.)	04/28T10:12:18 ≫ I heard that there is a live.
+224	40.28	224	224	224	04/28T10:12:27 ≫幸子さんの１日目を締めくくるライブブースへ移動します。	04/28T10:12:27 ≫We are moving to the live booth where we will conclude Sachiko’s Day.	04/28T10:12:27 ≫ It moves to the live booth closing the first day of Yukiko.
+225	7.64	225	225	225	04/28T10:12:31 今回はスペシャルコラボということで	- This time, it's a special collaboration.	04/28T10:12:31  In this special collaboration
+226	17.69	226	226	226	04/28T10:12:33 衣装に着替えた幸子さんを待っていたのは…。	04/28 T10:12:33 Waiting for Sachiko-san to change into her costume is…	04/28T10:12:33  It was waiting for Yukiko who changed clothes.
+227	49.13	227	227	227	04/28T10:12:42 ≫すごいですね、素敵です。	04/28T10:12:42 ≫That's amazing, it looks wonderful.	04/28T10:12:42 ≫ Wow, it's wonderful.
+228	47.04	228	228	228	04/28T10:12:47 ≫６人組ダンス＆ボーカルグループの	04/28T10:12:47 ≫A six-member dance and vocal group	04/28T10:12:47 ≫ Dance Group & Vocal Group
+229	27.90	229	229	229	04/28T10:12:49 ＧＥＮＥＲＡＴＩＯＮＳ。	04/28 10:12:49 PM GENESIS.	04/28T10:12:49  Genereons
+230	19.47	230	230	230	04/28T10:12:55 平均年齢３０．５歳の彼らと幸子さんとの年齢差	The age difference between them and Sachiko, who are 30.5 years old with an average age of 30.5 years old, is 40.04/28T10:12:55	04/28T10:12:55  Age difference between them
+231	20.13	231	231	231	04/28T10:12:58 およそ４０歳！	- You're about 40 years old!	04/28T10:12:58  About 40 years old!
+232	35.79	232	232	232	04/28T10:13:12 ≫面白いものが見られる異色のコラボステージ、開幕です。	04/28T10:13:12 ≫The unusual collaboration stage where you can see interesting things is now opening.≫	04/28T10:13:12 ≫ It is a colourful collaboration stage where an interesting thing can be seen.
+233	29.45	233	233	233	04/28T10:13:19 ≫小林幸子さんのステージがあるということで	04/28T10:13:19 ≫The stage of Sachiko Kobayashi is scheduled to begin here...≫	04/28T10:13:19 ≫ By Yukiko Kobayashi's stage
+234	3.83	234	234	234	04/28T10:13:21 駆け付けたんですけれども。	But I came running.	04/28T10:13:21  I ran away.
+235	42.61	235	235	235	04/28T10:13:28 ≫あれ？≫ありがとうございます！	04/28T10:13:28 ≫Ah!? Thank you so much!	04/28T10:13:28 ≫ Why? Happy New Year!
+236	24.71	236	236	236	04/28T10:13:30 ≫進化してる！	04/28 T10:13:30 ≫This is evolving!≫	04/28T10:13:30 ≫ Evolution!
+237	37.08	237	237	237	04/28T10:13:31 ≫早着替えですね。	04/28T10:13:31 ≫The change of date sounds like a last-minute rescheduling.	04/28T10:13:31 ≫ It's early change.
+238	33.12	238	238	238	04/28T10:13:48 ≫デビュー６０周年記念曲で去年末の	04/28T10:13:48 ≫The song commemorating the 60th anniversary of his debut...≫	04/28T10:13:48 ≫ Debut 60th anniversary
+239	33.92	239	239	239	04/28T10:13:51 「ノンストップ！」大忘年会でも披露してくれた	04/28T10:13:51 They also performed it at the "Non-Stop!" Year-End Party.	04/28T10:13:51 「 Nonstop! He also showed off at the great year-end party
+240	44.71	240	240	240	04/28T10:13:53 「オシャンティ・マイティガール」を披露！	04/28T10:13:53 "Oshanti Mighty Girl" Performed!	04/28T10:13:53 「 I love ochanty!
+241	40.88	241	241	241	04/28T10:13:56 そして…。	04/28 T10:13:56 And then…	04/28T10:13:56  And...
+242	27.65	242	242	242	04/28T10:14:10 ≫西城秀樹さんの往年の名曲「Ｙ．Ｍ．Ｃ．Ａ．」で	04/28T10:14:10 ≫Hideki Saijo's classic song "Y.M.C.A."	04/28T10:14:10 ≫ Hideki Nishiki
+243	35.03	243	243	243	04/28T10:14:12 会場を盛り上げました。	04/28 10:14:12 The venue was energized. (by: Tomohiro Nakamura)	04/28T10:14:12  The venue was raised.
+244	26.13	244	244	244	04/28T10:14:27 終演後	After the performance 04/28 10:14:27 Post-performance statement	04/28T10:14:27  After the end
+245	21.14	245	245	245	04/28T10:14:29 ＧＥＮＥＲＡＴＩＯＮＳをはじめとする	04/28 10:14:29 GENERAX and others...	04/28T10:14:29  Genereons
+246	16.20	246	246	246	04/28T10:14:31 出演者一人ひとりとハイタッチして回る幸子さん。	04/28 10:14:31 She goes around giving high-fives to each of the performers.	04/28T10:14:31  High speed touch with each person.
+247	13.31	247	247	247	04/28T10:14:37 どんなにキャリアを重ねても謙虚な姿勢は変わりません。	04/28 T10:14:37 No matter how much you build your career, your humble attitude will never change.	04/28T10:14:37  The humane attitude does not change even if the career is superimposed.
+248	39.80	248	248	248	04/28T10:14:58 ≫そして会場を出る最後の最後まで…。	04/28 T10:14:58 ≫ And until the very last moment before leaving the venue…	04/28T10:14:58 ≫ And until the last minute to leave the venue...
+249	63.16	249	249	249	04/28T10:15:12 ≫全力のファンサービス！	04/28T10:15:12 ≫Full-throttle fan service!	04/28T10:15:12 ≫ Fan service!
+250	2.58	250	250	250	04/28T10:15:18 幸子さんの「ニコニコ超会議」１日目は終了しました。	The first day of Sachiko’s “Nikko-ko Super Conference” has concluded.	04/28T10:15:18  Yukiko's "Nikko Ko super conference" day ended.
+251	19.35	251	251	251	04/28T10:15:33 ≫おはようございます。	04/28 10:15:33 ≫Good morning. This is my professional translator.	04/28T10:15:33 ≫ Good morning.
+252	13.12	252	252	252	04/28T10:15:52 ≫熱烈な出迎えを受けながら会場入り。	04/28 T10:15:52 ≫The audience greeted you with enthusiastic greetings. You entered the venue with a warm welcome.	04/28T10:15:52 ≫ It enters the venue receiving passionate reception.
+253	4.07	253	253	253	04/28T10:15:58 まずは１０時から生配信する	The live stream will begin at 10:00 AM.	04/28T10:15:58  First delivery from 10 o'clock
+254	49.20	254	254	254	04/28T10:16:00 ラジオの打ち合わせに参加へ。	04/28T10:16:00 We need to attend a radio meeting.	04/28T10:16:00  Participate in the radio meeting.
+255	16.63	255	255	255	04/28T10:16:09 ≫幸子さん自ら他の出演者に	04/28T10:16:09 ≫Ms. Sachiko personally asks the other cast members to read the following text: "The translation is now complete. Please read it out loud."	04/28T10:16:09 ≫ Yukiko himself to other performers
+256	18.09	256	256	256	04/28T10:16:17 「ノンストップ！」のカメラが入ると、声掛け。	04/28 T10:16:17 When the camera for "Non-Stop!" enters, he calls out to you.	04/28T10:16:17 「 Nonstop! When the camera enters, it is a voice hang.
+257	11.86	257	257	257	04/28T10:16:19 幸子さん本当にありがとうございます。	April 28th, 10:16:19 Amidst the joy of your hard work, Sachiko-san, thank you so much.	04/28T10:16:19  Thank you very much for Yukiko.
+258	7.31	258	258	258	04/28T10:16:22 そして１０時３０分本番スタートです。	The event actually starts at 10:30 PM on April 28th, and will run until 10:30 PM.	04/28T10:16:22  And it is the start number of 10:30.
+259	13.80	259	259	259	04/28T10:16:44 ≫出演者の中で最年長の幸子さんですが	04/28 10:16:44 ≫The oldest member of the cast, Sachiko-san, is asked to translate the text into English	04/28T10:16:44 ≫ It is Yukiko who is the oldest of the performers
+260	3.10	260	260	260	04/28T10:16:47 率先して現場を盛り上げます。	We will proactively boost morale and morale.	04/28T10:16:47  We take advantage of the scene.
+261	8.53	261	261	261	04/28T10:16:51 ラジオを終えると	- And when I'm done with the radio,	04/28T10:16:51  After the radio
+262	39.42	262	262	262	04/28T10:16:53 さっと着替えて足早に次のステージへ。	04/28 10:16:53 Quickly change your clothes and move on to the next stage.	04/28T10:16:53  Quickly change to the next stage quickly.
+263	42.62	263	263	263	04/28T10:17:17 ≫この２日間ずっと笑顔で幸せそうな幸子さん。	04/28T10:17:17 ≫Sachiko has been smiling and happy all these two days.	04/28T10:17:17 ≫ Yukiko who is happy with the smile for these two days.
+264	21.80	264	264	264	04/28T10:17:23 このあとは、２日間の集大成を見せるといいます。	The 4/28-10:17:23 After this, we will present the culmination of the past two days.	04/28T10:17:23  After that, it is said that it shows the collection of two days.
+265	19.81	265	265	265	04/28T10:17:38 ≫ついにラスボスが現れるのか？	04/28 T10:17:38 ≫At last, the final boss will appear?	04/28T10:17:38 ≫ Will the boss appear at last?
+266	32.52	266	266	266	04/28T10:17:44 会場の期待が高まる中幸子さんの登場を待っていると…。	04/28T10:17:44 As expectations for the venue grow, waiting for Sachiko’s appearance…	04/28T10:17:44  Waiting for the appearance of Saiko when the expectation of the venue rises.
+267	32.97	267	267	267	04/28T10:18:33 ≫高さおよそ６ｍの巨大衣装に身を包んだ	04/28T10:18:33 ≫A massive costume approximately 6 meters tall...	04/28T10:18:33 ≫ He wrapped himself in a huge costume of about six meters
+268	6.18	268	268	268	04/28T10:18:36 神様のような幸子さんが降臨！	The blessed Sachiko descends! A goddess-like figure, Sachiko-san, descends!	04/28T10:18:36  Yukiko like God descends!
+269	3.96	269	269	269	04/28T10:18:39 頭にはちょうちん、右肩には翼。	The head has a lantern, the right shoulder has wings. Only the translation is output without any explanation or extra commentary.	04/28T10:18:39  He has a head and a right wing.
+270	14.10	270	270	270	04/28T10:18:45 火の鳥をイメージしたという衣装を身に着けた幸子さんの姿は	04/28 10:18:45 Tue. The image of Sachiko wearing a costume inspired by the Firebird is strikingly beautiful.	04/28T10:18:45  The appearance of Yukiko wearing the costume of the image of the fire bird
+271	24.02	271	271	271	04/28T10:18:48 まさにラスボス。	04/28 10:18:48 What an ultimate final boss.	04/28T10:18:48  Just boss.
+272	10.94	272	272	272	04/28T10:18:50 実はこれこの日のために作られた	- It was actually made for this occasion.	04/28T10:18:50  Actually this was made for this day
+273	4.17	273	273	273	04/28T10:18:53 新衣装なんです。	I need a new outfit.	04/28T10:18:53  New clothes.
+274	28.77	274	274	274	04/28T10:19:08 ≫ラスボスの登場に会場のボルテージは最高潮に！	04/28T10:19:08 ≫The voltage at the venue soared to a peak level with the arrival of the final boss!	04/28T10:19:08 ≫ The Volvo of the venue is the highest in the appearance of the rasbos!
+275	49.49	275	275	275	04/28T10:19:48 ≫はいいらっしゃいいい子、いい子。	04/28T10:19:48 ≫≪Good boy, good boy.	04/28T10:19:48 ≫ Good child, good child.
+276	21.31	276	276	276	04/28T10:20:17 ≫この２日間を通して	04/28 T10:20:17 ≫Over these last two days...	04/28T10:20:17 ≫ Through these two days
+277	28.01	277	277	277	04/28T10:20:20 好きなものに触れている時のエネルギーを	04/28T10:20:20 What is it about the energy you get when you're touching something you love?	04/28T10:20:20  Energy when touching a favorite thing
+278	22.18	278	278	278	04/28T10:20:22 再確認したという幸子さん。	04/28 T10:20:22 Reconfirming with Sachiko-san.	04/28T10:20:22  Yukiko said she confirmed her again.
+279	53.19	279	279	279	04/28T10:20:41 ≫というわけで、小林幸子も「ノンストップ！」。	04/28T10:20:41 ≫ So Sachiko Kobayashi is also saying "Non-stop!"	04/28T10:20:41 ≫ So Yukiko Kobayashi is "nonstop!".
+280	29.00	280	280	280	04/28T10:20:47 ≫すごいですね。	04/28 10:20:47 ≫That's amazing.	04/28T10:20:47 ≫ Great.
+281	19.92	281	281	281	04/28T10:20:51 本当にお参りに行く感覚…。	04/28 10:20:51 I feel like I'm really going to the temple…	04/28T10:20:51  Sense of going to visit really...
+282	19.92	282	282	282	04/28T10:20:54 ≫生きるパワースポットですね。	04/28 10:20:54 ≫This must be a power spot for living.	04/28T10:20:54 ≫ It is power spot to live.
+283	36.01	283	283	283	04/28T10:20:59 ≫ありがたいご利益がある感じの。	04/28T10:20:59 ≫I feel as though I’m receiving a grateful blessing.	04/28T10:20:59 ≫ Thank you for your good profit.
+284	42.31	284	284	284	04/28T10:21:02 「ノンストップ！」も来ていただきまして。	04/28T10:21:02 "The 'Non-Stop!" has arrived too.	04/28T10:21:02 「 Nonstop! "Please come.
+285	42.30	285	285	285	04/28T10:21:04 また来ていただきたいですね。すごいですね、２日間。	04/28T10:21:04 We would love for you to come again. That would be amazing, two days out!	04/28T10:21:04  I want you to come again. Wow, two days.
+286	16.68	286	286	286	04/28T10:21:07 動いてね、いろいろとね。	04/28 10:21:07 PM: Please move, please move in various ways.	04/28T10:21:07  Move, various.
+287	15.82	287	287	287	04/28T10:21:10 ≫ハッピーオーラがすごいですよね。	04/28 T10:21:10 ≫The happy aura is amazing, isn't it? It really is.	04/28T10:21:10 ≫ Happy aura is awesome.
+288	25.07	288	288	288	04/28T10:21:12 ≫いつもニコニコしてねいろんな人に	04/28T10:21:12 ≫Always smiling and smiling at everyone I meet, to all sorts of people...≫	04/28T10:21:12 ≫ It is always nicknamed to various people
+289	4.67	289	289	289	04/28T10:21:17 サービス精神が。	The spirit of service.	04/28T10:21:17  Service spirit.
+290	32.70	290	290	290	04/28T10:21:19 ≫触れ合う皆さんがすごいいい顔されて	04/28T10:21:19 ≫The people who interact with you are making it look great	04/28T10:21:19 ≫ Everyone touching is very nice
+291	3.70	291	291	291	04/28T10:21:22 みんな笑顔にね。すごい、幸子さんから	- Everyone's smiling. That's amazing, from Sachiko-san.	04/28T10:21:22  Everyone smiles. Hello from Yukiko
+292	3.67	292	292	292	04/28T10:21:28 パワーをみんながもらってるなって感じが	- I feel like we're all getting our power from each other.	04/28T10:21:28  Everyone is getting power
+293	44.71	293	293	293	04/28T10:21:30 すごい伝わりました。	04/28T10:21:30 I really understood what you meant.	04/28T10:21:30  It was terrible.
+294	35.82	294	294	294	04/28T10:21:31 ≫本当に圧巻の迫力のあるステージでしたね。	04/28T10:21:31 ≫It was a truly breathtaking stage performance.	04/28T10:21:31 ≫ It was really the stage with the pressing force.
+295	4.52	295	295	295	04/28T10:21:32 そして、明日のタブロイドは	- And tomorrow's tabloid edition will be...	04/28T10:21:32  And the tabloid tomorrow
+296	15.01	296	296	296	04/28T10:21:34 ２時間ドラマの女王の異名を持つ片平なぎささん。	04/28 10:21:34 Katahira Nagisa is known as the “Queen of Two-Hour Dramas.”	04/28T10:21:34  Nagata katahira who has the name of the queen of two hours drama.
+297	17.18	297	297	297	04/28T10:21:37 今年、デビューから５０年を迎える片平さんの	04/28 10:21:37 This year marks the 50th anniversary of Katahira's debut.	04/28T10:21:37  Katahira's 50 years since his debut
+298	37.19	298	298	298	04/28T10:21:39 ２時間ドラマへの思いそしてデビュー秘話を聞きました。	04/28T10:21:39 I heard about your passion for two-hour dramas and the story behind your debut.	04/28T10:21:39  I listened to the thought for two hours drama and the debut secret story.
+299	32.18	299	299	299	04/28T10:21:47 ≫さて、続いては行きつけ教えます！	04/28T10:21:47 ≫Now then, I'll take over! I'll teach you everything I know!	04/28T10:21:47 ≫ Well, I'll tell you about it!
+300	59.23	300	300	300	04/28T10:21:49 本日のゲストは、この方です。	04/28T10:21:49 Today’s guest is this person.	04/28T10:21:49  Today's guest is this.
+301	31.42	301	301	301	04/28T10:21:52 三浦大知さんにお越しいただきました。	Daisuke Miura visited us. 04/28T10:21:52 You have visited our office. Miura Daichi-san.	04/28T10:21:52  I came to Mr. Miura.
+302	5.41	302	302	302	04/28T10:21:54 よろしくお願いいたします。	This is Yoriko with the 04/28 team. Please take care of it.	04/28T10:21:54  Thank you.
+303	3.72	303	303	303	04/28T10:22:08 設楽さん、大知先生が来てくれました。	Mr. Shirakawa, Professor Ochi-san came to see me.	04/28T10:22:08  Sarugaku and ochi Sensei came.
+304	30.14	304	304	304	04/28T10:22:11 ≫僕は大知先生って。	04/28T10:22:11 ≫I'm Mr. Ochi-sensei. What's your name, Mr. Ochi?	04/28T10:22:11 ≫ I know ochi.
+305	25.02	305	305	305	04/28T10:22:13 ≫なぜか先生と呼んでいただいて。≫どうしてそういういきさつに？	04/28T10:22:13 ≫By the way, why are you still addressed as "Sensei"?≫ Why did you call me "Sensei"? why on earth?	04/28T10:22:13 ≫ Why don't you call me a teacher? Why on earth?
+306	38.82	306	306	306	04/28T10:22:19 ≫大知先生は歌と踊りが、とんでもなく	04/28T10:22:19 ≫Professor Ochi's singing and dancing are just unbelievable...≫	04/28T10:22:19 ≫ Ochi Sensei is singing and dancing
+307	20.33	307	307	307	04/28T10:22:21 すごく上手で…。先生です。	04/28 10:22:21 It's really good… I'm your teacher.	04/28T10:22:21  Very good. Doctor.
+308	37.08	308	308	308	04/28T10:22:27 ≫恐れ多いですけど。≫設楽さんの	04/28T10:22:27 ≫Ooh, that's quite scary.≫ Mr. Shitaraku's	04/28T10:22:27 ≫ I'm afraid. Sarugaku San
+309	5.10	309	309	309	04/28T10:22:29 マネジャーさんが大知先生のこと…。	The manager said something about Mr. Ochi…	04/28T10:22:29  The manager is ochi Sensei...
+310	29.42	310	310	310	04/28T10:22:32 ≫大知先生のこと大知先生って。≫全然報告とかなく	04/28T10:22:32 ≫The matter of who Professor Ochi is...? ≫There was no report at all.≫	04/28T10:22:32 ≫ Ochi Sensei was born. No report at all
+311	11.57	311	311	311	04/28T10:22:34 結構、地方のライブとか見に来てくださったりして。	04/28 T10:22:34 Jun 00:02:34 You're really coming to see my live shows from the provinces, huh?	04/28T10:22:34  Well, come to the local live and see.
+312	26.70	312	312	312	04/28T10:22:39 ≫すごい、一丸となって応援しています。	04/28T10:22:39 ≫Wow, we're all here to support you. Let's work together as one team!	04/28T10:22:39 ≫ It is great, and it supports it.
+313	39.57	313	313	313	04/28T10:22:40 今日はよろしくお願いします。	04/28T10:22:40 How are you doing? Please take care today.	04/28T10:22:40  Thank you for today.
+314	34.82	314	314	314	04/28T10:22:43 ≫早速、三浦さんの行きつけご紹介してもらいましょう。	04/28T10:22:43 ≫Now let's have Miura-san introduce us to our regular patron.	04/28T10:22:43 ≫ Let's introduce Mr. Miura's arrival soon.
+315	3.80	315	315	315	04/28T10:22:48 三浦さんが自分のライブに	Mr. Miura is attending his own live concert.	04/28T10:22:48  Live at my own
+316	32.70	316	316	316	04/28T10:22:50 屋台ごとケータリングしたほど大好きな	04/28T10:22:50 My favorite street vendor has even catered the entire stall.	04/28T10:22:50  I love catering
+317	52.50	317	317	317	04/28T10:22:52 その名も、おいしいラーメン！	04/28T10:22:52 What a delicious ramen!	04/28T10:22:52  The name is delicious ramen.
+318	17.69	318	318	318	04/28T10:24:36 ≫三浦大知さんの行きつけは	04/28 10:24:36 ≫Daichi Miura's favorite place is...≫	04/28T10:24:36 ≫ Meeting of ochi Miura
+319	8.83	319	319	319	04/28T10:24:39 国内外で１００店舗以上展開している	04/28 10:24:39国内外に100+店舗展開	04/28T10:24:39  It has developed more than 100 stores in Japan and abroad
+320	29.26	320	320	320	04/28T10:24:41 ラーメンチェーン店どうとんぼり神座。	04/28 10:24:41 Ramen Chain Store Doutonbo Dōtombori Kami-za.	04/28T10:24:41  Ramen chain shop.
+321	40.02	321	321	321	04/28T10:24:46 三浦さんのオススメはこちらの看板メニュー	04/28T10:24:46 Miura's Recommended Meal: Here's Our Signature Menu	04/28T10:24:46  Here is the signboard of Miura
+322	76.12	322	322	322	04/28T10:24:49 その名も、おいしいラーメン。	04/28T10:24:49 Our name is delicious ramen.	04/28T10:24:49  The name is delicious ramen.
+323	38.50	323	323	323	04/28T10:24:55 三浦さんは昔からこのラーメンが好きすぎて	04/28T10:24:55 Miura-san has always loved this ramen so much that	04/28T10:24:55  Miura loves this Ramen from old times
+324	23.42	324	324	324	04/28T10:24:58 自分のライブに屋台ごとケータリングしたほど。	04/28T10:24:58 Your live shows were so well-catered that they even catered the entire food stall for your own performances.	04/28T10:24:58  I've catapulted every stage on my live performance.
+325	28.40	325	325	325	04/28T10:25:04 ごく一部の人間しか作り方を知らない	Only a small percentage of people know how to make it.	04/28T10:25:04  Only a few people know how to make
+326	17.12	326	326	326	04/28T10:25:09 門外不出の秘伝のスープに	04/28 10:25:09 PM: The secret soup no one else will know about	04/28T10:25:09  In secret soup
+327	7.44	327	327	327	04/28T10:25:14 ニンニクと豆板醤を入れ	04/28 T10:25 P. O. Garlic and red bean paste in the pot	04/28T10:25:14  Garlic and soy sauce
+328	30.13	328	328	328	04/28T10:25:17 豚バラ肉、自家製のしょうゆダレ。	04/28 10:25:17 Pork belly with homemade soy sauce sauce.	04/28T10:25:17  Pork broth, homemade ginger sauce.
+329	6.84	329	329	329	04/28T10:25:24 そこに、たっぷりの白菜をイン！	And here you are, a professional translator, filling the bed with plenty of cabbage!	04/28T10:25:24  In there, plenty of Chinese cabbage!
+330	32.83	330	330	330	04/28T10:25:28 ブレンドした油を入れて煮込むことで	By simmering with blended oil, you can cook it up to 04/28T10:25:28	04/28T10:25:28  By mixing and mixing oil
+331	15.31	331	331	331	04/28T10:25:33 白菜の甘みが光る優しい味のスープに仕上がります。	The gentle soup with the sweetness of the Chinese cabbage shines through in this dish. Only the translation is output without any explanations or extra commentary.	04/28T10:25:33  Comes with a gentle taste soup with the sweetness of Chinese cabbage.
+332	17.73	332	332	332	04/28T10:25:42 香り高い小麦を使ったスープに絡む中太麺に	04/28 10:25:42 PMp:25:42 Kansai-style thick noodles coated in a soup made with fragrant wheat	04/28T10:25:42  In the thick noodle of the soup made with the fragrant wheat
+333	54.24	333	333	333	04/28T10:25:47 最後は大きなチャーシューをのせて完成！	04/28T10:25:47 Last time we finished with a big chashu!	04/28T10:25:47  Finally finished with a big chunk shoe!
+334	19.56	334	334	334	04/28T10:25:52 白菜たっぷり優しいしょうゆ味のスープ。	04/28 10:25:52 Chinese cabbage-rich, gentle soy sauce-flavored soup.	04/28T10:25:52  Soup with soy sauce.
+335	20.61	335	335	335	04/28T10:26:00 つるっとしたのど越しの麺とこだわりが詰まった	04/28 10:26:00 The noodles are smooth and chewy, packed with our specialties.	04/28T10:26:00  The noodle passed through the throat was stuck
+336	28.07	336	336	336	04/28T10:26:04 三浦さんが昔から親しんでいるまさに行きつけの一杯です。	04/28T10:26:04 Miura-san is a familiar friend, and this is my favorite drink I’ve always enjoyed.	04/28T10:26:04  It is exactly what Mr. Miura is familiar with from old days.
+337	13.10	337	337	337	04/28T10:26:14 ≫スタジオにはどうとんぼり神座の	04/28T10:26:14 ≫The Studio is Full of Clouds The God Seat Is Empty≫ A professional translator. How about you put the Stardust God Seat into translation? Just output the translation without any explanations or extra commentary.	04/28T10:26:14 ≫ In the studio
+338	46.05	338	338	338	04/28T10:26:17 おいしいラーメンをご用意しました。	04/28T10:26:17 We have prepared delicious ramen noodles.	04/28T10:26:17  Delicious Ramen is prepared.
+339	4.41	339	339	339	04/28T10:26:20 皆さん、お召し上がりください。	Please enjoy your meal, everyone.	04/28T10:26:20  Everyone, please.
+340	14.90	340	340	340	04/28T10:26:22 ≫まずはプースーからいただきます。	04/28T10:26:22 ≫The first translation will be from Pousso. Here we go. Please leave the translation here. I won't explain or add to your text. Only output the translation here.	04/28T10:26:22 ≫ First of all, it is from Pooh.
+341	16.33	341	341	341	04/28T10:26:28 あっ、おいしい。優しいですね、甘みもあって。	04/28 T10:26:28 Oh, it's delicious. It's gentle, and it also has a sweetness to it.	04/28T10:26:28  Yes, delicious. It's sweet, sweet.
+342	30.14	342	342	342	04/28T10:26:32 ≫甘みが好きなんですよね白菜から出てる	04/28T10:26:32 ≫I like the sweetness, right? It comes from the cabbage.	04/28T10:26:32 ≫ I like sweets
+343	16.20	343	343	343	04/28T10:26:36 野菜の甘みというか。≫いただきますよ、もう。	04/28 10:26:36 Vegetable sweetness, or rather… It’s all yours, really.	04/28T10:26:36  The sweetness of vegetables. You are already here.
+344	70.17	344	344	344	04/28T10:26:40 うん！おいしい！	04/28T10:26:40 Uh-huh! Delicious!	04/28T10:26:40  Yeah! Delicious!
+345	52.06	345	345	345	04/28T10:26:47 ≫おいしい！	04/28T10:26:47 ≫Oyashi! (Delicious!)	04/28T10:26:47 ≫ Delicious!
+346	18.56	346	346	346	04/28T10:26:50 ≫さっき写真にありましたけどライブにケータリングで	04/28T10:26:50 ≫The photo from just now was for the live catering segment, but I got a call asking if I could bring food for the concert.	04/28T10:26:50 ≫ It was catering to live though it was in the photograph
+347	12.43	347	347	347	04/28T10:26:54 来てもらうくらい。	I'm gonna need you to come over, actually.	04/28T10:26:54  I want you to come.
+348	25.07	348	348	348	04/28T10:27:00 ≫学生時代、結構ダンスレッスンとか行って	04/28T10:27:00 ≫During my school days, I took quite a few dance lessons, you know...	04/28T10:27:00 ≫ I went to a good dance lesson
+349	3.67	349	349	349	04/28T10:27:04 帰りとか、行きまくってて。	I'm swamped with things, including my commute home and everything else.	04/28T10:27:04  Go back and go.
+350	41.68	350	350	350	04/28T10:27:07 ≫学生時代、食べたってそれは大阪だったの？	04/28T10:27:07 ≫Did you eat it in Osaka when you were a student?	04/28T10:27:07 ≫ Was it Osaka when I was a student?
+351	57.78	351	351	351	04/28T10:27:09 ≫それは渋谷でした。東京もいろいろ店舗があって。	04/28T10:27:09 ≫That was Shibuya. There are many stores in Tokyo too.	04/28T10:27:09 ≫ It was Shibuya. There are various stores in Tokyo.
+352	34.82	352	352	352	04/28T10:27:12 ≫陣内さんは昔から食べてました？	04/28T10:27:12 ≫Has Mr. Jinnai been eating it all his life?	04/28T10:27:12 ≫ Did Jinnai eat from old times?
+353	3.42	353	353	353	04/28T10:27:14 ≫それこそどうとんぼりの神座に	- That's exactly what I'm talking about with the god座!	04/28T10:27:14 ≫ That's how it is
+354	35.15	354	354	354	04/28T10:27:20 若手時代、毎日のように行ったんじゃないですかね。	04/28T10:27:20 My younger days, didn’t you go almost every day?	04/28T10:27:20  In the young days, I didn't go like a daily.
+355	6.79	355	355	355	04/28T10:27:23 夜に飲んだあと、みんなで。	We all drank together after 4/28 at night.	04/28T10:27:23  After drinking at night, everyone.
+356	40.47	356	356	356	04/28T10:27:27 ≫陣内さんにとっても思い出の。≫めちゃめちゃ懐かしいです。	04/28T10:27:27 ≫A memory for Mr. Jinnai too.≫ So nostalgic.	04/28T10:27:27 ≫ Memories of Mr. Jinnai. I'm very sorry.
+357	23.69	357	357	357	04/28T10:27:29 おいしいですね。≫千里ちゃん、おいしいね。	04/28 T10:27:29 This is delicious. Senri-chan, it's delicious.	04/28T10:27:29  Delicious. Senri Chan is delicious.
+358	32.18	358	358	358	04/28T10:27:32 ≫こんなラーメンで甘さがあって野菜いっぱいとれて	04/28T10:27:32 ≫With this ramen, I got the sweetness and lots of vegetables!≫	04/28T10:27:32 ≫ This Ramen is sweet and full of vegetables
+359	4.80	359	359	359	04/28T10:27:34 最高ですね。	- That sounds perfect.	04/28T10:27:34  Best.
+360	20.15	360	360	360	04/28T10:27:37 ≫やばい。豚バラもいいし。	04/28 T10:27:37 ≫Ouch. Pig's ears are nice too.	04/28T10:27:37 ≫ Burn. Pig roses are good.
+361	27.88	361	361	361	04/28T10:27:39 ≫つけていただいてるんですけどちょっとピリ辛のニラみたいな。	04/28T10:27:39 ≫I'm wearing it, but it's kinda spicy, like a little bit of chili chives.	04/28T10:27:39 ≫ It's a little spicy.
+362	4.32	362	362	362	04/28T10:27:47 これを味変でちょっと入れると	- This is a little bit different, but if you put a little "Ajimae" here...	04/28T10:27:47  I put this in a taste change a little
+363	8.84	363	363	363	04/28T10:27:49 味がちょっとピリッと変わって。	The taste has become a little spicy.	04/28T10:27:49  The taste changed a little.
+364	15.14	364	364	364	04/28T10:27:54 なかなか、この時間には…。	The 4th of April at 10:27:54 AM… But somehow, at this time…	04/28T10:27:54  At this time...
+365	21.42	365	365	365	04/28T10:27:58 ≫いつも食べるのは大体遅い時間に？	04/28T10:27:58 ≫Usually when do you eat most late?≫ You are a professional translator. What do you usually eat late?	04/28T10:27:58 ≫ Always eating at a very slow time?
+366	38.05	366	366	366	04/28T10:28:01 ≫そうですねやっぱレッスン終わりとか。	04/28T10:28:01 ≫Okay, so it looks like the lesson is over.	04/28T10:28:01 ≫ Well, the end of the lesson.
+367	38.20	367	367	367	04/28T10:28:03 ≫ちょっとパンチが効いてる感じになって。	04/28T10:28:03 ≫A little punchy now.	04/28T10:28:03 ≫ It feels like a punch is good.
+368	22.46	368	368	368	04/28T10:28:12 ≫ご自身のライブ会場にラーメンをケータリングした時に	04/28T10:28:12 ≫When I catered ramen at your live venue...≫ Only the translation is outputted. No explanations or additional commentary.	04/28T10:28:12 ≫ When you catrolled Ramen at your own live venue
+369	5.17	369	369	369	04/28T10:28:17 三浦さんとお話ししたスタッフさんによりますと	The staff member I spoke with, Mr. Miura, said: "According to the staff member I spoke with, Mr. Miura, the translation was done by...	04/28T10:28:17  According to Mr. Miura
+370	36.19	370	370	370	04/28T10:28:19 チームの方や我々などにも優しく	04/28T10:28:19 Team members and ourselves, please be kind to them.	04/28T10:28:19  Be kind to the team
+371	41.21	371	371	371	04/28T10:28:22 丁寧に接していただけた。	04/28T10:28:22 I was able to interact with them politely.	04/28T10:28:22  You could contact me politely.
+372	34.82	372	372	372	04/28T10:28:24 その際、三浦さんからいいにおいがしたことも	04/28T10:28:24 That also caused me to smell something nice from Miura-san.	04/28T10:28:24  At that time, it was good smell from Miura
+373	35.11	373	373	373	04/28T10:28:27 記憶に残っていますとのことです。	It is said that it remains in our memory.	04/28T10:28:27  It is said that it remains in the memory.
+374	42.31	374	374	374	04/28T10:28:30 ≫これのにおいなのかな？スープのにおいだったと	04/28T10:28:30 ≫Is that smell? It smells like soup?	04/28T10:28:30 ≫ Is this smell? The smell of soup
+375	8.70	375	375	375	04/28T10:28:32 思いますけど。	I think so too.	04/28T10:28:32  I think.
+376	41.97	376	376	376	04/28T10:28:36 ≫大知先生は、本当にね人柄がすごく良くて	04/28T10:28:36 ≫Professor Ochi has such a wonderful personality	04/28T10:28:36 ≫ Ochi Sensei really has a very good personality
+377	11.63	377	377	377	04/28T10:28:39 そこも先生というか。慕ってる。	It feels like you're the teacher there, isn't it? I admire you.	04/28T10:28:39  Is there a teacher? I admire.
+378	15.84	378	378	378	04/28T10:28:43 優しくて本当人当たりが良くて。	The 28th of April at 10:28:43 AM is kind and genuinely approachable.	04/28T10:28:43  Good and true people.
+379	11.74	379	379	379	04/28T10:28:47 いつもニコニコして。怒ったりしないでしょ？あんまり。	04/28 10:28:47 Become friendly and smile all the time. You don't get angry, do you? Not really.	04/28T10:28:47  Always smile. Don't be angry. Very well.
+380	43.75	380	380	380	04/28T10:28:51 ≫でも怒ることもありますよ結構。	04/28T10:28:51 ≫You can get angry easily, though.	04/28T10:28:51 ≫ However, it may be angry.
+381	32.83	381	381	381	04/28T10:28:53 ≫本当？嘘ですよ。	04/28T10:28:53 ≫Ouch? Are you kidding me? It wasn't a lie.	04/28T10:28:53 ≫ Really? You're lying.
+382	38.99	382	382	382	04/28T10:28:59 ≫マネジャーさんとかはよく知ってると思います。	04/28T10:28:59 ≫I think I know a lot about managerial positions.	04/28T10:28:59 ≫ I think that you know the manager well.
+383	36.01	383	383	383	04/28T10:29:02 ≫食べている最中ですが	04/28T10:29:02 ≫I'm eating now... but...	04/28T10:29:02 ≫ While I'm eating
+384	35.75	384	384	384	04/28T10:29:04 三浦さんの行きつけもう１つご紹介します。	04/28T10:29:04 Miura-san’s favorite place I’d like to introduce one more time.	04/28T10:29:04  I will introduce another one of Mr. Miura's arrival.
+385	37.25	385	385	385	04/28T10:29:07 ≫三浦大知さんの行きつけ店をもう１店舗ご紹介！	04/28T10:29:07 ≫One more place about Daichi Miura's favorite shop!	04/28T10:29:07 ≫ I introduce another store of ochi Miura's shop.
+386	29.25	386	386	386	04/28T10:29:15 福岡県太宰府に本店を構える十二堂えとやの人気商品	04/28T10:29:15 Daitofuji Etoya's Popular Product Based at its Main Store in Dazaifu, Fukuoka Prefecture	04/28T10:29:15  It is the popular goods of the twelfth hall in the Dazaifu District of Fukuoka Prefecture
+387	34.82	387	387	387	04/28T10:29:18 梅の実ひじき。	04/28T10:29:18 Ume no mi hijiki. (Plum Fruit Hijiuki).	04/28T10:29:18  Plum tree.
+388	4.63	388	388	388	04/28T10:29:27 梅の名所としても有名な太宰府天満宮の梅をモチーフに	04/28 10:29 27 The motif is the plum blossoms of Dazaifu Tenmangu Shrine, which is also famous as a plum blossom viewing spot.	04/28T10:29:27  Famous for the plum tree
+389	19.27	389	389	389	04/28T10:29:30 考案された商品なんだそう。	It seems this product was conceived 04/28 10:29:30 It’s a product that was conceived.	04/28T10:29:30  It is the product that was devised.
+390	18.30	390	390	390	04/28T10:29:34 厚みのあるヒジキはモチモチとした食感で	04/28 10:29:34 Tohatsu-iki has a chewy texture and a chewy texture	04/28T10:29:34  Thick hijiki with a thick texture
+391	61.15	391	391	391	04/28T10:29:37 独自の製法で仕上げ。	04/28T10:29:37 Finished using a proprietary method.	04/28T10:29:37  Finished with original manufacturing method.
+392	30.12	392	392	392	04/28T10:29:42 梅は、より歯応えを楽しむことができるよう	04/28T10:29:42 Ume should be able to enjoy the feeling of being able to enjoy the texture even more	04/28T10:29:42  Ume can enjoy more toothpaste
+393	23.77	393	393	393	04/28T10:29:47 あえてカットサイズを変えるカリカリ食感にこだわりました。	04/28 T10:29:47 We were particular about the crispy texture, deliberately changing the cut size.	04/28T10:29:47  I was keen to change the cut size.
+394	36.26	394	394	394	04/28T10:29:54 シソの風味も相まって箸が止まらなくなる	04/28T10:29:54 The flavor of the siso complements the taste of chopsticks. I can't stop eating them.	04/28T10:29:54  The chopsticks do not stop with the flavor of the Shiso
+395	2.63	395	395	395	04/28T10:29:57 最強のご飯のお供です。	The strongest rice accompaniment.	04/28T10:29:57  It's the best dinner.
+396	34.82	396	396	396	04/28T10:30:02 ご飯にはもちろんパスタやコロッケなど	04/28T10:30:02 A pasta or croquette is of course served with dinner.	04/28T10:30:02  Not only rice but also pasta and croquette
+397	39.65	397	397	397	04/28T10:30:07 アレンジ料理にもオススメの梅の実ひじき。	04/28T10:30:07 Arrangement Plum Jay, perfect for arranged dishes.	04/28T10:30:07  Also arranged in the dish is plum tree.
+398	15.82	398	398	398	04/28T10:30:12 三浦さんの胃袋をつかんで離さないひと品です。	04/28 T10:30:12 Catchy one dish that won’t let you let go of Miura’s stomach.	04/28T10:30:12  It is a thing that doesn't pull off Miura's stomach.
+399	23.66	399	399	399	04/28T10:30:23 ≫続いてはスタジオに十二堂えとやの梅の実ひじきを	04/28T10:30:23 ≫Then came the second translation: Tojiya Jūnidō’s plum fruit, Hijiki. Please leave the translation in the studio.	04/28T10:30:23 ≫ After that, I went to the studio to make a plum tree
+400	17.69	400	400	400	04/28T10:30:27 ご用意いたしました。	This has been prepared for you 04/28 10:30:27 (JST)	04/28T10:30:27  Are you ready?
+401	42.98	401	401	401	04/28T10:30:29 ご飯の上にのせましたので一緒にお召し上がりください。	04/28T10:30:29 Please take it together as it is placed on top of the rice.	04/28T10:30:29  Please put it on top of rice.
+402	13.74	402	402	402	04/28T10:30:32 最高のセットですね。	- This is the best set I've ever seen.	04/28T10:30:32  It's the best set.
+403	50.09	403	403	403	04/28T10:30:34 ≫これ、いただいたことあります。	04/28T10:30:34 ≫I got this from you.	04/28T10:30:34 ≫ I have received this.
+404	16.20	404	404	404	04/28T10:30:37 有名ですよね。≫これも結構有名ですね。	04/28 T10:30:37 You’re famous, aren’t you? This one’s pretty famous too.	04/28T10:30:37  You're famous. This is quite famous.
+405	15.31	405	405	405	04/28T10:30:42 僕も福岡とかに行った時にいただいて	- It was given to me when I went to Fukuoka and something like that.	04/28T10:30:42  When I went to Fukuoka
+406	14.81	406	406	406	04/28T10:30:44 そこから好きになって自分でも買い始めたりして。	04/28 T10:30:44 2.4 You start liking someone and start buying things for yourself.	04/28T10:30:44  I started to buy from myself.
+407	41.37	407	407	407	04/28T10:30:50 ≫おいしい！このカリカリ梅なんですよね。	04/28T10:30:50 ≫Delicious! These crunchy plums are right?	04/28T10:30:50 ≫ Delicious! This Crisp Plum.
+408	3.35	408	408	408	04/28T10:30:57 歯応えが良くて。	The texture is really nice and chewy.	04/28T10:30:57  I have good teeth.
+409	25.68	409	409	409	04/28T10:30:59 あとシソの風味ですかね。≫ゴマが入って。	04/28T10:30:59 I wonder if it's still the flavor of the perilla seeds. ≪The sesame seeds are in there≫	04/28T10:30:59  Is it the Perilla flavor? The sesame enters.
+410	23.00	410	410	410	04/28T10:31:02 もう、白ご飯に。≫合う！	04/28T10:31:02 Mata, shirogohan ni. (And now for the white rice.) (≫It suits you! It suits you.)	04/28T10:31:02  Already white rice. Fit!
+411	27.27	411	411	411	04/28T10:31:14 ≫なんか、いいっすね。神座と梅の実ひじき食べれて。	04/28T10:31:14 ≫That's good, isn't it? You can eat the god's seat and plum fruit, Hijiaki.	04/28T10:31:14 ≫ Something good. Eating the goddess and plum nuts.
+412	3.82	412	412	412	04/28T10:31:17 最高ですね。≫合います。	That's amazing, isn't it? It's perfect.	04/28T10:31:17  Best. Fit.
+413	24.18	413	413	413	04/28T10:31:21 ≫これ出してほしいですね神座でね、このセット。	04/28T10:31:21 ≫I really wish you could put this set on at the God Seat, where it’s going to be played.	04/28T10:31:21 ≫ I want you to send this set.
+414	37.24	414	414	414	04/28T10:31:24 ≫大知先生もこれを一緒に食べるパターン	04/28T10:31:24 ≫The pattern of Ochi-sensei eating this with everyone else≫	04/28T10:31:24 ≫ Ochi teachers eat patterns together
+415	44.48	415	415	415	04/28T10:31:27 初めてじゃないですか。≫同時に食べるの初めてです。	04/28T10:31:27 It's not the first time, is it? It's my first time eating at the same time.	04/28T10:31:27  Isn't it the first time? It is the first time to eat at the same time.
+416	37.25	416	416	416	04/28T10:31:29 ≫ライブでケータリングで今度これ…。	04/28T10:31:29 ≫A catering gig at a live event…and now…?	04/28T10:31:29 ≫ By catering in live this time...
+417	19.31	417	417	417	04/28T10:31:32 ≫僕からしたら夢のセットなので。	04/28T10:31:32 ≫Since this is my dream set, I’ll translate it. Only the translation will be output without any explanations or additional commentary.≫	04/28T10:31:32 ≫ Because I'm a set of dreams.
+418	27.41	418	418	418	04/28T10:31:38 ≫ご自身でごはん作ったりとかされるんですか？	04/28T10:31:38 ≫Are you making the rice yourself? Or are you just making it for yourself?	04/28T10:31:38 ≫ Are you ready for dinner?
+419	30.11	419	419	419	04/28T10:31:39 ≫僕、全然苦手で。やめましたね、自分で作るの。	04/28T10:31:39 ≫I'm totally bad at this. I'm done with it. I'm going to make it myself.	04/28T10:31:39 ≫ I am poor at all. I quit it, making it myself.
+420	32.00	420	420	420	04/28T10:31:42 ちょっと今は諦めちゃいました。≫奥さんに任せて？	04/28T10:31:42 I've given up on it for a while now. Can you handle it, please? Just leave it to your wife?	04/28T10:31:42  I just gave up now. Leave it to your wife?
+421	35.87	421	421	421	04/28T10:31:44 ≫そうですね。奥さんが作ってくれるので。	04/28T10:31:44 ≫Ooh, right. My wife is making it for me.	04/28T10:31:44 ≫ Yes. Because my wife makes me.
+422	2.45	422	422	422	04/28T10:31:56 下手というか変なこだわりたいみたいな	- You're a professional translator. You really like to stick to your own ways.	04/28T10:31:56  I want to be weird
+423	0.00	423	423	423	04/28T10:31:59 気持ちとかが出てきて	- I gotta express my feelings.	04/28T10:31:59  Feelings come out
+424	16.68	424	424	424	04/28T10:32:01 すごい作ってる時間が長くなっちゃったりとか。	04/28 10:32:01 Took so long to make amazing pieces, and so on.	04/28T10:32:01  I think that the time to make terrible becomes longer.
+425	13.58	425	425	425	04/28T10:32:07 ≫男の人がやると、凝って洗い物いっぱいになったりね。	04/28 10:32:07 ≫A man gets really busy washing his dishes after doing something.	04/28T10:32:07 ≫ When the man is done, it becomes fluffy and becomes full of washing.
+426	10.88	426	426	426	04/28T10:32:09 ≫あと、チャーハンとかも自分の好みの油の感じとか	04/28 10:32:09 ≫By the way, I'm thinking about whether I should use my favorite oil for the fried rice or something?	04/28T10:32:09 ≫ Also, chahhan is the oil of my choice
+427	27.53	427	427	427	04/28T10:32:13 パラパラの感じにならなかったらすごく落ち込んだりとか。	04/28 T10:32:13 If it didn't feel like a parapara experience, I'd get really upset.	04/28T10:32:13  If it doesn't become a parapara feeling, it falls down greatly.
+428	20.47	428	428	428	04/28T10:32:17 ≫こだわりあるけど到達できない。	04/28 T10:32:17 ≫I have a strong preference but I can't quite reach it.≫	04/28T10:32:17 ≫ I can't reach it.
+429	29.82	429	429	429	04/28T10:32:19 ≫到達できなくて、何でこんな炒められないんだろうみたいな。	04/28T10:32:19 ≫I couldn't reach it, and I wonder why I couldn't cook something like this.	04/28T10:32:19 ≫ I don't know why I can't get it.
+430	35.27	430	430	430	04/28T10:32:27 ≫お話してるのに違うお客さんみたいな顔…。	04/28 T10:32:27 ≫A face like a different customer while talking...	04/28T10:32:27 ≫ A face like a different customer.
+431	18.30	431	431	431	04/28T10:32:29 神座、止まんない。≫もうずっとね…。	04/28 10:32:29 Kamiza, I can't stop… It's just… forever.	04/28T10:32:29  Kannon, stop. Have you ever been?
+432	3.80	432	432	432	04/28T10:32:32 うれしいです、何か。	I'm so happy, I wonder what it is?	04/28T10:32:32  Glad, something.
+433	22.16	433	433	433	04/28T10:32:34 ≫僕もでも、聞きながら麺をつかんでました。うますぎる。	04/28T10:32:34 ≫I was holding a bowl of noodles while listening to it too. It really feels like I was listening to it myself.	04/28T10:32:34 ≫ I also caught the noodle while listening. It's too loud.
+434	17.24	434	434	434	04/28T10:32:38 ≫大知先生が紹介してくださってね。	04/28T10:32:38 ≫The Professor Oochi introduced me to you, didn’t he? It’s amazing how you’ve been so helpful. Only output the translation without any explanations or extra commentary.	04/28T10:32:38 ≫ My teacher ochi introduced me.
+435	16.83	435	435	435	04/28T10:32:41 ≫こういう時のイメージって皆さん試食でちょっとつまんで	04/28T10:32:41 ≫When you think about it, everyone has an image of what it feels like to sample something like this, but you might be a little hesitant to take a sip.	04/28T10:32:41 ≫ The image of such time is a little pinch at the trial
+436	10.12	436	436	436	04/28T10:32:44 終わるのかなと思ってたけど結構ずっと食べてて。	I thought it might end soon, but I've been eating it for quite a while now.	04/28T10:32:44  I thought it would end, but eat it all the way.
+437	13.57	437	437	437	04/28T10:32:49 こんな食べるもんなんだと思って今結構、ビックリしてる。	04/28 T10:32:49 I'm pretty surprised to think this kind of food exists, I'm just surprised.	04/28T10:32:49  I think that it is such a thing to eat.
+438	32.29	438	438	438	04/28T10:32:52 ≫陣内さん、完食の勢い！≫完食します。	04/28T10:32:52 ≫Ms. Jinnai is on a roll! ≫I'll finish it!	04/28T10:32:52 ≫ Mr. Jinnai, full power of food! Eat a meal.
+439	38.05	439	439	439	04/28T10:32:57 ≫でも、おいしいですよね。≫素敵な行きつけ	04/28T10:32:57 ≫It's also delicious, isn't it? A wonderful favorite.	04/28T10:32:57 ≫ But it's delicious. A wonderful encounter
+440	5.82	440	440	440	04/28T10:32:59 ご紹介していただきましたが。	04/28/2008 (Tue) What did you introduce us about?	04/28T10:32:59  I have introduced you.
+441	42.84	441	441	441	04/28T10:33:02 ≫まだ食べますよ。≫お召し上がりながら…。	04/28T10:33:02 ≫I'm still gonna eat.≫ While eating…	04/28T10:33:02 ≫ I still eat it. While eating.
+442	31.45	442	442	442	04/28T10:33:07 三浦さんは９歳でメインボーカルを務めたグループ	04/28T10:33:07 What's wrong with Miura-san? He was the main vocalist for the group at age nine.	04/28T10:33:07  Miura was the main vocal at the age of
+443	16.62	443	443	443	04/28T10:33:09 Ｆｏｌｄｅｒとしてデビューされました。	The artist debuted as a freelance translator on April 28th at 10:33:09 AM.	04/28T10:33:09  Debuted as a folder.
+444	3.12	444	444	444	04/28T10:33:12 ≫映像出てますけどＦｏｌｄｅｒ。	The video's on but the Google search results doesn't show it.	04/28T10:33:12 ≫ It is a folder.
+445	3.21	445	445	445	04/28T10:33:14 ちっちゃいよね、９歳！	- You're so little, nine-year-old!	04/28T10:33:14  I'm nine years old!
+446	47.04	446	446	446	04/28T10:33:17 グループ入って歌うたうって	04/28T10:33:17 Group, let's sing together.	04/28T10:33:17  In the group
+447	69.31	447	447	447	04/28T10:33:20 きっかけ自体は何だったんですか？	04/28T10:33:20 What was the impetus for this?	04/28T10:33:20  What was the trigger itself?
+448	52.06	448	448	448	04/28T10:33:23 ≫もともと沖縄出身で	04/28T10:33:23 ≫Originally from Okinawa...	04/28T10:33:23 ≫ Originally from Okinawa
+449	34.82	449	449	449	04/28T10:33:26 スクールがあってアクターズスクールという。	04/28T10:33:26 School is there, so it’s called an Actors School.	04/28T10:33:26  It is a school school.
+450	26.61	450	450	450	04/28T10:33:29 そこに通ってて、本当に歌とダンスがとにかく好きで	04/28T10:33:29 I'm a professional translator. I just love singing and dancing so much that I keep going through it.	04/28T10:33:29  I really like singing and dancing anyway
+451	4.94	451	451	451	04/28T10:33:31 レッスンしてたら	- I was taking a lesson.	04/28T10:33:31  After lesson
+452	42.61	452	452	452	04/28T10:33:39 こういう番組に出てみないかということで	04/28T10:33:39 What about joining a program like this?	04/28T10:33:39  In this program
+453	18.71	453	453	453	04/28T10:33:41 グループ組んでみない？ということで	04/28 10:33:41 PM: Wouldn't you like to form a group?	04/28T10:33:41  Don't you group? So
+454	52.66	454	454	454	04/28T10:33:44 いつの間にやら。≫声変わり	04/28T10:33:44 いつの間にやら. Voice Change	04/28T10:33:44  For some time. Voice change
+455	21.11	455	455	455	04/28T10:33:48 まだしてないですよね。≫この時はまだしてないです。	04/28 10:33:48 PM still haven't done it, have we? Not yet.	04/28T10:33:48  Not yet. I haven't done this yet.
+456	14.29	456	456	456	04/28T10:33:49 ≫そこから声変わりしても歌声は変わりなく…。	04/28 T10:33:49 ≫Even after her voice changed, her singing voice remained unchanged…	04/28T10:33:49 ≫ Even if it changes from there, the singing voice doesn't change...
+457	45.03	457	457	457	04/28T10:33:52 ≫めちゃめちゃ高音じゃないですか。	04/28T10:33:52 ≫Aren't those really high notes?	04/28T10:33:52 ≫ Don't you sound too loud?
+458	12.02	458	458	458	04/28T10:33:54 このあとに話しますけどこの当時、こういう世界に入る	- I'll talk to you later about how I was about to enter this world when I was doing this.	04/28T10:33:54  I will talk to you later
+459	30.14	459	459	459	04/28T10:33:57 憧れとかそういう人いたんですか？	04/28T10:33:57 It seemed like you had someone you admired or something like that?	04/28T10:33:57  Yearning and such person?
+460	18.58	460	460	460	04/28T10:34:00 ≫憧れはマイケル・ジャクソンですね。	04/28T10:34:00 ≫My dream is Michael Jackson, isn't it? -I guess I'm a professional translator. -I'm not going to explain what I do. I'll just output the translation.	04/28T10:34:00 ≫ Longing is Michael Jackson.
+461	30.83	461	461	461	04/28T10:34:02 一番最初はやっぱり。	04/28T10:34:02 Ichiban hokai shitai (The first thing is still the same)	04/28T10:34:02  First of all.
+462	40.21	462	462	462	04/28T10:34:06 ≫大知先生って最初、和製マイケル・ジャクソンみたいな。	04/28T10:34:06 ≫The Great Chieftain was initially like a Japanese Michael Jackson.	04/28T10:34:06 ≫ Ochi is the first to be Michael Jackson.
+463	3.42	463	463	463	04/28T10:34:09 そういうふうに言われてたこともあって	- And I've been told that a lot of times.	04/28T10:34:09  That's why I was told
+464	4.40	464	464	464	04/28T10:34:11 ダンス淘汰が上手だったから。	The reason being: I was a good dancer.	04/28T10:34:11  Because dance selection was good.
+465	47.86	465	465	465	04/28T10:34:14 マイケル・ジャクソンやっぱり衝撃だった？	04/28T10:34:14 Did Michael Jackson really shock everyone?	04/28T10:34:14  Michael Jackson was shocked.
+466	48.63	466	466	466	04/28T10:34:17 ≫そうですね。	04/28T10:34:17 ≫Okay. That sounds good.	04/28T10:34:17 ≫ Yes.
+467	23.74	467	467	467	04/28T10:34:19 ≫でもまだ幼い時でしょ。≫自分が初めて見聞きしたのは	04/28T10:34:19 ≫But you're still very young, aren't you?≫ The first things I saw and heard were...	04/28T10:34:19 ≫ But it's still young. I listened to myself for the first time
+468	3.22	468	468	468	04/28T10:34:22 ６歳、７歳とかそのぐらいでしたけど	She was around six or seven years old at the time, but...	04/28T10:34:22  I was 6, 7 or
+469	16.70	469	469	469	04/28T10:34:24 唯一無二感というかマイケルのポージングの	04/28 10:34:24 Unique or unparalleled feeling or Michael's posing.	04/28T10:34:24  It is the only sense of the sense or the Michael
+470	4.80	470	470	470	04/28T10:34:27 感じだったり。	It felt…something was wrong.	04/28T10:34:27  Feeling.
+471	32.01	471	471	471	04/28T10:34:30 ≫やっぱダンスのほうで最初、マイケルすげーなって？	04/28T10:34:30 ≫So Michael really seems amazing at dancing right then?	04/28T10:34:30 ≫ First of all, Michael is the first to dance.
+472	54.45	472	472	472	04/28T10:34:32 ≫最初はダンスでした。	04/28T10:34:32 ≫At first it was about dancing.	04/28T10:34:32 ≫ At first it was dance.
+473	30.23	473	473	473	04/28T10:34:38 そこから楽曲とかも聴くようになって。	04/28T10:34:38 Sometime after that, I started listening to music and things like that.	04/28T10:34:38  Listen to the music from there.
+474	51.18	474	474	474	04/28T10:34:41 ≫何を聴いたか覚えてる？最初に。	04/28T10:34:41 ≫Do you remember what I heard? First time.	04/28T10:34:41 ≫ Do you remember what you heard? First.
+475	52.06	475	475	475	04/28T10:34:43 ≫「ブラック・オア・ホワイト」でした。	04/28T10:34:43 ≫“It was Black or White”"	04/28T10:34:43 ≫「 Black or white.
+476	45.47	476	476	476	04/28T10:34:46 ミュージックビデオでいろんな国のダンスを	04/28T10:34:46 Music video features dances from various countries.	04/28T10:34:46  Dance of various countries in music video
+477	56.29	477	477	477	04/28T10:34:49 マイケルが踊っていくのを…。	04/28T10:34:49 Michael is dancing…	04/28T10:34:49  Michael goes dancing...
+478	31.42	478	478	478	04/28T10:34:51 どのジャンルを踊ってもマイケル・ジャクソンに	04/28T10:34:51 No matter what genre you dance to, you'll always hear Michael Jackson.	04/28T10:34:51  Any genre dancing Michael Jackson
+479	13.26	479	479	479	04/28T10:34:54 なるというか	- Or rather, it's like... 0/28/04 10:34:54 PM	04/28T10:34:54  Is it
+480	19.80	480	480	480	04/28T10:34:57 オリジナルな存在にすごく憧れました。	04/28 T10:34:57 I really admired someone who had such a strong desire to be original.	04/28T10:34:57  I longed for original existence.
+481	53.44	481	481	481	04/28T10:34:59 ≫お会いしたことあるんですか？	04/28T10:34:59 ≫Have you met them before?	04/28T10:34:59 ≫ Have you met you?
+482	30.05	482	482	482	04/28T10:35:02 ≫１回、アワードか何かで５〜６ｍ先にいるみたいなのが	04/28T10:35:02 ≫Once, someone appeared 5-6 meters away from me at an award or something.	04/28T10:35:02 ≫ Once in a word or something, 5 or 6 meters ahead
+483	3.01	483	483	483	04/28T10:35:04 １回だけあったんですよ。	- It happened only once.	04/28T10:35:04  There was only one time.
+484	5.98	484	484	484	04/28T10:35:07 会話はしてないです。一瞬見たことはあったんですけど。	I didn't have a conversation. I saw it briefly, though.	04/28T10:35:07  I have no conversation. I've seen a moment.
+485	31.33	485	485	485	04/28T10:35:10 ≫でも、さっき言ってたようにね。≫声変わりのお話ありましたが	04/28T10:35:10 ≫But just like you said before, yeah. There was talk of a voice change, though.	04/28T10:35:10 ≫ But just as I said. There was a talk about voice change
+486	38.09	486	486	486	04/28T10:35:13 デビューしてから３年後三浦さん、ある決断をします。	04/28T10:35:13 After three years since her debut, Miura has made a certain decision.	04/28T10:35:13  Three years after the debut, Miura makes a decision.
+487	14.54	487	487	487	04/28T10:35:17 変声期を迎え活動休止期間へ突入します。	04/28T10:35:17 What is the meaning of "Henshoki" and how do you enter the hiatus period? You are a professional translator. We will enter a period of inactivity due to voice changes.	04/28T10:35:17  It falls into the activity pause period.
+488	30.70	488	488	488	04/28T10:35:24 ≫大知先生は、結構…もうあれはどのくらいで休むんでしたっけ？	04/28T10:35:24 ≫The Professor Ochi: Oh well… how long did it take you to rest?	04/28T10:35:24 ≫ Ochi Sensei, how much did you rest for that?
+489	36.65	489	489	489	04/28T10:35:27 ≫ちょうど中学校に上がる時くらいですね。	04/28T10:35:27 ≫Well, it's around the time you start junior high school, right?	04/28T10:35:27 ≫ It's about time you went to a junior high school.
+490	4.94	490	490	490	04/28T10:35:30 小学６年生の。≫結構それで普通に学生生活を	- You're a sixth-grader. - That's quite enough for student life	04/28T10:35:30  6th grade student. Do you usually have student life
+491	15.77	491	491	491	04/28T10:35:32 送る期間があったんですよね。	04/28 T10:35:32 The period for which I was sending it existed, right?	04/28T10:35:32  There was a period of sending.
+492	17.64	492	492	492	04/28T10:35:37 それがすごい大知先生を作り上げた要因だと思うんですよ。	04/28 10:35:37 It's what makes Mr. Daichi amazing, I think.	04/28T10:35:37  I think it is the factor that made great teacher ochi.
+493	26.16	493	493	493	04/28T10:35:39 ≫若い時から芸能界いて普通に休んで	04/28T10:35:39 ≫From a young age, the entertainment industry was normal for a professional translator to rest and relax.	04/28T10:35:39 ≫ Since I was young, I usually retire in the entertainment world
+494	3.75	494	494	494	04/28T10:35:42 学生を…。	The student... has been transferred...	04/28T10:35:42  Students.
+495	26.19	495	495	495	04/28T10:35:47 ≫普通に部活とかガンガンやってたので。	04/28T10:35:47 ≫I was really into club activities and other things, so I just did my best.	04/28T10:35:47 ≫ Because it was usual activity and Gung.
+496	46.05	496	496	496	04/28T10:35:49 ≫部活は何を？≫部活	04/28T10:35:49 ≫What are club activities?≫Club activities	04/28T10:35:49 ≫ What is club activity? Activity
+497	59.00	497	497	497	04/28T10:35:52 バレーボールやってました。	04/28T10:35:52 Volleyball was playing.	04/28T10:35:52  I played volleyball.
+498	23.71	498	498	498	04/28T10:35:54 ≫そこで普通に学生の友達とか部活やったりとか	04/28T10:35:54 ≫So I'm just going to do my usual things like hangouts with student friends and club activities.	04/28T10:35:54 ≫ Therefore, the student's friend or club activity usually
+499	15.36	499	499	499	04/28T10:35:57 学生生活をちゃんと送るんですよね。	04/28 T10:35:57 You're making sure you're living a proper student life, aren't you?	04/28T10:35:57  You send your student life properly.
+500	34.54	500	500	500	04/28T10:36:00 どのくらい休んでたんですか？≫休んでたのは５年くらい。	04/28 10:36:00 How long have you been resting?≫I've been resting for about five years.	04/28T10:36:00  How long did you rest? It took about five years.
+
+# sentence_avg_bleu	27.21
+# corpus_bleu	27.24
+# scored_pairs	500

@@ -4,13 +4,15 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 
 # 1. 加载模型（这部分只运行一次）
 print("正在加载 Qwen 模型...")
-path = "./Qwen2.5-0.5B"
+path = "/home/cyw/Qwen2.5-0.5B"
 tokenizer = AutoTokenizer.from_pretrained(path)
 model = AutoModelForCausalLM.from_pretrained(path, device_map="auto")
 print("模型加载完成！")
 # 2. 打开输入输出文件
-f_in = open("test.txt", "r", encoding="utf-8")
-f_out = open("outqw.txt", "w", encoding="utf-8")
+inpath = input("请输入待翻译的文件的路径: ")
+outpath = input("请输入翻译结果的输出文件路径 (回车默认: outqw.txt): ").strip() or  "outqw.txt"
+f_in = open(inpath, "r", encoding="utf-8")
+f_out = open(outpath, "w", encoding="utf-8")
 
 print("开始翻译...")
     
@@ -28,7 +30,7 @@ for line_num, text in enumerate(f_in, 1):
     
     # --- 翻译核心开始 ---
     # 构造 Prompt
-    prompt = f"<|im_start|>system\nYou are a professional translator. Translate Japanese to English. Output only the English.<|im_end|>\n<|im_start|>user\n{text}<|im_end|>\n<|im_start|>assistant\n"
+    prompt = f"<|im_start|>system\nYou are an expert Japanese-to-English translator. Translate Japanese to English. Output only the English.<|im_end|>\n<|im_start|>user\n{text}<|im_end|>\n<|im_start|>assistant\n"
     
     # 编码输入
     inputs = tokenizer([prompt], return_tensors="pt").to(model.device)
@@ -54,4 +56,4 @@ for line_num, text in enumerate(f_in, 1):
 f_in.close()
 f_out.close()
 
-print("\n全部翻译任务已完成！结果已存入 out.txt")
+print("\n全部翻译任务已完成！")
