@@ -35,34 +35,50 @@ def baidu_translate(query: str, app_id: str, app_key: str, from_lang: str = "jp"
     return result["trans_result"][0]["dst"]
 
 
-def process_file(src: Path, dst: Path, app_id: str, app_key: str, delay: float = 0.4):
+def process_file(src: Path, dst: Path, app_id: str, app_key: str, delay: float = 0.4, resume: bool = True):
+    """Stream through src and write translated lines to dst.
+
+    If resume=True and dst exists, skip already-written lines and append from there.
+    This allows long runs to continue after中断 without重跑。"""
+
+    already_written = 0
+    if resume and dst.exists():
+        with dst.open("r", encoding="utf-8") as f_out:
+            for _ in f_out:
+                already_written += 1
+
     total = 0
     filled = 0
     skipped = 0
-    outputs = []
 
-    with src.open("r", encoding="utf-8") as f:
-        for line in f:
+    with src.open("r", encoding="utf-8") as f_in, dst.open("a", encoding="utf-8") as f_out:
+        # 快进已写部分
+        for _ in range(already_written):
+            line = f_in.readline()
+            if not line:
+                break
+            total += 1
+
+        for line in f_in:
             if not line.strip():
                 continue
             obj = json.loads(line)
             total += 1
+
             if obj.get("output"):
                 skipped += 1
-                outputs.append(obj)
-                continue
-            text = obj.get("input", "")
-            translated = baidu_translate(text, app_id, app_key)
-            obj["output"] = translated
-            filled += 1
-            outputs.append(obj)
-            time.sleep(delay)  # be nice to the API
+            else:
+                text = obj.get("input", "")
+                obj["output"] = baidu_translate(text, app_id, app_key)
+                filled += 1
+                time.sleep(delay)  # be nice to the API
 
-    with dst.open("w", encoding="utf-8") as f:
-        for obj in outputs:
-            f.write(json.dumps(obj, ensure_ascii=False) + "\n")
+            f_out.write(json.dumps(obj, ensure_ascii=False) + "\n")
+            f_out.flush()
 
-    print(f"{src.name}: total={total}, filled={filled}, kept={skipped}, written={dst}")
+    print(
+        f"{src.name}: total_seen={total}, newly_filled={filled}, reused_with_output={skipped}, resume_start={already_written}, written_to={dst}"
+    )
 
 
 def main():
@@ -72,9 +88,14 @@ def main():
     ap.add_argument("--app_id", default=DEFAULT_APP_ID)
     ap.add_argument("--app_key", default=DEFAULT_APP_KEY)
     ap.add_argument("--delay", type=float, default=0.4, help="seconds between requests")
+    ap.add_argument("--no-resume", action="store_true", help="do not resume, overwrite dst")
     args = ap.parse_args()
 
-    process_file(Path(args.src), Path(args.dst), args.app_id, args.app_key, delay=args.delay)
+    dst_path = Path(args.dst)
+    if args.no_resume and dst_path.exists():
+        dst_path.unlink()
+
+    process_file(Path(args.src), dst_path, args.app_id, args.app_key, delay=args.delay, resume=not args.no_resume)
 
 
 if __name__ == "__main__":

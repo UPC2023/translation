@@ -1,6 +1,8 @@
 
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
+from pathlib import Path
+import json
 
 # 1. 加载模型（这部分只运行一次）
 print("正在加载 Qwen 模型...")
@@ -9,19 +11,35 @@ tokenizer = AutoTokenizer.from_pretrained(path)
 model = AutoModelForCausalLM.from_pretrained(path, device_map="auto")
 print("模型加载完成！")
 # 2. 打开输入输出文件
-inpath = input("请输入待翻译的文件的路径: ")
-outpath = input("请输入翻译结果的输出文件路径 (回车默认: outqw.txt): ").strip() or  "outqw.txt"
+inpath = input("请输入待翻译的 jsonl 文件的路径: ").strip()
+if not inpath:
+    inpath = Path("captions_0429_test.jsonl")
+else:
+    inpath = Path(inpath)
+
+model_tag = input("请输入模型名称简称（默认: qwen）: ").strip() or "qwen"
+outpath = inpath.with_name(f"out_{model_tag}.jsonl")
 f_in = open(inpath, "r", encoding="utf-8")
 f_out = open(outpath, "w", encoding="utf-8")
 
 print("开始翻译...")
     
 # 3. 逐行读取输入文件并进行翻译
-for line_num, text in enumerate(f_in, 1):
-    # 去除换行符和空白字符
-    text = text.strip()
-    
+for line_num, line in enumerate(f_in, 1):
     # 跳过空行
+    if not line.strip():
+        f_out.write("\n")
+        continue
+
+    # 解析 JSONL
+    try:
+        data = json.loads(line)
+        text = data.get("input", "")
+    except json.JSONDecodeError:
+        print(f"警告: 第 {line_num} 行不是有效的 JSON，已跳过。")
+        continue
+    
+    # 跳过没有 input 的行
     if not text:
         f_out.write("\n")
         continue
@@ -44,8 +62,9 @@ for line_num, text in enumerate(f_in, 1):
     translation = tokenizer.decode(result_ids, skip_special_tokens=True).strip()
     # --- 翻译核心结束 ---
 
-    # 写入文件
-    f_out.write(translation + "\n")
+    # 写入文件（保持 jsonl 结构）
+    record = {"input": text, "output": translation}
+    f_out.write(json.dumps(record, ensure_ascii=False) + "\n")
     
     # flush 确保数据立即写入文件
     f_out.flush() 

@@ -8,6 +8,7 @@ Notes:
 from pathlib import Path
 from transformers import AutoTokenizer, AutoModelForCausalLM
 import torch
+import json
 
 # Model path
 MODEL_DIR = Path("/home/cyw/LiquidAI-350M")
@@ -18,26 +19,25 @@ device_map = "auto" if use_cuda else None
 dtype = torch.float16 if use_cuda else torch.float32
 
 # Load tokenizer and model
+print("正在加载 LiquidAI 模型...")
 tokenizer = AutoTokenizer.from_pretrained(MODEL_DIR)
 model = AutoModelForCausalLM.from_pretrained(
     MODEL_DIR,
     dtype=dtype,
     device_map=device_map,
 )
+print("模型加载完成！")
 
 # IO paths (relative to this script directory)
 SCRIPT_DIR = Path(__file__).resolve().parent
-IN_PATH = input("请输入输入文件路径（默认: test.txt）: ").strip()
+IN_PATH = input("请输入待翻译的 jsonl 文件的路径: ").strip()
 if not IN_PATH:
-    IN_PATH = SCRIPT_DIR / "test.txt"
+    IN_PATH = SCRIPT_DIR / "captions_0429_test.jsonl"
 else:
     IN_PATH = Path(IN_PATH)
-    
-OUT_PATH = input("请输入输出文件路径（默认: outlq.txt）: ").strip()
-if not OUT_PATH:
-    OUT_PATH = SCRIPT_DIR / "outlq.txt"
-else:
-    OUT_PATH = Path(OUT_PATH)
+
+model_tag = input("请输入模型名称简称（默认: liquid）: ").strip() or "liquid"
+OUT_PATH = IN_PATH.with_name(f"out_{model_tag}.jsonl")
 
 system_prompt = (
     "You are a professional translator. Translate the user's text to English. "
@@ -47,13 +47,20 @@ system_prompt = (
 eos_token_id = tokenizer.eos_token_id
 pad_token_id = tokenizer.pad_token_id if tokenizer.pad_token_id is not None else eos_token_id
 
-# Read input
-lines = IN_PATH.read_text(encoding="utf-8").splitlines()
-
+print("开始翻译...")
 # Translate line by line and write output
-with OUT_PATH.open("w", encoding="utf-8") as out_f:
-    for line_num, line in enumerate(lines, start=1):
-        text = line.strip()
+with IN_PATH.open("r", encoding="utf-8") as in_f, OUT_PATH.open("w", encoding="utf-8") as out_f:
+    for line_num, line in enumerate(in_f, start=1):
+        if not line.strip():
+            out_f.write("\n")
+            continue
+
+        try:
+            data = json.loads(line)
+            text = data.get("input", "")
+        except json.JSONDecodeError:
+            print(f"警告: 第 {line_num} 行不是有效的 JSON，已跳过。")
+            continue
 
         if not text:
             out_f.write("\n")
@@ -61,7 +68,6 @@ with OUT_PATH.open("w", encoding="utf-8") as out_f:
 
         print(f"正在翻译第 {line_num} 行: {text[:30]}...")
 
-        # Build inputs using chat template if available; fallback to plain prompt
         if hasattr(tokenizer, "apply_chat_template"):
             messages = [
                 {"role": "system", "content": system_prompt},
@@ -80,7 +86,6 @@ with OUT_PATH.open("w", encoding="utf-8") as out_f:
             )
             inputs = tokenizer(prompt, return_tensors="pt")
 
-        # Normalize inputs to a mapping (BatchEncoding)
         if isinstance(inputs, torch.Tensor):
             inputs = {"input_ids": inputs}
 
@@ -95,12 +100,16 @@ with OUT_PATH.open("w", encoding="utf-8") as out_f:
             pad_token_id=pad_token_id,
         )
 
-        # Decode only the generated tokens (exclude prompt)
         if "input_ids" in inputs:
             gen_tokens = gen[0][inputs["input_ids"].shape[-1] :]
         else:
             gen_tokens = gen[0]
 
         translated = tokenizer.decode(gen_tokens, skip_special_tokens=True).strip()
-        print(f"翻译完成: {translated[:20]}...")
-        out_f.write(translated + "\n")
+        print(f"✓ 完成: {text[:20]}... -> {translated[:20]}...")
+
+        record = {"input": text, "output": translated}
+        out_f.write(json.dumps(record, ensure_ascii=False) + "\n")
+        out_f.flush()
+
+print("\n全部翻译任务已完成！")

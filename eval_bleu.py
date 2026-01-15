@@ -1,15 +1,30 @@
 import argparse
 import os
+import json
 from typing import List, Tuple
 
 import sacrebleu
 
 
-def _read_non_empty_lines(path: str) -> List[Tuple[int, str]]:
+def _read_non_empty_lines(path: str, role: str) -> List[Tuple[int, str]]:
+    """Read lines; if jsonl, pick the desired field.
+
+    role: "src" -> Japanese source ("input"); others -> "output".
+    """
+    is_jsonl = path.lower().endswith(".jsonl")
+    key = "input" if role == "src" else "output"
     lines: List[Tuple[int, str]] = []
     with open(path, "r", encoding="utf-8") as f:
         for line_no, raw in enumerate(f, 1):
             text = raw.rstrip("\n")
+            if text.strip() == "":
+                continue
+            if is_jsonl:
+                try:
+                    obj = json.loads(text)
+                    text = obj.get(key, "")
+                except json.JSONDecodeError:
+                    continue
             if text.strip() == "":
                 continue
             lines.append((line_no, text))
@@ -54,7 +69,6 @@ def main() -> int:
     parser = argparse.ArgumentParser(
         description="BLEU 评分：可交互输入或通过命令行参数指定原文、译文、标准答案，并输出对比报告。"
     )
-    parser.add_argument("--src", default="test.txt", help="翻译前原文文件 (Japanese)")
     parser.add_argument("--hyp", default="out.txt", help="待评估的翻译结果文件 (English hypothesis)")
     parser.add_argument("--ref", default="outgo.txt", help="标准答案文件 (English reference)")
     parser.add_argument("--out", default="bleu_report", help="输出文件名（不带后缀时会生成 .md 和 .tsv）")
@@ -63,14 +77,10 @@ def main() -> int:
     args = parser.parse_args()
 
     if args.no_prompt:
-        src_path = _ensure_path("原文", args.src)
         hyp_path = _ensure_path("译文", args.hyp)
         ref_path = _ensure_path("标准答案", args.ref)
         out_base = args.out
     else:
-        src_path_in = input(f"请输入原文文件路径 (回车默认: {args.src}): ").strip()
-        src_path = _ensure_path("原文", src_path_in or args.src)
-
         hyp_path_in = input(f"请输入待评估的译文文件路径 (回车默认: {args.hyp}): ").strip()
         hyp_path = _ensure_path("译文", hyp_path_in or args.hyp)
 
@@ -80,15 +90,15 @@ def main() -> int:
         out_in = input(f"请输入输出报告名前缀 (回车默认: {args.out}): ").strip()
         out_base = out_in or args.out
 
-    src_lines = _read_non_empty_lines(src_path)
-    hyp_lines = _read_non_empty_lines(hyp_path)
-    ref_lines = _read_non_empty_lines(ref_path)
+    src_lines: List[Tuple[int, str]] = []  # 不再读取原文
+    hyp_lines = _read_non_empty_lines(hyp_path, "hyp")
+    ref_lines = _read_non_empty_lines(ref_path, "ref")
 
-    n = max(len(src_lines), len(hyp_lines), len(ref_lines))
-    if len(src_lines) != len(hyp_lines) or len(hyp_lines) != len(ref_lines):
+    n = max(len(hyp_lines), len(ref_lines))
+    if len(hyp_lines) != len(ref_lines):
         print(
-            "[WARN] 三个文件的非空行数不一致："
-            f"src={len(src_lines)}, hyp={len(hyp_lines)}, ref={len(ref_lines)}。将按顺序对齐到最大长度，缺失项记为空。"
+            "[WARN] 文件的非空行数不一致："
+            f"hyp={len(hyp_lines)}, ref={len(ref_lines)}。将按顺序对齐到最大长度，缺失项记为空。"
         )
 
     refs: List[str] = []
@@ -110,7 +120,6 @@ def main() -> int:
         f.write("idx\tbleu\tsrc_line\thyp_line\tref_line\tsource\thyp\tref\n")
 
         for i in range(n):
-            src_no, src = src_lines[i] if i < len(src_lines) else (0, "")
             hyp_no, hyp = hyp_lines[i] if i < len(hyp_lines) else (0, "")
             ref_no, ref = ref_lines[i] if i < len(ref_lines) else (0, "")
 
@@ -128,10 +137,8 @@ def main() -> int:
                     [
                         str(i + 1),
                         score_str,
-                        str(src_no),
                         str(hyp_no),
                         str(ref_no),
-                        _tsv_escape(src),
                         _tsv_escape(hyp),
                         _tsv_escape(ref),
                     ]
@@ -152,11 +159,10 @@ def main() -> int:
     # Markdown：竖向对比（不使用表格）
     with open(out_md, "w", encoding="utf-8") as f:
         f.write("# Translation BLEU Report\n\n")
-        f.write(f"- Source: `{src_path}`\n- Hypothesis: `{hyp_path}`\n- Reference: `{ref_path}`\n")
+        f.write(f"- Hypothesis: `{hyp_path}`\n- Reference: `{ref_path}`\n")
         f.write(f"- sacrebleu tokenize: `{args.tokenize}`\n\n")
 
         for i in range(n):
-            _, src = src_lines[i] if i < len(src_lines) else (0, "")
             _, hyp = hyp_lines[i] if i < len(hyp_lines) else (0, "")
             _, ref = ref_lines[i] if i < len(ref_lines) else (0, "")
 
@@ -168,8 +174,6 @@ def main() -> int:
 
             f.write(f"## {i + 1}\n\n")
             f.write(f"BLEU Score: {bleu_cell}\n\n")
-            f.write("Source:\n")
-            f.write(_md_fenced(_md_escape(src)) + "\n\n")
             f.write("Hypothesis:\n")
             f.write(_md_fenced(_md_escape(hyp)) + "\n\n")
             f.write("Reference:\n")

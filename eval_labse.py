@@ -3,13 +3,28 @@ from typing import List, Tuple
 import torch
 from sentence_transformers import SentenceTransformer, util
 import os
+import json
 os.environ['HF_ENDPOINT'] = 'https://hf-mirror.com'
 
-def _read_non_empty_lines(path: str) -> List[Tuple[int, str]]:
+def _read_non_empty_lines(path: str, role: str) -> List[Tuple[int, str]]:
+    """Read lines; if jsonl, select the needed field.
+
+    role: "src" -> "input" (Japanese source); others -> "output".
+    """
+    is_jsonl = path.lower().endswith(".jsonl")
+    key = "input" if role == "src" else "output"
     lines: List[Tuple[int, str]] = []
     with open(path, "r", encoding="utf-8") as f:
         for line_no, raw in enumerate(f, 1):
             text = raw.rstrip("\n")
+            if text.strip() == "":
+                continue
+            if is_jsonl:
+                try:
+                    obj = json.loads(text)
+                    text = obj.get(key, "")
+                except json.JSONDecodeError:
+                    continue
             if text.strip() == "":
                 continue
             lines.append((line_no, text))
@@ -43,7 +58,6 @@ def main() -> int:
     parser = argparse.ArgumentParser(
         description="使用 LaBSE 计算日语原文与英文译文的语义相似度，可交互输入两个译文文件与名称。"
     )
-    parser.add_argument("--src", default="test.txt", help="日语原文文件")
     parser.add_argument("--qwen", default="outqw.txt", help="目标1翻译文件路径 (默认值，用于非交互)")
     parser.add_argument("--google", default="outlq.txt", help="目标2翻译文件路径 (默认值，用于非交互)")
     parser.add_argument("--out", default="labse_report.md", help="输出 Markdown 报告文件 (默认值，用于非交互)")
@@ -57,17 +71,12 @@ def main() -> int:
 
     # 默认交互；如需无交互可加 --no-prompt。
     if args.no_prompt:
-        src_path = _ensure_path("原文", args.src)
         path1 = _ensure_path("目标1", args.qwen)
         path2 = _ensure_path("目标2", args.google)
         name1 = args.name1
         name2 = args.name2
         out_path = args.out if args.out.lower().endswith(".md") else args.out + ".md"
     else:
-        src_in = input(f"请输入原文文件路径 (回车默认: {args.src}): ").strip()
-        src_path = src_in or args.src
-        src_path = _ensure_path("原文", src_path)
-
         path1_in = input(f"请输入第一个译文文件路径 (回车默认: {args.qwen}): ").strip()
         path1 = path1_in or args.qwen
         path1 = _ensure_path("目标1", path1)
@@ -85,9 +94,6 @@ def main() -> int:
         if not out_path.lower().endswith(".md"):
             out_path += ".md"
 
-    if not os.path.exists(src_path):
-        raise FileNotFoundError(src_path)
-
     device = args.device
     if device == "auto":
         device = "cuda" if torch.cuda.is_available() else "cpu"
@@ -96,9 +102,10 @@ def main() -> int:
     st_model = SentenceTransformer(args.model, device=device)
     print("开始评测...\n")
 
-    src_lines = _read_non_empty_lines(src_path)
-    qwen_lines = _read_non_empty_lines(path1)
-    google_lines = _read_non_empty_lines(path2)
+    # 原文直接取自译文 jsonl 的 input 字段（两份译文应共享相同原文）
+    src_lines = _read_non_empty_lines(path1, "src")
+    qwen_lines = _read_non_empty_lines(path1, "hyp")
+    google_lines = _read_non_empty_lines(path2, "hyp")
 
     n = max(len(src_lines), len(qwen_lines), len(google_lines))
     if len(src_lines) != len(qwen_lines) or len(qwen_lines) != len(google_lines):
@@ -195,7 +202,7 @@ def main() -> int:
 
     with open(out_path, "w", encoding="utf-8") as f:
         f.write("# 翻译质量评估报告 (LaBSE 语义相似度)\n\n")
-        f.write(f"- 原文文件: `{src_path}`\n")
+        f.write(f"- 原文来源: `{path1}` (input 字段)\n")
         f.write(f"- {name1} 文件: `{path1}`\n")
         f.write(f"- {name2} 文件: `{path2}`\n")
         f.write(f"- LaBSE 模型: `{args.model}`\n")
