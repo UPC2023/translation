@@ -1,4 +1,5 @@
 """
+2026/1/16 chenyawen
 Translate `test.txt` to English using local LiquidAI-350M.
 
 Notes:
@@ -70,25 +71,9 @@ with IN_PATH.open("r", encoding="utf-8") as in_f, OUT_PATH.open("w", encoding="u
 
         if hasattr(tokenizer, "apply_chat_template"):
             messages = [
-                {
-                    "role": "system", 
-                    "content": "You are a specialized subtitle translator. Translate the following Japanese TV transcript into natural English. \nConstraint: Do not repeat text. Do not add information not present in the source."
-                },
-                # Few-Shot 要给一个带有噪音（符号、不完整句子）的例子，教它怎么处理。
-                {
-                    "role": "user", 
-                    "content": "≫結成１６年以上のベテラン漫才師たちが"
-                },
-                {
-                    "role": "assistant", 
-                    "content": ">> Veteran manzai comedians formed over 16 years ago"
-                },
-                # 实际输入
-                {
-                    "role": "user", 
-                    "content": text
-                }
-            ] 
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": text},
+            ]
             inputs = tokenizer.apply_chat_template(
                 messages,
                 tokenize=True,
@@ -97,9 +82,8 @@ with IN_PATH.open("r", encoding="utf-8") as in_f, OUT_PATH.open("w", encoding="u
             )
         else:
             prompt = (
-                "Japanese: おはようございます。\nEnglish: Good morning.\n"
-                "Japanese: 思い出のＧＷです。\nEnglish: Memorable Golden Week.\n"
-                f"Japanese: {text}\nEnglish:"
+                "Translate the following text to English. Only output the translation.\n\n"
+                + text
             )
             inputs = tokenizer(prompt, return_tensors="pt")
 
@@ -123,9 +107,29 @@ with IN_PATH.open("r", encoding="utf-8") as in_f, OUT_PATH.open("w", encoding="u
             gen_tokens = gen[0]
 
         translated = tokenizer.decode(gen_tokens, skip_special_tokens=True).strip()
-        print(f"✓ 完成: {text[:20]}... -> {translated[:20]}...")
 
-        record = {"input": text, "output": translated}
+        # --- 【关键修改点 2】 后处理清理废话 ---
+        # 既然 Prompt 无法完美控制后缀，不如生成后再切掉。简单粗暴且有效。
+        garbage_suffixes = [
+            "is a professional translator",
+            "is a professional subtitle translator",
+            "without any explanations or extra commentary",
+            "Only output the translation"
+        ]
+        
+        # 简单的清理逻辑
+        cleaned_translation = translated
+        for garbage in garbage_suffixes:
+            # 不区分大小写替换
+            if garbage.lower() in cleaned_translation.lower():
+                # 这里用简单的 replace，可能会误伤
+                cleaned_translation = cleaned_translation.replace(garbage, "").replace(garbage.lower(), "").replace(garbage.capitalize(), "")
+        
+        cleaned_translation = cleaned_translation.strip(" ") 
+
+        print(f"✓ 完成: {text[:20]}... -> {cleaned_translation[:20]}...")
+
+        record = {"input": text, "output": cleaned_translation}
         out_f.write(json.dumps(record, ensure_ascii=False) + "\n")
         out_f.flush()
 
