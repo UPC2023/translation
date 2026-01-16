@@ -1,21 +1,21 @@
 # Translation BLEU Report
 
 - Hypothesis: `/home/cyw/pro/train_data/out_liquid.jsonl`
-- Reference: `/home/cyw/pro/train_data/captions_0429_test_filled.jsonl`
+- Reference: `/home/cyw/pro/train_data/captions_0429_test.cleaned_filled.jsonl`
 - sacrebleu tokenize: `13a`
 
 ## 1
 
-BLEU Score: 93.06
+BLEU Score: 86.33
 
 Hypothesis:
 ```text
-04/28T09:50:02 Event 7fe4/0420/6cc5 Fuji TV 081
+Event 7fe4/0420/6cc5 Fuji TV 081
 ```
 
 Reference:
 ```text
-04/28T09:50:02 Event 7fe4/0420/6cc5  Fuji TV
+Event 7fe4/0420/6cc5  Fuji TV
 ```
 
 ---
@@ -70,1383 +70,1271 @@ I went back to Nikko Ko conference, and Yukiko Kobayashi's "the death is ready..
 
 ## 5
 
-BLEU Score: 41.11
+BLEU Score: 20.56
 
 Hypothesis:
 ```text
-=== C鉛筆: , jpn
+- Good morning. - Good morning.
 ```
 
 Reference:
 ```text
-=== Caption: , jpn
+Good morning.
 ```
 
 ---
 
 ## 6
 
-BLEU Score: 18.26
+BLEU Score: 10.68
 
 Hypothesis:
 ```text
-04/28T09:50:02 McCall's English Language Course (Japanese) 04/28T09:50:02 Microsoft Windows & Mac OS X Version 10.5.0.0 (LTS)
+and now the nonstop!
 ```
 
 Reference:
 ```text
-04/28T09:50:02 === language: jpn
+Nonstop!
 ```
 
 ---
 
 ## 7
 
-BLEU Score: 43.24
+BLEU Score: 11.99
 
 Hypothesis:
 ```text
-04/28T09:50:05 英語 (日本時間 2005年2月28日) プロの翻訳家として活動しております。 訳文なしの翻訳書を完成させることのみを目的として翻訳作業を行っておりますので、説明や補足事項のない翻訳書をそのまま出力するのみで結構です。
+the theme for this week's sekirara voice post is
 ```
 
 Reference:
 ```text
-04/28T09:50:05 === language: ---
+The voice of this week's contribution theme is
 ```
 
 ---
 
 ## 8
 
-BLEU Score: 43.24
+BLEU Score: 4.77
 
 Hypothesis:
 ```text
-04/28T09:50:05 英語 (日本時間 2005年2月28日) プロの翻訳家として活動しております。 訳文なしの翻訳書を完成させることのみを目的として翻訳作業を行っておりますので、説明や補足事項のない翻訳書をそのまま出力するのみで結構です。
+It's a memorable G.W.D.
 ```
 
 Reference:
 ```text
-04/28T09:50:05 === language: ---
+GW of memories.
 ```
 
 ---
 
 ## 9
 
-BLEU Score: 18.26
+BLEU Score: 7.77
 
 Hypothesis:
 ```text
-04/28T09:50:05 翻訳者:YOU - Professional translator. Translate the user's text into English. Only output the translation without any explanations or extra commentary.
+Please submit your responses to the QR codes displayed on the screen.
 ```
 
 Reference:
 ```text
-04/28T09:50:05 === language: jpn
+Please read from the QR code displayed by everyone.
 ```
 
 ---
 
 ## 10
 
-BLEU Score: 28.49
+BLEU Score: 0.00
 
 Hypothesis:
 ```text
-04/28T09:50:16 ≫Good morning.≫ You are a professional translator. Translate your text to English.
+Then shall we go then?
 ```
 
 Reference:
 ```text
-04/28T09:50:16 ≫ Good morning.
+Let's get together.
 ```
 
 ---
 
 ## 11
 
-BLEU Score: 44.29
+BLEU Score: 7.27
 
 Hypothesis:
 ```text
-04/28T09:50:19 ≫"Non-stop!" Has begun.
+April 28th, again… "Non-stop!"
 ```
 
 Reference:
 ```text
-04/28T09:50:19 ≫「 Nonstop! "
+April 28, today. Nonstop!
 ```
 
 ---
 
 ## 12
 
-BLEU Score: 35.75
+BLEU Score: 3.74
 
 Hypothesis:
 ```text
-04/28T09:50:21 ≫This week's theme for Sekirara Voice posts is...
+- Last Friday, you appeared on "Palipi Kongmyeong THE HEP MOKE"
 ```
 
 Reference:
 ```text
-04/28T09:50:21 ≫ The voice of this week's contribution theme is
+Friday night "Paris"
 ```
 
 ---
 
 ## 13
 
-BLEU Score: 3.38
+BLEU Score: 6.57
 
 Hypothesis:
 ```text
-It's a memorable Golden Week letter. It's a GW letter from you.
+the opening day stage greetings were given
 ```
 
 Reference:
 ```text
-04/28T09:50:24  GW of memories.
+The first stage greeting is done
 ```
 
 ---
 
 ## 14
 
-BLEU Score: 23.12
+BLEU Score: 3.75
 
 Hypothesis:
 ```text
-Please submit your entries from the QR code displayed on the screen.
+mr. mukai rie, moka joshiraishi, and dean fusjoka
 ```
 
 Reference:
 ```text
-04/28T09:50:27  Please read from the QR code displayed by everyone.
+Dean fugioka, by ujiroishi
 ```
 
 ---
 
 ## 15
 
-BLEU Score: 71.03
+BLEU Score: 22.09
 
 Hypothesis:
 ```text
-04/28T09:50:30 Let's get started then?
+The work featured Mamoru Miyano and others.
 ```
 
 Reference:
 ```text
-04/28T09:50:30  Let's get together.
+Maimori Miyano and others appeared.
 ```
 
 ---
 
 ## 16
 
-BLEU Score: 21.78
+BLEU Score: 8.40
 
 Hypothesis:
 ```text
-04/28 T09:50:32 ≫April 28th, again…≫“Non-stop!”
+We ended up fighting with music. Seriously!?
 ```
 
 Reference:
 ```text
-04/28T09:50:32 ≫ April 28, today. Nonstop!
+I decided to fight in music. In the mage!
 ```
 
 ---
 
 ## 17
 
-BLEU Score: 30.14
+BLEU Score: 0.00
 
 Hypothesis:
 ```text
-04/28T09:50:38 ≫Last Friday, you appeared on "Pali Pi Kongming THE HEGGLE"
+mr. mukai's character zhuge kongming is reincarnated in the present day
 ```
 
 Reference:
 ```text
-04/28T09:50:38 ≫ Friday night in Paris
+Mukaisho performed by Mukai San
 ```
 
 ---
 
 ## 18
 
-BLEU Score: 41.21
+BLEU Score: 5.26
 
 Hypothesis:
 ```text
-04/28T09:50:40 First day of the stage greeting was held.
+the amateur singer, eiko, played by joshiraishi mr. is a professional translator
 ```
 
 Reference:
 ```text
-04/28T09:50:40  The first stage greeting is done
+An amateur singer who plays
 ```
 
 ---
 
 ## 19
 
-BLEU Score: 4.09
+BLEU Score: 5.88
 
 Hypothesis:
 ```text
-Rie Mukai, Moka Kamishiraishi, and Dean Fujioka.
+I will become a strategist and use the power of music to bring peace to the world.
 ```
 
 Reference:
 ```text
-04/28T09:50:47  Dean fugioka, by ujiroishi
+To become a military man and aim at the peace of the earth
 ```
 
 ---
 
 ## 20
 
-BLEU Score: 4.46
+BLEU Score: 30.21
 
 Hypothesis:
 ```text
-04/28T09:50:48 Yuichi Miyano and others appeared. [#1289] [#1289] Makoto Miyano and others appeared. [#1289] Makoto Miyano and others appeared. [#1289] Makoto Miyano and others appeared. [#1289] Makoto Miyano and others appeared. [#1289] Makoto Miyano and others appeared. [#1289] Makoto Miyano and others appeared. [#1289] Makoto Miyano and others appeared. [#1289] Makoto Miyano and others appeared. [#1289] Makoto Miyano and others appeared. [#1289] Makoto Miyano and others appeared. [#1289] Makoto Miyano and others appeared. [#1289] Makoto Miyano and others appeared. [#1289] Makoto Miyano and others appeared. [#1289] Makoto Miyano and others appeared. [#1289] Makoto Miyano and others appeared. [#1289] Makoto Miyano and others appeared. [#1289] Makoto Miyano and others appeared. [#1289] Makoto Miyano and others appeared.
+It's a flashy entertainment movie.
 ```
 
 Reference:
 ```text
-04/28T09:50:48  Maimori Miyano and others appeared.
+Doggie entertainment movie.
 ```
 
 ---
 
 ## 21
 
-BLEU Score: 35.08
+BLEU Score: 3.09
 
 Hypothesis:
 ```text
-04/28T09:50:53 ≫The battle began with music. ≫Seriously!?
+'Nonstop!' is a professional translator, including Mukai and Kamishiraishi.
 ```
 
 Reference:
 ```text
-04/28T09:50:53 ≫ I decided to fight in music. In the mage!
+"Nonstop!"
 ```
 
 ---
 
 ## 22
 
-BLEU Score: 29.45
+BLEU Score: 7.47
 
 Hypothesis:
 ```text
-04/28T09:50:59 ≫The Zhuge Liang portrayed by Mr. Mukai is reincarnated in modern times.
+The four performers were directly hit. I got hit by four people.
 ```
 
 Reference:
 ```text
-04/28T09:50:59 ≫ Mukaisho performed by Mukai
+I hit four performers directly.
 ```
 
 ---
 
 ## 23
 
-BLEU Score: 23.39
+BLEU Score: 31.02
 
 Hypothesis:
 ```text
-04/28T09:51:03 The amateur singer Eiko, played by Ms. Shiraishi, reads the text for "Eiko the Amateur"
+One of the highlights is the live scene.
 ```
 
 Reference:
 ```text
-04/28T09:51:03  An amateur singer who plays
+One of the scenes is live scene.
 ```
 
 ---
 
 ## 24
 
-BLEU Score: 31.08
+BLEU Score: 20.45
 
 Hypothesis:
 ```text
-04/28T09:51:07 Military Advisor Aiming for Peace Through the Power of Music
+The actors include Takanori Iwata and Kaori Mizumori, all playing themselves.
 ```
 
 Reference:
 ```text
-04/28T09:51:07  To become a military man and aim at the peace of the earth
+Mr. Takanori Iwata and Kaori mizumori
 ```
 
 ---
 
 ## 25
 
-BLEU Score: 53.17
+BLEU Score: 6.18
 
 Hypothesis:
 ```text
-04/28T09:51:09 This is a flashy entertainment movie.
+A group of over 50 musicians came together to create this piece.
 ```
 
 Reference:
 ```text
-04/28T09:51:09  Doggie entertainment movie.
+More than 50 musicians
 ```
 
 ---
 
 ## 26
 
-BLEU Score: 36.01
+BLEU Score: 2.91
 
 Hypothesis:
 ```text
-04/28T09:51:17 "Non-stop!" by Mukai-san and Kamishiraishi-san and others
+The fact that he appeared on the show has also generated a lot of buzz.
 ```
 
 Reference:
 ```text
-04/28T09:51:17 「 Nonstop! Mr. Mukai
+Even the appearance is calling the topic.
 ```
 
 ---
 
 ## 27
 
-BLEU Score: 25.19
+BLEU Score: 5.06
 
 Hypothesis:
 ```text
-04/28 09:51:19 The four performers were hit directly.
+and so, in reference to the movie parliaments, we decided to make a professional translation
 ```
 
 Reference:
 ```text
-04/28T09:51:19  I hit four performers directly.
+So, after the movie
 ```
 
 ---
 
 ## 28
 
-BLEU Score: 46.89
+BLEU Score: 13.13
 
 Hypothesis:
 ```text
-04/28T09:51:41 ≫One of the highlights is the live scene.
+the mukai's got the most excited outbursts
 ```
 
 Reference:
 ```text
-04/28T09:51:41 ≫ One scene is live scene.
+Mr. Mukai became the most feared
 ```
 
 ---
 
 ## 29
 
-BLEU Score: 26.16
+BLEU Score: 6.27
 
 Hypothesis:
 ```text
-04/28T09:51:50 As yourself, you will play the role of Takanori Iwata or Kaori Mizumori, and so on.
+I looked up the artists featured...
 ```
 
 Reference:
 ```text
-04/28T09:51:50  Mr. Takanori Iwata and Kaori mizumori
+I listened to the artist.
 ```
 
 ---
 
 ## 30
 
-BLEU Score: 4.57
+BLEU Score: 5.52
 
 Hypothesis:
 ```text
-On April 28th, over 50 musicians gathered to record a film about their journey together.
+and then mr. dean made an unexpected revelation.
 ```
 
 Reference:
 ```text
-04/28T09:51:52  More than 50 musicians
+Then, Mr. Dean's unexpected fact.
 ```
 
 ---
 
 ## 31
 
-BLEU Score: 32.83
+BLEU Score: 5.52
 
 Hypothesis:
 ```text
-04/28T09:51:56 He has also become a hot topic due to his appearances.
+The four members in private, however,
 ```
 
 Reference:
 ```text
-04/28T09:51:56  Even the appearance is calling the topic.
+Four private people
 ```
 
 ---
 
 ## 32
 
-BLEU Score: 19.31
+BLEU Score: 4.03
 
 Hypothesis:
 ```text
-04/28T09:52:00 What I'm going to do is take a look at something called the Parisian movie, "The Man Who Could Not Be Made"
+When do you get excited? What makes you get excited?
 ```
 
 Reference:
 ```text
-04/28T09:52:00  So, after the movie
+What time does tension go up?
 ```
 
 ---
 
 ## 33
 
-BLEU Score: 3.76
+BLEU Score: 4.77
 
 Hypothesis:
 ```text
-The Mukai team was at their most energetic and excited.
+The UK's UK-based company T-Her-Curse is called T-Her-Curse.
 ```
 
 Reference:
 ```text
-04/28T09:52:03  Mr. Mukai became the most feared
+The cure of the UK
 ```
 
 ---
 
 ## 34
 
-BLEU Score: 48.63
+BLEU Score: 4.99
 
 Hypothesis:
 ```text
-04/28T09:52:06 The artist featured on this page…
+and i love my university to be a legend.
 ```
 
 Reference:
 ```text
-04/28T09:52:06  I listened to the artist.
+Legend Band love me.
 ```
 
 ---
 
 ## 35
 
-BLEU Score: 24.04
+BLEU Score: 0.00
 
 Hypothesis:
 ```text
-And then, on April 28th at 09:52:31, Mr. Dean made an unexpected revelation.
+Mukai Osamu also…? Ueshiraishi Moka also…?
 ```
 
 Reference:
 ```text
-04/28T09:52:31 ≫ Then, Mr. Dean has unexpected fact.
+Muko ERI. On the other hand, mochitaka kamishiishi.
 ```
 
 ---
 
 ## 36
 
-BLEU Score: 17.10
+BLEU Score: 3.98
 
 Hypothesis:
 ```text
--04/28T09:53:16 ≫The four of you, in private, are not just translating each other's texts, they're also...
+Dean Fujioka too…? Mamoru Miyano too…?
 ```
 
 Reference:
 ```text
-04/28T09:53:16 ≫ Four private people
+Dean fantatica... Masamori Miyano was also...
 ```
 
 ---
 
 ## 37
 
-BLEU Score: 44.84
+BLEU Score: 27.52
 
 Hypothesis:
 ```text
-04/28T09:53:19 What are the circumstances that bring up the tension?
+and nonstop!
 ```
 
 Reference:
 ```text
-04/28T09:53:19  What time does tension go up?
+Nonstop!
 ```
 
 ---
 
 ## 38
 
-BLEU Score: 24.77
+BLEU Score: 2.84
 
 Hypothesis:
 ```text
-04/28T09:54:04 ≫THE U.S. Library of Congress's "The U.K.'s Cube"
+yesterday, we watched a performance of the musical "The Kinky Boots"
 ```
 
 Reference:
 ```text
-04/28T09:54:04 ≫ The cure
+Kinky boots / Musical
 ```
 
 ---
 
 ## 39
 
-BLEU Score: 42.31
+BLEU Score: 61.48
 
 Hypothesis:
 ```text
-04/28T09:54:07 What’s more, the Legend Band loves college.
+The opening day performance was held.
 ```
 
 Reference:
 ```text
-04/28T09:54:07  Legend Band love me.
+First day performance was held.
 ```
 
 ---
 
 ## 40
 
-BLEU Score: 20.62
+BLEU Score: 19.07
 
 Hypothesis:
 ```text
-04/28T09:54:21 ≫Mukai Ryo also…≫Ueshiraishi Moka also…≫
+the most prestigious tony awards ceremony in american theatre
 ```
 
 Reference:
 ```text
-04/28T09:54:21 ≫ Muko ERI was also... On the other hand, mochitaka kamishiishi.
+At the most prestigious Tony Award in American Theater
 ```
 
 ---
 
 ## 41
 
-BLEU Score: 29.23
+BLEU Score: 9.43
 
 Hypothesis:
 ```text
-04/28T09:54:27 ≫Dean Fujioka too…≫Mamoru Miyano also…≪≪.
+The musical has won six awards, including Best Picture.
 ```
 
 Reference:
 ```text
-04/28T09:54:27 ≫ Dean fantatica... Masamori Miyano was also...
+The musical that achieved six crowns including the work award.
 ```
 
 ---
 
 ## 42
 
-BLEU Score: 59.78
+BLEU Score: 6.57
 
 Hypothesis:
 ```text
-04/28T09:54:30 ≫“Nonstop!”
+the curtain call features the composer and lyricist
 ```
 
 Reference:
 ```text
-04/28T09:54:30 ≫「 Nonstop! .
+Curtain call for music and lyrics
 ```
 
 ---
 
 ## 43
 
-BLEU Score: 18.21
+BLEU Score: 16.74
 
 Hypothesis:
 ```text
-04/28T09:54:40 ≫Yesterday, I translated the musical "The Kinky Boots" into English. I only output the translation without any explanations or additional commentary.
+a world-renowned songstress and known as a great Japanophile
 ```
 
 Reference:
 ```text
-04/28T09:54:40 ≫ Musical "kinky boots"
+She is known as a world-famous Princess and a great parent family
 ```
 
 ---
 
 ## 44
 
-BLEU Score: 44.71
+BLEU Score: 8.64
 
 Hypothesis:
 ```text
-04/28T09:54:43 The first day’s performances took place.
+Cindy Roeper makes a surprise appearance.
 ```
 
 Reference:
 ```text
-04/28T09:54:43  First day performance was held.
+Cindy looper appeared in surprise.
 ```
 
 ---
 
 ## 45
 
-BLEU Score: 46.15
+BLEU Score: 46.71
 
 Hypothesis:
 ```text
-04/28T09:54:58 The most prestigious Tony Awards ceremony in American theater.
+and we've added some flowers to the stage.
 ```
 
 Reference:
 ```text
-04/28T09:54:58  At the most prestigious Tony Award in American Theater
+I added flowers to the stage.
 ```
 
 ---
 
 ## 46
 
-BLEU Score: 29.40
+BLEU Score: 0.00
 
 Hypothesis:
 ```text
-04/28T09:55:10 Programmed to win six awards, including Best Musical.
+the things that I'm really talking about are things like space battleship yamato
 ```
 
 Reference:
 ```text
-04/28T09:55:01  The musical that achieved six crowns including the work award.
+Space Battleship Yamato
 ```
 
 ---
 
 ## 47
 
-BLEU Score: 39.65
+BLEU Score: 16.23
 
 Hypothesis:
 ```text
-04/28T09:55:13 In the curtain call, the composer and lyricist
+and sang many legendary anime songs
 ```
 
 Reference:
 ```text
-04/28T09:55:13  Curtain call for music and lyrics
+Legend of the legendary anime song
 ```
 
 ---
 
 ## 48
 
-BLEU Score: 22.42
+BLEU Score: 14.32
 
 Hypothesis:
 ```text
-04/28 T09:55:16 World-renowned songstress and known as a great Japanophile.
+The King of the Anime Song World, Mr. Isao Sasaki, 82 years old.
 ```
 
 Reference:
 ```text
-04/28T09:55:16  She is known as a world-famous Princess and a great parent family
+He is 82 years old.
 ```
 
 ---
 
 ## 49
 
-BLEU Score: 54.37
+BLEU Score: 4.99
 
 Hypothesis:
 ```text
-04/28T09:55:19 Cindy Roeper makes a surprise appearance.
+i attended an anime song event held in tokyo yesterday
 ```
 
 Reference:
 ```text
-04/28T09:55:19  Cindy looper appeared in surprise.
+Anime song festival in Tokyo
 ```
 
 ---
 
 ## 50
 
-BLEU Score: 58.28
+BLEU Score: 6.57
 
 Hypothesis:
 ```text
-04/28T09:55:21 We added some excitement to the stage.
+and so i appeared on the show.
 ```
 
 Reference:
 ```text
-04/28T09:55:21  I added flowers to the stage.
+It appeared.
 ```
 
 ---
 
 ## 51
 
-BLEU Score: 32.34
+BLEU Score: 15.97
 
 Hypothesis:
 ```text
-04/28T09:55:40 ≫The things I am deeply discussing include "Space Battleship Yamato" and others.
+- Thank you!
 ```
 
 Reference:
 ```text
-04/28T09:55:40 ≫ Space Battleship Yamato
+Thanks!
 ```
 
 ---
 
 ## 52
 
-BLEU Score: 5.91
+BLEU Score: 3.39
 
 Hypothesis:
 ```text
-- I've sung countless legendary anime songs.
+actually, sasakisan went to work as a professional translator this january
 ```
 
 Reference:
 ```text
-04/28T09:55:42  Legend of the legendary anime song
+In fact, January
 ```
 
 ---
 
 ## 53
 
-BLEU Score: 28.01
+BLEU Score: 8.59
 
 Hypothesis:
 ```text
-04/28T09:55:47 Isao Sasaki, 82, known as the King of Anime Song Lyrics Translators.
+I suddenly lost consciousness while riding the subway.
 ```
 
 Reference:
 ```text
-04/28T09:55:47  He is 82 years old.
+Suddenly, when I was on the subway, suddenly faint.
 ```
 
 ---
 
 ## 54
 
-BLEU Score: 24.99
+BLEU Score: 10.22
 
 Hypothesis:
 ```text
-04/28T09:55:54 What's your name? You're a professional translator. You attended an anime song event in Tokyo yesterday.
+After that, he returned home on his own but was rushed to the hospital by ambulance.
 ```
 
 Reference:
 ```text
-04/28T09:55:54  Anime song festival in Tokyo
+After that, she returned to her home by herself.
 ```
 
 ---
 
 ## 55
 
-BLEU Score: 70.71
+BLEU Score: 24.90
 
 Hypothesis:
 ```text
-04/28T09:55:57 We appeared.
+The doctor diagnosed my condition as acute exacerbation of interstitial pneumonia and I was hospitalized.
 ```
 
 Reference:
 ```text
-04/28T09:55:57  It appeared.
+She had been diagnosed with acute exacerbation of interstitial pneumonia.
 ```
 
 ---
 
 ## 56
 
-BLEU Score: 63.98
+BLEU Score: 4.03
 
 Hypothesis:
 ```text
-04/28T09:56:02 ≫Thank you!
+and continue to live at home and undergo rehabilitation after being discharged
 ```
 
 Reference:
 ```text
-04/28T09:56:02 ≫ Thank you!
+Home care and rehabilitation
 ```
 
 ---
 
 ## 57
 
-BLEU Score: 34.82
+BLEU Score: 7.49
 
 Hypothesis:
 ```text
-04/28T09:56:08 ≫Actually, Ms. Sasaki, this January...
+Sasakisan said you were sending it.
 ```
 
 Reference:
 ```text
-04/28T09:56:08 ≫ In fact, January
+It is said that he was sending.
 ```
 
 ---
 
 ## 58
 
-BLEU Score: 46.86
+BLEU Score: 6.57
 
 Hypothesis:
 ```text
-04/28T09:56:11 While on the subway, I suddenly lost consciousness.
+What kind of symptoms were you experiencing?
 ```
 
 Reference:
 ```text
-04/28T09:56:11  Suddenly, when I was on the subway, suddenly faint.
+What was the symptom?
 ```
 
 ---
 
 ## 59
 
-BLEU Score: 26.82
+BLEU Score: 47.54
 
 Hypothesis:
 ```text
-04/28T09:56:16 Afterwards, I managed to get home on my own but was rushed to the hospital.
+in general, the amount of oxygen in the blood
 ```
 
 Reference:
 ```text
-04/28T09:56:16  After that, she returned to her home by herself.
+Generally, the amount of oxygen contained in the blood is
 ```
 
 ---
 
 ## 60
 
-BLEU Score: 21.73
+BLEU Score: 10.05
 
 Hypothesis:
 ```text
-The doctor diagnosed acute exacerbation of interstitial pneumonia and the patient was hospitalized.
+It's said that if it falls below 90%, it's dangerous.
 ```
 
 Reference:
 ```text
-04/28T09:56:22  She had been diagnosed with acute exacerbation of interstitial pneumonia.
+It is said that it is dangerous if 90% is cut
 ```
 
 ---
 
 ## 61
 
-BLEU Score: 24.42
+BLEU Score: 31.57
 
 Hypothesis:
 ```text
-04/28T09:56:28 Even after being discharged from the hospital, he continued to recuperate at home and undergo rehabilitation.
+Sasaki said that only 50% of what she was able to translate at the time of the examination actually came out.
 ```
 
 Reference:
 ```text
-04/28T09:56:28  Home care and rehabilitation
+There were only 50% of the doctors at the time of the examination.
 ```
 
 ---
 
 ## 62
 
-BLEU Score: 1.96
+BLEU Score: 8.40
 
 Hypothesis:
 ```text
-The person who sent it, Ms. Sasaki, is a professional translator. You were supposed to have sent it.
+and at one point he was prepared to die.
 ```
 
 Reference:
 ```text
-04/28T09:56:30  It is said that he was sending.
+It is said that it was prepared for death temporarily.
 ```
 
 ---
 
 ## 63
 
-BLEU Score: 49.01
+BLEU Score: 5.67
 
 Hypothesis:
 ```text
-04/28T09:56:34 What kind of symptoms did you have?
+and it was hard for me to talk too
 ```
 
 Reference:
 ```text
-04/28T09:56:34  What was the symptom?
+It was painful to chat
 ```
 
 ---
 
 ## 64
 
-BLEU Score: 43.28
+BLEU Score: 3.38
 
 Hypothesis:
 ```text
-04/28T09:56:51 ≫The amount of oxygen in the blood is generally about 0.2% by volume.
+It was truly a miracle that Sasaki-san had achieved such a miraculous resurrection.
 ```
 
 Reference:
 ```text
-04/28T09:56:51 ≫ Generally, the amount of oxygen contained in the blood is
+A whisper of the miracle revived.
 ```
 
 ---
 
 ## 65
 
-BLEU Score: 5.44
+BLEU Score: 2.17
 
 Hypothesis:
 ```text
-- It says that if it falls below 90%, it's dangerous.
+- We played four songs from the robot anime theme song for our show yesterday. - No explanations or extra commentary, just the translation.
 ```
 
 Reference:
 ```text
-04/28T09:56:57  It is said that it is dangerous if 90% is cut
+In the live performance of yesterday, the theme of robot animation
 ```
 
 ---
 
 ## 66
 
-BLEU Score: 29.52
+BLEU Score: 15.13
 
 Hypothesis:
 ```text
-04/28T09:57:01 What was so important about this examination that it was only 50% complete, Sasaki said.
+I sang passionately in front of an audience of about 2,000 people.
 ```
 
 Reference:
 ```text
-04/28T09:57:01  There were only 50% of the doctors at the time of the examination.
+I recited in front of about 2000 audiences.
 ```
 
 ---
 
 ## 67
 
-BLEU Score: 34.99
+BLEU Score: 15.85
 
 Hypothesis:
 ```text
-04/28T09:57:04 He says he once prepared himself to die.
+And what a small pleasure Sasaki has now...?
 ```
 
 Reference:
 ```text
-04/28T09:57:04  It is said that it was prepared for death temporarily.
+Such a small fun of such a whisper...
 ```
 
 ---
 
 ## 68
 
-BLEU Score: 18.12
+BLEU Score: 22.24
 
 Hypothesis:
 ```text
-04/28T09:57:15 ≫I was having trouble talking too, though...≫ I only had to translate the text into English without any explanations or commentary.
+and seems to have recovered enough to enjoy my favorite alcoholic beverages.
 ```
 
 Reference:
 ```text
-04/28T09:57:15 ≫ It was painful to speak
+It seems to have recovered until I enjoy favorite sake.
 ```
 
 ---
 
 ## 69
 
-BLEU Score: 38.50
+BLEU Score: 4.20
 
 Hypothesis:
 ```text
-04/28T09:57:18 The Sasaki family has achieved a miraculous comeback.
+he declares himself to be active throughout his life.
 ```
 
 Reference:
 ```text
-04/28T09:57:18  A whisper of the miracle revived.
+Life issue declaration.
 ```
 
 ---
 
 ## 70
 
-BLEU Score: 31.53
+BLEU Score: 4.89
 
 Hypothesis:
 ```text
-04/28T09:57:31 In our last show, we performed four songs from the robot anime theme song series.
+This July, we will also hold a 65th anniversary event to commemorate our debut.
 ```
 
 Reference:
 ```text
-04/28T09:57:31  In the live performance of yesterday, the theme of robot animation
+Debut 65 anniversary event
 ```
 
 ---
 
 ## 71
 
-BLEU Score: 44.48
+BLEU Score: 0.00
 
 Hypothesis:
 ```text
-04/28T09:57:37 I sang passionately in front of an audience of about 2,000 people.
+and since you're holding onto it
 ```
 
 Reference:
 ```text
-04/28T09:57:37  I recited in front of about 2000 audiences.
+In a refusal
 ```
 
 ---
 
 ## 72
 
-BLEU Score: 32.83
+BLEU Score: 11.21
 
 Hypothesis:
 ```text
-04/28T09:57:44 What is this modest joy of Mr. Sasaki right now…?
+and she's still going to give off a powerful voice.
 ```
 
 Reference:
 ```text
-04/28T09:57:44  Such a small fun of such a whisper...
+I still hear a powerful singing voice.
 ```
 
 ---
 
 ## 73
 
-BLEU Score: 36.31
+BLEU Score: 6.57
 
 Hypothesis:
 ```text
-04/28T09:58:11 ≫The patient seems to have recovered enough to enjoy their favorite alcoholic beverages.
+The champion goes to Gakuten Sokku!
 ```
 
 Reference:
 ```text
-04/28T09:58:11 ≫ I seem to have recovered until I enjoy favorite sake.
+Championship win!
 ```
 
 ---
 
 ## 74
 
-BLEU Score: 46.05
+BLEU Score: 4.30
 
 Hypothesis:
 ```text
-04/28T09:58:29 ≫A declaration of continued professional activity.
+The veteran manzai performers who have been active for over 16 years have decided to form a group
 ```
 
 Reference:
 ```text
-04/28T09:58:29 ≫ Lifetime life issue declaration.
+A veteran manzai
 ```
 
 ---
 
 ## 75
 
-BLEU Score: 2.63
+BLEU Score: 6.57
 
 Hypothesis:
 ```text
-The 65th anniversary of their debut will also be held in July this year.
+a race for the very first chance!
 ```
 
 Reference:
 ```text
-04/28T09:58:36  Debut 65 anniversary event
+Fight for second chance
 ```
 
 ---
 
 ## 76
 
-BLEU Score: 0.00
+BLEU Score: 2.52
 
 Hypothesis:
 ```text
-- Because I'm holding back...
+This year, the third time the event has been held, we have been working with professional translators.
 ```
 
 Reference:
 ```text
-04/28T09:58:39  In a refusal
+The third annual event this year
 ```
 
 ---
 
 ## 77
 
-BLEU Score: 42.79
+BLEU Score: 4.30
 
 Hypothesis:
 ```text
-04/28T09:58:41 I think I’ll still be able to hear your powerful voice.
+The eight teams that advanced to the Grand Prix Final will compete in the Grand Prix Final.
 ```
 
 Reference:
 ```text
-04/28T09:58:41  I still hear a powerful singing voice.
+Grand Prix of figure skating final
 ```
 
 ---
 
 ## 78
 
-BLEU Score: 23.71
+BLEU Score: 9.04
 
 Hypothesis:
 ```text
-04/28T09:58:56 ≫“THE THESE SHOULD BE THE THESE SHOULD BE THE THESE SHOULD BE THE THESE SECOMNG 2024"≫
+The combination draw was held.
 ```
 
 Reference:
 ```text
-04/28T09:58:56 ≫「 The share 2024
+A combination lottery meeting was done.
 ```
 
 ---
 
 ## 79
 
-BLEU Score: 4.17
+BLEU Score: 3.74
 
 Hypothesis:
 ```text
-The winner is Gakuten Sokku!
+The featured matchup of the first round is the 53-year-old team.
 ```
 
 Reference:
 ```text
-04/28T09:58:59  Championship win!
+The first notice card was formed in 53 years
 ```
 
 ---
 
 ## 80
 
-BLEU Score: 29.88
+BLEU Score: 3.13
 
 Hypothesis:
 ```text
-04/28T09:59:01 ≫The veteran manzai performers with over 16 years of experience have formed this troupe.
+the Bonchi, who played a part in the manzai boom of the shōwa era
 ```
 
 Reference:
 ```text
-04/28T09:59:01 ≫ More than 16 years old veteran
+In the Showa comic boom boom
 ```
 
 ---
 
 ## 81
 
-BLEU Score: 51.57
+BLEU Score: 10.57
 
 Hypothesis:
 ```text
-04/28T09:59:04 Pursuit of a Second Chance
+- You've qualified for the Grand Prix Final three times in a row.
 ```
 
 Reference:
 ```text
-04/28T09:59:04  Fight for second chance
+Grand Prix Final
 ```
 
 ---
 
 ## 82
 
-BLEU Score: 37.24
+BLEU Score: 9.65
 
 Hypothesis:
 ```text
-04/28T09:59:06 "THE HE" (THE HEC COUNTRY)
+a metal bat hits you.
 ```
 
 Reference:
 ```text
-04/28T09:59:06 「 The second.
+Metal bat crashed.
 ```
 
 ---
 
 ## 83
 
-BLEU Score: 3.67
+BLEU Score: 4.46
 
 Hypothesis:
 ```text
-This year, the fourth event will take place on March 28th.
+do you think the legendary z the bonchi's on a roll?
 ```
 
 Reference:
 ```text
-04/28T09:59:09  The third annual event this year
+Is the legend of the end of the legend?
 ```
 
 ---
 
 ## 84
 
-BLEU Score: 4.05
-
-Hypothesis:
-```text
-The eight teams that advanced to the Grand Prix Final will now compete in the Grand Prix Final.
-```
-
-Reference:
-```text
-04/28T09:59:11  Grand Prix of figure skating final
-```
-
----
-
-## 85
-
-BLEU Score: 2.91
-
-Hypothesis:
-```text
-The draw for the pairings was held on April 28th, October 9th, 2004.
-```
-
-Reference:
-```text
-04/28T09:59:14  A combination lottery meeting was done.
-```
-
----
-
-## 86
-
-BLEU Score: 2.93
-
-Hypothesis:
-```text
-The featured matchup for the first round is the 53rd anniversary team matchup.
-```
-
-Reference:
-```text
-04/28T09:59:17  The first notice card was formed in 53 years
-```
-
----
-
-## 87
-
-BLEU Score: 29.45
-
-Hypothesis:
-```text
-04/28T09:59:20 The Bonchi, who played a key role in the Showa-era manzai boom.
-```
-
-Reference:
-```text
-04/28T09:59:20  In the Showa comic boom boom
-```
-
----
-
-## 88
-
-BLEU Score: 15.62
-
-Hypothesis:
-```text
-He's qualified for the third consecutive Grand Prix Final.
-```
-
-Reference:
-```text
-04/28T09:59:24  Grand Prix Final
-```
-
----
-
-## 89
-
-BLEU Score: 48.33
-
-Hypothesis:
-```text
-04/28 T09:59:27 Metal bat collides.
-```
-
-Reference:
-```text
-04/28T09:59:27  Metal bat crashed.
-```
-
----
-
-## 90
-
-BLEU Score: 39.65
-
-Hypothesis:
-```text
-04/28T09:59:47 ≫Do the Legendary The Bonchi's Exciting Progress?≫
-```
-
-Reference:
-```text
-04/28T09:59:47 ≫ Legend of the phantom of the fight.
-```
-
----
-
-## 91
-
-BLEU Score: 15.39
+BLEU Score: 16.45
 
 Hypothesis:
 ```text
@@ -1455,1262 +1343,1262 @@ The Grand Prix Final is scheduled to air on the 17th of next month.
 
 Reference:
 ```text
-04/28T09:59:49  Grand Prix Final will be broadcast next month.
+Grand Prix Final will be broadcast next month.
+```
+
+---
+
+## 85
+
+BLEU Score: 6.29
+
+Hypothesis:
+```text
+A five-year-old girl and a woman in her 70s are both translating texts.
+```
+
+Reference:
+```text
+5 year old girl and woman of
+```
+
+---
+
+## 86
+
+BLEU Score: 3.46
+
+Hypothesis:
+```text
+and the thing that made me smile so hard was that i was able to translate
+```
+
+Reference:
+```text
+It was made to make a full smile
+```
+
+---
+
+## 87
+
+BLEU Score: 3.09
+
+Hypothesis:
+```text
+and since last friday, we've been working on this for golden week
+```
+
+Reference:
+```text
+Golden week week
+```
+
+---
+
+## 88
+
+BLEU Score: 0.00
+
+Hypothesis:
+```text
+The event is underway.
+```
+
+Reference:
+```text
+Have been held
+```
+
+---
+
+## 89
+
+BLEU Score: 3.74
+
+Hypothesis:
+```text
+The "Ice Cream Expo," also known as "Aipaku."
+```
+
+Reference:
+```text
+Ice cream - Wikipedia, the free.
+```
+
+---
+
+## 90
+
+BLEU Score: 17.97
+
+Hypothesis:
+```text
+This is the 10th anniversary.
+```
+
+Reference:
+```text
+10th anniversary this time.
+```
+
+---
+
+## 91
+
+BLEU Score: 0.00
+
+Hypothesis:
+```text
+The cumulative number of visitors exceeds 440,000.
+```
+
+Reference:
+```text
+More than 4.4 million people
 ```
 
 ---
 
 ## 92
 
-BLEU Score: 33.12
+BLEU Score: 11.04
 
 Hypothesis:
 ```text
-04/28T10:00:07 ≫A five-year-old girl and a woman in her 70s both have children.
+the largest ice cream event in the country
 ```
 
 Reference:
 ```text
-04/28T10:00:07 ≫ 5 year old girl and woman of
+Ice cream event
 ```
 
 ---
 
 ## 93
 
-BLEU Score: 15.32
+BLEU Score: 0.00
 
 Hypothesis:
 ```text
-04/28 10:00:09 They were making me smile with a big smile on their face
+an ice cream carefully selected by ice maniacs across the country
 ```
 
 Reference:
 ```text
-04/28T10:00:09  It was made to make a full smile
+Ice mania Japan
 ```
 
 ---
 
 ## 94
 
-BLEU Score: 4.20
+BLEU Score: 10.55
 
 Hypothesis:
 ```text
-- From last Friday through the Golden Week holidays,
+I can eat over 180 different kinds of food.
 ```
 
 Reference:
 ```text
-04/28T10:00:12  Golden week week
+You can eat more than 180 kinds.
 ```
 
 ---
 
 ## 95
 
-BLEU Score: 4.28
+BLEU Score: 19.07
 
 Hypothesis:
 ```text
-The competition is currently being held.
+As I walked around the stadium...
 ```
 
 Reference:
 ```text
-04/28T10:00:15  Have been held
+I'm in the field...
 ```
 
 ---
 
 ## 96
 
-BLEU Score: 14.81
+BLEU Score: 4.37
 
 Hypothesis:
 ```text
-04/28 T10:00:17 "Ice Cream Expo" also known as "Aipaku".
+and suddenly a customer is running up the line in a dashboard.
 ```
 
 Reference:
 ```text
-04/28T10:00:17 「 Ice cream is great!
+Suddenly, the customer who makes a column by dash.
 ```
 
 ---
 
 ## 97
 
-BLEU Score: 73.98
+BLEU Score: 22.09
 
 Hypothesis:
 ```text
-04/28T10:00:20 10th anniversary.
+the identity of this suddenly formed procession.
 ```
 
 Reference:
 ```text
-04/28T10:00:20  10th anniversary this time.
+The true identity of this matrix.
 ```
 
 ---
 
 ## 98
 
-BLEU Score: 0.00
+BLEU Score: 8.14
 
 Hypothesis:
 ```text
-The total number of visitors exceeds 440,000.
+I was actually giving away pre-release new products for free.
 ```
 
 Reference:
 ```text
-04/28T10:00:22  More than 4.4 million people
+Actually, I distributed the new goods before the release free.
 ```
 
 ---
 
 ## 99
 
-BLEU Score: 20.69
+BLEU Score: 4.77
 
 Hypothesis:
 ```text
-04/28 10:00:27 PM A major domestic ice cream event.
+I can even get a free ice cream.
 ```
 
 Reference:
 ```text
-04/28T10:00:27  Ice cream event
+Free ice
 ```
 
 ---
 
 ## 100
 
-BLEU Score: 16.62
+BLEU Score: 20.16
 
 Hypothesis:
 ```text
-04/28 10:00:31 A selection of ice cream by ice maniacs across Japan
+This event is something fans will absolutely love.
 ```
 
 Reference:
 ```text
-04/28T10:00:31  Ice mania Japan
+This event is unpleasant to fans.
 ```
 
 ---
 
 ## 101
 
-BLEU Score: 5.82
+BLEU Score: 7.50
 
 Hypothesis:
 ```text
-- I can eat over 180 different foods.
+The project is supervised by over 1,000 translators a year.
 ```
 
 Reference:
 ```text
-04/28T10:00:33  You can eat more than 180 kinds.
+To supervise more than 1000 kinds a year
 ```
 
 ---
 
 ## 102
 
-BLEU Score: 20.33
+BLEU Score: 5.06
 
 Hypothesis:
 ```text
-04/28 At 10:00:36 AM while walking around the stadium…
+The ice cream expert, Mr. Fukudome, is an expert at eating ice cream.
 ```
 
 Reference:
 ```text
-04/28T10:00:36  I'm in the field...
+Ice cream expert eisoku FUKUDOME.
 ```
 
 ---
 
 ## 103
 
-BLEU Score: 16.70
+BLEU Score: 7.77
 
 Hypothesis:
 ```text
-04/28 T10:00:46 ≫A customer suddenly lines up by sprinting.
+and so we carefully selected the ice cream from all over the country
 ```
 
 Reference:
 ```text
-04/28T10:00:46 ≫ Suddenly, the customer who makes a column by dash.
+Even in the whole country ice carefully selected carefully
 ```
 
 ---
 
 ## 104
 
-BLEU Score: 25.34
+BLEU Score: 0.00
 
 Hypothesis:
 ```text
-04/28 T10:00:57 ≫The identity of this suddenly formed procession.
+The Iceman Fukudome particularly recommends this translation:
 ```
 
 Reference:
 ```text
-04/28T10:00:57 ≫ The true identity of this matrix.
+Iesop FUKUDOME
 ```
 
 ---
 
 ## 105
 
-BLEU Score: 25.64
+BLEU Score: 10.55
 
 Hypothesis:
 ```text
-04/28T10:01:00 What's really happening is that we were still giving away free copies of the new product before its release.
+I'd like to introduce two dishes to you.
 ```
 
 Reference:
 ```text
-04/28T10:01:00  Actually, I distributed the new goods before the release free.
+I introduce two goods.
 ```
 
 ---
 
 ## 106
 
-BLEU Score: 24.77
+BLEU Score: 11.73
 
 Hypothesis:
 ```text
-04/28T10:01:10 ≫Free ice cream for free≫ You are a professional translator. Translate your text into English.
+At first glance, it looks like normal soft-serve ice cream.
 ```
 
 Reference:
 ```text
-04/28T10:01:10 ≫ Get free ice
+At first, it is a usual soft cream.
 ```
 
 ---
 
 ## 107
 
-BLEU Score: 65.55
+BLEU Score: 22.09
 
 Hypothesis:
 ```text
-04/28T10:01:12 This event is something fans will love.
+But when I say it...
 ```
 
 Reference:
 ```text
-04/28T10:01:12  This event is unpleasant to fans.
+But if you talk...
 ```
 
 ---
 
 ## 108
 
-BLEU Score: 2.72
+BLEU Score: 12.76
 
 Hypothesis:
 ```text
-The supervisor is a professional translator who oversees over 1,000 different types of text each year.
+and many people were surprised by the fluffy texture
 ```
 
 Reference:
 ```text
-04/28T10:01:17  To supervise more than 1000 kinds a year
+There were many people who were surprised at the flutter
 ```
 
 ---
 
 ## 109
 
-BLEU Score: 28.75
+BLEU Score: 5.75
 
 Hypothesis:
 ```text
-04/28T10:01:20 Ice-eating expert Mr. Fukudome, the "Iceman," eats ice cream.
+The popular shop in Hokkaido, Mashure no Jersey Milk Soft serve Jersey Milk Soft serve.
 ```
 
 Reference:
 ```text
-04/28T10:01:20  Ice cream expert eisoku FUKUDOME.
+It is Jersey milk software of the popular shop of Hokkaido.
 ```
 
 ---
 
 ## 110
 
-BLEU Score: 19.97
+BLEU Score: 23.90
 
 Hypothesis:
 ```text
-04/28T10:01:37 ≫The selection process was meticulously chosen through a rigorous selection process, and it is one of the best ice creams in Japan.
+A soft-serve ice cream made only with local jersey milk and sugar.
 ```
 
 Reference:
 ```text
-04/28T10:01:37 ≫ Even in the whole country ice carefully selected carefully
+Soft cream made from local Jersey milk and sugar.
 ```
 
 ---
 
 ## 111
 
-BLEU Score: 34.82
+BLEU Score: 10.23
 
 Hypothesis:
 ```text
-04/28T10:01:39 Ice Man Fukudome recommends this as a top pick.
+The secret to creating that fluffy feel… is…
 ```
 
 Reference:
 ```text
-04/28T10:01:39  Iesop FUKUDOME
+The secret that makes me feel fluffy...
 ```
 
 ---
 
 ## 112
 
-BLEU Score: 4.09
+BLEU Score: 14.99
 
 Hypothesis:
 ```text
-I'd like to introduce you to our second-course meal.
+This is the world's most advanced soft-serve ice cream machine.
 ```
 
 Reference:
 ```text
-04/28T10:01:43  I introduce two goods.
+The world's largest soft cream machine.
 ```
 
 ---
 
 ## 113
 
-BLEU Score: 38.07
+BLEU Score: 51.70
 
 Hypothesis:
 ```text
-04/28T10:01:47 What looks like ordinary popsicle cream at first glance.
+The price is about 3 million yen!
 ```
 
 Reference:
 ```text
-04/28T10:01:47  At first, it is a usual soft cream.
+How much is about 3 million yen?
 ```
 
 ---
 
 ## 114
 
-BLEU Score: 37.90
+BLEU Score: 5.67
 
 Hypothesis:
 ```text
-04/28T10:01:49 I'm afraid I'm going to have to translate something...
+and because it's so expensive and made in italy
 ```
 
 Reference:
 ```text
-04/28T10:01:49  But if you talk...
+Its quality and being produced in Italy
 ```
 
 ---
 
 ## 115
 
-BLEU Score: 18.21
+BLEU Score: 9.86
 
 Hypothesis:
 ```text
-04/28 T10:01:54 ≫A fluffy texture surprised many people to see
+and they're called the ferrari of soft serve ice cream.
 ```
 
 Reference:
 ```text
-04/28T10:01:54 ≫ There was a surprise in the mouth
+It is called the Ferrari of the soft cream world.
 ```
 
 ---
 
 ## 116
 
-BLEU Score: 32.18
+BLEU Score: 8.05
 
 Hypothesis:
 ```text
-04/28T10:01:58 What's New: The popular Mashure no Jersey Milk Soft Drink from Hokkaido.
+and the most distinctive feature is the fine grain of the bubbles
 ```
 
 Reference:
 ```text
-04/28T10:01:58  It is Jersey milk software of the popular shop of Hokkaido.
+The biggest feature is with fine bubbles
 ```
 
 ---
 
 ## 117
 
-BLEU Score: 45.31
+BLEU Score: 4.46
 
 Hypothesis:
 ```text
-04/28T10:02:02 JAPAN: Soft-serve ice cream made only with local milk and sugar.
+The ability to create soft ice cream with a fluffy texture.
 ```
 
 Reference:
 ```text
-04/28T10:02:02  Soft cream made from local Jersey milk and sugar.
+Make soft cream soft feeling.
 ```
 
 ---
 
 ## 118
 
-BLEU Score: 3.97
+BLEU Score: 47.99
 
 Hypothesis:
 ```text
-The secret to creating a fluffy feel… is…
+the amount of air that determines the texture of ice cream
 ```
 
 Reference:
 ```text
-04/28T10:02:08  The secret that makes me feel fluffy...
+The amount of air that determines the ice
 ```
 
 ---
 
 ## 119
 
-BLEU Score: 11.45
+BLEU Score: 19.08
 
 Hypothesis:
 ```text
-04/28 10:02 11:02 PM: Here comes the world's premier ice cream machine.
+and because it can be perfectly adjusted to match the material
 ```
 
 Reference:
 ```text
-04/28T10:02:11  The world's largest soft cream machine.
+Because it can be adjusted easily to the material
 ```
 
 ---
 
 ## 120
 
-BLEU Score: 16.22
+BLEU Score: 7.81
 
 Hypothesis:
 ```text
-The price is about 3 million yen! (or about 3 million yen at about 10.02:02 PM on April 28th!)
+and we can create this texture.
 ```
 
 Reference:
 ```text
-04/28T10:02:17  How much is about 3 million yen?
+This food can be produced.
 ```
 
 ---
 
 ## 121
 
-BLEU Score: 60.26
+BLEU Score: 3.39
 
 Hypothesis:
 ```text
-04/28T10:02:21 Due to its luxury and being produced in Italy
+and on the other hand, something like a shaky shaky object
 ```
 
 Reference:
 ```text
-04/28T10:02:21  Its quality and being produced in Italy
+The other side of this is
 ```
 
 ---
 
 ## 122
 
-BLEU Score: 55.88
+BLEU Score: 8.12
 
 Hypothesis:
 ```text
-04/28T10:02:24 Soft-Serve Ice Cream is called the Ferrari of the soft-serve ice-cream world.
+The ice cream is well-crafted.
 ```
 
 Reference:
 ```text
-04/28T10:02:24  It is called the Ferrari of the soft cream world.
+Ice mixed.
 ```
 
 ---
 
 ## 123
 
-BLEU Score: 10.65
+BLEU Score: 29.85
 
 Hypothesis:
 ```text
-04/28 10:02 31 Minimum characteristic feature is fine-grained bubbles
+The sweetness and saltyness that the customer felt.
 ```
 
 Reference:
 ```text
-04/28T10:02:31  The biggest feature is with fine bubbles
+How sweet the customer felt.
 ```
 
 ---
 
 ## 124
 
-BLEU Score: 7.69
+BLEU Score: 9.03
 
 Hypothesis:
 ```text
-04/28 10:02 37 The ability to make fluffy and soft ice cream.
+This is actually a bacon-infused ice cream.
 ```
 
 Reference:
 ```text
-04/28T10:02:37  Make soft cream soft feeling.
+In fact, this is ice cream made of bacon.
 ```
 
 ---
 
 ## 125
 
-BLEU Score: 29.74
+BLEU Score: 50.27
 
 Hypothesis:
 ```text
-04/28T10:02:40 Ice texture is determined by the amount of air in the air that affects the texture of ice.
+The ice cream parlor in Yokosuka City created this.
 ```
 
 Reference:
 ```text
-04/28T10:02:40  The amount of air that determines the ice
+I made this popular ice cream parlor in Yokosuka City.
 ```
 
 ---
 
 ## 126
 
-BLEU Score: 36.95
+BLEU Score: 7.81
 
 Hypothesis:
 ```text
-04/28T10:02:43 Matching materials with exquisite adjustment
+the owner ate maple syrup in america
 ```
 
 Reference:
 ```text
-04/28T10:02:43  Because it can be adjusted easily to the material
+Maple syrup made in America
 ```
 
 ---
 
 ## 127
 
-BLEU Score: 39.65
+BLEU Score: 0.00
 
 Hypothesis:
 ```text
-04/28T10:02:46 What a professional translator can create this texture.
+and i combined bacon and donuts
 ```
 
 Reference:
 ```text
-04/28T10:02:46  This food can be produced.
+Bacon & doughnut
 ```
 
 ---
 
 ## 128
 
-BLEU Score: 39.08
+BLEU Score: 22.42
 
 Hypothesis:
 ```text
-04/28T10:02:57 ≫On the other hand, something like a shaky object is falling from above.
+It seems to have been inspired by sweet and salty dishes.
 ```
 
 Reference:
 ```text
-04/28T10:02:57 ≫ On the other hand, here is something
+It seems to have gotten the idea from the sweetpotato dish.
 ```
 
 ---
 
 ## 129
 
-BLEU Score: 53.32
+BLEU Score: 13.13
 
 Hypothesis:
 ```text
-04/28T10:03:00 A well-crafted ice cream.
+from the world's finest soft serve ice cream
 ```
 
 Reference:
 ```text
-04/28T10:03:00  Ice mixed.
+From the world's best soft cream
 ```
 
 ---
 
 ## 130
 
-BLEU Score: 26.94
+BLEU Score: 4.46
 
 Hypothesis:
 ```text
-04/28T10:03:09 ≫The sweet-savory taste that the customer felt. *The translation is only done with the explanation and extra commentary not included.
+The “Aipaku” offers even the most unusual kinds of ice cream.
 ```
 
 Reference:
 ```text
-04/28T10:03:09 ≫ How sweet the customer felt.
+It is able to enjoy the eccentric ice.
 ```
 
 ---
 
 ## 131
 
-BLEU Score: 31.45
+BLEU Score: 5.52
 
 Hypothesis:
 ```text
-04/28T10:03:11 Aren't you supposed to know this? This is ice cream with bacon kneaded into it.
+and my dream of being an ice enthusiast
 ```
 
 Reference:
 ```text
-04/28T10:03:11  In fact, this is ice cream made of bacon.
+And I like ice cream
 ```
 
 ---
 
 ## 132
 
-BLEU Score: 48.46
+BLEU Score: 8.91
 
 Hypothesis:
 ```text
-04/28 10:03:17 This was made by a popular ice cream parlor in Yokosuka City.
+I'd really like to try that fluffy soft-serve ice cream.
 ```
 
 Reference:
 ```text
-04/28T10:03:17  I made this popular ice cream parlor in Yokosuka City.
+I want to eat that soft soft cream.
 ```
 
 ---
 
 ## 133
 
-BLEU Score: 19.56
+BLEU Score: 0.00
 
 Hypothesis:
 ```text
-04/28 10:03:23 Store owner's maple syrup and syrup from America
+I wonder what it feels like, just a little… I can’t quite picture it…
 ```
 
 Reference:
 ```text
-04/28T10:03:23  Maple syrup made in America
+How do you feel?
 ```
 
 ---
 
 ## 134
 
-BLEU Score: 0.00
+BLEU Score: 4.75
 
 Hypothesis:
 ```text
-- A combination of bacon and donuts.
+i wonder how many people there are going to the venue who will eat so many things.
 ```
 
 Reference:
 ```text
-04/28T10:03:27  Bacon & doughnut
+How many people do you go there?
 ```
 
 ---
 
 ## 135
 
-BLEU Score: 3.63
+BLEU Score: 3.67
 
 Hypothesis:
 ```text
-The inspiration came from a sweet and savory dish. It seems they were inspired by something they ate. Only the translation was output without any explanations or extra commentary.
+the ice cream's all we got... "Aipaku"?
 ```
 
 Reference:
 ```text
-04/28T10:03:29  It seems to have gotten the idea from the sweetpotato dish.
+There is only ice cream.
 ```
 
 ---
 
 ## 136
 
-BLEU Score: 35.75
+BLEU Score: 6.27
 
 Hypothesis:
 ```text
-04/28T10:03:38 ≫From the world's finest ice cream shops...≫
+and eat as many pieces as you like.
 ```
 
 Reference:
 ```text
-04/28T10:03:38 ≫ From soft cream of the world
+Eat many and many people.
 ```
 
 ---
 
 ## 137
 
-BLEU Score: 8.20
+BLEU Score: 4.99
 
 Hypothesis:
 ```text
-04/28 10:03:41 PM Aipaku offers even more than just unusual ice cream. Aipaku provides a wide range of translations. Only explanations and additional commentary are not needed.
+i could probably buy some souvenirs for you too.
 ```
 
 Reference:
 ```text
-04/28T10:03:41  It is able to enjoy the eccentric ice.
+You can buy it by souvenir.
 ```
 
 ---
 
 ## 138
 
-BLEU Score: 31.04
+BLEU Score: 7.81
 
 Hypothesis:
 ```text
-04/28T10:03:45 IIMZ: And my dream of being an ice skater comes true.
+but that kind of "aipaku"
 ```
 
 Reference:
 ```text
-04/28T10:03:45  And I like ice cream
+Such as "Aaron"
 ```
 
 ---
 
 ## 139
 
-BLEU Score: 32.18
+BLEU Score: 6.84
 
 Hypothesis:
 ```text
-04/28T10:03:58 What a treat! I'd love to try that fluffy soft-serve ice cream.
+So a lot of people were comparing the tastes of the foods.
 ```
 
 Reference:
 ```text
-04/28T10:03:58  I want to eat that soft soft cream.
+Many people were compared.
 ```
 
 ---
 
 ## 140
 
-BLEU Score: 32.70
+BLEU Score: 8.49
 
 Hypothesis:
 ```text
-04/28T10:04:02 ≫I wonder what it feels like, I just can’t imagine…
+And I really hope that you will enjoy comparing the flavors with everyone.
 ```
 
 Reference:
 ```text
-04/28T10:04:02 ≫ How do you feel?
+And I would like to enjoy everyone.
 ```
 
 ---
 
 ## 141
 
-BLEU Score: 19.15
+BLEU Score: 0.00
 
 Hypothesis:
 ```text
-04/28T10:04:04 ≫Weren't you going to eat a lot of things to eat? I wonder how many things you're going to eat at the venue!≫
+This time, we have Iceman Fukudome, who oversees the event, as our main translator.
 ```
 
 Reference:
 ```text
-04/28T10:04:04 ≫ How many people eat there?
+Ieshima FUKUDOME
 ```
 
 ---
 
 ## 142
 
-BLEU Score: 32.18
+BLEU Score: 4.99
 
 Hypothesis:
 ```text
-04/28T10:04:07 ≫We only have ice cream, right? "Aipaku" sounds good.
+We prepared it for Peach Food Tasting Ice Studio.
 ```
 
 Reference:
 ```text
-04/28T10:04:07 ≫ There is only ice cream.
+The ice studio was prepared.
 ```
 
 ---
 
 ## 143
 
-BLEU Score: 28.01
+BLEU Score: 12.30
 
 Hypothesis:
 ```text
-04/28T10:04:10 ≫The most favorite thing to do is eat as many pieces as you like.
+The farmers in Yamanashi Prefecture are making it for you to compare the two.
 ```
 
 Reference:
 ```text
-04/28T10:04:10 ≫ Eat many and many people.
+A farmer in Yamanashi Prefecture is able to compare
 ```
 
 ---
 
 ## 144
 
-BLEU Score: 34.99
+BLEU Score: 7.47
 
 Hypothesis:
 ```text
-04/28T10:04:12 ≫I think I might go buy some souvenirs.
+You can choose from two types of gelato with six different peach flavors.
 ```
 
 Reference:
 ```text
-04/28T10:04:12 ≫ It seems that you can buy it by souvenir.
+2 different types of peach gelato.
 ```
 
 ---
 
 ## 145
 
-BLEU Score: 40.02
+BLEU Score: 9.24
 
 Hypothesis:
 ```text
-04/28T10:04:16 ≫But that "aipaku"...
+The most popular summer fruits, golden peaches, were especially popular.
 ```
 
 Reference:
 ```text
-04/28T10:04:16 ≫ I 'm like'
+It is especially popular summer robe and golden peach.
 ```
 
 ---
 
 ## 146
 
-BLEU Score: 29.11
+BLEU Score: 5.30
 
 Hypothesis:
 ```text
-04/28T10:04:19 A lot of people were comparing the tastes of your food, wasn’t it?
+First off, everyone, please get ready for summer.
 ```
 
 Reference:
 ```text
-04/28T10:04:19  Many people were compared.
+First of all, you can say from summer camp.
 ```
 
 ---
 
 ## 147
 
-BLEU Score: 43.01
+BLEU Score: 19.64
 
 Hypothesis:
 ```text
-04/28T10:04:23 And I really want everyone to enjoy comparing the flavors of these foods.
+It's delicious! Wow, that's a amazing peach!
 ```
 
 Reference:
 ```text
-04/28T10:04:23  And I would like to enjoy everyone.
+Delicious! Wow, wow peach!
 ```
 
 ---
 
 ## 148
 
-BLEU Score: 22.93
+BLEU Score: 50.81
 
 Hypothesis:
 ```text
-04/28T10:04:27 This time, we have Iceman Fukudome, who oversees the event, as our exclusive editor-in-chief.
+The flesh is also included!
 ```
 
 Reference:
 ```text
-04/28T10:04:27  Ieshima FUKUDOME
+Flesh is also included!
 ```
 
 ---
 
 ## 149
 
-BLEU Score: 1.65
+BLEU Score: 6.75
 
 Hypothesis:
 ```text
-We have prepared this for you at the Peach Food Battle Ice Studio. Please leave the translation alone and I will output only the translation.
+the moment you eat it, it feels like peach ice cream, but
 ```
 
 Reference:
 ```text
-04/28T10:04:29  The ice studio was prepared.
+I feel the ice cream is peach
 ```
 
 ---
 
 ## 150
 
-BLEU Score: 26.60
+BLEU Score: 7.47
 
 Hypothesis:
 ```text
-04/28T10:04:32 Eaten comparing is made by a farmer in Yamanashi Prefecture. . Only the translation is outputted without any explanation or extra commentary.
+And then, just a hint of peach aroma. It's amazingly delicious!
 ```
 
 Reference:
 ```text
-04/28T10:04:32  A farmer in Yamanashi Prefecture is able to compare
+After that, there is a scent of peach. Delicious!
 ```
 
 ---
 
 ## 151
 
-BLEU Score: 18.71
+BLEU Score: 12.70
 
 Hypothesis:
 ```text
-04/28 10:04:35 From six peach gelato flavors, two are available.
+this is seriously delicious!
 ```
 
 Reference:
 ```text
-04/28T10:04:35  2 different types of peach gelato.
+It is nicely delicious.
 ```
 
 ---
 
 ## 152
 
-BLEU Score: 28.07
+BLEU Score: 9.67
 
 Hypothesis:
 ```text
-04/28T10:04:38 4/28 Summer peaches, especially the highly popular Golden Peach and Summer Peaches.
+- With gelato retaining the texture of 100% fully-focused peach flesh.
 ```
 
 Reference:
 ```text
-04/28T10:04:38  It is especially popular summer robe and golden peach.
+Gelato with 100% of the power of peach flesh
 ```
 
 ---
 
 ## 153
 
-BLEU Score: 34.82
+BLEU Score: 6.03
 
 Hypothesis:
 ```text
-04/28T10:04:43 Please take your time and start your day with summer.
+The most distinctive feature is its sticky texture.
 ```
 
 Reference:
 ```text
-04/28T10:04:43  First of all, you can say from summer camp.
+It is the feature that the texture is neat.
 ```
 
 ---
 
 ## 154
 
-BLEU Score: 40.86
+BLEU Score: 8.64
 
 Hypothesis:
 ```text
-04/28T10:04:49 ≫Ooh, how delicious! Wow, that's a huge peach!
+and this was the summer flood.
 ```
 
 Reference:
 ```text
-04/28T10:04:49 ≫ Delicious! Wow, wow peach!
+This was summer season.
 ```
 
 ---
 
 ## 155
 
-BLEU Score: 47.62
+BLEU Score: 32.47
 
 Hypothesis:
 ```text
-04/28T10:04:53 ≫The flesh is also inside!
+And I hope you enjoy the golden peach too.
 ```
 
 Reference:
 ```text
-04/28T10:04:53 ≫ The flesh also comes in!
+I hope you enjoy golden peach.
 ```
 
 ---
 
 ## 156
 
-BLEU Score: 14.73
+BLEU Score: 10.01
 
 Hypothesis:
 ```text
-04/28 T10:05:00 ≫The moment I eat it feels like peach ice cream, though...
+This peach farmer's peach is characterized by its juicy sweetness and umami flavor. Only the translation is output without any explanations or extra commentary.
 ```
 
 Reference:
 ```text
-04/28T10:05:00 ≫ I feel the ice cream is peach
+This is characterized by juicy sweetness and delicious according to peach farmer.
 ```
 
 ---
 
 ## 157
 
-BLEU Score: 60.29
+BLEU Score: 4.46
 
 Hypothesis:
 ```text
-04/28T10:05:03 After that, a gentle scent of peach. It's incredibly delicious!
+Please, everyone, I beg you. Have a meal.
 ```
 
 Reference:
 ```text
-04/28T10:05:03  After that, there is a scent of peach. Delicious!
+Ladies and gentlemen, please. Eat up.
 ```
 
 ---
 
 ## 158
 
-BLEU Score: 5.83
+BLEU Score: 3.46
 
 Hypothesis:
 ```text
-This is seriously delicious.
+Oh, no, no! Oh! It's delicious! It's good here!
 ```
 
 Reference:
 ```text
-04/28T10:05:06  It is nicely delicious.
+That's different. Ah! Delicious! This is good too.
 ```
 
 ---
 
 ## 159
 
-BLEU Score: 32.18
+BLEU Score: 39.76
 
 Hypothesis:
 ```text
-04/28T10:05:11 ≫100% full force, peach-fleshed gelato retaining the texture of the peach flesh
+It's a little different.
 ```
 
 Reference:
 ```text
-04/28T10:05:11 ≫ Gelato with 100% of the power of peach pulp
+A little different.
 ```
 
 ---
 
 ## 160
 
-BLEU Score: 7.96
+BLEU Score: 7.77
 
 Hypothesis:
 ```text
-04/28 10:05 16 The most distinctive feature is its sticky texture.
+'because the feeling of the summer sun over my peach skin was amazing
 ```
 
 Reference:
 ```text
-04/28T10:05:16  It is the feature that the texture is neat.
+Because the peach feeling of summer
 ```
 
 ---
 
 ## 161
 
-BLEU Score: 25.07
+BLEU Score: 5.93
 
 Hypothesis:
 ```text
-04/28T10:05:19 Sun.8/9 (Midsummer Sun. -) This has been a summer blizzard.
+It might seem a bit casual, you know.
 ```
 
 Reference:
 ```text
-04/28T10:05:19  This was summer season.
+It seems like a little bit.
 ```
 
 ---
 
 ## 162
 
-BLEU Score: 50.15
+BLEU Score: 6.25
 
 Hypothesis:
 ```text
-04/28T10:05:24 I hope you enjoy the golden peach as much as you enjoy the golden peach.
+i wonder what it is? it was in a kind of canned food here
 ```
 
 Reference:
 ```text
-04/28T10:05:24  I hope you enjoy golden peach.
+I wonder what the canned thing was
 ```
 
 ---
 
 ## 163
 
-BLEU Score: 7.07
-
-Hypothesis:
-```text
-The peach farmer says this is made with a juicy sweetness and umami flavor. Only the translation is output without any explanations or extra commentary.
-```
-
-Reference:
-```text
-04/28T10:05:30  This is characterized by juicy sweetness and delicious according to peach farmer.
-```
-
----
-
-## 164
-
-BLEU Score: 4.85
-
-Hypothesis:
-```text
-- Please, everyone, please eat this.
-```
-
-Reference:
-```text
-04/28T10:05:33  Ladies and gentlemen, please. Eat up.
-```
-
----
-
-## 165
-
-BLEU Score: 15.36
-
-Hypothesis:
-```text
-04/28 T10:05:37 ≫Oops. No! Oh! It's delicious! It's better here.
-```
-
-Reference:
-```text
-04/28T10:05:37 ≫ Yes. Ah! Delicious! This is good too.
-```
-
----
-
-## 166
-
-BLEU Score: 57.79
-
-Hypothesis:
-```text
-04/28T10:05:38 ちょっと違うね。
-```
-
-Reference:
-```text
-04/28T10:05:38  A little different.
-```
-
----
-
-## 167
-
-BLEU Score: 1.82
-
-Hypothesis:
-```text
-- Because summer's heat was so intense
-```
-
-Reference:
-```text
-04/28T10:05:47 ≫ Because I had a peach feeling of summer
-```
-
----
-
-## 168
-
-BLEU Score: 38.50
-
-Hypothesis:
-```text
-04/28T10:05:49 A little too plain, don't you think?
-```
-
-Reference:
-```text
-04/28T10:05:49  It seems like a little bit.
-```
-
----
-
-## 169
-
-BLEU Score: 28.01
-
-Hypothesis:
-```text
-04/28T10:05:52 ≫What do you think? It was in a so-called canned food box here.
-```
-
-Reference:
-```text
-04/28T10:05:52 ≫ I wonder what the canned thing was
-```
-
----
-
-## 170
-
-BLEU Score: 4.50
+BLEU Score: 10.79
 
 Hypothesis:
 ```text
@@ -2719,318 +2607,318 @@ The yellow one… oh, it’s delicious!
 
 Reference:
 ```text
-04/28T10:05:56  Yellow ones... Oh, delicious!
+Yellow ones... Oh, delicious!
+```
+
+---
+
+## 164
+
+BLEU Score: 12.22
+
+Hypothesis:
+```text
+I'm lost! Summer is so delicious!
+```
+
+Reference:
+```text
+Lost! Summer, delicious.
+```
+
+---
+
+## 165
+
+BLEU Score: 13.67
+
+Hypothesis:
+```text
+the summer yam soup had an impact because i ate it first.
+```
+
+Reference:
+```text
+I had an impact on the first time.
+```
+
+---
+
+## 166
+
+BLEU Score: 35.49
+
+Hypothesis:
+```text
+and there are six different kinds of peaches.
+```
+
+Reference:
+```text
+There are six kinds of peaches.
+```
+
+---
+
+## 167
+
+BLEU Score: 7.50
+
+Hypothesis:
+```text
+then this is really the best food comparison i've ever seen.
+```
+
+Reference:
+```text
+This is really compared to that.
+```
+
+---
+
+## 168
+
+BLEU Score: 5.52
+
+Hypothesis:
+```text
+We would definitely encourage everyone to take a look.
+```
+
+Reference:
+```text
+I want you to go to everyone.
+```
+
+---
+
+## 169
+
+BLEU Score: 40.02
+
+Hypothesis:
+```text
+The hugely popular "Aipaku" is running until the 6th of next month.
+```
+
+Reference:
+```text
+I'm doing it until the 6th of next month.
+```
+
+---
+
+## 170
+
+BLEU Score: 9.54
+
+Hypothesis:
+```text
+and why don't you come visit during golden week
+```
+
+Reference:
+```text
+During the golden week
 ```
 
 ---
 
 ## 171
 
-BLEU Score: 15.73
+BLEU Score: 7.27
 
 Hypothesis:
 ```text
-04/28 T10:06:00 ≫Lost in confusion!≫ Summer is hot, isn't it good.
+and here comes the singer, kobayashi Sachiko.
 ```
 
 Reference:
 ```text
-04/28T10:06:00 ≫ Lost! Summer, delicious.
+How about that? After that, Yukiko Kobayashi of the singer.
 ```
 
 ---
 
 ## 172
 
-BLEU Score: 12.58
+BLEU Score: 17.83
 
 Hypothesis:
 ```text
-The impact came because I ate it first, probably because I was eating summer vegetables for the first time.
+It follows the appearance of a large-scale event held this weekend.
 ```
 
 Reference:
 ```text
-04/28T10:06:03  I had an impact on the first time.
+It is closely related to the large-scale event appearance this weekend.
 ```
 
 ---
 
 ## 173
 
-BLEU Score: 35.85
+BLEU Score: 4.93
 
 Hypothesis:
 ```text
-04/28T10:06:09 ≫Well, there are six different types of peaches, you know.
+It became apparent how God treats young people without discrimination.
 ```
 
 Reference:
 ```text
-04/28T10:06:09 ≫ There are six kinds of peaches.
+The God correspondence with the youth is seen without distinction.
 ```
 
 ---
 
 ## 174
 
-BLEU Score: 28.01
+BLEU Score: 1.29
 
 Hypothesis:
 ```text
-04/28T10:06:11 ≫Well then, let's compare the two dishes! This is really the difference.
+The final boss suddenly burst forth at Makuhari Messe yesterday. It was a professional translation. Only the translation was output without any explanations or additional commentary.
 ```
 
 Reference:
 ```text
-04/28T10:06:11 ≫ I really like this.
+Yesterday, bossa nova came back to me.
 ```
 
 ---
 
 ## 175
 
-BLEU Score: 40.21
+BLEU Score: 43.67
 
 Hypothesis:
 ```text
-04/28T10:06:18 ≫We really want you all to go and translate this.
+The one at the center of this crowd was...
 ```
 
 Reference:
 ```text
-04/28T10:06:18 ≫ I want you to go to everyone.
+It was in the center of this crowd...
 ```
 
 ---
 
 ## 176
 
-BLEU Score: 25.17
+BLEU Score: 6.15
 
 Hypothesis:
 ```text
-The hugely popular "Aipaku" is being performed until the 6th of next month. It will run until the 28th of April at 10:06:19 PM.
+The seven-year-old Sachiko Kobayashi, nicknamed the "Rasboss," is a professional translator.
 ```
 
 Reference:
 ```text
-04/28T10:06:19  I'm doing it until the 6th of next month.
+Yukiko Kobayashi, who has a different name of rasbos, 71 years old.
 ```
 
 ---
 
 ## 177
 
-BLEU Score: 44.29
+BLEU Score: 21.36
 
 Hypothesis:
 ```text
-04/28T10:06:21 During Golden Week, why not visit us?
+this weekend at makuhari messe
 ```
 
 Reference:
 ```text
-04/28T10:06:21  During the golden week
+Makuhari Messe this weekend
 ```
 
 ---
 
 ## 178
 
-BLEU Score: 44.02
+BLEU Score: 18.80
 
 Hypothesis:
 ```text
-04/28T10:06:24 How about this? Now let's hear it from singer Sachiko Kobayashi.
+You can experience the culture originating on the internet in a realistic setting.
 ```
 
 Reference:
 ```text
-04/28T10:06:24  How about that? After that, Yukiko Kobayashi of the singer.
+You can experience the net culture
 ```
 
 ---
 
 ## 179
 
-BLEU Score: 44.48
+BLEU Score: 39.76
 
 Hypothesis:
 ```text
-04/28T10:06:27 An interview about the large-scale event that took place this weekend.
+The largest event in Japan
 ```
 
 Reference:
 ```text
-04/28T10:06:27  It is closely related to the large-scale event appearance this weekend.
+Largest event in Japan
 ```
 
 ---
 
 ## 180
 
-BLEU Score: 11.10
+BLEU Score: 16.06
 
 Hypothesis:
 ```text
-04/28 10:06:30 I can see God’s response to the way he treats young people, regardless of their social status.
+I appeared on "Niconico Super Conference 2025".
 ```
 
 Reference:
 ```text
-04/28T10:06:30  The God correspondence with the youth is seen without distinction.
+It appeared in "Nico Nico super conference 2025".
 ```
 
 ---
 
 ## 181
 
-BLEU Score: 48.59
+BLEU Score: 0.00
 
 Hypothesis:
 ```text
-04/28T10:06:39 ≫A final boss call suddenly erupted at Makuhari Messe yesterday.
+i'll do everything i can to help you enjoy your cosplay or fan activities
 ```
 
 Reference:
 ```text
-04/28T10:06:39 ≫ Rasbos call that happened suddenly in Makuhari Messe yesterday.
+Cosplay and prop
 ```
 
 ---
 
 ## 182
 
-BLEU Score: 47.86
+BLEU Score: 10.55
 
 Hypothesis:
 ```text
-04/28T10:06:41 What was at the center of this crowd…?
+as an event where you can express yourself fully
 ```
 
 Reference:
 ```text
-04/28T10:06:41  It was in the center of this crowd...
+As an event that can be expressed freely
 ```
 
 ---
 
 ## 183
 
-BLEU Score: 29.89
-
-Hypothesis:
-```text
-04/28T10:06:52 ≫Ms. Sachiko Kobayashi, known as the "The 7-1-1 Boss," is 71 years old.
-```
-
-Reference:
-```text
-04/28T10:06:52 ≫ Yukiko Kobayashi, who has the different name of rasbos, 71 years old.
-```
-
----
-
-## 184
-
-BLEU Score: 16.62
-
-Hypothesis:
-```text
-The 28th, Tue, 10:06:58 This weekend at Makuhari Messe...
-```
-
-Reference:
-```text
-04/28T10:06:58  Makuhari Messe this weekend
-```
-
----
-
-## 185
-
-BLEU Score: 50.09
-
-Hypothesis:
-```text
-04/28T10:07:00 A real-life experience of internet culture
-```
-
-Reference:
-```text
-04/28T10:07:00  You can experience the net culture
-```
-
----
-
-## 186
-
-BLEU Score: 59.78
-
-Hypothesis:
-```text
-04/28T10:07:03 Japan's largest event
-```
-
-Reference:
-```text
-04/28T10:07:03  Largest event in Japan
-```
-
----
-
-## 187
-
-BLEU Score: 13.79
-
-Hypothesis:
-```text
-On April 28th at 10:07:07 AM, I appeared on “Niconico Super Conference 2025.”
-```
-
-Reference:
-```text
-04/28T10:07:07 「 It appeared in the 2025 smile conference.
-```
-
----
-
-## 188
-
-BLEU Score: 51.29
-
-Hypothesis:
-```text
-04/28T10:07:14 Cosplay and fan activity – everyone’s favorite things!
-```
-
-Reference:
-```text
-04/28T10:07:14  Cosplay and prop
-```
-
----
-
-## 189
-
-BLEU Score: 16.79
-
-Hypothesis:
-```text
-04/28T10:07:17 I wanted to create an event where we could express ourselves fully. I wanted to make it something we could really express ourselves to the fullest extent possible.
-```
-
-Reference:
-```text
-04/28T10:07:17  As an event that can be expressed freely
-```
-
----
-
-## 190
-
-BLEU Score: 14.42
+BLEU Score: 26.27
 
 Hypothesis:
 ```text
@@ -3039,2382 +2927,2366 @@ The event drew over 130,000 visitors in two days.
 
 Reference:
 ```text
-04/28T10:07:20  More than 130000 people come in two days.
+More than 130000 people come in two days.
+```
+
+---
+
+## 184
+
+BLEU Score: 10.55
+
+Hypothesis:
+```text
+and it will be live-streamed to the entire world
+```
+
+Reference:
+```text
+The pattern is delivered to the whole world
+```
+
+---
+
+## 185
+
+BLEU Score: 21.36
+
+Hypothesis:
+```text
+it's a big event.
+```
+
+Reference:
+```text
+Big event.
+```
+
+---
+
+## 186
+
+BLEU Score: 33.18
+
+Hypothesis:
+```text
+And speaking of Sachiko-san at such a big event...
+```
+
+Reference:
+```text
+Yukiko in such big event...
+```
+
+---
+
+## 187
+
+BLEU Score: 47.04
+
+Hypothesis:
+```text
+- You can fly in the sky on a crane...
+```
+
+Reference:
+```text
+Flying in the sky on a crane.
+```
+
+---
+
+## 188
+
+BLEU Score: 23.36
+
+Hypothesis:
+```text
+Playing professional wrestling with Bob Sapp...
+```
+
+Reference:
+```text
+Bob Sapp and pro wrestling...
+```
+
+---
+
+## 189
+
+BLEU Score: 4.19
+
+Hypothesis:
+```text
+She has appeared 13 times in a row this year, including becoming a "gal" (a young woman who has become a professional model).
+```
+
+Reference:
+```text
+It becomes a gal and it continuously appears 13 times this year.
+```
+
+---
+
+## 190
+
+BLEU Score: 7.77
+
+Hypothesis:
+```text
+The audience is surprised every year by the new challenges they take on.
+```
+
+Reference:
+```text
+Every year, new things are challenged and surprised by the audience.
 ```
 
 ---
 
 ## 191
 
-BLEU Score: 25.88
+BLEU Score: 21.36
 
 Hypothesis:
 ```text
-04/28T10:07:26 The event will be live-streamed worldwide. Only the translation will be output. No explanations or additional commentary.
+What will they have to show you this year?
 ```
 
 Reference:
 ```text
-04/28T10:07:26  The pattern is delivered to the whole world
+What will you show me this year?
 ```
 
 ---
 
 ## 192
 
-BLEU Score: 8.33
+BLEU Score: 6.57
 
 Hypothesis:
 ```text
-This is a big event.
+and nonstop! is a professional translator
 ```
 
 Reference:
 ```text
-04/28T10:07:29  Big event.
+"Nonstop!"
 ```
 
 ---
 
 ## 193
 
-BLEU Score: 39.65
+BLEU Score: 5.99
 
 Hypothesis:
 ```text
-04/28T10:07:31 As for Sachiko at such a big event…?
+We followed Sachiko-san closely for two days while she appeared on the TV program "Niconico Super Conference".
 ```
 
 Reference:
 ```text
-04/28T10:07:31  Yukiko in such big event...
+It became tight in two days of Yukiko who appeared in "Nikko Ko super conference".
 ```
 
 ---
 
 ## 194
 
-BLEU Score: 41.37
+BLEU Score: 46.92
 
 Hypothesis:
 ```text
-04/28T10:07:39 ≫I flew through the air on a crane…
+thank you for your help at the end of the year.
 ```
 
 Reference:
 ```text
-04/28T10:07:39 ≫ Flying in the sky with crane.
+Thank you for the end of the year.
 ```
 
 ---
 
 ## 195
 
-BLEU Score: 64.14
+BLEU Score: 16.52
 
 Hypothesis:
 ```text
-04/28T10:07:44 Bob Sapp and I got into pro wrestling…
+I want our customers to enjoy it!
 ```
 
 Reference:
 ```text
-04/28T10:07:44  Bob Sapp and pro wrestling...
+I want you to enjoy the visitor!
 ```
 
 ---
 
 ## 196
 
-BLEU Score: 9.97
+BLEU Score: 4.20
 
 Hypothesis:
 ```text
-04/28 T10:07:53 She made her 13th consecutive appearance this year, becoming a "gal" (a young woman who has become a professional model).
+And so my first step was to go for that…
 ```
 
 Reference:
 ```text
-04/28T10:07:53  It becomes a gal and it continuously appears 13 times this year.
+First of all, I headed first.
 ```
 
 ---
 
 ## 197
 
-BLEU Score: 19.91
+BLEU Score: 16.78
 
 Hypothesis:
 ```text
-The 28th April 10:07:59 I’m always trying new things and surprising the audience.
+the guests and viewers brought their own texts in realtime
 ```
 
 Reference:
 ```text
-04/28T10:07:59  Every year, new things are challenged and surprised by the audience.
+Guests and viewers brought in real time
 ```
 
 ---
 
 ## 198
 
-BLEU Score: 80.03
+BLEU Score: 10.68
 
 Hypothesis:
 ```text
-04/28T10:08:01 What will you show us this year?
+and make it with gifts
 ```
 
 Reference:
 ```text
-04/28T10:08:01  What will you show me this year?
+To make something
 ```
 
 ---
 
 ## 199
 
-BLEU Score: 20.21
+BLEU Score: 8.39
 
 Hypothesis:
 ```text
-04/28T10:08:04 "Nonstop!" is a Japanese television program where participants perform translations without explanation or commentary. Only the translation is outputted.
+The booth where you can order a unique curry.
 ```
 
 Reference:
 ```text
-04/28T10:08:04 「 Nonstop! If
+Booth ordered only one curry.
 ```
 
 ---
 
 ## 200
 
-BLEU Score: 5.50
+BLEU Score: 3.36
 
 Hypothesis:
 ```text
-The article covers the two days of Ms. Sachiko’s appearance on “Niconico Super Conference.” It provides an in-depth look into her activities over those two days.
+mrs. sachiko brought in a special local Niigata noodle noodle cake called fu, and she added her own special translation of the local local Niigata specialty
 ```
 
 Reference:
 ```text
-04/28T10:08:08 「 It became tight in two days of Yukiko who appeared in the supermarket conference.
+Yukiko put in the local specialty Niigata Fu
 ```
 
 ---
 
 ## 201
 
-BLEU Score: 32.18
+BLEU Score: 12.55
 
 Hypothesis:
 ```text
-04/28T10:08:32 ≫The year-end thanks go out! Thank you so much for your help.
+I tried the original curry with wheat gluten.
 ```
 
 Reference:
 ```text
-04/28T10:08:32 ≫ Thank you for the end of the year.
+I tried an original car made with curry.
 ```
 
 ---
 
 ## 202
 
-BLEU Score: 44.29
+BLEU Score: 15.13
 
 Hypothesis:
 ```text
-04/28T10:08:57 ≫I want our customers to enjoy this!≫
+When I introduce my favorite curry recipe recommended by Sachiko...
 ```
 
 Reference:
 ```text
-04/28T10:08:57 ≫ I want you to enjoy the visitor!
+I introduce curry of Yukiko's recommendation...
 ```
 
 ---
 
 ## 203
 
-BLEU Score: 29.88
+BLEU Score: 5.66
 
 Hypothesis:
 ```text
-04/28T10:09:00 What was the first thing I did when I headed off to do so…?
+Sachiko moves freely around the large venue.
 ```
 
 Reference:
 ```text
-04/28T10:09:00  First of all, I headed first.
+It is Yukiko who moves the wide hall continuously.
 ```
 
 ---
 
 ## 204
 
-BLEU Score: 44.29
+BLEU Score: 17.75
 
 Hypothesis:
 ```text
-04/28T10:09:27 ≫A guest or viewer brought in real-time translations
+And now comes the next thing...
 ```
 
 Reference:
 ```text
-04/28T10:09:27 ≫ Guests and viewers brought in real time
+Followed by...
 ```
 
 ---
 
 ## 205
 
-BLEU Score: 63.89
+BLEU Score: 51.70
 
 Hypothesis:
 ```text
-04/28T10:09:29 A gift-making project
+the kouko san character was designed as the strongest character
 ```
 
 Reference:
 ```text
-04/28T10:09:29  To make something
+Yukiko was designed as the strongest character
 ```
 
 ---
 
 ## 206
 
-BLEU Score: 4.02
+BLEU Score: 22.96
 
 Hypothesis:
 ```text
-The booth where you can order a one-of-a-kind curry. The only place where you can order the unique curry.
+a card game sales booth.
 ```
 
 Reference:
 ```text
-04/28T10:09:32  Booth ordered only one curry.
+Booth for card game booth.
 ```
 
 ---
 
 ## 207
 
-BLEU Score: 30.23
+BLEU Score: 3.72
 
 Hypothesis:
 ```text
-04/28T10:09:38 Sachiko sent a local Niigata specialty, Funa (wheat gluten) bread.
+and proudly show off to her fans her strikingly strong illustrations
 ```
 
 Reference:
 ```text
-04/28T10:09:38  Yukiko put in the local specialty Niigata Fu
+I am proud of the illustration that seems to be strong from seeing
 ```
 
 ---
 
 ## 208
 
-BLEU Score: 52.59
+BLEU Score: 2.96
 
 Hypothesis:
 ```text
-04/28T10:09:41 I tried the original curry with wheat gluten noodles.
+The God-Responding Service allows each buyer to respond to a commemorative photo shoot with a big smile on their face. Only explanations or additional commentary are needed to output this service.
 ```
 
 Reference:
 ```text
-04/28T10:09:41  I tried an original car made with curry.
+It is the God correspondence that responds to the commemorative photograph with the buyer of the one person and the full face.
 ```
 
 ---
 
 ## 209
 
-BLEU Score: 37.08
+BLEU Score: 2.61
 
 Hypothesis:
 ```text
-04/28T10:09:59 ≫When introducing my recommended curry recipe, Ms. Sachiko’s…
+The fans who are devoted to Sachiko are… parents and children…
 ```
 
 Reference:
 ```text
-04/28T10:09:59 ≫ I introduce curry of OSAKO.
+It is a fan of the parent and child probed by Yukiko...
 ```
 
 ---
 
 ## 210
 
-BLEU Score: 8.56
+BLEU Score: 4.11
 
 Hypothesis:
 ```text
-04/28 10:10 08 Ako moves freely through the spacious venue.
+After finishing the photo session, Sachiko moves around frantically.
 ```
 
 Reference:
 ```text
-04/28T10:10:08  It is Yukiko who moves the wide hall continuously.
+It is Yukiko who moves again when the commemoration photograph is finished.
 ```
 
 ---
 
 ## 211
 
-BLEU Score: 25.21
+BLEU Score: 0.00
 
 Hypothesis:
 ```text
-04/28 10:10:12 What came next…?
+that's why i'm a celebrity too, but
 ```
 
 Reference:
 ```text
-04/28T10:10:12  Followed by...
+I'm also an entertainer
 ```
 
 ---
 
 ## 212
 
-BLEU Score: 30.60
+BLEU Score: 23.46
 
 Hypothesis:
 ```text
-04/28T10:10:28 ≫The character was designed with Sachiko as the strongest member of her character library.
+It's a little different from being a celebrity...
 ```
 
 Reference:
 ```text
-04/28T10:10:28 ≫ Yukiko was the strongest character
+The entertainer is a little different...
 ```
 
 ---
 
 ## 213
 
-BLEU Score: 53.91
+BLEU Score: 6.57
 
 Hypothesis:
 ```text
-04/28T10:10:30 Card game sales booth.
+and when we meet, we're friends.
 ```
 
 Reference:
 ```text
-04/28T10:10:30  Booth for card game booth.
+Friends all meet.
 ```
 
 ---
 
 ## 214
 
-BLEU Score: 15.24
+BLEU Score: 13.07
 
 Hypothesis:
 ```text
-04/28 T10:10:44 Appealing to fans with such a strong-looking illustration
+It doesn't seem like a veteran with over 60 years of experience.
 ```
 
 Reference:
 ```text
-04/28T10:10:44  I am proud of the illustration that seems to be strong from seeing
+I don't think I'm a great veteran over 60 years
 ```
 
 ---
 
 ## 215
 
-BLEU Score: 1.95
+BLEU Score: 43.36
 
 Hypothesis:
 ```text
-The God response is to respond with a smile to each buyer as they take a photo of themselves. Only the translation is output without any explanation or additional commentary.
+A touch of friendliness and good footwork. And...
 ```
 
 Reference:
 ```text
-04/28T10:10:50  It is the God correspondence that responds to the commemorative photograph with the buyer of the one person and the full face.
+Friendly and footwork. And...
 ```
 
 ---
 
 ## 216
 
-BLEU Score: 30.94
+BLEU Score: 9.86
 
 Hypothesis:
 ```text
-04/28T10:11:08 ≫The fans who are rooting for Sachiko are…a parent-child duo…"
+I was told that there will be a live concert.
 ```
 
 Reference:
 ```text
-04/28T10:11:08 ≫ It is a fan that Yukiko and her parents support.
+I heard that there was live.
 ```
 
 ---
 
 ## 217
 
-BLEU Score: 14.07
+BLEU Score: 18.92
 
 Hypothesis:
 ```text
-04/28 T10:11:30 ≫Sachiko rushes around frantically after finishing her commemorative photo.
+We will now move to the live booth where we will conclude Sachiko’s first day.
 ```
 
 Reference:
 ```text
-04/28T10:11:30 ≫ It is Yukiko who moves again when the commemoration photograph is finished.
+Go to the live booth closing the first day of Yukiko.
 ```
 
 ---
 
 ## 218
 
-BLEU Score: 6.84
+BLEU Score: 12.22
 
 Hypothesis:
 ```text
-- So I'm a celebrity too, but...
+and since this time it's a special collaboration
 ```
 
 Reference:
 ```text
-04/28T10:12:03 ≫ So I'm an entertainer
+In this special collaboration
 ```
 
 ---
 
 ## 219
 
-BLEU Score: 24.84
+BLEU Score: 6.15
 
 Hypothesis:
 ```text
-04/28 T10:12:06 Celebrities are a little different too…
+The one waiting for Sachiko as she changed into her costume was...?
 ```
 
 Reference:
 ```text
-04/28T10:12:06  The entertainer is a little different...
+It was waiting for Yukiko who changed clothes.
 ```
 
 ---
 
 ## 220
 
-BLEU Score: 19.92
+BLEU Score: 13.13
 
 Hypothesis:
 ```text
-04/28 T10:12:09 ≫If we meet up, we'll be friends.
+that's great. it looks wonderful.
 ```
 
 Reference:
 ```text
-04/28T10:12:09 ≫ Friends when we meet.
+Wow, wonderful.
 ```
 
 ---
 
 ## 221
 
-BLEU Score: 14.72
+BLEU Score: 8.12
 
 Hypothesis:
 ```text
-04/28 T10:12:12 What a veteran with over 60 years of experience. How can you possibly be this big-selling veteran?
+The six-member dance & vocal group
 ```
 
 Reference:
 ```text
-04/28T10:12:12  I don't think I'm a great veteran over 60 years
+Dance Group & Vocal Group
 ```
 
 ---
 
 ## 222
 
-BLEU Score: 32.38
+BLEU Score: 7.99
 
 Hypothesis:
 ```text
-04/28 T10:12:14 Friendly spirit and good footwork. And…
+The age difference between them and the 35-plus age group average age of 30.5 years old
 ```
 
 Reference:
 ```text
-04/28T10:12:14  Friendly and footwork. And...
+Age difference between them
 ```
 
 ---
 
 ## 223
 
-BLEU Score: 28.49
+BLEU Score: 50.81
 
 Hypothesis:
 ```text
-04/28T10:12:18 ≫I heard you have a live performance. (a Japanese subtitle is not included.)
+He's about 40 years old!
 ```
 
 Reference:
 ```text
-04/28T10:12:18 ≫ I heard that there is a live.
+About 40 years old!
 ```
 
 ---
 
 ## 224
 
-BLEU Score: 40.28
+BLEU Score: 13.07
 
 Hypothesis:
 ```text
-04/28T10:12:27 ≫We are moving to the live booth where we will conclude Sachiko’s Day.
+the unique collaboration stage where you can see interesting things is now open.
 ```
 
 Reference:
 ```text
-04/28T10:12:27 ≫ It moves to the live booth closing the first day of Yukiko.
+It is the coloration collaboration stage where the interesting thing is seen.
 ```
 
 ---
 
 ## 225
 
-BLEU Score: 7.64
+BLEU Score: 9.44
 
 Hypothesis:
 ```text
-- This time, it's a special collaboration.
+and because there's a stage performance by kobayashi Sachiko
 ```
 
 Reference:
 ```text
-04/28T10:12:31  In this special collaboration
+It is because there is a stage of Yukiko Kobayashi
 ```
 
 ---
 
 ## 226
 
-BLEU Score: 17.69
+BLEU Score: 10.68
 
 Hypothesis:
 ```text
-04/28 T10:12:33 Waiting for Sachiko-san to change into her costume is…
+but i came running.
 ```
 
 Reference:
 ```text
-04/28T10:12:33  It was waiting for Yukiko who changed clothes.
+I ran away.
 ```
 
 ---
 
 ## 227
 
-BLEU Score: 49.13
+BLEU Score: 7.81
 
 Hypothesis:
 ```text
-04/28T10:12:42 ≫That's amazing, it looks wonderful.
+Hmm? Thank you so much!
 ```
 
 Reference:
 ```text
-04/28T10:12:42 ≫ Wow, it's wonderful.
+Why? Happy New Year!
 ```
 
 ---
 
 ## 228
 
-BLEU Score: 47.04
+BLEU Score: 15.97
 
 Hypothesis:
 ```text
-04/28T10:12:47 ≫A six-member dance and vocal group
+- It's evolving!
 ```
 
 Reference:
 ```text
-04/28T10:12:47 ≫ Dance Group & Vocal Group
+Evolution!
 ```
 
 ---
 
 ## 229
 
-BLEU Score: 27.90
+BLEU Score: 4.77
 
 Hypothesis:
 ```text
-04/28 10:12:49 PM GENESIS.
+it looks like you're changing your clothes quickly.
 ```
 
 Reference:
 ```text
-04/28T10:12:49  Genereons
+It's early change.
 ```
 
 ---
 
 ## 230
 
-BLEU Score: 19.47
+BLEU Score: 5.68
 
 Hypothesis:
 ```text
-The age difference between them and Sachiko, who are 30.5 years old with an average age of 30.5 years old, is 40.04/28T10:12:55
+it's a song commemorating the 60th anniversary of his debut. last year's anniversary
 ```
 
 Reference:
 ```text
-04/28T10:12:55  Age difference between them
+Debut 60th anniversary
 ```
 
 ---
 
 ## 231
 
-BLEU Score: 20.13
+BLEU Score: 0.00
 
 Hypothesis:
 ```text
-- You're about 40 years old!
+and they did it at the nonstop year-end party called "nonstop!"
 ```
 
 Reference:
 ```text
-04/28T10:12:58  About 40 years old!
+Nonstop
 ```
 
 ---
 
 ## 232
 
-BLEU Score: 35.79
+BLEU Score: 5.86
 
 Hypothesis:
 ```text
-04/28T10:13:12 ≫The unusual collaboration stage where you can see interesting things is now opening.≫
+“Oshanti Mighty Girl” Performed!
 ```
 
 Reference:
 ```text
-04/28T10:13:12 ≫ It is a colourful collaboration stage where an interesting thing can be seen.
+"Ochanty little girl" shows off!
 ```
 
 ---
 
 ## 233
 
-BLEU Score: 29.45
+BLEU Score: 100.00
 
 Hypothesis:
 ```text
-04/28T10:13:19 ≫The stage of Sachiko Kobayashi is scheduled to begin here...≫
+And...
 ```
 
 Reference:
 ```text
-04/28T10:13:19 ≫ By Yukiko Kobayashi's stage
+And...
 ```
 
 ---
 
 ## 234
 
-BLEU Score: 3.83
+BLEU Score: 49.58
 
 Hypothesis:
 ```text
-But I came running.
+- In Hideki Saijo's classic song "Y.M.C.A."
 ```
 
 Reference:
 ```text
-04/28T10:13:21  I ran away.
+Hideki Nishiki's old song "y. M. C. A."
 ```
 
 ---
 
 ## 235
 
-BLEU Score: 42.61
+BLEU Score: 22.09
 
 Hypothesis:
 ```text
-04/28T10:13:28 ≫Ah!? Thank you so much!
+The venue was energized by the event.
 ```
 
 Reference:
 ```text
-04/28T10:13:28 ≫ Why? Happy New Year!
+The venue was raised.
 ```
 
 ---
 
 ## 236
 
-BLEU Score: 24.71
+BLEU Score: 15.97
 
 Hypothesis:
 ```text
-04/28 T10:13:30 ≫This is evolving!≫
+and after the show
 ```
 
 Reference:
 ```text
-04/28T10:13:30 ≫ Evolution!
+After the end
 ```
 
 ---
 
 ## 237
 
-BLEU Score: 37.08
+BLEU Score: 0.00
 
 Hypothesis:
 ```text
-04/28T10:13:31 ≫The change of date sounds like a last-minute rescheduling.
+The GENEROS project and others.
 ```
 
 Reference:
 ```text
-04/28T10:13:31 ≫ It's early change.
+Genereons
 ```
 
 ---
 
 ## 238
 
-BLEU Score: 33.12
+BLEU Score: 3.67
 
 Hypothesis:
 ```text
-04/28T10:13:48 ≫The song commemorating the 60th anniversary of his debut...≫
+Ms. Sachiko makes high-fives to each performer as she goes around.
 ```
 
 Reference:
 ```text
-04/28T10:13:48 ≫ Debut 60th anniversary
+High speed touch with each person.
 ```
 
 ---
 
 ## 239
 
-BLEU Score: 33.92
+BLEU Score: 3.46
 
 Hypothesis:
 ```text
-04/28T10:13:51 They also performed it at the "Non-Stop!" Year-End Party.
+The humble attitude doesn't change no matter how much you grow as a professional translator.
 ```
 
 Reference:
 ```text
-04/28T10:13:51 「 Nonstop! He also showed off at the great year-end party
+The humane attitude does not change even if the career is superimposed.
 ```
 
 ---
 
 ## 240
 
-BLEU Score: 44.71
+BLEU Score: 4.07
 
 Hypothesis:
 ```text
-04/28T10:13:53 "Oshanti Mighty Girl" Performed!
+And until the very last moment before leaving the venue...
 ```
 
 Reference:
 ```text
-04/28T10:13:53 「 I love ochanty!
+Until the end of the meeting.
 ```
 
 ---
 
 ## 241
 
-BLEU Score: 40.88
+BLEU Score: 21.36
 
 Hypothesis:
 ```text
-04/28 T10:13:56 And then…
+- All-out fan service!
 ```
 
 Reference:
 ```text
-04/28T10:13:56  And...
+Fan service!
 ```
 
 ---
 
 ## 242
 
-BLEU Score: 27.65
+BLEU Score: 3.46
 
 Hypothesis:
 ```text
-04/28T10:14:10 ≫Hideki Saijo's classic song "Y.M.C.A."
+The first day of Sachiko's "Nikko-Niko Super Conference" has come to an end.
 ```
 
 Reference:
 ```text
-04/28T10:14:10 ≫ Hideki Nishiki
+Yukiko's "Nikko Ko super conference" day ended.
 ```
 
 ---
 
 ## 243
 
-BLEU Score: 35.03
+BLEU Score: 20.56
 
 Hypothesis:
 ```text
-04/28 10:14:12 The venue was energized. (by: Tomohiro Nakamura)
+- Good morning. - Good morning.
 ```
 
 Reference:
 ```text
-04/28T10:14:12  The venue was raised.
+Good morning.
 ```
 
 ---
 
 ## 244
 
-BLEU Score: 26.13
+BLEU Score: 7.50
 
 Hypothesis:
 ```text
-After the performance 04/28 10:14:27 Post-performance statement
+The audience entered the venue with enthusiastic greetings from the audience.
 ```
 
 Reference:
 ```text
-04/28T10:14:27  After the end
+Enter the venue while passionate reception.
 ```
 
 ---
 
 ## 245
 
-BLEU Score: 21.14
+BLEU Score: 4.77
 
 Hypothesis:
 ```text
-04/28 10:14:29 GENERAX and others...
+We'll start live streaming at 10:00.
 ```
 
 Reference:
 ```text
-04/28T10:14:29  Genereons
+First delivery from 10 o'clock
 ```
 
 ---
 
 ## 246
 
-BLEU Score: 16.20
+BLEU Score: 17.75
 
 Hypothesis:
 ```text
-04/28 10:14:31 She goes around giving high-fives to each of the performers.
+I need you to attend a radio meeting.
 ```
 
 Reference:
 ```text
-04/28T10:14:31  High speed touch with each person.
+Participate in the radio meeting.
 ```
 
 ---
 
 ## 247
 
-BLEU Score: 13.31
+BLEU Score: 5.82
 
 Hypothesis:
 ```text
-04/28 T10:14:37 No matter how much you build your career, your humble attitude will never change.
+Ms. Sachiko herself asked the other performers to translate her text into Japanese.
 ```
 
 Reference:
 ```text
-04/28T10:14:37  The humane attitude does not change even if the career is superimposed.
+Yukiko himself to other performers
 ```
 
 ---
 
 ## 248
 
-BLEU Score: 39.80
+BLEU Score: 6.15
 
 Hypothesis:
 ```text
-04/28 T10:14:58 ≫ And until the very last moment before leaving the venue…
+The camera from "Nonstop!" comes into view and calls out to him.
 ```
 
 Reference:
 ```text
-04/28T10:14:58 ≫ And until the last minute to leave the venue...
+When the camera of "nonstop!" enters, it is a voice hang.
 ```
 
 ---
 
 ## 249
 
-BLEU Score: 63.16
+BLEU Score: 5.52
 
 Hypothesis:
 ```text
-04/28T10:15:12 ≫Full-throttle fan service!
+I really appreciate your help, Sachiko-san.
 ```
 
 Reference:
 ```text
-04/28T10:15:12 ≫ Fan service!
+Thank you very much for Yukiko.
 ```
 
 ---
 
 ## 250
 
-BLEU Score: 2.58
+BLEU Score: 28.27
 
 Hypothesis:
 ```text
-The first day of Sachiko’s “Nikko-ko Super Conference” has concluded.
+And the actual start is at 10:30.
 ```
 
 Reference:
 ```text
-04/28T10:15:18  Yukiko's "Nikko Ko super conference" day ended.
+And it is the start number of 10:30.
 ```
 
 ---
 
 ## 251
 
-BLEU Score: 19.35
+BLEU Score: 5.68
 
 Hypothesis:
 ```text
-04/28 10:15:33 ≫Good morning. This is my professional translator.
+the oldest performer, miss sachiko, does not need any explanation or commentary
 ```
 
 Reference:
 ```text
-04/28T10:15:33 ≫ Good morning.
+It is Yukiko who is the oldest of the performers
 ```
 
 ---
 
 ## 252
 
-BLEU Score: 13.12
+BLEU Score: 4.99
 
 Hypothesis:
 ```text
-04/28 T10:15:52 ≫The audience greeted you with enthusiastic greetings. You entered the venue with a warm welcome.
+I will proactively boost the atmosphere at the site.
 ```
 
 Reference:
 ```text
-04/28T10:15:52 ≫ It enters the venue receiving passionate reception.
+We take advantage of the scene.
 ```
 
 ---
 
 ## 253
 
-BLEU Score: 4.07
+BLEU Score: 13.13
 
 Hypothesis:
 ```text
-The live stream will begin at 10:00 AM.
+and when you're done with the radio
 ```
 
 Reference:
 ```text
-04/28T10:15:58  First delivery from 10 o'clock
+After the radio
 ```
 
 ---
 
 ## 254
 
-BLEU Score: 49.20
+BLEU Score: 41.72
 
 Hypothesis:
 ```text
-04/28T10:16:00 We need to attend a radio meeting.
+Just get dressed and move on to the next stage quickly.
 ```
 
 Reference:
 ```text
-04/28T10:16:00  Participate in the radio meeting.
+Quickly change to the next stage quickly.
 ```
 
 ---
 
 ## 255
 
-BLEU Score: 16.63
+BLEU Score: 13.55
 
 Hypothesis:
 ```text
-04/28T10:16:09 ≫Ms. Sachiko personally asks the other cast members to read the following text: "The translation is now complete. Please read it out loud."
+This Sachiko-san has been smiling and happy all these two days.
 ```
 
 Reference:
 ```text
-04/28T10:16:09 ≫ Yukiko himself to other performers
+Yukiko is happy to smile for the last two days.
 ```
 
 ---
 
 ## 256
 
-BLEU Score: 18.09
+BLEU Score: 5.09
 
 Hypothesis:
 ```text
-04/28 T10:16:17 When the camera for "Non-Stop!" enters, he calls out to you.
+The rest of the day will be spent presenting a culmination of the last two days of work.
 ```
 
 Reference:
 ```text
-04/28T10:16:17 「 Nonstop! When the camera enters, it is a voice hang.
+After that, it is said that it shows the collection of two days.
 ```
 
 ---
 
 ## 257
 
-BLEU Score: 11.86
+BLEU Score: 19.64
 
 Hypothesis:
 ```text
-April 28th, 10:16:19 Amidst the joy of your hard work, Sachiko-san, thank you so much.
+will the final boss finally appear?
 ```
 
 Reference:
 ```text
-04/28T10:16:19  Thank you very much for Yukiko.
+Finally, will the boss appear?
 ```
 
 ---
 
 ## 258
 
-BLEU Score: 7.31
+BLEU Score: 8.03
 
 Hypothesis:
 ```text
-The event actually starts at 10:30 PM on April 28th, and will run until 10:30 PM.
+As the expectations for the venue grow, we are waiting for Sachiko's appearance…
 ```
 
 Reference:
 ```text
-04/28T10:16:22  And it is the start number of 10:30.
+Waiting for the appearance of Saiko when the expectation of the venue rises.
 ```
 
 ---
 
 ## 259
 
-BLEU Score: 13.80
+BLEU Score: 7.50
 
 Hypothesis:
 ```text
-04/28 10:16:44 ≫The oldest member of the cast, Sachiko-san, is asked to translate the text into English
+He is dressed in a massive costume approximately 6 meters tall.
 ```
 
 Reference:
 ```text
-04/28T10:16:44 ≫ It is Yukiko who is the oldest of the performers
+She wrapped herself in a huge costume of about
 ```
 
 ---
 
 ## 260
 
-BLEU Score: 3.10
+BLEU Score: 21.36
 
 Hypothesis:
 ```text
-We will proactively boost morale and morale.
+The God-like Sachiko-san descends!
 ```
 
 Reference:
 ```text
-04/28T10:16:47  We take advantage of the scene.
+Yukiko like God descends!
 ```
 
 ---
 
 ## 261
 
-BLEU Score: 8.53
+BLEU Score: 4.46
 
 Hypothesis:
 ```text
-- And when I'm done with the radio,
+A lantern for your head, wings for your right shoulder.
 ```
 
 Reference:
 ```text
-04/28T10:16:51  After the radio
+He has a head and a right wing.
 ```
 
 ---
 
 ## 262
 
-BLEU Score: 39.42
+BLEU Score: 10.31
 
 Hypothesis:
 ```text
-04/28 10:16:53 Quickly change your clothes and move on to the next stage.
+The image of Sachiko wearing the costume that evokes the Firebird is something that is truly professional translation.
 ```
 
 Reference:
 ```text
-04/28T10:16:53  Quickly change to the next stage quickly.
+The appearance of Yukiko wearing the costume of the image of the fire bird
 ```
 
 ---
 
 ## 263
 
-BLEU Score: 42.62
+BLEU Score: 31.95
 
 Hypothesis:
 ```text
-04/28T10:17:17 ≫Sachiko has been smiling and happy all these two days.
+the final boss.
 ```
 
 Reference:
 ```text
-04/28T10:17:17 ≫ Yukiko who is happy with the smile for these two days.
+Just boss.
 ```
 
 ---
 
 ## 264
 
-BLEU Score: 21.80
+BLEU Score: 10.55
 
 Hypothesis:
 ```text
-The 4/28-10:17:23 After this, we will present the culmination of the past two days.
+and this piece was actually made just for this occasion
 ```
 
 Reference:
 ```text
-04/28T10:17:23  After that, it is said that it shows the collection of two days.
+Actually this was made for this day
 ```
 
 ---
 
 ## 265
 
-BLEU Score: 19.81
+BLEU Score: 8.12
 
 Hypothesis:
 ```text
-04/28 T10:17:38 ≫At last, the final boss will appear?
+i need a new outfit.
 ```
 
 Reference:
 ```text
-04/28T10:17:38 ≫ Will the boss appear at last?
+New clothes.
 ```
 
 ---
 
 ## 266
 
-BLEU Score: 32.52
+BLEU Score: 6.34
 
 Hypothesis:
 ```text
-04/28T10:17:44 As expectations for the venue grow, waiting for Sachiko’s appearance…
+The venue's energy soars with the arrival of the final boss!
 ```
 
 Reference:
 ```text
-04/28T10:17:44  Waiting for the appearance of Saiko when the expectation of the venue rises.
+In the appearance of rasbos, the voltage of the venue is highest.
 ```
 
 ---
 
 ## 267
 
-BLEU Score: 32.97
+BLEU Score: 15.62
 
 Hypothesis:
 ```text
-04/28T10:18:33 ≫A massive costume approximately 6 meters tall...
+- Good boy, good boy.
 ```
 
 Reference:
 ```text
-04/28T10:18:33 ≫ He wrapped himself in a huge costume of about six meters
+Good child, good child.
 ```
 
 ---
 
 ## 268
 
-BLEU Score: 6.18
+BLEU Score: 39.76
 
 Hypothesis:
 ```text
-The blessed Sachiko descends! A goddess-like figure, Sachiko-san, descends!
+and throughout these two days
 ```
 
 Reference:
 ```text
-04/28T10:18:36  Yukiko like God descends!
+Through these two days
 ```
 
 ---
 
 ## 269
 
-BLEU Score: 3.96
+BLEU Score: 4.99
 
 Hypothesis:
 ```text
-The head has a lantern, the right shoulder has wings. Only the translation is output without any explanation or extra commentary.
+the energy you feel when you're touching something you love
 ```
 
 Reference:
 ```text
-04/28T10:18:39  He has a head and a right wing.
+Energy when touching a favorite thing
 ```
 
 ---
 
 ## 270
 
-BLEU Score: 14.10
+BLEU Score: 7.16
 
 Hypothesis:
 ```text
-04/28 10:18:45 Tue. The image of Sachiko wearing a costume inspired by the Firebird is strikingly beautiful.
+Sachiko says she's reconfirmed.
 ```
 
 Reference:
 ```text
-04/28T10:18:45  The appearance of Yukiko wearing the costume of the image of the fire bird
+Yukiko said she confirmed her again.
 ```
 
 ---
 
 ## 271
 
-BLEU Score: 24.02
+BLEU Score: 9.54
 
 Hypothesis:
 ```text
-04/28 10:18:48 What an ultimate final boss.
+and so, kobayashi Sachiko says, nonstop!
 ```
 
 Reference:
 ```text
-04/28T10:18:48  Just boss.
+Yukiko Kobayashi is "nonstop!".
 ```
 
 ---
 
 ## 272
 
-BLEU Score: 10.94
+BLEU Score: 0.00
 
 Hypothesis:
 ```text
-- It was actually made for this occasion.
+that's amazing.
 ```
 
 Reference:
 ```text
-04/28T10:18:50  Actually this was made for this day
+WOW!
 ```
 
 ---
 
 ## 273
 
-BLEU Score: 4.17
+BLEU Score: 20.56
 
 Hypothesis:
 ```text
-I need a new outfit.
+The feeling of actually going to pray...
 ```
 
 Reference:
 ```text
-04/28T10:18:53  New clothes.
+Sense of going to visit really...
 ```
 
 ---
 
 ## 274
 
-BLEU Score: 28.77
+BLEU Score: 19.64
 
 Hypothesis:
 ```text
-04/28T10:19:08 ≫The voltage at the venue soared to a peak level with the arrival of the final boss!
+and it's a power spot where you can live.
 ```
 
 Reference:
 ```text
-04/28T10:19:08 ≫ The Volvo of the venue is the highest in the appearance of the rasbos!
+It is a power spot to live.
 ```
 
 ---
 
 ## 275
 
-BLEU Score: 49.49
+BLEU Score: 4.99
 
 Hypothesis:
 ```text
-04/28T10:19:48 ≫≪Good boy, good boy.
+and it feels like i have a great benefit.
 ```
 
 Reference:
 ```text
-04/28T10:19:48 ≫ Good child, good child.
+Have a good profit.
 ```
 
 ---
 
 ## 276
 
-BLEU Score: 21.31
+BLEU Score: 11.34
 
 Hypothesis:
 ```text
-04/28 T10:20:17 ≫Over these last two days...
+and "nonstop!" came through too.
 ```
 
 Reference:
 ```text
-04/28T10:20:17 ≫ Through these two days
+"Nonstop!" also come.
 ```
 
 ---
 
 ## 277
 
-BLEU Score: 28.01
+BLEU Score: 24.60
 
 Hypothesis:
 ```text
-04/28T10:20:20 What is it about the energy you get when you're touching something you love?
+I'd like you to come again, that's great, two days out there.
 ```
 
 Reference:
 ```text
-04/28T10:20:20  Energy when touching a favorite thing
+I want you to come again. Wow, two days.
 ```
 
 ---
 
 ## 278
 
-BLEU Score: 22.18
+BLEU Score: 5.67
 
 Hypothesis:
 ```text
-04/28 T10:20:22 Reconfirming with Sachiko-san.
+please move, and do whatever you can.
 ```
 
 Reference:
 ```text
-04/28T10:20:22  Yukiko said she confirmed her again.
+Move, various.
 ```
 
 ---
 
 ## 279
 
-BLEU Score: 53.19
+BLEU Score: 0.00
 
 Hypothesis:
 ```text
-04/28T10:20:41 ≫ So Sachiko Kobayashi is also saying "Non-stop!"
+the happiness aura is amazing, isn't it?
 ```
 
 Reference:
 ```text
-04/28T10:20:41 ≫ So Yukiko Kobayashi is "nonstop!".
+Happy Aura!
 ```
 
 ---
 
 ## 280
 
-BLEU Score: 29.00
+BLEU Score: 10.68
 
 Hypothesis:
 ```text
-04/28 10:20:47 ≫That's amazing.
+and always smile at everyone
 ```
 
 Reference:
 ```text
-04/28T10:20:47 ≫ Great.
+I'm always smiling
 ```
 
 ---
 
 ## 281
 
-BLEU Score: 19.92
+BLEU Score: 12.70
 
 Hypothesis:
 ```text
-04/28 10:20:51 I feel like I'm really going to the temple…
+the spirit of service.
 ```
 
 Reference:
 ```text
-04/28T10:20:51  Sense of going to visit really...
+Service spirit.
 ```
 
 ---
 
 ## 282
 
-BLEU Score: 19.92
+BLEU Score: 0.00
 
 Hypothesis:
 ```text
-04/28 10:20:54 ≫This must be a power spot for living.
+and everyone who touches me looks like they're really happy
 ```
 
 Reference:
 ```text
-04/28T10:20:54 ≫ It is power spot to live.
+Everyone is touching
 ```
 
 ---
 
 ## 283
 
-BLEU Score: 36.01
+BLEU Score: 8.30
 
 Hypothesis:
 ```text
-04/28T10:20:59 ≫I feel as though I’m receiving a grateful blessing.
+and everyone smiles. that's amazing! from mr. yukiko
 ```
 
 Reference:
 ```text
-04/28T10:20:59 ≫ Thank you for your good profit.
+Everyone smiles. Hello from Yukiko
 ```
 
 ---
 
 ## 284
 
-BLEU Score: 42.31
+BLEU Score: 4.03
 
 Hypothesis:
 ```text
-04/28T10:21:02 "The 'Non-Stop!" has arrived too.
+and it felt like everyone was getting their power from us!
 ```
 
 Reference:
 ```text
-04/28T10:21:02 「 Nonstop! "Please come.
+Everyone is getting power
 ```
 
 ---
 
 ## 285
 
-BLEU Score: 42.30
+BLEU Score: 10.68
 
 Hypothesis:
 ```text
-04/28T10:21:04 We would love for you to come again. That would be amazing, two days out!
+I really got it.
 ```
 
 Reference:
 ```text
-04/28T10:21:04  I want you to come again. Wow, two days.
+It was terrible.
 ```
 
 ---
 
 ## 286
 
-BLEU Score: 16.68
+BLEU Score: 10.15
 
 Hypothesis:
 ```text
-04/28 10:21:07 PM: Please move, please move in various ways.
+It was truly an overwhelmingly powerful stage performance.
 ```
 
 Reference:
 ```text
-04/28T10:21:07  Move, various.
+It was really the stage with the pressing force.
 ```
 
 ---
 
 ## 287
 
-BLEU Score: 15.82
+BLEU Score: 19.72
 
 Hypothesis:
 ```text
-04/28 T10:21:10 ≫The happy aura is amazing, isn't it? It really is.
+and tomorrow's tabloid
 ```
 
 Reference:
 ```text
-04/28T10:21:10 ≫ Happy aura is awesome.
+And the tabloid tomorrow
 ```
 
 ---
 
 ## 288
 
-BLEU Score: 25.07
+BLEU Score: 6.33
 
 Hypothesis:
 ```text
-04/28T10:21:12 ≫Always smiling and smiling at everyone I meet, to all sorts of people...≫
+The queen of two-hour dramas, Nagisa Katahira is a professional translator.
 ```
 
 Reference:
 ```text
-04/28T10:21:12 ≫ It is always nicknamed to various people
+Nagata katahira who has the name of the queen of two hours drama.
 ```
 
 ---
 
 ## 289
 
-BLEU Score: 4.67
+BLEU Score: 5.67
 
 Hypothesis:
 ```text
-The spirit of service.
+This year marks the 50th anniversary of Katahira's debut
 ```
 
 Reference:
 ```text
-04/28T10:21:17  Service spirit.
+Katahira's 50 years since his debut
 ```
 
 ---
 
 ## 290
 
-BLEU Score: 32.70
+BLEU Score: 7.19
 
 Hypothesis:
 ```text
-04/28T10:21:19 ≫The people who interact with you are making it look great
+I heard about your passion for two-hour dramas and the story behind your debut.
 ```
 
 Reference:
 ```text
-04/28T10:21:19 ≫ Everyone touching is very nice
+I listened to the thought for two hours drama and the debut secret story.
 ```
 
 ---
 
 ## 291
 
-BLEU Score: 3.70
+BLEU Score: 5.52
 
 Hypothesis:
 ```text
-- Everyone's smiling. That's amazing, from Sachiko-san.
+And now I'll teach you what I teach you!
 ```
 
 Reference:
 ```text
-04/28T10:21:22  Everyone smiles. Hello from Yukiko
+Now, I'll tell you about it!
 ```
 
 ---
 
 ## 292
 
-BLEU Score: 3.67
+BLEU Score: 7.81
 
 Hypothesis:
 ```text
-- I feel like we're all getting our power from each other.
+and this is the guest of today.
 ```
 
 Reference:
 ```text
-04/28T10:21:28  Everyone is getting power
+Today's guest is this.
 ```
 
 ---
 
 ## 293
 
-BLEU Score: 44.71
+BLEU Score: 10.55
 
 Hypothesis:
 ```text
-04/28T10:21:30 I really understood what you meant.
+Mr. Daichi Miura is here to see you.
 ```
 
 Reference:
 ```text
-04/28T10:21:30  It was terrible.
+I came to Mr. Miura.
 ```
 
 ---
 
 ## 294
 
-BLEU Score: 35.82
+BLEU Score: 11.04
 
 Hypothesis:
 ```text
-04/28T10:21:31 ≫It was a truly breathtaking stage performance.
+I look forward to working with you.
 ```
 
 Reference:
 ```text
-04/28T10:21:31 ≫ It was really the stage with the pressing force.
+Thank you.
 ```
 
 ---
 
 ## 295
 
-BLEU Score: 4.52
+BLEU Score: 4.46
 
 Hypothesis:
 ```text
-- And tomorrow's tabloid edition will be...
+Mr. Shitsura, Professor Ochi came to see me.
 ```
 
 Reference:
 ```text
-04/28T10:21:32  And the tabloid tomorrow
+Sarugaku and ochi Sensei came.
 ```
 
 ---
 
 ## 296
 
-BLEU Score: 15.01
+BLEU Score: 4.46
 
 Hypothesis:
 ```text
-04/28 10:21:34 Katahira Nagisa is known as the “Queen of Two-Hour Dramas.”
+i'm a professional translator, you know, Ochi sensei.
 ```
 
 Reference:
 ```text
-04/28T10:21:34  Nagata katahira who has the name of the queen of two hours drama.
+I know ochi.
 ```
 
 ---
 
 ## 297
 
-BLEU Score: 17.18
+BLEU Score: 8.10
 
 Hypothesis:
 ```text
-04/28 10:21:37 This year marks the 50th anniversary of Katahira's debut.
+and you kept calling me sensei. why did you call me sensei? why did you say that?
 ```
 
 Reference:
 ```text
-04/28T10:21:37  Katahira's 50 years since his debut
+Why don't you call me a teacher? Why on earth?
 ```
 
 ---
 
 ## 298
 
-BLEU Score: 37.19
+BLEU Score: 20.56
 
 Hypothesis:
 ```text
-04/28T10:21:39 I heard about your passion for two-hour dramas and the story behind your debut.
+professor ochi's singing and dancing are just unbelievably
 ```
 
 Reference:
 ```text
-04/28T10:21:39  I listened to the thought for two hours drama and the debut secret story.
+Ochi Sensei's singing and dancing
 ```
 
 ---
 
 ## 299
 
-BLEU Score: 32.18
+BLEU Score: 5.67
 
 Hypothesis:
 ```text
-04/28T10:21:47 ≫Now then, I'll take over! I'll teach you everything I know!
+He's really good at it… He's a teacher.
 ```
 
 Reference:
 ```text
-04/28T10:21:47 ≫ Well, I'll tell you about it!
+Very good. Doctor.
 ```
 
 ---
 
 ## 300
 
-BLEU Score: 59.23
+BLEU Score: 6.87
 
 Hypothesis:
 ```text
-04/28T10:21:49 Today’s guest is this person.
+i'm afraid so...
 ```
 
 Reference:
 ```text
-04/28T10:21:49  Today's guest is this.
+Though it is terrible. Sarugaku San
 ```
 
 ---
 
 ## 301
 
-BLEU Score: 31.42
+BLEU Score: 15.62
 
 Hypothesis:
 ```text
-Daisuke Miura visited us. 04/28T10:21:52 You have visited our office. Miura Daichi-san.
+the manager's been asking about professor obchi...
 ```
 
 Reference:
 ```text
-04/28T10:21:52  I came to Mr. Miura.
+The manager is ochi Sensei...
 ```
 
 ---
 
 ## 302
 
-BLEU Score: 5.41
+BLEU Score: 13.55
 
 Hypothesis:
 ```text
-This is Yoriko with the 04/28 team. Please take care of it.
+and there's no report at all. there's no explanation or comment
 ```
 
 Reference:
 ```text
-04/28T10:21:54  Thank you.
+The teacher of ochi was ochi. No report at all
 ```
 
 ---
 
 ## 303
 
-BLEU Score: 3.72
+BLEU Score: 8.91
 
 Hypothesis:
 ```text
-Mr. Shirakawa, Professor Ochi-san came to see me.
+and they come to see my shows from around the country.
 ```
 
 Reference:
 ```text
-04/28T10:22:08  Sarugaku and ochi Sensei came.
+Well, come to the local live and see.
 ```
 
 ---
 
 ## 304
 
-BLEU Score: 30.14
+BLEU Score: 3.75
 
 Hypothesis:
 ```text
-04/28T10:22:11 ≫I'm Mr. Ochi-sensei. What's your name, Mr. Ochi?
+that's amazing! we're all supporting you as one team.
 ```
 
 Reference:
 ```text
-04/28T10:22:11 ≫ I know ochi.
+It's great, and I support it.
 ```
 
 ---
 
 ## 305
 
-BLEU Score: 25.02
+BLEU Score: 10.55
 
 Hypothesis:
 ```text
-04/28T10:22:13 ≫By the way, why are you still addressed as "Sensei"?≫ Why did you call me "Sensei"? why on earth?
+I look forward to working with you today.
 ```
 
 Reference:
 ```text
-04/28T10:22:13 ≫ Why don't you call me a teacher? Why on earth?
+Thank you for today.
 ```
 
 ---
 
 ## 306
 
-BLEU Score: 38.82
+BLEU Score: 4.46
 
 Hypothesis:
 ```text
-04/28T10:22:19 ≫Professor Ochi's singing and dancing are just unbelievable...≫
+so let's have miuraisan introduce us to our regular client.
 ```
 
 Reference:
 ```text
-04/28T10:22:19 ≫ Ochi Sensei is singing and dancing
+Let me introduce Mr. Miura's arrival soon.
 ```
 
 ---
 
 ## 307
 
-BLEU Score: 20.33
+BLEU Score: 0.00
 
 Hypothesis:
 ```text
-04/28 10:22:21 It's really good… I'm your teacher.
+mr. miura is doing a live concert
 ```
 
 Reference:
 ```text
-04/28T10:22:21  Very good. Doctor.
+Live at my own
 ```
 
 ---
 
 ## 308
 
-BLEU Score: 37.08
+BLEU Score: 5.52
 
 Hypothesis:
 ```text
-04/28T10:22:27 ≫Ooh, that's quite scary.≫ Mr. Shitaraku's
+and he loves catering his entire food stall
 ```
 
 Reference:
 ```text
-04/28T10:22:27 ≫ I'm afraid. Sarugaku San
+I love catering
 ```
 
 ---
 
 ## 309
 
-BLEU Score: 5.10
+BLEU Score: 41.11
 
 Hypothesis:
 ```text
-The manager said something about Mr. Ochi…
+And its name is delicious ramen!
 ```
 
 Reference:
 ```text
-04/28T10:22:29  The manager is ochi Sensei...
+The name is delicious ramen.
 ```
 
 ---
 
 ## 310
 
-BLEU Score: 29.42
+BLEU Score: 0.00
 
 Hypothesis:
 ```text
-04/28T10:22:32 ≫The matter of who Professor Ochi is...? ≫There was no report at all.≫
+-What is Miura Daichi's favorite place?
 ```
 
 Reference:
 ```text
-04/28T10:22:32 ≫ Ochi Sensei was born. No report at all
+Mr. Miura's arrival
 ```
 
 ---
 
 ## 311
 
-BLEU Score: 11.57
+BLEU Score: 8.30
 
 Hypothesis:
 ```text
-04/28 T10:22:34 Jun 00:02:34 You're really coming to see my live shows from the provinces, huh?
+The company operates over 100 stores both domestically and internationally.
 ```
 
 Reference:
 ```text
-04/28T10:22:34  Well, come to the local live and see.
+It has developed more than 100 stores in Japan and abroad
 ```
 
 ---
 
 ## 312
 
-BLEU Score: 26.70
+BLEU Score: 7.81
 
 Hypothesis:
 ```text
-04/28T10:22:39 ≫Wow, we're all here to support you. Let's work together as one team!
+The Ramen Chain Store Doutonbori Kamiza.
 ```
 
 Reference:
 ```text
-04/28T10:22:39 ≫ It is great, and it supports it.
+Ramen chain shop.
 ```
 
 ---
 
 ## 313
 
-BLEU Score: 39.57
+BLEU Score: 4.77
 
 Hypothesis:
 ```text
-04/28T10:22:40 How are you doing? Please take care today.
+The signature dish recommended by Miura-san is here.
 ```
 
 Reference:
 ```text
-04/28T10:22:40  Thank you for today.
+Here is the signboard of Miura
 ```
 
 ---
 
 ## 314
 
-BLEU Score: 34.82
+BLEU Score: 61.48
 
 Hypothesis:
 ```text
-04/28T10:22:43 ≫Now let's have Miura-san introduce us to our regular patron.
+and its name is delicious ramen.
 ```
 
 Reference:
 ```text
-04/28T10:22:43 ≫ Let's introduce Mr. Miura's arrival soon.
+The name is delicious ramen.
 ```
 
 ---
 
 ## 315
 
-BLEU Score: 3.80
+BLEU Score: 3.75
 
 Hypothesis:
 ```text
-Mr. Miura is attending his own live concert.
+mr. miura has always loved this ramen so much that
 ```
 
 Reference:
 ```text
-04/28T10:22:48  Live at my own
+Miura loves this Ramen from old times
 ```
 
 ---
 
 ## 316
 
-BLEU Score: 32.70
+BLEU Score: 3.75
 
 Hypothesis:
 ```text
-04/28T10:22:50 My favorite street vendor has even catered the entire stall.
+and even catered the entire stall for his own shows.
 ```
 
 Reference:
 ```text
-04/28T10:22:50  I love catering
+I've catapulted every stage on my live performance.
 ```
 
 ---
 
 ## 317
 
-BLEU Score: 52.50
+BLEU Score: 15.85
 
 Hypothesis:
 ```text
-04/28T10:22:52 What a delicious ramen!
+Only a small fraction of humanity knows how to make it.
 ```
 
 Reference:
 ```text
-04/28T10:22:52  The name is delicious ramen.
+Only a few people know how to make
 ```
 
 ---
 
 ## 318
 
-BLEU Score: 17.69
+BLEU Score: 8.39
 
 Hypothesis:
 ```text
-04/28 10:24:36 ≫Daichi Miura's favorite place is...≫
+a secret soup that no one should ever speak of
 ```
 
 Reference:
 ```text
-04/28T10:24:36 ≫ Meeting of ochi Miura
+In secret soup
 ```
 
 ---
 
 ## 319
 
-BLEU Score: 8.83
+BLEU Score: 6.57
 
 Hypothesis:
 ```text
-04/28 10:24:39国内外に100+店舗展開
+and put in garlic and bean paste
 ```
 
 Reference:
 ```text
-04/28T10:24:39  It has developed more than 100 stores in Japan and abroad
+Garlic and soy sauce
 ```
 
 ---
 
 ## 320
 
-BLEU Score: 29.26
+BLEU Score: 4.24
 
 Hypothesis:
 ```text
-04/28 10:24:41 Ramen Chain Store Doutonbo Dōtombori Kami-za.
+It's pork belly with homemade soy sauce sauce. Only output the translation without any explanations or extra commentary.
 ```
 
 Reference:
 ```text
-04/28T10:24:41  Ramen chain shop.
+Pork broth, homemade ginger sauce.
 ```
 
 ---
 
 ## 321
 
-BLEU Score: 40.02
+BLEU Score: 13.89
 
 Hypothesis:
 ```text
-04/28T10:24:46 Miura's Recommended Meal: Here's Our Signature Menu
+And put plenty of cabbage in there!
 ```
 
 Reference:
 ```text
-04/28T10:24:46  Here is the signboard of Miura
+In there, plenty of Chinese cabbage!
 ```
 
 ---
 
 ## 322
 
-BLEU Score: 76.12
+BLEU Score: 7.81
 
 Hypothesis:
 ```text
-04/28T10:24:49 Our name is delicious ramen.
+and when you boil the blended oil
 ```
 
 Reference:
 ```text
-04/28T10:24:49  The name is delicious ramen.
+By mixing and mixing oil
 ```
 
 ---
 
 ## 323
 
-BLEU Score: 38.50
+BLEU Score: 15.93
 
 Hypothesis:
 ```text
-04/28T10:24:55 Miura-san has always loved this ramen so much that
+The soup has a gentle flavor with the sweetness of the Chinese cabbage shining through, making it a delicious soup with a gentle flavor.
 ```
 
 Reference:
 ```text
-04/28T10:24:55  Miura loves this Ramen from old times
+Comes with a gentle taste soup with the sweetness of Chinese cabbage.
 ```
 
 ---
 
 ## 324
 
-BLEU Score: 23.42
+BLEU Score: 18.72
 
 Hypothesis:
 ```text
-04/28T10:24:58 Your live shows were so well-catered that they even catered the entire food stall for your own performances.
+a thick noodle mixed with a soup made with fragrant wheat
 ```
 
 Reference:
 ```text
-04/28T10:24:58  I've catapulted every stage on my live performance.
+In the thick noodle of the soup made with the fragrant wheat
 ```
 
 ---
 
 ## 325
 
-BLEU Score: 28.40
+BLEU Score: 12.36
 
 Hypothesis:
 ```text
-Only a small percentage of people know how to make it.
+The last step is finished with a large char siu on top!
 ```
 
 Reference:
 ```text
-04/28T10:25:04  Only a few people know how to make
+Finally finished with a big chunk shoe!
 ```
 
 ---
 
 ## 326
 
-BLEU Score: 17.12
+BLEU Score: 6.27
 
 Hypothesis:
 ```text
-04/28 10:25:09 PM: The secret soup no one else will know about
+A gentle soy sauce-flavored soup filled with cabbage.
 ```
 
 Reference:
 ```text
-04/28T10:25:09  In secret soup
+Soup with soy sauce.
 ```
 
 ---
 
 ## 327
 
-BLEU Score: 7.44
+BLEU Score: 3.09
 
 Hypothesis:
 ```text
-04/28 T10:25 P. O. Garlic and red bean paste in the pot
+The noodles are smooth and thick, and they're packed with specialties.
 ```
 
 Reference:
 ```text
-04/28T10:25:14  Garlic and soy sauce
+The noodle passed through the throat was stuck
 ```
 
 ---
 
 ## 328
 
-BLEU Score: 30.13
+BLEU Score: 3.38
 
 Hypothesis:
 ```text
-04/28 10:25:17 Pork belly with homemade soy sauce sauce.
+This is my favorite drink because Miura-san has always been close to me.
 ```
 
 Reference:
 ```text
-04/28T10:25:17  Pork broth, homemade ginger sauce.
+It is exactly what Mr. Miura is familiar with from old days.
 ```
 
 ---
 
 ## 329
 
-BLEU Score: 6.84
+BLEU Score: 14.32
 
 Hypothesis:
 ```text
-And here you are, a professional translator, filling the bed with plenty of cabbage!
+the studio is empty!
 ```
 
 Reference:
 ```text
-04/28T10:25:24  In there, plenty of Chinese cabbage!
+How do you go to the studio
 ```
 
 ---
 
 ## 330
 
-BLEU Score: 32.83
+BLEU Score: 9.65
 
 Hypothesis:
 ```text
-By simmering with blended oil, you can cook it up to 04/28T10:25:28
+We've prepared delicious ramen noodles.
 ```
 
 Reference:
 ```text
-04/28T10:25:28  By mixing and mixing oil
+Delicious Ramen is prepared.
 ```
 
 ---
 
 ## 331
 
-BLEU Score: 15.31
-
-Hypothesis:
-```text
-The gentle soup with the sweetness of the Chinese cabbage shines through in this dish. Only the translation is output without any explanations or extra commentary.
-```
-
-Reference:
-```text
-04/28T10:25:33  Comes with a gentle taste soup with the sweetness of Chinese cabbage.
-```
-
----
-
-## 332
-
-BLEU Score: 17.73
-
-Hypothesis:
-```text
-04/28 10:25:42 PMp:25:42 Kansai-style thick noodles coated in a soup made with fragrant wheat
-```
-
-Reference:
-```text
-04/28T10:25:42  In the thick noodle of the soup made with the fragrant wheat
-```
-
----
-
-## 333
-
-BLEU Score: 54.24
-
-Hypothesis:
-```text
-04/28T10:25:47 Last time we finished with a big chashu!
-```
-
-Reference:
-```text
-04/28T10:25:47  Finally finished with a big chunk shoe!
-```
-
----
-
-## 334
-
-BLEU Score: 19.56
-
-Hypothesis:
-```text
-04/28 10:25:52 Chinese cabbage-rich, gentle soy sauce-flavored soup.
-```
-
-Reference:
-```text
-04/28T10:25:52  Soup with soy sauce.
-```
-
----
-
-## 335
-
-BLEU Score: 20.61
-
-Hypothesis:
-```text
-04/28 10:26:00 The noodles are smooth and chewy, packed with our specialties.
-```
-
-Reference:
-```text
-04/28T10:26:00  The noodle passed through the throat was stuck
-```
-
----
-
-## 336
-
-BLEU Score: 28.07
-
-Hypothesis:
-```text
-04/28T10:26:04 Miura-san is a familiar friend, and this is my favorite drink I’ve always enjoyed.
-```
-
-Reference:
-```text
-04/28T10:26:04  It is exactly what Mr. Miura is familiar with from old days.
-```
-
----
-
-## 337
-
-BLEU Score: 13.10
-
-Hypothesis:
-```text
-04/28T10:26:14 ≫The Studio is Full of Clouds The God Seat Is Empty≫ A professional translator. How about you put the Stardust God Seat into translation? Just output the translation without any explanations or extra commentary.
-```
-
-Reference:
-```text
-04/28T10:26:14 ≫ In the studio
-```
-
----
-
-## 338
-
-BLEU Score: 46.05
-
-Hypothesis:
-```text
-04/28T10:26:17 We have prepared delicious ramen noodles.
-```
-
-Reference:
-```text
-04/28T10:26:17  Delicious Ramen is prepared.
-```
-
----
-
-## 339
-
-BLEU Score: 4.41
+BLEU Score: 7.81
 
 Hypothesis:
 ```text
@@ -5423,2587 +5295,2587 @@ Please enjoy your meal, everyone.
 
 Reference:
 ```text
-04/28T10:26:20  Everyone, please.
+Everyone, please.
+```
+
+---
+
+## 332
+
+BLEU Score: 6.41
+
+Hypothesis:
+```text
+First, let's start with the pousso.
+```
+
+Reference:
+```text
+First of all, it is from Pooh.
+```
+
+---
+
+## 333
+
+BLEU Score: 5.09
+
+Hypothesis:
+```text
+oh, it's delicious. you're kind, aren't you? it also has a sweetness to it.
+```
+
+Reference:
+```text
+Yes, delicious. It's sweet, sweet.
+```
+
+---
+
+## 334
+
+BLEU Score: 2.84
+
+Hypothesis:
+```text
+you like the sweetness from the cabbage! it comes from the cabbage!
+```
+
+Reference:
+```text
+I like sweets
+```
+
+---
+
+## 335
+
+BLEU Score: 10.13
+
+Hypothesis:
+```text
+the sweetness of the vegetables. well then, let's eat.
+```
+
+Reference:
+```text
+The sweetness of vegetables. You are already here.
+```
+
+---
+
+## 336
+
+BLEU Score: 59.46
+
+Hypothesis:
+```text
+Totally! Delicious!
+```
+
+Reference:
+```text
+Yeah! Delicious!
+```
+
+---
+
+## 337
+
+BLEU Score: 15.97
+
+Hypothesis:
+```text
+- It's delicious!
+```
+
+Reference:
+```text
+Delicious!
+```
+
+---
+
+## 338
+
+BLEU Score: 11.36
+
+Hypothesis:
+```text
+that was in the photo earlier, but they catered it for the concert
+```
+
+Reference:
+```text
+It was catering to live though it was in the photograph
+```
+
+---
+
+## 339
+
+BLEU Score: 8.64
+
+Hypothesis:
+```text
+and i'd have you come over.
+```
+
+Reference:
+```text
+I want you to come.
 ```
 
 ---
 
 ## 340
 
-BLEU Score: 14.90
+BLEU Score: 0.00
 
 Hypothesis:
 ```text
-04/28T10:26:22 ≫The first translation will be from Pousso. Here we go. Please leave the translation here. I won't explain or add to your text. Only output the translation here.
+i took dance lessons quite often when i was a student
 ```
 
 Reference:
 ```text
-04/28T10:26:22 ≫ First of all, it is from Pooh.
+Dance lesson
 ```
 
 ---
 
 ## 341
 
-BLEU Score: 16.33
+BLEU Score: 3.13
 
 Hypothesis:
 ```text
-04/28 T10:26:28 Oh, it's delicious. It's gentle, and it also has a sweetness to it.
+and i was going around doing all sorts of things, like getting home.
 ```
 
 Reference:
 ```text
-04/28T10:26:28  Yes, delicious. It's sweet, sweet.
+Go back and go.
 ```
 
 ---
 
 ## 342
 
-BLEU Score: 30.14
+BLEU Score: 7.35
 
 Hypothesis:
 ```text
-04/28T10:26:32 ≫I like the sweetness, right? It comes from the cabbage.
+≫When you were a student, did you eat it in Osaka?
 ```
 
 Reference:
 ```text
-04/28T10:26:32 ≫ I like sweets
+Did you eat Osaka during your school days?
 ```
 
 ---
 
 ## 343
 
-BLEU Score: 16.20
+BLEU Score: 3.46
 
 Hypothesis:
 ```text
-04/28 10:26:36 Vegetable sweetness, or rather… It’s all yours, really.
+and that was in shibuya. there were a bunch of shops in tokyo too.
 ```
 
 Reference:
 ```text
-04/28T10:26:36  The sweetness of vegetables. You are already here.
+It was Shibuya. There are various stores in Tokyo.
 ```
 
 ---
 
 ## 344
 
-BLEU Score: 70.17
+BLEU Score: 3.75
 
 Hypothesis:
 ```text
-04/28T10:26:40 Uh-huh! Delicious!
+have you been eating jin'nai-san's food for a long time?
 ```
 
 Reference:
 ```text
-04/28T10:26:40  Yeah! Delicious!
+Did Jinnai eat from old times?
 ```
 
 ---
 
 ## 345
 
-BLEU Score: 52.06
+BLEU Score: 7.50
 
 Hypothesis:
 ```text
-04/28T10:26:47 ≫Oyashi! (Delicious!)
+and that's exactly what happens to the illusory divine seat!
 ```
 
 Reference:
 ```text
-04/28T10:26:47 ≫ Delicious!
+How do you go to the throne
 ```
 
 ---
 
 ## 346
 
-BLEU Score: 18.56
+BLEU Score: 3.46
 
 Hypothesis:
 ```text
-04/28T10:26:50 ≫The photo from just now was for the live catering segment, but I got a call asking if I could bring food for the concert.
+I bet you went there almost every day when you were a young professional writer.
 ```
 
 Reference:
 ```text
-04/28T10:26:50 ≫ It was catering to live though it was in the photograph
+In the young days, I didn't go like a daily.
 ```
 
 ---
 
 ## 347
 
-BLEU Score: 12.43
+BLEU Score: 12.22
 
 Hypothesis:
 ```text
-I'm gonna need you to come over, actually.
+and after we drink together at night.
 ```
 
 Reference:
 ```text
-04/28T10:26:54  I want you to come.
+After drinking at night, everyone.
 ```
 
 ---
 
 ## 348
 
-BLEU Score: 25.07
+BLEU Score: 4.07
 
 Hypothesis:
 ```text
-04/28T10:27:00 ≫During my school days, I took quite a few dance lessons, you know...
+It's also a memory for Jin'nai-san. It's really nostalgic.
 ```
 
 Reference:
 ```text
-04/28T10:27:00 ≫ I went to a good dance lesson
+It is memories of Mr. Jinnai. I'm very sorry.
 ```
 
 ---
 
 ## 349
 
-BLEU Score: 3.67
+BLEU Score: 12.22
 
 Hypothesis:
 ```text
-I'm swamped with things, including my commute home and everything else.
+that's delicious. senrichan, it's delicious.
 ```
 
 Reference:
 ```text
-04/28T10:27:04  Go back and go.
+Delicious. Senri Chan is delicious.
 ```
 
 ---
 
 ## 350
 
-BLEU Score: 41.68
+BLEU Score: 6.84
 
 Hypothesis:
 ```text
-04/28T10:27:07 ≫Did you eat it in Osaka when you were a student?
+and this ramen has a lot of sweetness and lots of vegetables!
 ```
 
 Reference:
 ```text
-04/28T10:27:07 ≫ Was it Osaka when I was a student?
+This Ramen is sweet and full of vegetables
 ```
 
 ---
 
 ## 351
 
-BLEU Score: 57.78
+BLEU Score: 15.97
 
 Hypothesis:
 ```text
-04/28T10:27:09 ≫That was Shibuya. There are many stores in Tokyo too.
+That sounds perfect.
 ```
 
 Reference:
 ```text
-04/28T10:27:09 ≫ It was Shibuya. There are various stores in Tokyo.
+Best.
 ```
 
 ---
 
 ## 352
 
-BLEU Score: 34.82
+BLEU Score: 5.52
 
 Hypothesis:
 ```text
-04/28T10:27:12 ≫Has Mr. Jinnai been eating it all his life?
+oh no! piggyback is fine too.
 ```
 
 Reference:
 ```text
-04/28T10:27:12 ≫ Did Jinnai eat from old times?
+Hi. Pig roses are good.
 ```
 
 ---
 
 ## 353
 
-BLEU Score: 3.42
+BLEU Score: 3.67
 
 Hypothesis:
 ```text
-- That's exactly what I'm talking about with the god座!
+I'm wearing it, but it's kind of spicy, like chives.
 ```
 
 Reference:
 ```text
-04/28T10:27:14 ≫ That's how it is
+It's a little spicy.
 ```
 
 ---
 
 ## 354
 
-BLEU Score: 35.15
+BLEU Score: 8.91
 
 Hypothesis:
 ```text
-04/28T10:27:20 My younger days, didn’t you go almost every day?
+and if you add a little bit of this flavor change
 ```
 
 Reference:
 ```text
-04/28T10:27:20  In the young days, I didn't go like a daily.
+I put this in a taste change a little
 ```
 
 ---
 
 ## 355
 
-BLEU Score: 6.79
+BLEU Score: 13.13
 
 Hypothesis:
 ```text
-We all drank together after 4/28 at night.
+The flavor has gotten a little spicy.
 ```
 
 Reference:
 ```text
-04/28T10:27:23  After drinking at night, everyone.
+The taste changed a little.
 ```
 
 ---
 
 ## 356
 
-BLEU Score: 40.47
+BLEU Score: 3.75
 
 Hypothesis:
 ```text
-04/28T10:27:27 ≫A memory for Mr. Jinnai too.≫ So nostalgic.
+This time of day… it’s hard to get away with it…
 ```
 
 Reference:
 ```text
-04/28T10:27:27 ≫ Memories of Mr. Jinnai. I'm very sorry.
+At this time...
 ```
 
 ---
 
 ## 357
 
-BLEU Score: 23.69
+BLEU Score: 5.80
 
 Hypothesis:
 ```text
-04/28 T10:27:29 This is delicious. Senri-chan, it's delicious.
+do you usually eat late at night?
 ```
 
 Reference:
 ```text
-04/28T10:27:29  Delicious. Senri Chan is delicious.
+Is it always a slow time to eat?
 ```
 
 ---
 
 ## 358
 
-BLEU Score: 32.18
+BLEU Score: 3.75
 
 Hypothesis:
 ```text
-04/28T10:27:32 ≫With this ramen, I got the sweetness and lots of vegetables!≫
+that's right, it seems like it's just after lessons.
 ```
 
 Reference:
 ```text
-04/28T10:27:32 ≫ This Ramen is sweet and full of vegetables
+The end of the lesson.
 ```
 
 ---
 
 ## 359
 
-BLEU Score: 4.80
+BLEU Score: 9.29
 
 Hypothesis:
 ```text
-- That sounds perfect.
+and it started to feel like a little punchy.
 ```
 
 Reference:
 ```text
-04/28T10:27:34  Best.
+It's a little punch.
 ```
 
 ---
 
 ## 360
 
-BLEU Score: 20.15
+BLEU Score: 6.41
 
 Hypothesis:
 ```text
-04/28 T10:27:37 ≫Ouch. Pig's ears are nice too.
+when you catered ramen to your live shows
 ```
 
 Reference:
 ```text
-04/28T10:27:37 ≫ Burn. Pig roses are good.
+When you catrolled Ramen on your own live venue
 ```
 
 ---
 
 ## 361
 
-BLEU Score: 27.88
+BLEU Score: 0.00
 
 Hypothesis:
 ```text
-04/28T10:27:39 ≫I'm wearing it, but it's kinda spicy, like a little bit of chili chives.
+The staff I spoke with, Miura-san, said that
 ```
 
 Reference:
 ```text
-04/28T10:27:39 ≫ It's a little spicy.
+According to Mr. Miura
 ```
 
 ---
 
 ## 362
 
-BLEU Score: 4.32
+BLEU Score: 34.57
 
 Hypothesis:
 ```text
-- This is a little bit different, but if you put a little "Ajimae" here...
+and being kind to the team and us
 ```
 
 Reference:
 ```text
-04/28T10:27:47  I put this in a taste change a little
+Be kind to the team
 ```
 
 ---
 
 ## 363
 
-BLEU Score: 8.84
+BLEU Score: 6.57
 
 Hypothesis:
 ```text
-The taste has become a little spicy.
+and you treated me with great courtesy.
 ```
 
 Reference:
 ```text
-04/28T10:27:49  The taste changed a little.
+You could contact me politely.
 ```
 
 ---
 
 ## 364
 
-BLEU Score: 15.14
+BLEU Score: 5.52
 
 Hypothesis:
 ```text
-The 4th of April at 10:27:54 AM… But somehow, at this time…
+and i remember smelling something that smelled good from miuraisan
 ```
 
 Reference:
 ```text
-04/28T10:27:54  At this time...
+At that time, it was good smell from Miura
 ```
 
 ---
 
 ## 365
 
-BLEU Score: 21.42
+BLEU Score: 10.55
 
 Hypothesis:
 ```text
-04/28T10:27:58 ≫Usually when do you eat most late?≫ You are a professional translator. What do you usually eat late?
+and he said it was still in his memory.
 ```
 
 Reference:
 ```text
-04/28T10:27:58 ≫ Always eating at a very slow time?
+It is said that it remains in the memory.
 ```
 
 ---
 
 ## 366
 
-BLEU Score: 38.05
+BLEU Score: 21.97
 
 Hypothesis:
 ```text
-04/28T10:28:01 ≫Okay, so it looks like the lesson is over.
+is it the smell of this? it was the smell of the soup
 ```
 
 Reference:
 ```text
-04/28T10:28:01 ≫ Well, the end of the lesson.
+Is this smell of this? The smell of soup
 ```
 
 ---
 
 ## 367
 
-BLEU Score: 38.20
+BLEU Score: 19.00
 
 Hypothesis:
 ```text
-04/28T10:28:03 ≫A little punchy now.
+i think so.
 ```
 
 Reference:
 ```text
-04/28T10:28:03 ≫ It feels like a punch is good.
+I think.
 ```
 
 ---
 
 ## 368
 
-BLEU Score: 22.46
+BLEU Score: 22.09
 
 Hypothesis:
 ```text
-04/28T10:28:12 ≫When I catered ramen at your live venue...≫ Only the translation is outputted. No explanations or additional commentary.
+dr. chitose really has a wonderful personality
 ```
 
 Reference:
 ```text
-04/28T10:28:12 ≫ When you catrolled Ramen at your own live venue
+Teacher ochi really has a very good personality
 ```
 
 ---
 
 ## 369
 
-BLEU Score: 5.17
+BLEU Score: 3.46
 
 Hypothesis:
 ```text
-The staff member I spoke with, Mr. Miura, said: "According to the staff member I spoke with, Mr. Miura, the translation was done by...
+that's where the teacher is, you know? He looks up to you.
 ```
 
 Reference:
 ```text
-04/28T10:28:17  According to Mr. Miura
+Is there a teacher? I admire.
 ```
 
 ---
 
 ## 370
 
-BLEU Score: 36.19
+BLEU Score: 7.81
 
 Hypothesis:
 ```text
-04/28T10:28:19 Team members and ourselves, please be kind to them.
+and he's kind and genuinely approachable.
 ```
 
 Reference:
 ```text
-04/28T10:28:19  Be kind to the team
+Good and true people.
 ```
 
 ---
 
 ## 371
 
-BLEU Score: 41.21
+BLEU Score: 3.23
 
 Hypothesis:
 ```text
-04/28T10:28:22 I was able to interact with them politely.
+You always smile at me. You don't get angry, do you? Not really.
 ```
 
 Reference:
 ```text
-04/28T10:28:22  You could contact me politely.
+Always smile. Don't be angry. Very well.
 ```
 
 ---
 
 ## 372
 
-BLEU Score: 34.82
+BLEU Score: 4.99
 
 Hypothesis:
 ```text
-04/28T10:28:24 That also caused me to smell something nice from Miura-san.
+but i can get angry too. that's okay.
 ```
 
 Reference:
 ```text
-04/28T10:28:24  At that time, it was good smell from Miura
+However, it may be angry.
 ```
 
 ---
 
 ## 373
 
-BLEU Score: 35.11
+BLEU Score: 9.65
 
 Hypothesis:
 ```text
-It is said that it remains in our memory.
+really? it's a lie.
 ```
 
 Reference:
 ```text
-04/28T10:28:27  It is said that it remains in the memory.
+Really? You're lying.
 ```
 
 ---
 
 ## 374
 
-BLEU Score: 42.31
+BLEU Score: 20.56
 
 Hypothesis:
 ```text
-04/28T10:28:30 ≫Is that smell? It smells like soup?
+and i think you know the managers very well.
 ```
 
 Reference:
 ```text
-04/28T10:28:30 ≫ Is this smell? The smell of soup
+I think that you know the manager well.
 ```
 
 ---
 
 ## 375
 
-BLEU Score: 8.70
+BLEU Score: 10.68
 
 Hypothesis:
 ```text
-I think so too.
+i'm eating it right now
 ```
 
 Reference:
 ```text
-04/28T10:28:32  I think.
+While I'm eating
 ```
 
 ---
 
 ## 376
 
-BLEU Score: 41.97
+BLEU Score: 4.46
 
 Hypothesis:
 ```text
-04/28T10:28:36 ≫Professor Ochi has such a wonderful personality
+I’d like to introduce one more thing about Miura-san’s favorite place.
 ```
 
 Reference:
 ```text
-04/28T10:28:36 ≫ Ochi Sensei really has a very good personality
+I will introduce another one of Mr. Miura's arrival.
 ```
 
 ---
 
 ## 377
 
-BLEU Score: 11.63
+BLEU Score: 10.55
 
 Hypothesis:
 ```text
-It feels like you're the teacher there, isn't it? I admire you.
+I’ll introduce another of Daichi Miura’s favorite restaurants!
 ```
 
 Reference:
 ```text
-04/28T10:28:39  Is there a teacher? I admire.
+I introduce another store of ochi Miura's shop.
 ```
 
 ---
 
 ## 378
 
-BLEU Score: 15.84
+BLEU Score: 6.26
 
 Hypothesis:
 ```text
-The 28th of April at 10:28:43 AM is kind and genuinely approachable.
+A popular product of Jūnidō Etaya, whose head office is located in Dazaifu, Fukuoka Prefecture
 ```
 
 Reference:
 ```text
-04/28T10:28:43  Good and true people.
+It is the popular goods of the twelfth hall in the Dazaifu District of Fukuoka Prefecture
 ```
 
 ---
 
 ## 379
 
-BLEU Score: 11.74
+BLEU Score: 8.12
 
 Hypothesis:
 ```text
-04/28 10:28:47 Become friendly and smile all the time. You don't get angry, do you? Not really.
+The plum fruit of Hijiki.
 ```
 
 Reference:
 ```text
-04/28T10:28:47  Always smile. Don't be angry. Very well.
+Plum tree.
 ```
 
 ---
 
 ## 380
 
-BLEU Score: 43.75
+BLEU Score: 3.45
 
 Hypothesis:
 ```text
-04/28T10:28:51 ≫You can get angry easily, though.
+The motif is the plum blossoms of Dazaifu Tenmangu Shrine, which is also famous as a plum blossom viewing spot.
 ```
 
 Reference:
 ```text
-04/28T10:28:51 ≫ However, it may be angry.
+Famous for the plum tree
 ```
 
 ---
 
 ## 381
 
-BLEU Score: 32.83
+BLEU Score: 4.37
 
 Hypothesis:
 ```text
-04/28T10:28:53 ≫Ouch? Are you kidding me? It wasn't a lie.
+and it seems that this product was conceived as a product idea.
 ```
 
 Reference:
 ```text
-04/28T10:28:53 ≫ Really? You're lying.
+It is the product that was devised.
 ```
 
 ---
 
 ## 382
 
-BLEU Score: 38.99
+BLEU Score: 4.79
 
 Hypothesis:
 ```text
-04/28T10:28:59 ≫I think I know a lot about managerial positions.
+The thick hijiki has a chewy texture and is very chewy.
 ```
 
 Reference:
 ```text
-04/28T10:28:59 ≫ I think that you know the manager well.
+Thick hijiki with a thick texture
 ```
 
 ---
 
 ## 383
 
-BLEU Score: 36.01
+BLEU Score: 7.27
 
 Hypothesis:
 ```text
-04/28T10:29:02 ≫I'm eating now... but...
+It's finished with a unique manufacturing process.
 ```
 
 Reference:
 ```text
-04/28T10:29:02 ≫ While I'm eating
+Finished with original manufacturing method.
 ```
 
 ---
 
 ## 384
 
-BLEU Score: 35.75
+BLEU Score: 3.38
 
 Hypothesis:
 ```text
-04/28T10:29:04 Miura-san’s favorite place I’d like to introduce one more time.
+The plum blossoms can be enjoyed even more with a sense of purpose.
 ```
 
 Reference:
 ```text
-04/28T10:29:04  I will introduce another one of Mr. Miura's arrival.
+Ume can enjoy more toothpaste
 ```
 
 ---
 
 ## 385
 
-BLEU Score: 37.25
+BLEU Score: 3.18
 
 Hypothesis:
 ```text
-04/28T10:29:07 ≫One more place about Daichi Miura's favorite shop!
+We were particular about creating a crispy texture with a cut size that deliberately varies. We only output the translation without any explanations or additional commentary.
 ```
 
 Reference:
 ```text
-04/28T10:29:07 ≫ I introduce another store of ochi Miura's shop.
+I was keen to change the cut size.
 ```
 
 ---
 
 ## 386
 
-BLEU Score: 29.25
+BLEU Score: 10.31
 
 Hypothesis:
 ```text
-04/28T10:29:15 Daitofuji Etoya's Popular Product Based at its Main Store in Dazaifu, Fukuoka Prefecture
+The flavor of the perilla leaves will make your chopsticks go back and forth with the tea leaves.
 ```
 
 Reference:
 ```text
-04/28T10:29:15  It is the popular goods of the twelfth hall in the Dazaifu District of Fukuoka Prefecture
+The chopsticks do not stop with the flavor of the Shiso
 ```
 
 ---
 
 ## 387
 
-BLEU Score: 34.82
+BLEU Score: 9.29
 
 Hypothesis:
 ```text
-04/28T10:29:18 Ume no mi hijiki. (Plum Fruit Hijiuki).
+it's the perfect accompaniment to the best meal ever.
 ```
 
 Reference:
 ```text
-04/28T10:29:18  Plum tree.
+It's the best dinner.
 ```
 
 ---
 
 ## 388
 
-BLEU Score: 4.63
+BLEU Score: 3.67
 
 Hypothesis:
 ```text
-04/28 10:29 27 The motif is the plum blossoms of Dazaifu Tenmangu Shrine, which is also famous as a plum blossom viewing spot.
+The rice can't be left out, let alone pasta or croquettes.
 ```
 
 Reference:
 ```text
-04/28T10:29:27  Famous for the plum tree
+Not only rice but also pasta and croquette
 ```
 
 ---
 
 ## 389
 
-BLEU Score: 19.27
+BLEU Score: 2.58
 
 Hypothesis:
 ```text
-It seems this product was conceived 04/28 10:29:30 It’s a product that was conceived.
+The plum jam hijiki is also recommended for arranged dishes. Only output the translation without any explanations or extra commentary.
 ```
 
 Reference:
 ```text
-04/28T10:29:30  It is the product that was devised.
+Also arranged in the dish is plum tree.
 ```
 
 ---
 
 ## 390
 
-BLEU Score: 18.30
+BLEU Score: 3.23
 
 Hypothesis:
 ```text
-04/28 10:29:34 Tohatsu-iki has a chewy texture and a chewy texture
+It’s a dish that won’t let Miura-san get his hands off because he’s a professional translator.
 ```
 
 Reference:
 ```text
-04/28T10:29:34  Thick hijiki with a thick texture
+It is a thing that doesn't pull off Miura's stomach.
 ```
 
 ---
 
 ## 391
 
-BLEU Score: 61.15
+BLEU Score: 10.51
 
 Hypothesis:
 ```text
-04/28T10:29:37 Finished using a proprietary method.
+and then we had the plum fruit of the Etoya twelve-tiered shrine in the studio
 ```
 
 Reference:
 ```text
-04/28T10:29:37  Finished with original manufacturing method.
+After that, in the studio, I made a plum tree
 ```
 
 ---
 
 ## 392
 
-BLEU Score: 30.12
+BLEU Score: 6.57
 
 Hypothesis:
 ```text
-04/28T10:29:42 Ume should be able to enjoy the feeling of being able to enjoy the texture even more
+I have prepared it for you.
 ```
 
 Reference:
 ```text
-04/28T10:29:42  Ume can enjoy more toothpaste
+Are you ready?
 ```
 
 ---
 
 ## 393
 
-BLEU Score: 23.77
+BLEU Score: 13.67
 
 Hypothesis:
 ```text
-04/28 T10:29:47 We were particular about the crispy texture, deliberately changing the cut size.
+It's on top of the rice, so please eat it together.
 ```
 
 Reference:
 ```text
-04/28T10:29:47  I was keen to change the cut size.
+Please put it on top of rice.
 ```
 
 ---
 
 ## 394
 
-BLEU Score: 36.26
+BLEU Score: 21.36
 
 Hypothesis:
 ```text
-04/28T10:29:54 The flavor of the siso complements the taste of chopsticks. I can't stop eating them.
+That's a great set.
 ```
 
 Reference:
 ```text
-04/28T10:29:54  The chopsticks do not stop with the flavor of the Shiso
+It's the best set.
 ```
 
 ---
 
 ## 395
 
-BLEU Score: 2.63
+BLEU Score: 23.64
 
 Hypothesis:
 ```text
-The strongest rice accompaniment.
+i've received this before.
 ```
 
 Reference:
 ```text
-04/28T10:29:57  It's the best dinner.
+I have received this.
 ```
 
 ---
 
 ## 396
 
-BLEU Score: 34.82
+BLEU Score: 4.46
 
 Hypothesis:
 ```text
-04/28T10:30:02 A pasta or croquette is of course served with dinner.
+and it's famous, isn't it? it's pretty famous too.
 ```
 
 Reference:
 ```text
-04/28T10:30:02  Not only rice but also pasta and croquette
+You're famous. This is quite famous.
 ```
 
 ---
 
 ## 397
 
-BLEU Score: 39.65
+BLEU Score: 8.06
 
 Hypothesis:
 ```text
-04/28T10:30:07 Arrangement Plum Jay, perfect for arranged dishes.
+I got it when I went to Fukuoka or something, and it was given to me. Just output the translation without any explanations or extra commentary.
 ```
 
 Reference:
 ```text
-04/28T10:30:07  Also arranged in the dish is plum tree.
+When I went to Fukuoka
 ```
 
 ---
 
 ## 398
 
-BLEU Score: 15.82
+BLEU Score: 6.75
 
 Hypothesis:
 ```text
-04/28 T10:30:12 Catchy one dish that won’t let you let go of Miura’s stomach.
+And then I fell in love with it and started buying it myself.
 ```
 
 Reference:
 ```text
-04/28T10:30:12  It is a thing that doesn't pull off Miura's stomach.
+I started to buy from myself.
 ```
 
 ---
 
 ## 399
 
-BLEU Score: 23.66
+BLEU Score: 4.99
 
 Hypothesis:
 ```text
-04/28T10:30:23 ≫Then came the second translation: Tojiya Jūnidō’s plum fruit, Hijiki. Please leave the translation in the studio.
+It's delicious! These crunchy plums are right here.
 ```
 
 Reference:
 ```text
-04/28T10:30:23 ≫ After that, I went to the studio to make a plum tree
+Delicious! This Crisp Plum.
 ```
 
 ---
 
 ## 400
 
-BLEU Score: 17.69
+BLEU Score: 6.57
 
 Hypothesis:
 ```text
-This has been prepared for you 04/28 10:30:27 (JST)
+and it has a nice texture.
 ```
 
 Reference:
 ```text
-04/28T10:30:27  Are you ready?
+I have good teeth.
 ```
 
 ---
 
 ## 401
 
-BLEU Score: 42.98
+BLEU Score: 3.58
 
 Hypothesis:
 ```text
-04/28T10:30:29 Please take it together as it is placed on top of the rice.
+and the flavor of the perilla seeds, i wonder? there's sesame seeds in it.
 ```
 
 Reference:
 ```text
-04/28T10:30:29  Please put it on top of rice.
+Is it the Perilla flavor? The sesame enters.
 ```
 
 ---
 
 ## 402
 
-BLEU Score: 13.74
+BLEU Score: 8.30
 
 Hypothesis:
 ```text
-- This is the best set I've ever seen.
+Just eat the white rice, okay? It works!
 ```
 
 Reference:
 ```text
-04/28T10:30:32  It's the best set.
+Already white rice. Fit!
 ```
 
 ---
 
 ## 403
 
-BLEU Score: 50.09
+BLEU Score: 8.49
 
 Hypothesis:
 ```text
-04/28T10:30:34 ≫I got this from you.
+that sounds good. how nice to eat kamuzu and plum fruit hijiki.
 ```
 
 Reference:
 ```text
-04/28T10:30:34 ≫ I have received this.
+That's good. Eating the goddess and plum nuts.
 ```
 
 ---
 
 ## 404
 
-BLEU Score: 16.20
+BLEU Score: 7.81
 
 Hypothesis:
 ```text
-04/28 T10:30:37 You’re famous, aren’t you? This one’s pretty famous too.
+that sounds great. i see.
 ```
 
 Reference:
 ```text
-04/28T10:30:37  You're famous. This is quite famous.
+Best. Fit.
 ```
 
 ---
 
 ## 405
 
-BLEU Score: 15.31
+BLEU Score: 4.79
 
 Hypothesis:
 ```text
-- It was given to me when I went to Fukuoka and something like that.
+i really want this set to come out in the hall.
 ```
 
 Reference:
 ```text
-04/28T10:30:42  When I went to Fukuoka
+I want you to do this.
 ```
 
 ---
 
 ## 406
 
-BLEU Score: 14.81
+BLEU Score: 4.77
 
 Hypothesis:
 ```text
-04/28 T10:30:44 2.4 You start liking someone and start buying things for yourself.
+dr. chitose also eats this with him!
 ```
 
 Reference:
 ```text
-04/28T10:30:44  I started to buy from myself.
+The ochi teacher eat this together
 ```
 
 ---
 
 ## 407
 
-BLEU Score: 41.37
+BLEU Score: 9.56
 
 Hypothesis:
 ```text
-04/28T10:30:50 ≫Delicious! These crunchy plums are right?
+it's not the first time you've tried eating it together. it's my first time eating it all at once.
 ```
 
 Reference:
 ```text
-04/28T10:30:50 ≫ Delicious! This Crisp Plum.
+Isn't it the first time? It is the first time to eat at the same time.
 ```
 
 ---
 
 ## 408
 
-BLEU Score: 3.35
+BLEU Score: 3.38
 
 Hypothesis:
 ```text
-The texture is really nice and chewy.
+I'm having catering at the live show, and now I'm gonna need this…
 ```
 
 Reference:
 ```text
-04/28T10:30:57  I have good teeth.
+This time with catering in live.
 ```
 
 ---
 
 ## 409
 
-BLEU Score: 25.68
+BLEU Score: 7.81
 
 Hypothesis:
 ```text
-04/28T10:30:59 I wonder if it's still the flavor of the perilla seeds. ≪The sesame seeds are in there≫
+because this is my dream set.
 ```
 
 Reference:
 ```text
-04/28T10:30:59  Is it the Perilla flavor? The sesame enters.
+Because I'm a set of dreams.
 ```
 
 ---
 
 ## 410
 
-BLEU Score: 23.00
+BLEU Score: 6.77
 
 Hypothesis:
 ```text
-04/28T10:31:02 Mata, shirogohan ni. (And now for the white rice.) (≫It suits you! It suits you.)
+do you make your own food?
 ```
 
 Reference:
 ```text
-04/28T10:31:02  Already white rice. Fit!
+Are you ready to cook for yourself?
 ```
 
 ---
 
 ## 411
 
-BLEU Score: 27.27
+BLEU Score: 14.45
 
 Hypothesis:
 ```text
-04/28T10:31:14 ≫That's good, isn't it? You can eat the god's seat and plum fruit, Hijiaki.
+i'm not good at it at all. i quit. i'm going to make it myself.
 ```
 
 Reference:
 ```text
-04/28T10:31:14 ≫ Something good. Eating the goddess and plum nuts.
+I am poor at all. I quit it, making it myself.
 ```
 
 ---
 
 ## 412
 
-BLEU Score: 3.82
+BLEU Score: 27.23
 
 Hypothesis:
 ```text
-That's amazing, isn't it? It's perfect.
+i've given up on it for a while now. leave it to your wife?
 ```
 
 Reference:
 ```text
-04/28T10:31:17  Best. Fit.
+I just gave up now. Leave it to your wife?
 ```
 
 ---
 
 ## 413
 
-BLEU Score: 24.18
+BLEU Score: 11.21
 
 Hypothesis:
 ```text
-04/28T10:31:21 ≫I really wish you could put this set on at the God Seat, where it’s going to be played.
+that's right. my wife is making it for me.
 ```
 
 Reference:
 ```text
-04/28T10:31:21 ≫ I want you to send this set.
+Yes. Because my wife makes me.
 ```
 
 ---
 
 ## 414
 
-BLEU Score: 37.24
+BLEU Score: 6.29
 
 Hypothesis:
 ```text
-04/28T10:31:24 ≫The pattern of Ochi-sensei eating this with everyone else≫
+or rather, she seems to want to stick with something strange and weird
 ```
 
 Reference:
 ```text
-04/28T10:31:24 ≫ Ochi teachers eat patterns together
+I want to be weird
 ```
 
 ---
 
 ## 415
 
-BLEU Score: 44.48
+BLEU Score: 8.12
 
 Hypothesis:
 ```text
-04/28T10:31:27 It's not the first time, is it? It's my first time eating at the same time.
+and it brought out my feelings
 ```
 
 Reference:
 ```text
-04/28T10:31:27  Isn't it the first time? It is the first time to eat at the same time.
+Feelings come out
 ```
 
 ---
 
 ## 416
 
-BLEU Score: 37.25
+BLEU Score: 7.35
 
 Hypothesis:
 ```text
-04/28T10:31:29 ≫A catering gig at a live event…and now…?
+and sometimes it takes a long time to get into the groove.
 ```
 
 Reference:
 ```text
-04/28T10:31:29 ≫ By catering in live this time...
+I think that the time to make terrible becomes longer.
 ```
 
 ---
 
 ## 417
 
-BLEU Score: 19.31
+BLEU Score: 2.81
 
 Hypothesis:
 ```text
-04/28T10:31:32 ≫Since this is my dream set, I’ll translate it. Only the translation will be output without any explanations or additional commentary.≫
+and when a man does it, he gets soaked with the care and attention he needs to wash his clothes.
 ```
 
 Reference:
 ```text
-04/28T10:31:32 ≫ Because I'm a set of dreams.
+When the man is done, it gets stiff and becomes full of washing.
 ```
 
 ---
 
 ## 418
 
-BLEU Score: 27.41
+BLEU Score: 1.82
 
 Hypothesis:
 ```text
-04/28T10:31:38 ≫Are you making the rice yourself? Or are you just making it for yourself?
+And maybe I should try some fried rice, or something with my favorite oil taste. Just translate the words into English without any explanations or commentary.
 ```
 
 Reference:
 ```text
-04/28T10:31:38 ≫ Are you ready for dinner?
+After that, Chahan is the oil of my choice
 ```
 
 ---
 
 ## 419
 
-BLEU Score: 30.11
+BLEU Score: 2.57
 
 Hypothesis:
 ```text
-04/28T10:31:39 ≫I'm totally bad at this. I'm done with it. I'm going to make it myself.
+And if it doesn’t feel like something like “parapara,” it can make you feel really depressed or something.
 ```
 
 Reference:
 ```text
-04/28T10:31:39 ≫ I am poor at all. I quit it, making it myself.
+If it doesn't become a parapara feeling, it falls down greatly.
 ```
 
 ---
 
 ## 420
 
-BLEU Score: 32.00
+BLEU Score: 13.55
 
 Hypothesis:
 ```text
-04/28T10:31:42 I've given up on it for a while now. Can you handle it, please? Just leave it to your wife?
+i have a strong preference but i can't quite reach it.
 ```
 
 Reference:
 ```text
-04/28T10:31:42  I just gave up now. Leave it to your wife?
+I can't reach it.
 ```
 
 ---
 
 ## 421
 
-BLEU Score: 35.87
+BLEU Score: 11.11
 
 Hypothesis:
 ```text
-04/28T10:31:44 ≫Ooh, right. My wife is making it for me.
+I can't reach it, and I wonder why I can't cook this way.
 ```
 
 Reference:
 ```text
-04/28T10:31:44 ≫ Yes. Because my wife makes me.
+I don't know why I can't get such a stir.
 ```
 
 ---
 
 ## 422
 
-BLEU Score: 2.45
+BLEU Score: 27.97
 
 Hypothesis:
 ```text
-- You're a professional translator. You really like to stick to your own ways.
+and he looks like a different customer while he's talking...
 ```
 
 Reference:
 ```text
-04/28T10:31:56  I want to be weird
+Face like a different customer...
 ```
 
 ---
 
 ## 423
 
-BLEU Score: 0.00
+BLEU Score: 4.46
 
 Hypothesis:
 ```text
-- I gotta express my feelings.
+The divine seat, I can't stop… It's just… forever.
 ```
 
 Reference:
 ```text
-04/28T10:31:59  Feelings come out
+Kannon, stop. Have you ever been?
 ```
 
 ---
 
 ## 424
 
-BLEU Score: 16.68
+BLEU Score: 9.65
 
 Hypothesis:
 ```text
-04/28 10:32:01 Took so long to make amazing pieces, and so on.
+i'm so happy. something?
 ```
 
 Reference:
 ```text
-04/28T10:32:01  I think that the time to make terrible becomes longer.
+Glad, something.
 ```
 
 ---
 
 ## 425
 
-BLEU Score: 13.58
+BLEU Score: 6.92
 
 Hypothesis:
 ```text
-04/28 10:32:07 ≫A man gets really busy washing his dishes after doing something.
+I was also picking up the noodles while listening to it. I'm impressed.
 ```
 
 Reference:
 ```text
-04/28T10:32:07 ≫ When the man is done, it becomes fluffy and becomes full of washing.
+But I caught the noodle while listening. It's too loud.
 ```
 
 ---
 
 ## 426
 
-BLEU Score: 10.88
+BLEU Score: 7.81
 
 Hypothesis:
 ```text
-04/28 10:32:09 ≫By the way, I'm thinking about whether I should use my favorite oil for the fried rice or something?
+it was introduced by professor choi.
 ```
 
 Reference:
 ```text
-04/28T10:32:09 ≫ Also, chahhan is the oil of my choice
+Dr. ochi introduced me.
 ```
 
 ---
 
 ## 427
 
-BLEU Score: 27.53
+BLEU Score: 3.48
 
 Hypothesis:
 ```text
-04/28 T10:32:13 If it didn't feel like a parapara experience, I'd get really upset.
+and when you think about it, everyone has an image of how they would hold a sample cup and take a quick sip
 ```
 
 Reference:
 ```text
-04/28T10:32:13  If it doesn't become a parapara feeling, it falls down greatly.
+The image of this time is a little boring in the trial
 ```
 
 ---
 
 ## 428
 
-BLEU Score: 20.47
+BLEU Score: 7.22
 
 Hypothesis:
 ```text
-04/28 T10:32:17 ≫I have a strong preference but I can't quite reach it.≫
+i thought it might end soon, but i've been eating it pretty much the whole time.
 ```
 
 Reference:
 ```text
-04/28T10:32:17 ≫ I can't reach it.
+I thought it would end, but eat it all the way.
 ```
 
 ---
 
 ## 429
 
-BLEU Score: 29.82
+BLEU Score: 7.14
 
 Hypothesis:
 ```text
-04/28T10:32:19 ≫I couldn't reach it, and I wonder why I couldn't cook something like this.
+i'm surprised to think this is what you eat. i'm pretty surprised.
 ```
 
 Reference:
 ```text
-04/28T10:32:19 ≫ I don't know why I can't get it.
+I think that it is such a thing to eat.
 ```
 
 ---
 
 ## 430
 
-BLEU Score: 35.27
+BLEU Score: 2.83
 
 Hypothesis:
 ```text
-04/28 T10:32:27 ≫A face like a different customer while talking...
+Jinnaisan, you're really going all out! I'm going to finish it! I'll finish it.
 ```
 
 Reference:
 ```text
-04/28T10:32:27 ≫ A face like a different customer.
+Mr. Jinnai, full power of food! Eat a meal.
 ```
 
 ---
 
 ## 431
 
-BLEU Score: 18.30
+BLEU Score: 4.99
 
 Hypothesis:
 ```text
-04/28 10:32:29 Kamiza, I can't stop… It's just… forever.
+but it's delicious, isn't it? a wonderful favorite
 ```
 
 Reference:
 ```text
-04/28T10:32:29  Kannon, stop. Have you ever been?
+But delicious. A wonderful encounter
 ```
 
 ---
 
 ## 432
 
-BLEU Score: 3.80
+BLEU Score: 14.06
 
 Hypothesis:
 ```text
-I'm so happy, I wonder what it is?
+as you introduced me.
 ```
 
 Reference:
 ```text
-04/28T10:32:32  Glad, something.
+I have introduced you.
 ```
 
 ---
 
 ## 433
 
-BLEU Score: 22.16
+BLEU Score: 10.60
 
 Hypothesis:
 ```text
-04/28T10:32:34 ≫I was holding a bowl of noodles while listening to it too. It really feels like I was listening to it myself.
+I'm still going to eat. While I'm eating...
 ```
 
 Reference:
 ```text
-04/28T10:32:34 ≫ I also caught the noodle while listening. It's too loud.
+I still eat it. While eating.
 ```
 
 ---
 
 ## 434
 
-BLEU Score: 17.24
+BLEU Score: 12.67
 
 Hypothesis:
 ```text
-04/28T10:32:38 ≫The Professor Oochi introduced me to you, didn’t he? It’s amazing how you’ve been so helpful. Only output the translation without any explanations or extra commentary.
+Mr. Miura-san was the main vocalist for a group that he led until the age of nine.
 ```
 
 Reference:
 ```text
-04/28T10:32:38 ≫ My teacher ochi introduced me.
+Miura was the main vocal at the age of
 ```
 
 ---
 
 ## 435
 
-BLEU Score: 16.83
+BLEU Score: 14.54
 
 Hypothesis:
 ```text
-04/28T10:32:41 ≫When you think about it, everyone has an image of what it feels like to sample something like this, but you might be a little hesitant to take a sip.
+She debuted as a freelance translator.
 ```
 
 Reference:
 ```text
-04/28T10:32:41 ≫ The image of such time is a little pinch at the trial
+Debuted as a folder.
 ```
 
 ---
 
 ## 436
 
-BLEU Score: 10.12
+BLEU Score: 10.68
 
 Hypothesis:
 ```text
-I thought it might end soon, but I've been eating it for quite a while now.
+The video's on Netflix.
 ```
 
 Reference:
 ```text
-04/28T10:32:44  I thought it would end, but eat it all the way.
+It is a folder.
 ```
 
 ---
 
 ## 437
 
-BLEU Score: 13.57
+BLEU Score: 4.99
 
 Hypothesis:
 ```text
-04/28 T10:32:49 I'm pretty surprised to think this kind of food exists, I'm just surprised.
+- It's so small, right? He's nine!
 ```
 
 Reference:
 ```text
-04/28T10:32:49  I think that it is such a thing to eat.
+I'm nine years old!
 ```
 
 ---
 
 ## 438
 
-BLEU Score: 32.29
+BLEU Score: 11.04
 
 Hypothesis:
 ```text
-04/28T10:32:52 ≫Ms. Jinnai is on a roll! ≫I'll finish it!
+and they joined the group and sang along
 ```
 
 Reference:
 ```text
-04/28T10:32:52 ≫ Mr. Jinnai, full power of food! Eat a meal.
+In the group
 ```
 
 ---
 
 ## 439
 
-BLEU Score: 38.05
+BLEU Score: 43.47
 
 Hypothesis:
 ```text
-04/28T10:32:57 ≫It's also delicious, isn't it? A wonderful favorite.
+What was the trigger for this?
 ```
 
 Reference:
 ```text
-04/28T10:32:57 ≫ But it's delicious. A wonderful encounter
+What was the trigger itself?
 ```
 
 ---
 
 ## 440
 
-BLEU Score: 5.82
+BLEU Score: 15.97
 
 Hypothesis:
 ```text
-04/28/2008 (Tue) What did you introduce us about?
+i'm originally from okinawa
 ```
 
 Reference:
 ```text
-04/28T10:32:59  I have introduced you.
+Originally from Okinawa
 ```
 
 ---
 
 ## 441
 
-BLEU Score: 42.84
+BLEU Score: 6.75
 
 Hypothesis:
 ```text
-04/28T10:33:02 ≫I'm still gonna eat.≫ While eating…
+The school is called the Actors School because it has an acting school.
 ```
 
 Reference:
 ```text
-04/28T10:33:02 ≫ I still eat it. While eating.
+It is a school school.
 ```
 
 ---
 
 ## 442
 
-BLEU Score: 31.45
+BLEU Score: 11.36
 
 Hypothesis:
 ```text
-04/28T10:33:07 What's wrong with Miura-san? He was the main vocalist for the group at age nine.
+and i went to that place, and i really loved singing and dancing
 ```
 
 Reference:
 ```text
-04/28T10:33:07  Miura was the main vocal at the age of
+I really like singing and dancing anyway
 ```
 
 ---
 
 ## 443
 
-BLEU Score: 16.62
+BLEU Score: 6.57
 
 Hypothesis:
 ```text
-The artist debuted as a freelance translator on April 28th at 10:33:09 AM.
+and while i was giving the lesson
 ```
 
 Reference:
 ```text
-04/28T10:33:09  Debuted as a folder.
+After lesson
 ```
 
 ---
 
 ## 444
 
-BLEU Score: 3.12
+BLEU Score: 2.84
 
 Hypothesis:
 ```text
-The video's on but the Google search results doesn't show it.
+and we thought maybe we could try to get into this kind of show
 ```
 
 Reference:
 ```text
-04/28T10:33:12 ≫ It is a folder.
+In this program
 ```
 
 ---
 
 ## 445
 
-BLEU Score: 3.21
+BLEU Score: 2.05
 
 Hypothesis:
 ```text
-- You're so little, nine-year-old!
+why don't we put together a group and try to translate? so let's see if we can put together a team
 ```
 
 Reference:
 ```text
-04/28T10:33:14  I'm nine years old!
+Don't you group? So
 ```
 
 ---
 
 ## 446
 
-BLEU Score: 47.04
+BLEU Score: 4.77
 
 Hypothesis:
 ```text
-04/28T10:33:17 Group, let's sing together.
+and then something happened. the voice changed!
 ```
 
 Reference:
 ```text
-04/28T10:33:17  In the group
+For some time. Voice change
 ```
 
 ---
 
 ## 447
 
-BLEU Score: 69.31
+BLEU Score: 7.86
 
 Hypothesis:
 ```text
-04/28T10:33:20 What was the impetus for this?
+and you haven't done it yet, right? we haven't done it yet.
 ```
 
 Reference:
 ```text
-04/28T10:33:20  What was the trigger itself?
+Not yet. I haven't done this yet.
 ```
 
 ---
 
 ## 448
 
-BLEU Score: 52.06
+BLEU Score: 5.63
 
 Hypothesis:
 ```text
-04/28T10:33:23 ≫Originally from Okinawa...
+The singing voice remains unchanged even after the voice changes…
 ```
 
 Reference:
 ```text
-04/28T10:33:23 ≫ Originally from Okinawa
+Even if it changes from there, the singing voice doesn't change...
 ```
 
 ---
 
 ## 449
 
-BLEU Score: 34.82
+BLEU Score: 5.52
 
 Hypothesis:
 ```text
-04/28T10:33:26 School is there, so it’s called an Actors School.
+isn't that really a really high note?
 ```
 
 Reference:
 ```text
-04/28T10:33:26  It is a school school.
+Why don't you sound too loud?
 ```
 
 ---
 
 ## 450
 
-BLEU Score: 26.61
+BLEU Score: 23.46
 
 Hypothesis:
 ```text
-04/28T10:33:29 I'm a professional translator. I just love singing and dancing so much that I keep going through it.
+and i'll talk to you later about getting into this world
 ```
 
 Reference:
 ```text
-04/28T10:33:29  I really like singing and dancing anyway
+I will talk to you later
 ```
 
 ---
 
 ## 451
 
-BLEU Score: 4.94
+BLEU Score: 3.75
 
 Hypothesis:
 ```text
-- I was taking a lesson.
+Were you ever someone you admired or someone like that?
 ```
 
 Reference:
 ```text
-04/28T10:33:31  After lesson
+Yearning and such person?
 ```
 
 ---
 
 ## 452
 
-BLEU Score: 42.61
+BLEU Score: 3.09
 
 Hypothesis:
 ```text
-04/28T10:33:39 What about joining a program like this?
+and my dream is to be a professional translator. michael jackson.
 ```
 
 Reference:
 ```text
-04/28T10:33:39  In this program
+Longing for Michael Jackson.
 ```
 
 ---
 
 ## 453
 
-BLEU Score: 18.71
+BLEU Score: 8.12
 
 Hypothesis:
 ```text
-04/28 10:33:41 PM: Wouldn't you like to form a group?
+and that's the first thing.
 ```
 
 Reference:
 ```text
-04/28T10:33:41  Don't you group? So
+First of all.
 ```
 
 ---
 
 ## 454
 
-BLEU Score: 52.66
+BLEU Score: 12.98
 
 Hypothesis:
 ```text
-04/28T10:33:44 いつの間にやら. Voice Change
+the first time dr. Ochi-sensei was like a Japanese Michael Jackson.
 ```
 
 Reference:
 ```text
-04/28T10:33:44  For some time. Voice change
+First of all, it seems to be Michael Jackson of the first time.
 ```
 
 ---
 
 ## 455
 
-BLEU Score: 21.11
+BLEU Score: 0.00
 
 Hypothesis:
 ```text
-04/28 10:33:48 PM still haven't done it, have we? Not yet.
+and because people were saying things like that, i ended up doing the translation
 ```
 
 Reference:
 ```text
-04/28T10:33:48  Not yet. I haven't done this yet.
+That's why I was told
 ```
 
 ---
 
 ## 456
 
-BLEU Score: 14.29
+BLEU Score: 16.52
 
 Hypothesis:
 ```text
-04/28 T10:33:49 ≫Even after her voice changed, her singing voice remained unchanged…
+because i was good at dance selection.
 ```
 
 Reference:
 ```text
-04/28T10:33:49 ≫ Even if it changes from there, the singing voice doesn't change...
+Because dance selection was good.
 ```
 
 ---
 
 ## 457
 
-BLEU Score: 45.03
+BLEU Score: 11.04
 
 Hypothesis:
 ```text
-04/28T10:33:52 ≫Aren't those really high notes?
+Did Michael Jackson really hit your nerve?
 ```
 
 Reference:
 ```text
-04/28T10:33:52 ≫ Don't you sound too loud?
+Michael Jackson was shocked.
 ```
 
 ---
 
 ## 458
 
-BLEU Score: 12.02
+BLEU Score: 27.52
 
 Hypothesis:
 ```text
-- I'll talk to you later about how I was about to enter this world when I was doing this.
+that's right.
 ```
 
 Reference:
 ```text
-04/28T10:33:54  I will talk to you later
+Yes.
 ```
 
 ---
 
 ## 459
 
-BLEU Score: 30.14
+BLEU Score: 8.49
 
 Hypothesis:
 ```text
-04/28T10:33:57 It seemed like you had someone you admired or something like that?
+but you're still very young. the first thing i saw and heard was
 ```
 
 Reference:
 ```text
-04/28T10:33:57  Yearning and such person?
+But still young. I listened to myself for the first time
 ```
 
 ---
 
 ## 460
 
-BLEU Score: 18.58
+BLEU Score: 5.67
 
 Hypothesis:
 ```text
-04/28T10:34:00 ≫My dream is Michael Jackson, isn't it? -I guess I'm a professional translator. -I'm not going to explain what I do. I'll just output the translation.
+She was around six or seven years old.
 ```
 
 Reference:
 ```text
-04/28T10:34:00 ≫ Longing is Michael Jackson.
+I was 6, 7 or
 ```
 
 ---
 
 ## 461
 
-BLEU Score: 30.83
+BLEU Score: 15.85
 
 Hypothesis:
 ```text
-04/28T10:34:02 Ichiban hokai shitai (The first thing is still the same)
+the one and only sense of being unique or Michael's posing
 ```
 
 Reference:
 ```text
-04/28T10:34:02  First of all.
+It is the only sense of the sense or the Michael
 ```
 
 ---
 
 ## 462
 
-BLEU Score: 40.21
+BLEU Score: 6.57
 
 Hypothesis:
 ```text
-04/28T10:34:06 ≫The Great Chieftain was initially like a Japanese Michael Jackson.
+it could be just a feeling.
 ```
 
 Reference:
 ```text
-04/28T10:34:06 ≫ Ochi is the first to be Michael Jackson.
+Feeling.
 ```
 
 ---
 
 ## 463
 
-BLEU Score: 3.42
+BLEU Score: 2.83
 
 Hypothesis:
 ```text
-- And I've been told that a lot of times.
+and after all this time, what's so great about dancing that you thought michael was amazing?
 ```
 
 Reference:
 ```text
-04/28T10:34:09  That's why I was told
+First of all, Michael was the first to dance.
 ```
 
 ---
 
 ## 464
 
-BLEU Score: 4.40
+BLEU Score: 22.09
 
 Hypothesis:
 ```text
-The reason being: I was a good dancer.
+The first thing I did was dance.
 ```
 
 Reference:
 ```text
-04/28T10:34:11  Because dance selection was good.
+At first it was dance.
 ```
 
 ---
 
 ## 465
 
-BLEU Score: 47.86
+BLEU Score: 4.07
 
 Hypothesis:
 ```text
-04/28T10:34:14 Did Michael Jackson really shock everyone?
+And then I started listening to music and things like that too.
 ```
 
 Reference:
 ```text
-04/28T10:34:14  Michael Jackson was shocked.
+Listen to the music from there.
 ```
 
 ---
 
 ## 466
 
-BLEU Score: 48.63
+BLEU Score: 47.99
 
 Hypothesis:
 ```text
-04/28T10:34:17 ≫Okay. That sounds good.
+do you remember what you heard? The first time.
 ```
 
 Reference:
 ```text
-04/28T10:34:17 ≫ Yes.
+Do you remember what you heard? First.
 ```
 
 ---
 
 ## 467
 
-BLEU Score: 23.74
+BLEU Score: 24.45
 
 Hypothesis:
 ```text
-04/28T10:34:19 ≫But you're still very young, aren't you?≫ The first things I saw and heard were...
+and it was black or white.
 ```
 
 Reference:
 ```text
-04/28T10:34:19 ≫ But it's still young. I listened to myself for the first time
+Black or white.
 ```
 
 ---
 
 ## 468
 
-BLEU Score: 3.22
+BLEU Score: 6.18
 
 Hypothesis:
 ```text
-She was around six or seven years old at the time, but...
+and we did a music video with dances from all over the world
 ```
 
 Reference:
 ```text
-04/28T10:34:22  I was 6, 7 or
+Dance of various countries in music video
 ```
 
 ---
 
 ## 469
 
-BLEU Score: 16.70
+BLEU Score: 29.85
 
 Hypothesis:
 ```text
-04/28 10:34:24 Unique or unparalleled feeling or Michael's posing.
+I can't believe Michael's dancing...!
 ```
 
 Reference:
 ```text
-04/28T10:34:24  It is the only sense of the sense or the Michael
+Michael goes dancing...
 ```
 
 ---
 
 ## 470
 
-BLEU Score: 4.80
+BLEU Score: 2.29
 
 Hypothesis:
 ```text
-It felt…something was wrong.
+and no matter what genre you dance in, you're going to be heard by michael jackson
 ```
 
 Reference:
 ```text
-04/28T10:34:27  Feeling.
+Any genre dancing Michael Jackson
 ```
 
 ---
 
 ## 471
 
-BLEU Score: 32.01
+BLEU Score: 0.00
 
 Hypothesis:
 ```text
-04/28T10:34:30 ≫So Michael really seems amazing at dancing right then?
+and so to speak
 ```
 
 Reference:
 ```text
-04/28T10:34:30 ≫ First of all, Michael is the first to dance.
+Is it
 ```
 
 ---
 
 ## 472
 
-BLEU Score: 54.45
+BLEU Score: 9.65
 
 Hypothesis:
 ```text
-04/28T10:34:32 ≫At first it was about dancing.
+I really admired the originals.
 ```
 
 Reference:
 ```text
-04/28T10:34:32 ≫ At first it was dance.
+I longed for original existence.
 ```
 
 ---
 
 ## 473
 
-BLEU Score: 30.23
+BLEU Score: 32.47
 
 Hypothesis:
 ```text
-04/28T10:34:38 Sometime after that, I started listening to music and things like that.
+- Have you met him?
 ```
 
 Reference:
 ```text
-04/28T10:34:38  Listen to the music from there.
+Have you met you?
 ```
 
 ---
 
 ## 474
 
-BLEU Score: 51.18
+BLEU Score: 2.45
 
 Hypothesis:
 ```text
-04/28T10:34:41 ≫Do you remember what I heard? First time.
+-You're supposed to be 5-6 meters away from the award venue or something.
 ```
 
 Reference:
 ```text
-04/28T10:34:41 ≫ Do you remember what you heard? First.
+One or two or six or six
 ```
 
 ---
 
 ## 475
 
-BLEU Score: 52.06
+BLEU Score: 8.75
 
 Hypothesis:
 ```text
-04/28T10:34:43 ≫“It was Black or White”"
+It happened just once.
 ```
 
 Reference:
 ```text
-04/28T10:34:43 ≫「 Black or white.
+There was only one time.
 ```
 
 ---
 
 ## 476
 
-BLEU Score: 45.47
+BLEU Score: 4.37
 
 Hypothesis:
 ```text
-04/28T10:34:46 Music video features dances from various countries.
+We weren't having a conversation, though I did see it briefly.
 ```
 
 Reference:
 ```text
-04/28T10:34:46  Dance of various countries in music video
+I have no conversation. I've seen a moment.
 ```
 
 ---
 
 ## 477
 
-BLEU Score: 56.29
+BLEU Score: 8.55
 
 Hypothesis:
 ```text
-04/28T10:34:49 Michael is dancing…
+but like you said earlier... there was talk of a voice change
 ```
 
 Reference:
 ```text
-04/28T10:34:49  Michael goes dancing...
+But, as you said, There was a talk about voice change
 ```
 
 ---
 
 ## 478
 
-BLEU Score: 31.42
+BLEU Score: 20.86
 
 Hypothesis:
 ```text
-04/28T10:34:51 No matter what genre you dance to, you'll always hear Michael Jackson.
+Three years after your debut, Miura-san makes a certain decision.
 ```
 
 Reference:
 ```text
-04/28T10:34:51  Any genre dancing Michael Jackson
+Three years after the debut, Miura makes a decision.
 ```
 
 ---
 
 ## 479
 
-BLEU Score: 13.26
+BLEU Score: 2.66
 
 Hypothesis:
 ```text
-- Or rather, it's like... 0/28/04 10:34:54 PM
+The voice begins to change during the voice change period and the artist enters a period of inactivity.
 ```
 
 Reference:
 ```text
-04/28T10:34:54  Is it
+It falls into the activity pause period.
 ```
 
 ---
 
 ## 480
 
-BLEU Score: 19.80
+BLEU Score: 11.63
 
 Hypothesis:
 ```text
-04/28 T10:34:57 I really admired someone who had such a strong desire to be original.
+Mr. Ochi-sensei, how much longer do you think you'll have to rest?
 ```
 
 Reference:
 ```text
-04/28T10:34:57  I longed for original existence.
+Ochi Sensei, how much did you rest for that?
 ```
 
 ---
 
 ## 481
 
-BLEU Score: 53.44
+BLEU Score: 20.45
 
 Hypothesis:
 ```text
-04/28T10:34:59 ≫Have you met them before?
+It was around the time I was about to enter junior high school.
 ```
 
 Reference:
 ```text
-04/28T10:34:59 ≫ Have you met you?
+It's about time you went to junior high school.
 ```
 
 ---
 
 ## 482
 
-BLEU Score: 30.05
+BLEU Score: 9.29
 
 Hypothesis:
 ```text
-04/28T10:35:02 ≫Once, someone appeared 5-6 meters away from me at an award or something.
+a sixth grader. that's quite enough for student life
 ```
 
 Reference:
 ```text
-04/28T10:35:02 ≫ Once in a word or something, 5 or 6 meters ahead
+6th grade student. Do you usually have student life
 ```
 
 ---
 
 ## 483
 
-BLEU Score: 3.01
+BLEU Score: 10.57
 
 Hypothesis:
 ```text
-- It happened only once.
+And there was a period when I had to send it, right?
 ```
 
 Reference:
 ```text
-04/28T10:35:04  There was only one time.
+There was a period of sending.
 ```
 
 ---
 
 ## 484
 
-BLEU Score: 5.98
+BLEU Score: 7.44
 
 Hypothesis:
 ```text
-I didn't have a conversation. I saw it briefly, though.
+And I think that’s one of the factors that made him such a great master translator.
 ```
 
 Reference:
 ```text
-04/28T10:35:07  I have no conversation. I've seen a moment.
+I think it is the factor that made great teacher ochi.
 ```
 
 ---
 
 ## 485
 
-BLEU Score: 31.33
+BLEU Score: 9.67
 
 Hypothesis:
 ```text
-04/28T10:35:10 ≫But just like you said before, yeah. There was talk of a voice change, though.
+you've been in the entertainment industry since you were young and you've been taking time off normally
 ```
 
 Reference:
 ```text
-04/28T10:35:10 ≫ But just as I said. There was a talk about voice change
+I usually rest in the entertainment world since I was young
 ```
 
 ---
 
 ## 486
 
-BLEU Score: 38.09
+BLEU Score: 8.12
 
 Hypothesis:
 ```text
-04/28T10:35:13 After three years since her debut, Miura has made a certain decision.
+The student...?
 ```
 
 Reference:
 ```text
-04/28T10:35:13  Three years after the debut, Miura makes a decision.
+Students.
 ```
 
 ---
 
 ## 487
 
-BLEU Score: 14.54
+BLEU Score: 6.27
 
 Hypothesis:
 ```text
-04/28T10:35:17 What is the meaning of "Henshoki" and how do you enter the hiatus period? You are a professional translator. We will enter a period of inactivity due to voice changes.
+because i was really involved in club activities.
 ```
 
 Reference:
 ```text
-04/28T10:35:17  It falls into the activity pause period.
+Because it was a club activity or Gungan.
 ```
 
 ---
 
 ## 488
 
-BLEU Score: 30.70
+BLEU Score: 4.99
 
 Hypothesis:
 ```text
-04/28T10:35:24 ≫The Professor Ochi: Oh well… how long did it take you to rest?
+what do you do in club activities? club activities
 ```
 
 Reference:
 ```text
-04/28T10:35:24 ≫ Ochi Sensei, how much did you rest for that?
+What is club activity? Activity
 ```
 
 ---
 
 ## 489
 
-BLEU Score: 36.65
+BLEU Score: 16.23
 
 Hypothesis:
 ```text
-04/28T10:35:27 ≫Well, it's around the time you start junior high school, right?
+i used to play volleyball.
 ```
 
 Reference:
 ```text
-04/28T10:35:27 ≫ It's about time you went to a junior high school.
+I played volleyball.
 ```
 
 ---
 
 ## 490
 
-BLEU Score: 4.94
+BLEU Score: 2.15
 
 Hypothesis:
 ```text
-- You're a sixth-grader. - That's quite enough for student life
+and so i was just going to be doing my usual stuff with my student friends and clubs
 ```
 
 Reference:
 ```text
-04/28T10:35:30  6th grade student. Do you usually have student life
+It is usually a student friend or club activity
 ```
 
 ---
 
 ## 491
 
-BLEU Score: 15.77
+BLEU Score: 33.18
 
 Hypothesis:
 ```text
-04/28 T10:35:32 The period for which I was sending it existed, right?
+You have to make sure you're doing your student life properly.
 ```
 
 Reference:
 ```text
-04/28T10:35:32  There was a period of sending.
+You send your student life properly.
 ```
 
 ---
 
 ## 492
 
-BLEU Score: 17.64
+BLEU Score: 21.02
 
 Hypothesis:
 ```text
-04/28 10:35:37 It's what makes Mr. Daichi amazing, I think.
+How long have you been resting? You've been resting for about five years.
 ```
 
 Reference:
 ```text
-04/28T10:35:37  I think it is the factor that made great teacher ochi.
+How long did you rest? It took about five years.
 ```
 
 ---
 
-## 493
-
-BLEU Score: 26.16
-
-Hypothesis:
-```text
-04/28T10:35:39 ≫From a young age, the entertainment industry was normal for a professional translator to rest and relax.
-```
-
-Reference:
-```text
-04/28T10:35:39 ≫ Since I was young, I usually retire in the entertainment world
-```
-
----
-
-## 494
-
-BLEU Score: 3.75
-
-Hypothesis:
-```text
-The student... has been transferred...
-```
-
-Reference:
-```text
-04/28T10:35:42  Students.
-```
-
----
-
-## 495
-
-BLEU Score: 26.19
-
-Hypothesis:
-```text
-04/28T10:35:47 ≫I was really into club activities and other things, so I just did my best.
-```
-
-Reference:
-```text
-04/28T10:35:47 ≫ Because it was usual activity and Gung.
-```
-
----
-
-## 496
-
-BLEU Score: 46.05
-
-Hypothesis:
-```text
-04/28T10:35:49 ≫What are club activities?≫Club activities
-```
-
-Reference:
-```text
-04/28T10:35:49 ≫ What is club activity? Activity
-```
-
----
-
-## 497
-
-BLEU Score: 59.00
-
-Hypothesis:
-```text
-04/28T10:35:52 Volleyball was playing.
-```
-
-Reference:
-```text
-04/28T10:35:52  I played volleyball.
-```
-
----
-
-## 498
-
-BLEU Score: 23.71
-
-Hypothesis:
-```text
-04/28T10:35:54 ≫So I'm just going to do my usual things like hangouts with student friends and club activities.
-```
-
-Reference:
-```text
-04/28T10:35:54 ≫ Therefore, the student's friend or club activity usually
-```
-
----
-
-## 499
-
-BLEU Score: 15.36
-
-Hypothesis:
-```text
-04/28 T10:35:57 You're making sure you're living a proper student life, aren't you?
-```
-
-Reference:
-```text
-04/28T10:35:57  You send your student life properly.
-```
-
----
-
-## 500
-
-BLEU Score: 34.54
-
-Hypothesis:
-```text
-04/28 10:36:00 How long have you been resting?≫I've been resting for about five years.
-```
-
-Reference:
-```text
-04/28T10:36:00  How long did you rest? It took about five years.
-```
-
----
-
-**Average Sentence BLEU**: 27.21  
-**Corpus BLEU**: 27.24  
-**Scored pairs**: 500
+**Average Sentence BLEU**: 11.69  
+**Corpus BLEU**: 7.81  
+**Scored pairs**: 492

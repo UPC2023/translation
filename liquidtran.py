@@ -70,9 +70,25 @@ with IN_PATH.open("r", encoding="utf-8") as in_f, OUT_PATH.open("w", encoding="u
 
         if hasattr(tokenizer, "apply_chat_template"):
             messages = [
-                {"role": "system", "content": system_prompt},
-                {"role": "user", "content": text},
-            ]
+                {
+                    "role": "system", 
+                    "content": "You are a specialized subtitle translator. Translate the following Japanese TV transcript into natural English. \nConstraint: Do not repeat text. Do not add information not present in the source."
+                },
+                # Few-Shot 要给一个带有噪音（符号、不完整句子）的例子，教它怎么处理。
+                {
+                    "role": "user", 
+                    "content": "≫結成１６年以上のベテラン漫才師たちが"
+                },
+                {
+                    "role": "assistant", 
+                    "content": ">> Veteran manzai comedians formed over 16 years ago"
+                },
+                # 实际输入
+                {
+                    "role": "user", 
+                    "content": text
+                }
+            ] 
             inputs = tokenizer.apply_chat_template(
                 messages,
                 tokenize=True,
@@ -81,8 +97,9 @@ with IN_PATH.open("r", encoding="utf-8") as in_f, OUT_PATH.open("w", encoding="u
             )
         else:
             prompt = (
-                "Translate the following text to English. Only output the translation.\n\n"
-                + text
+                "Japanese: おはようございます。\nEnglish: Good morning.\n"
+                "Japanese: 思い出のＧＷです。\nEnglish: Memorable Golden Week.\n"
+                f"Japanese: {text}\nEnglish:"
             )
             inputs = tokenizer(prompt, return_tensors="pt")
 

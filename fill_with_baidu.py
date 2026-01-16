@@ -69,6 +69,10 @@ def process_file(src: Path, dst: Path, app_id: str, app_key: str, delay: float =
                 skipped += 1
             else:
                 text = obj.get("input", "")
+                if not text:
+                    print(f"Skipping line {total} because 'input' is empty.")
+                    skipped += 1
+                    continue
                 obj["output"] = baidu_translate(text, app_id, app_key)
                 filled += 1
                 time.sleep(delay)  # be nice to the API
@@ -83,19 +87,40 @@ def process_file(src: Path, dst: Path, app_id: str, app_key: str, delay: float =
 
 def main():
     ap = argparse.ArgumentParser(description="Fill JSONL output field via Baidu Translate (jp->en).")
-    ap.add_argument("--src", required=True, help="source jsonl path")
-    ap.add_argument("--dst", required=True, help="destination jsonl path")
+    ap.add_argument("--src", help="source jsonl path (will be prompted if not provided)")
+    ap.add_argument("--dst", help="destination jsonl path (will be derived from --src if not provided)")
     ap.add_argument("--app_id", default=DEFAULT_APP_ID)
     ap.add_argument("--app_key", default=DEFAULT_APP_KEY)
     ap.add_argument("--delay", type=float, default=0.4, help="seconds between requests")
-    ap.add_argument("--no-resume", action="store_true", help="do not resume, overwrite dst")
+    ap.add_argument("--no-resume", action="store_true", help="force overwrite, disable resume")
     args = ap.parse_args()
 
-    dst_path = Path(args.dst)
-    if args.no_resume and dst_path.exists():
+    src_path_str = args.src
+    if not src_path_str:
+        src_path_str = input("请输入源文件路径 (e.g., /home/cyw/pro/train_data/captions_0429_train.jsonl): ")
+
+    src_path = Path(src_path_str)
+    if not src_path.is_file():
+        print(f"错误：文件不存在: {src_path}")
+        return
+
+    dst_path_str = args.dst
+    if not dst_path_str:
+        dst_path = src_path.with_name(f"{src_path.stem}_filled{src_path.suffix}")
+    else:
+        dst_path = Path(dst_path_str)
+
+    resume = not args.no_resume
+    if resume and dst_path.exists():
+        answer = input(f"发现已存在的目标文件: {dst_path}\n要从上次中断的地方继续吗? (y/n): ").lower()
+        if answer not in ['y', 'yes', '是']:
+            resume = False
+
+    if not resume and dst_path.exists():
+        print(f"将覆盖已存在的目标文件: {dst_path}")
         dst_path.unlink()
 
-    process_file(Path(args.src), dst_path, args.app_id, args.app_key, delay=args.delay, resume=not args.no_resume)
+    process_file(src_path, dst_path, args.app_id, args.app_key, delay=args.delay, resume=resume)
 
 
 if __name__ == "__main__":
