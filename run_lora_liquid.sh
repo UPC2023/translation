@@ -4,19 +4,23 @@ set -euo pipefail
 # LoRA fine-tune LiquidAI-350M with LlamaFactory (pip install llamafactory)
 # Prereqs: translated train/test JSONL (see fill_with_baidu.py), torch/transformers/peft installed.
 
-TRAIN_JSON=/home/cyw/pro/train_data/captions_0429_train_filled.jsonl
-EVAL_JSON=/home/cyw/pro/train_data/captions_0429_test_filled.jsonl
+TRAIN_JSON=/home/cyw/pro/train_data/train_cleaned_filled.jsonl
+EVAL_JSON=/home/cyw/pro/train_data/test_cleaned_filled.jsonl
 MODEL_DIR=/home/cyw/LiquidAI-350M
 OUTPUT_DIR=/home/cyw/pro/outputs/liquidai-350m-lora
 
 # Force CPU only (unset CUDA)
-export CUDA_VISIBLE_DEVICES=
+export CUDA_VISIBLE_DEVICES=""  # 确保禁用 GPU
+# Skip transformers version guard in llamafactory (needed for lfm2 support)
+export DISABLE_VERSION_CHECK=1  # 跳过 transformers 版本检查
 
 llamafactory-cli train \
   --stage sft \
   --model_name_or_path "$MODEL_DIR" \
-  --data_path "$TRAIN_JSON" \
-  --eval_data_path "$EVAL_JSON" \
+  --dataset train_cleaned_filled \
+  --eval_dataset test_cleaned_filled \
+  --dataset_dir /home/cyw/pro/train_data \
+  --template default \
   --finetuning_type lora \
   --lora_rank 64 \
   --lora_alpha 128 \
@@ -36,9 +40,7 @@ llamafactory-cli train \
   --gradient_checkpointing True \
   --output_dir "$OUTPUT_DIR" \
   --report_to none \
-  --max_seq_length 256 \
-  --cutoff_len 256 \
-  --dataset_format instruction
+  --cutoff_len 256
 
 # To merge LoRA after training:
 # llamafactory-cli export --model_name_or_path $MODEL_DIR --adapter_name_or_path $OUTPUT_DIR --export_dir $OUTPUT_DIR/merged --export_legacy_format False

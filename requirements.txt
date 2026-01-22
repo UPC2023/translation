@@ -1,0 +1,48 @@
+# 核心框架
+torch
+# transformers 使用源码安装以支持 lfm2 架构，同时避免与 llamafactory 的版本冲突
+-e git+https://github.com/huggingface/transformers.git#egg=transformers
+
+# LoRA 微调核心依赖 (固定版本以保证兼容性)
+llamafactory==0.9.3
+peft==0.15.2
+accelerate<=1.7.0
+trl==0.9.6
+datasets==2.16.0
+tokenizers~=0.22.0
+
+# 评估指标
+sacrebleu
+sentence-transformers
+
+# 其他工具
+
+scipy
+gradio
+einops
+fire
+ninja
+packaging
+rich
+rouge-chinese
+scikit-learn
+tensorboard
+tiktoken
+uvicorn
+fastapi
+pydantic
+nltk
+jieba
+numpy
+pandas
+requests
+tqdm
+chardet
+cchardet
+lxml
+beautifulsoup4
+MarkupSafe==2.0.1
+Jinja2==3.1.2
+werkzeug==2.2.2
+itsdangerous==2.0.1
+click==8.0.4

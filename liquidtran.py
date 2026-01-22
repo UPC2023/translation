@@ -1,9 +1,7 @@
 """
 2026/1/16 chenyawen
 Translate `test.txt` to English using local LiquidAI-350M.
-
-Notes:
-- Optionally set: export HF_ENDPOINT=https://hf-mirror.com
+Fixed by Official Docs Recommendation.
 """
 
 from pathlib import Path
@@ -29,7 +27,7 @@ model = AutoModelForCausalLM.from_pretrained(
 )
 print("模型加载完成！")
 
-# IO paths (relative to this script directory)
+# IO paths
 SCRIPT_DIR = Path(__file__).resolve().parent
 IN_PATH = input("请输入待翻译的 jsonl 文件的路径: ").strip()
 if not IN_PATH:
@@ -40,16 +38,16 @@ else:
 model_tag = input("请输入模型名称简称（默认: liquid）: ").strip() or "liquid"
 OUT_PATH = IN_PATH.with_name(f"out_{model_tag}.jsonl")
 
-system_prompt = (
-    "You are a professional translator. Translate the user's text to English. "
-    "Only output the translation without any explanations or extra commentary."
-)
+# --- 【修改点 1：严格遵守官方 System Prompt】 ---
+# 官方文档强调：日英翻译必须严格使用 "Translate to English." (含句号)
+# 不要加 "You are a...", 不要加 "no explanation"，否则模型会崩。
+system_prompt = "Translate to English."
 
 eos_token_id = tokenizer.eos_token_id
 pad_token_id = tokenizer.pad_token_id if tokenizer.pad_token_id is not None else eos_token_id
 
 print("开始翻译...")
-# Translate line by line and write output
+
 with IN_PATH.open("r", encoding="utf-8") as in_f, OUT_PATH.open("w", encoding="utf-8") as out_f:
     for line_num, line in enumerate(in_f, start=1):
         if not line.strip():
@@ -69,23 +67,18 @@ with IN_PATH.open("r", encoding="utf-8") as in_f, OUT_PATH.open("w", encoding="u
 
         print(f"正在翻译第 {line_num} 行: {text[:30]}...")
 
-        if hasattr(tokenizer, "apply_chat_template"):
-            messages = [
-                {"role": "system", "content": system_prompt},
-                {"role": "user", "content": text},
-            ]
-            inputs = tokenizer.apply_chat_template(
-                messages,
-                tokenize=True,
-                add_generation_prompt=True,
-                return_tensors="pt",
-            )
-        else:
-            prompt = (
-                "Translate the following text to English. Only output the translation.\n\n"
-                + text
-            )
-            inputs = tokenizer(prompt, return_tensors="pt")
+        # 构造对话模版
+        messages = [
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": text},
+        ]
+        
+        inputs = tokenizer.apply_chat_template(
+            messages,
+            tokenize=True,
+            add_generation_prompt=True,
+            return_tensors="pt",
+        )
 
         if isinstance(inputs, torch.Tensor):
             inputs = {"input_ids": inputs}
@@ -93,10 +86,15 @@ with IN_PATH.open("r", encoding="utf-8") as in_f, OUT_PATH.open("w", encoding="u
         if use_cuda:
             inputs = {k: v.to("cuda") for k, v in inputs.items()}
 
+        # --- 【修改点 2：调整生成参数】 ---
+        # 350M 模型建议开启微量的采样和重复惩罚，以避免死循环或幻觉
         gen = model.generate(
             **inputs,
-            max_new_tokens=256,
-            do_sample=False,
+            max_new_tokens=512,  # 稍微调大一点，防截断
+            do_sample=True,      # 开启采样
+            temperature=0.4,     # 低温度保证准确性 (官方建议)
+            top_p=0.9,
+            repetition_penalty=1.01, # 惩罚重复，这对小模型至关重要
             eos_token_id=eos_token_id,
             pad_token_id=pad_token_id,
         )
@@ -108,28 +106,13 @@ with IN_PATH.open("r", encoding="utf-8") as in_f, OUT_PATH.open("w", encoding="u
 
         translated = tokenizer.decode(gen_tokens, skip_special_tokens=True).strip()
 
-        # --- 【关键修改点 2】 后处理清理废话 ---
-        # 既然 Prompt 无法完美控制后缀，不如生成后再切掉。简单粗暴且有效。
-        garbage_suffixes = [
-            "is a professional translator",
-            "is a professional subtitle translator",
-            "without any explanations or extra commentary",
-            "Only output the translation"
-        ]
+        # --- 【修改点 3：移除不必要的清洗逻辑】 ---
+        # 只要 System Prompt 正确，模型就不会输出 "Only output..." 这种话了。
+        # 直接使用结果即可。
         
-        # 简单的清理逻辑
-        cleaned_translation = translated
-        for garbage in garbage_suffixes:
-            # 不区分大小写替换
-            if garbage.lower() in cleaned_translation.lower():
-                # 这里用简单的 replace，可能会误伤
-                cleaned_translation = cleaned_translation.replace(garbage, "").replace(garbage.lower(), "").replace(garbage.capitalize(), "")
-        
-        cleaned_translation = cleaned_translation.strip(" ") 
+        print(f"✓ 完成: {translated[:50]}...")
 
-        print(f"✓ 完成: {text[:20]}... -> {cleaned_translation[:20]}...")
-
-        record = {"input": text, "output": cleaned_translation}
+        record = {"input": text, "output": translated}
         out_f.write(json.dumps(record, ensure_ascii=False) + "\n")
         out_f.flush()
 

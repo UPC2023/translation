@@ -1,0 +1,492 @@
+{"input": "Event 7fe4/0420/6cc5 フジテレビ 081", "output": "Event 7fe4/0420/6cc5 Fuji TV 081"}
+{"input": "04/28（月）09:50:00～11:30:00", "output": "Mon. 28th, 4/28th, 09:50:00~11:30:00"}
+{"input": "ノンストップ！【ニコニコ超会議に降臨小林幸子密着▽出演三浦大知３児パパ素顔】", "output": "Nonstop! [Kobayashi Sachiko Descends on the Niconico Super Conference in Close-Up with Michiko Kobayashi] Miura Daichi's 3rd Child Papa's True Face Appears ▽ ＃ 1: 3: 28, 2013 ☆ ｾ ｾ ｾ"}
+{"input": "ニコニコ超会議に降臨小林幸子密着▽「一時は死を覚悟…」ささきいさおが復帰ライブ▽三浦大知スタジオ登場３児パパ素顔▽向井理", "output": "The Niconico Super Conference: Close-Up with Sachiko Kobayashi ▽ \"At One Point I Was Responding to Death...\", Isao Sasaki's Return Live ▽ Miura Daichi Studio Appearance ▽ Three Children's Papa's True Face ▽ Osamu Mukai"}
+{"input": "≫おはようございます。", "output": "good morning!"}
+{"input": "≫「ノンストップ！」始まりました。", "output": "and now nonstop! has begun."}
+{"input": "≫今週のせきららボイスの投稿テーマは", "output": "the theme for this week's sekirara voice post is"}
+{"input": "思い出のＧＷです。", "output": "- This is my cherished GW."}
+{"input": "表示されているＱＲコードから皆さん、ぜひ投稿してください。", "output": "Please submit your responses using the QR code shown below."}
+{"input": "それでは参りましょうか。", "output": "so shall we begin?"}
+{"input": "≫４月２８日、今日も…。≫「ノンストップ！」。", "output": "April 28th, today again... Non-stop!"}
+{"input": "≫先週金曜日、「パリピ孔明ＴＨＥ　ＭＯＶＩＥ」の", "output": "Last Friday, \"Pali Ppi Kongming THE M.O.V.E.\""}
+{"input": "初日舞台あいさつが行われ", "output": "and the opening day stage greetings were given"}
+{"input": "向井理さん、上白石萌歌さんディーン・フジオカさん", "output": "mr. mukai rie, moka ueshiraishi, and dean fusjoka!"}
+{"input": "宮野真守さんらが登場しました。", "output": "The work featured Mamoru Miyano and others."}
+{"input": "≫音楽で戦うことになりました。≫マジで！？", "output": "and so we decided to fight with music. seriously?"}
+{"input": "≫向井さん演じる諸葛孔明が現代に転生し", "output": "the zhuge kongming portrayed by mukai mr. mukai has been reincarnated in the present day"}
+{"input": "上白石さん演じるアマチュアシンガー、英子の", "output": "the amateur singer eiko played by joshiraishi mr. kami is playing"}
+{"input": "軍師となって音楽の力で天下泰平を目指す", "output": "and become a strategist, using the power of music to bring peace to the world!"}
+{"input": "ド派手エンターテインメント映画です。", "output": "it's a flashy entertainment movie."}
+{"input": "「ノンストップ！」は向井さんや上白石さんら", "output": "the nonstop! was created by mukai and ueshiraishi"}
+{"input": "出演者４人に直撃しました。", "output": "It hit four of the performers directly."}
+{"input": "≫見どころの１つがライブシーン。", "output": "One of the highlights is the live scene."}
+{"input": "本人役で岩田剛典さんや水森かおりさんなど", "output": "and actors like tsutomu iwata and kaori mizumori playing themselves"}
+{"input": "総勢５０人以上のミュージシャンらが", "output": "and over 50 musicians in total"}
+{"input": "出演していることでも話題を呼んでいます。", "output": "and it's become a talking point because of the fact that he's appearing in it."}
+{"input": "そこで、パリピな映画にちなんで", "output": "so in reference to the patrician movies"}
+{"input": "向井さんたちが最もテンションアゲアゲになった", "output": "the mukai people were at their most excited"}
+{"input": "出演アーティストを聞いてみると…。", "output": "I looked up the artists..."}
+{"input": "≫すると、ディーンさんから意外な事実が。", "output": "and then mr. dean revealed an unexpected truth."}
+{"input": "≫一方、プライベートでの４人は", "output": "the four members in private, on the other hand..."}
+{"input": "どんな時にテンションが上がるのでしょうか。", "output": "When do you feel your energy rise?"}
+{"input": "≫Ｔｈｅ　ＣｕｒｅっていうＵＫの", "output": "The UK's UK called T-Her-Cup."}
+{"input": "レジェンドバンドが私大好きでして。", "output": "and i really like my university's legend band."}
+{"input": "≫向井理も…。≫上白石萌歌も…。", "output": "Mukai Rie also...? Kamishiraishi Moka also...?"}
+{"input": "≫ディーン・フジオカも…。≫宮野真守も…。", "output": "Dean Fujioka too…? Mamoru Miyano too…?"}
+{"input": "≫「ノンストップ！」。", "output": "nonstop!"}
+{"input": "≫昨日、ミュージカル「キンキーブーツ」の", "output": "yesterday yesterday, we watched the musical kinky boots"}
+{"input": "初日公演が行われました。", "output": "The first day's performance took place."}
+{"input": "アメリカの演劇界で最も権威のあるトニー賞で", "output": "the most prestigious tony award in american theatre"}
+{"input": "作品賞を含む６冠を達成したミュージカル。", "output": "The musical has won six awards, including Best Picture."}
+{"input": "カーテンコールでは音楽・作詞担当の", "output": "and the curtain call was given by the composer and lyricist"}
+{"input": "世界的歌姫にして大の親日家としても知られる", "output": "she was known as a world-renowned songstress and a great Japanophile"}
+{"input": "シンディ・ローパーがサプライズ出演。", "output": "Cindy Roeper makes a surprise appearance."}
+{"input": "ステージに花を添えました。", "output": "and we've added some flowers to the stage."}
+{"input": "≫しみじみと語るのは「宇宙戦艦ヤマト」など", "output": "and i'm going to talk about spaceship yamato and other things"}
+{"input": "数々の伝説的アニソンを歌ってきた", "output": "and I've sung many legendary anisongs"}
+{"input": "アニソン界の大王ことささきいさおさん、８２歳。", "output": "The King of the Anime Song World, Isao Sasaki, 82 years old."}
+{"input": "昨日、都内で行われたアニソンイベントに", "output": "we attended an anime song event held in tokyo yesterday"}
+{"input": "出演したのです。", "output": "and so i appeared on the show."}
+{"input": "≫ありがとう！", "output": "- Thank you! - Thank you!"}
+{"input": "≫実はささきさん、今年１月", "output": "actually, sasakisan was here this january"}
+{"input": "地下鉄に乗っている時に突如、気絶。", "output": "I suddenly fainted while riding the subway."}
+{"input": "その後、自力で自宅まで戻るも救急搬送。", "output": "After that, he returned home on his own but was rushed to the hospital by ambulance."}
+{"input": "医師から間質性肺炎急性増悪と診断され、入院していました。", "output": "The doctor diagnosed acute exacerbation of interstitial pneumonia and had the patient hospitalized."}
+{"input": "退院後も自宅療養とリハビリ生活を", "output": "and continued to recuperate at home and undergo rehabilitation after being discharged from the hospital"}
+{"input": "送っていたという、ささきさん。", "output": "Sasaki said he was sending it."}
+{"input": "どういう症状だったのでしょうか。", "output": "And what kind of symptoms were these?"}
+{"input": "≫一般的に血液中に含まれる酸素の量が", "output": "the amount of oxygen in the blood is generally about equal to the amount of oxygen in the blood"}
+{"input": "９０％を切ったら危ないといわれているところ", "output": "It's said that if it falls below 90%, it's dangerous."}
+{"input": "診察時、何と５０％しかなかったという、ささきさん。", "output": "Sasaki said that only 50% of the time she examined him."}
+{"input": "一時は死を覚悟したといいます。", "output": "and at one point he was prepared to die."}
+{"input": "≫しゃべるのも苦しかった中", "output": "and it was hard for me to talk about it either"}
+{"input": "まさに奇跡の復活を遂げたささきさん。", "output": "Sasaki-san has achieved a miraculous resurrection."}
+{"input": "昨日のライブではロボットアニメの主題歌４曲を", "output": "and yesterday's concert featured four songs from the robot anime theme song cycle!"}
+{"input": "およそ２０００人の観客の前で熱唱しました。", "output": "I sang my hymns in front of about 2,000 people."}
+{"input": "そんな、ささきさんの今のささやかな楽しみは…。", "output": "And that small pleasure of Sasaki's right now...?"}
+{"input": "≫大好きなお酒を楽しめるまで回復したようです。", "output": "and it seems he's recovered enough to enjoy his favorite drink."}
+{"input": "≫生涯現役宣言。", "output": "i declare myself active duty for life."}
+{"input": "今年７月にはデビュー６５周年記念イベントも", "output": "And this July, we're also holding an event to celebrate our 65th anniversary."}
+{"input": "控えているということで", "output": "and because we're holding back"}
+{"input": "パワフルな歌声をまだまだ聴かせてくれそうです。", "output": "and she's still going to have a powerful voice to show us."}
+{"input": "優勝はガクテンソク！", "output": "The champion goes to Gakuten Seok!"}
+{"input": "≫結成１６年以上のベテラン漫才師たちが", "output": "the veteran manzai performers who have been active for over 16 years have formed this troupe"}
+{"input": "セカンドチャンスをかけて戦う賞レース", "output": "a race for the very first chance at victory!"}
+{"input": "３回目の開催となる今年", "output": "And this year, the third time it's been held,"}
+{"input": "グランプリファイナルに勝ち上がった８組が", "output": "the eight teams that advanced to the grand prix final"}
+{"input": "組み合わせ抽選会を行いました。", "output": "and we held a lottery to determine the pairings."}
+{"input": "１回戦の注目カードは結成５３年", "output": "The featured matchup in the first round is the team formed 53 years ago."}
+{"input": "昭和の漫才ブームの一翼を担った、ザ・ぼんちと", "output": "the Bonchi, who played a role in the manzai boom of the showa era"}
+{"input": "３回連続グランプリファイナル出場の", "output": "- He's qualified for the Grand Prix Final three times in a row."}
+{"input": "金属バットが激突。", "output": "a metal bat hits another."}
+{"input": "≫レジェンドのザ・ぼんちの快進撃なるか？", "output": "can the legendary z the bonchi go on a wild march?"}
+{"input": "グランプリファイナルは来月１７日放送予定です。", "output": "The Grand Prix Final is scheduled to air on the 17th of next month."}
+{"input": "≫５歳の女の子も７０代のご婦人も", "output": "A five-year-old girl and a woman in her 70s..."}
+{"input": "満面の笑みにさせていたのは", "output": "and what made me smile so brightly was that i had been able to make people smile"}
+{"input": "先週金曜日からゴールデンウィークに合わせて", "output": "and since last friday, we've been holding up our goal during golden week"}
+{"input": "開催されている", "output": "- It's happening. - Yeah, it's happening."}
+{"input": "「アイスクリーム万博」通称「あいぱく」。", "output": "the ice cream world fair, commonly known as \"aipaku\"."}
+{"input": "今回で１０周年。", "output": "This is the 10th anniversary of this."}
+{"input": "累計来場者数４４０万人を超える", "output": "The cumulative number of visitors exceeds 440,000."}
+{"input": "国内最大級のアイスクリームイベントで", "output": "the largest ice cream event in the country"}
+{"input": "全国のアイスマニアが厳選したアイスを", "output": "the ice cream that ice maniacs across the country have carefully selected"}
+{"input": "１８０種類以上食べられるんです。", "output": "I can eat over 180 different kinds of food."}
+{"input": "場内を回っていると…。", "output": "and as i walked around the arena..."}
+{"input": "≫突然、ダッシュで列を作るお客さん。", "output": "and suddenly a customer lines up in a dash."}
+{"input": "≫この、突如できた行列の正体。", "output": "the identity of this suddenly formed procession."}
+{"input": "実は、まだ発売前の新商品を無料配布していたんです。", "output": "We were actually giving away free copies of a new product that wasn't yet available for sale."}
+{"input": "≫無料アイスまでもらえる", "output": "and you get a free ice cream pack!"}
+{"input": "ファンにはたまらないこのイベント。", "output": "This event is something fans will absolutely love!"}
+{"input": "監修するのは年間１０００種類以上の", "output": "The curators oversee over 1,000 different species each year."}
+{"input": "アイスを食べる専門家アイスマン福留さん。", "output": "The ice cream expert Mr. Fukudome is eating ice cream."}
+{"input": "≫ということで厳選に厳選を重ねた、全国のアイスの中でも", "output": "and therefore we carefully selected ice cream from all over the country"}
+{"input": "アイスマン福留さんが特にオススメする", "output": "The Iceman Fukudome-san particularly recommends this one."}
+{"input": "２品を、ご紹介します。", "output": "I'd like to introduce you two items."}
+{"input": "最初は一見、普通なソフトクリーム。", "output": "at first glance, it looks like normal soft serve ice cream."}
+{"input": "しかし、口にすると…。", "output": "But when I say it..."}
+{"input": "≫ふわふわな口当たりに驚く人が続出していたのが", "output": "and many people were surprised by the fluffy texture"}
+{"input": "北海道の人気店、ましゅれのジャージー牛乳ソフト。", "output": "The popular shop in Hokkaido, Mashure no Jersey Milk Soft serve Jersey Milk Soft serve."}
+{"input": "地元のジャージーミルクと砂糖のみで作ったソフトクリーム。", "output": "A soft-serve ice cream made only with local jersey milk and sugar."}
+{"input": "ふわふわ感を出す秘密が…。", "output": "The secret to creating that fluffy feel…"}
+{"input": "こちら、世界最高峰のソフトクリームマシン。", "output": "and this is the world's most powerful ice cream machine."}
+{"input": "お値段は何とおよそ３００万円！", "output": "The price is about 3 million yen!"}
+{"input": "その高級さと、イタリアで生産されていることから", "output": "and because it's so luxurious and made in italy"}
+{"input": "ソフトクリーム界のフェラーリと呼ばれているんです。", "output": "and they're called the ferrari of ice cream."}
+{"input": "最大の特徴はきめの細かい気泡で", "output": "and the biggest feature is the fine grain of the bubbles"}
+{"input": "ふわっふわな食感のソフトクリームを作れること。", "output": "The ability to create soft ice cream with a fluffy texture."}
+{"input": "アイスの口当たりを決める空気の量を", "output": "the amount of air that controls the texture of ice cream"}
+{"input": "素材に合わせて絶妙に調整できるため", "output": "and because it can be adjusted exquisitely to match the material"}
+{"input": "この食感を生み出せるんです。", "output": "and we can create this texture."}
+{"input": "≫一方こちらは何やら、ぷつぷつしたものが", "output": "on the other hand, something like a shaky piece of shaky material"}
+{"input": "練り込まれているアイス。", "output": "The ice cream is well-drained."}
+{"input": "≫お客さんが感じた甘じょっぱさ。", "output": "the sweetly salty taste that the customer felt."}
+{"input": "実はこれ、ベーコンが練り込まれたアイスなんです。", "output": "This is actually an ice cream with a mixture of bacon and other ingredients."}
+{"input": "これを作ったのは、横須賀市の人気アイスクリームパーラー。", "output": "The ice cream parlor in Yokosuka City, a popular place in the city, created this product."}
+{"input": "店主がアメリカで食べたメープルシロップと", "output": "and the owner had some maple syrup that he'd eaten in america"}
+{"input": "ベーコン、ドーナツを組み合わせた", "output": "and they combined bacon and doughnuts"}
+{"input": "甘じょっぱい料理から着想を得たそうです。", "output": "It seems to have been inspired by sweet and salty dishes."}
+{"input": "≫世界最高峰のソフトクリームから", "output": "from the world's finest ice cream"}
+{"input": "変わり種アイスまで楽しめる「あいぱく」。", "output": "The “Aipaku” shop even offers a variety of ice creams, including the “Kawari-tsu Ice Cream.”"}
+{"input": "そして、アイス好きの夢である", "output": "and my dream of being an ice enthusiast"}
+{"input": "あれ食べてみたいですねふわふわするソフトクリーム。", "output": "I'd really like to try that fluffy soft-serve ice cream."}
+{"input": "≫どんな感じなんですかねちょっと、想像が…。", "output": "I wonder what it might feel like, just a bit… imagination…"}
+{"input": "≫あそこ会場行く人って何個も食べるんですかね。", "output": "i wonder how many people there will eat all those things?"}
+{"input": "≫アイスしかないですもんね「あいぱく」は。", "output": "and there's nothing but ice cream, right? an \"apopuk\"?"}
+{"input": "≫大好きな人は何個も何個も食べてね。", "output": "and eat as many pieces as you like!"}
+{"input": "≫お土産でも買って帰れそうですね。", "output": "i could probably buy some souvenirs for you to take home."}
+{"input": "≫そんな「あいぱく」ですが", "output": "but this kind of \"aipaku\""}
+{"input": "食べ比べされている方多かったんですね。", "output": "So there were a lot of people comparing the tastes of the foods."}
+{"input": "そして皆さんにもぜひ食べ比べ楽しんでいただきたいです。", "output": "And I would really like you all to enjoy comparing the flavors."}
+{"input": "今回はイベントを監修するアイスマン福留さんイチ押し", "output": "This time, we've got Ice Man Fukudome, who oversees the event, making sure to put this one on the top list."}
+{"input": "桃の食べ比べアイススタジオにご用意しました。", "output": "We have prepared this for the Peach Food comparison Ice Studio."}
+{"input": "食べ比べるのは山梨県の農家さんが作っている", "output": "The farmers in Yamanashi Prefecture are making a comparison."}
+{"input": "６種類の桃のジェラートの中から２種類。", "output": "Two types of gelato from six different peach flavors."}
+{"input": "特に人気の高かった夏かんろ、黄金桃。", "output": "The summer peaches and golden peaches were particularly popular."}
+{"input": "まずは皆さん、夏かんろからいってらっしゃいませ。", "output": "First off, please all come away with a happy summer."}
+{"input": "≫おいしい！うわ、すごい桃！", "output": "This is delicious! Wow, that's a really amazing peach!"}
+{"input": "≫果肉も入ってますね！", "output": "The flesh is also inside!"}
+{"input": "≫食べた瞬間は桃のアイスだなって感じするけど", "output": "the moment i eat it feels like peach ice cream"}
+{"input": "そのあとに、ぐわっと桃の香りが。すっごいおいしい！", "output": "And then the scent of peaches suddenly filled my air. It's amazingly delicious!"}
+{"input": "めちゃくちゃうまい、これ。", "output": "this is really delicious!"}
+{"input": "≫１００％全力の桃果肉の食感を残したジェラートで", "output": "This gelato retains the texture of peach flesh with 100% full force."}
+{"input": "ねっとりした食感が最大の特徴ということです。", "output": "The most distinctive feature is its sticky texture."}
+{"input": "これが夏かんろでした。", "output": "and this was the summer hardship."}
+{"input": "続いて、黄金桃のほうも楽しんでいただきたいです。", "output": "And I hope you enjoy the golden peaches too."}
+{"input": "こちら、桃農家さんによりますとジューシーな甘みとうまみが特徴。", "output": "The peach farmer says that the product is characterized by its juicy sweetness and umami flavor."}
+{"input": "皆さん、お願いいたします。召し上がれ。", "output": "I beg you, everyone, please have some. Have some."}
+{"input": "≫あっ、違う。あー！おいしい！こっちもうまい。", "output": "Oh, no! Ah! Oh! It's delicious! This one's good!"}
+{"input": "ちょっと違いますね。", "output": "it's a little different."}
+{"input": "≫夏かんろの桃感がすごかったから", "output": "the peach color of the summer moon was amazing!"}
+{"input": "ちょっとあっさりには思えるよね。", "output": "it seems a bit lighthearted, doesn't it?"}
+{"input": "≫何だろう、こっちのほうがいわゆる缶詰なんかに入ってた", "output": "and what does this seem to be? it was in something called a canned food box here"}
+{"input": "黄色いもの…。あっ、おいしい！", "output": "The yellow one… oh, it's delicious!"}
+{"input": "≫迷う！≫夏かんろ、うまいな。", "output": "i'm lost! summer is good, isn't it?"}
+{"input": "夏かんろ、最初に食べたからかインパクトが。", "output": "the summer yam roe really made an impact on me because i ate it first."}
+{"input": "≫桃に関しては６種類ありますからね。", "output": "and there are six different kinds of peaches."}
+{"input": "≫じゃあ食べ比べこれこそ本当にね。", "output": "then this is really a good comparison."}
+{"input": "≫ぜひとも皆さんに行っていただきたいです。", "output": "We really encourage everyone to go and experience it."}
+{"input": "大人気の「あいぱく」来月６日までやっています。", "output": "The hugely popular \"Aipaku\" is running until the 6th of next month."}
+{"input": "ゴールデンウィーク中に足を運んでみては", "output": "and i thought it might be worth a visit during golden week"}
+{"input": "いかがでしょうか。≫続いては歌手の小林幸子さん。", "output": "and then came the singer kobayashi Sachiko."}
+{"input": "この週末に行われた大規模イベント出演に密着です。", "output": "It follows the appearance at a large-scale event held this weekend."}
+{"input": "分け隔てなく若者と接する神対応ぶりが見えてきました。", "output": "It became apparent how God treats young people without discrimination."}
+{"input": "≫昨日、幕張メッセで突如湧き起こったラスボスコール。", "output": "The final boss call suddenly erupted at Makuhari Messe yesterday."}
+{"input": "この人だかりの中心にいたのは…。", "output": "The one at the center of this crowd was..."}
+{"input": "≫ラスボスの異名を持つ小林幸子さん、７１歳。", "output": "The seven-year-old Sachiko Kobayashi, nicknamed the \"Rasboss,\" is 71 years old."}
+{"input": "この週末幕張メッセで開催された", "output": "this weekend at the makuhari messe in tokyo"}
+{"input": "ネット発の文化をリアルで体験できる", "output": "and experience the culture of the internet firsthand"}
+{"input": "日本最大級のイベント", "output": "the largest event in japan"}
+{"input": "「ニコニコ超会議２０２５」に出演しました。", "output": "I appeared at the “Niconico Super Conference 2025.”"}
+{"input": "コスプレや推し活などみんなの好きを", "output": "and everyone's favorite things like cosplay and fan activities"}
+{"input": "思いきり表現できるイベントとして", "output": "and an event where you could express yourself as much as you could"}
+{"input": "２日で１３万人以上が来場。", "output": "The event drew more than 130,000 visitors in two days."}
+{"input": "その模様は全世界に生配信されるという", "output": "and the event will be live streamed worldwide"}
+{"input": "ビッグイベントです。", "output": "it's a big event."}
+{"input": "そんなビッグイベントでの幸子さんといえば…。", "output": "And speaking of Sachiko at such a big event..."}
+{"input": "≫鶴に乗って空を飛んだり…。", "output": "and fly through the sky on a crane..."}
+{"input": "ボブ・サップとプロレスをしたり…。", "output": "I wrestled with Bob Sapp..."}
+{"input": "ギャルになったりと今年で１３回連続出演。", "output": "She has appeared in 13 consecutive episodes this year, including one as a gal."}
+{"input": "毎年、新たなことに挑戦し観客を驚かせています。", "output": "The audience is surprised every year by the challenges they take on new things."}
+{"input": "今年は何を見せてくれるのか。", "output": "What will they have to offer this year?"}
+{"input": "「ノンストップ！」は", "output": "and nonstop!"}
+{"input": "「ニコニコ超会議」に出演する幸子さんの２日間に密着しました。", "output": "We followed Sachiko-san closely for two days while she appeared on the TV program “Niconico Super Conference”."}
+{"input": "≫年末ありがとうございます。", "output": "thank you for your help at the end of the year."}
+{"input": "≫お客さんに楽しんでもらいたい！", "output": "I want my customers to enjoy it!"}
+{"input": "そんな一心でまず向かったのは…。", "output": "And so my first step was to..."}
+{"input": "≫ゲストや視聴者がリアルタイムで持ち込んだ", "output": "and guests and viewers brought their own realtime submissions"}
+{"input": "差し入れで作るという", "output": "and make it with gifts"}
+{"input": "唯一無二のカレーを注文できるブース。", "output": "The booth where you can order a one-of-a-kind curry."}
+{"input": "幸子さんは、地元・新潟の名物車麩を差し入れし", "output": "miss kouko brought in a special bread roll made with local Niigata's famous fu (wheat gluten noodles)"}
+{"input": "オリジナルの車麩入りカレーを試食しました。", "output": "I tried the original curry with wheat gluten."}
+{"input": "≫幸子さんオススメのカレーを紹介すると…。", "output": "I'd like to recommend some curry recommended by Sachiko..."}
+{"input": "広い会場を縦横無尽に移動する幸子さん。", "output": "Sachiko moves freely around the large venue."}
+{"input": "続いてやってきたのは…。", "output": "And then came the next thing..."}
+{"input": "≫幸子さんが最強キャラとしてデザインされた", "output": "the character sachikosan was designed as the strongest character!"}
+{"input": "カードゲームの販売ブース。", "output": "a card game sales booth."}
+{"input": "見るからに強そうなイラストをファンにも自慢し", "output": "and proudly show off these obviously strong-looking illustrations to her fans"}
+{"input": "購入者一人ひとりと満面の笑みで記念撮影に応じる神対応です。", "output": "The god responds to each buyer with a smile and accepts the photo session."}
+{"input": "≫親子で幸子推しだというファンは…。", "output": "the fans who are both parents and fans of Sachiko..."}
+{"input": "≫記念撮影を終えるとまたせわしなく移動する幸子さん。", "output": "Sakiko moves around frantically after finishing taking the commemorative photo."}
+{"input": "≫だからあたしも芸能人だけど", "output": "and that's why i'm a celebrity too!"}
+{"input": "芸能人ともまたちょっと違う…。", "output": "It's a little different from being a celebrity..."}
+{"input": "≫みんな会ったら友達。", "output": "and when they meet, they're friends."}
+{"input": "芸歴６０年を超える大ベテランとは思えない", "output": "I can't believe he's a veteran with over 60 years of experience."}
+{"input": "フレンドリーさとフットワーク。そして…。", "output": "Friendly and with good footwork..."}
+{"input": "≫ライブがあると伺いました。", "output": "i heard there will be a live concert."}
+{"input": "≫幸子さんの１日目を締めくくるライブブースへ移動します。", "output": "We will now move to the live booth where we will conclude Sachiko’s first day of events."}
+{"input": "今回はスペシャルコラボということで", "output": "and since this time it's a special collaboration"}
+{"input": "衣装に着替えた幸子さんを待っていたのは…。", "output": "The woman waiting for Sachiko as she changed into her costume is...?"}
+{"input": "≫すごいですね、素敵です。", "output": "that's great. it looks lovely."}
+{"input": "≫６人組ダンス＆ボーカルグループの", "output": "the six-member dance and vocal group"}
+{"input": "平均年齢３０．５歳の彼らと幸子さんとの年齢差", "output": "The age difference between them and Sachiko, who have an average age of 30.5 years."}
+{"input": "およそ４０歳！", "output": "- About 40 years old!"}
+{"input": "≫面白いものが見られる異色のコラボステージ、開幕です。", "output": "the unique collaboration stage where you can see interesting things begins here."}
+{"input": "≫小林幸子さんのステージがあるということで", "output": "and since there's a stage performance by kobayashi Sachiko"}
+{"input": "駆け付けたんですけれども。", "output": "but i rushed over here to help."}
+{"input": "≫あれ？≫ありがとうございます！", "output": "huh? thank you so much!"}
+{"input": "≫進化してる！", "output": "- It's evolving!"}
+{"input": "≫早着替えですね。", "output": "it's a quick change of clothes."}
+{"input": "≫デビュー６０周年記念曲で去年末の", "output": "it's a song commemorating the 60th anniversary of his debut"}
+{"input": "「ノンストップ！」大忘年会でも披露してくれた", "output": "and they even performed it at our nonstop year-end party!"}
+{"input": "「オシャンティ・マイティガール」を披露！", "output": "I'm going to perform \"Oshanti Mighty Girl\"!"}
+{"input": "そして…。", "output": "And..."}
+{"input": "≫西城秀樹さんの往年の名曲「Ｙ．Ｍ．Ｃ．Ａ．」で", "output": "in nishiki Hideki's classic song y.m.c.a."}
+{"input": "会場を盛り上げました。", "output": "and it really made the venue buzz."}
+{"input": "終演後", "output": "and after the show"}
+{"input": "ＧＥＮＥＲＡＴＩＯＮＳをはじめとする", "output": "The GENERAOS project and others."}
+{"input": "出演者一人ひとりとハイタッチして回る幸子さん。", "output": "Ms. Sachiko goes around giving high fives to each performer."}
+{"input": "どんなにキャリアを重ねても謙虚な姿勢は変わりません。", "output": "The humble attitude remains unchanged no matter how much one has worked hard in their career."}
+{"input": "≫そして会場を出る最後の最後まで…。", "output": "and until the very last moment before leaving the venue...."}
+{"input": "≫全力のファンサービス！", "output": "- All-out fan service!"}
+{"input": "幸子さんの「ニコニコ超会議」１日目は終了しました。", "output": "The first day of Sachiko’s “Nikko-Nico Super Conference” has concluded."}
+{"input": "≫おはようございます。", "output": "good morning!"}
+{"input": "≫熱烈な出迎えを受けながら会場入り。", "output": "The audience entered the venue with enthusiastic greetings from the audience members."}
+{"input": "まずは１０時から生配信する", "output": "I'm going live from 10:00 a.m. for now."}
+{"input": "ラジオの打ち合わせに参加へ。", "output": "i need to attend a radio meeting."}
+{"input": "≫幸子さん自ら他の出演者に", "output": "miss kouchikosan herself asked the other performers"}
+{"input": "「ノンストップ！」のカメラが入ると、声掛け。", "output": "and when the camera from nonstop! came in, they called out to it."}
+{"input": "幸子さん本当にありがとうございます。", "output": "I really appreciate your help, Sachiko-san."}
+{"input": "そして１０時３０分本番スタートです。", "output": "And the actual performance starts at 10:30 p.m."}
+{"input": "≫出演者の中で最年長の幸子さんですが", "output": "the oldest performer among us, miss sachiko"}
+{"input": "率先して現場を盛り上げます。", "output": "I will take the initiative to boost the atmosphere at the site."}
+{"input": "ラジオを終えると", "output": "and when i finished listening to the radio"}
+{"input": "さっと着替えて足早に次のステージへ。", "output": "I changed quickly and quickly went to the next stage."}
+{"input": "≫この２日間ずっと笑顔で幸せそうな幸子さん。", "output": "This Sachiko has been smiling and happy all these two days."}
+{"input": "このあとは、２日間の集大成を見せるといいます。", "output": "The rest of the event will be a culmination of the two days."}
+{"input": "≫ついにラスボスが現れるのか？", "output": "will the final boss finally appear?"}
+{"input": "会場の期待が高まる中幸子さんの登場を待っていると…。", "output": "As the excitement grows for the venue, we are waiting for Sachiko's appearance..."}
+{"input": "≫高さおよそ６ｍの巨大衣装に身を包んだ", "output": "He was clad in a giant costume approximately 6 meters tall."}
+{"input": "神様のような幸子さんが降臨！", "output": "The God-like Sachiko-san has descended!"}
+{"input": "頭にはちょうちん、右肩には翼。", "output": "A lantern for the head, wings for the right shoulder."}
+{"input": "火の鳥をイメージしたという衣装を身に着けた幸子さんの姿は", "output": "the image of sachiko wearing a costume inspired by the firebird"}
+{"input": "まさにラスボス。", "output": "the real last boss."}
+{"input": "実はこれこの日のために作られた", "output": "and this thing was actually made just for this day"}
+{"input": "新衣装なんです。", "output": "i need a new outfit."}
+{"input": "≫ラスボスの登場に会場のボルテージは最高潮に！", "output": "The venue's energy reached its peak with the arrival of the final boss!"}
+{"input": "≫はいいらっしゃいいい子、いい子。", "output": "it's okay, good boy, good boy."}
+{"input": "≫この２日間を通して", "output": "and over these two days"}
+{"input": "好きなものに触れている時のエネルギーを", "output": "the energy you feel when you're touching something you love"}
+{"input": "再確認したという幸子さん。", "output": "Sachiko says she has re-examined her answers."}
+{"input": "≫というわけで、小林幸子も「ノンストップ！」。", "output": "and so kobayashi Sachiko said, nonstop!"}
+{"input": "≫すごいですね。", "output": "that's amazing."}
+{"input": "本当にお参りに行く感覚…。", "output": "The feeling of actually going to pray..."}
+{"input": "≫生きるパワースポットですね。", "output": "it's a power spot where you can live!"}
+{"input": "≫ありがたいご利益がある感じの。", "output": "and it feels like i'm getting some thankless benefits."}
+{"input": "「ノンストップ！」も来ていただきまして。", "output": "and we're happy to have you all, too, Nonstop!"}
+{"input": "また来ていただきたいですね。すごいですね、２日間。", "output": "I hope you'll come again, it would be great to have two days together. That sounds amazing."}
+{"input": "動いてね、いろいろとね。", "output": "please move, and do everything you can to help."}
+{"input": "≫ハッピーオーラがすごいですよね。", "output": "the happy aura is incredible, isn't it?"}
+{"input": "≫いつもニコニコしてねいろんな人に", "output": "and always smile at everyone"}
+{"input": "サービス精神が。", "output": "the spirit of service."}
+{"input": "≫触れ合う皆さんがすごいいい顔されて", "output": "and everyone who touched each other looked really happy"}
+{"input": "みんな笑顔にね。すごい、幸子さんから", "output": "and everyone smile! how wonderful it is to hear from mr. sachiko!"}
+{"input": "パワーをみんながもらってるなって感じが", "output": "and i felt like we all got our power from it!"}
+{"input": "すごい伝わりました。", "output": "i really got the message."}
+{"input": "≫本当に圧巻の迫力のあるステージでしたね。", "output": "It was a truly breathtaking stage performance."}
+{"input": "そして、明日のタブロイドは", "output": "and tomorrow's tabloid"}
+{"input": "２時間ドラマの女王の異名を持つ片平なぎささん。", "output": "Nagisa Katahira is known as the \"Queen of Two-Hour Dramas.\""}
+{"input": "今年、デビューから５０年を迎える片平さんの", "output": "This year marks the 50th anniversary of Katahira's debut."}
+{"input": "２時間ドラマへの思いそしてデビュー秘話を聞きました。", "output": "I heard about my feelings about the two-hour drama and the story behind her debut."}
+{"input": "≫さて、続いては行きつけ教えます！", "output": "and now i'll go on to teach you something i've always taught you!"}
+{"input": "本日のゲストは、この方です。", "output": "and this is our guest for today."}
+{"input": "三浦大知さんにお越しいただきました。", "output": "Mr. Daichi Miura is here to see you."}
+{"input": "よろしくお願いいたします。", "output": "I look forward to working with you."}
+{"input": "設楽さん、大知先生が来てくれました。", "output": "Mr. Shitara, Mr. Ochi came to visit us."}
+{"input": "≫僕は大知先生って。", "output": "i'm a master, ochi sensei."}
+{"input": "≫なぜか先生と呼んでいただいて。≫どうしてそういういきさつに？", "output": "and somehow you still call me sensei. how did that happen?"}
+{"input": "≫大知先生は歌と踊りが、とんでもなく", "output": "dr. ochichi's singing and dancing are just unbelievable!"}
+{"input": "すごく上手で…。先生です。", "output": "He's really good at it...the teacher."}
+{"input": "≫恐れ多いですけど。≫設楽さんの", "output": "i'm afraid to ask but mr. setaraku's"}
+{"input": "マネジャーさんが大知先生のこと…。", "output": "the manager's asking about professor obuchi..."}
+{"input": "≫大知先生のこと大知先生って。≫全然報告とかなく", "output": "and there's no report at all about dr. ochchi. there's no report at all!"}
+{"input": "結構、地方のライブとか見に来てくださったりして。", "output": "and people came to see their local gigs and things."}
+{"input": "≫すごい、一丸となって応援しています。", "output": "that's amazing! we're cheering on you as one team!"}
+{"input": "今日はよろしくお願いします。", "output": "I look forward to working with you today."}
+{"input": "≫早速、三浦さんの行きつけご紹介してもらいましょう。", "output": "i'll immediately ask mr. miura to introduce me to his regular customer."}
+{"input": "三浦さんが自分のライブに", "output": "and mr. miura is going to be performing at his live show"}
+{"input": "屋台ごとケータリングしたほど大好きな", "output": "and he loves catering his entire food stall"}
+{"input": "その名も、おいしいラーメン！", "output": "And that name, delicious ramen!"}
+{"input": "≫三浦大知さんの行きつけは", "output": "the place where miura daichi frequents"}
+{"input": "国内外で１００店舗以上展開している", "output": "The company operates over 100 stores both domestically and internationally."}
+{"input": "ラーメンチェーン店どうとんぼり神座。", "output": "The Ramen Chain Store Doutonbori Kamiza."}
+{"input": "三浦さんのオススメはこちらの看板メニュー", "output": "Here's Miura-san's recommendation for our signature dish:"}
+{"input": "その名も、おいしいラーメン。", "output": "and its name is delicious ramen."}
+{"input": "三浦さんは昔からこのラーメンが好きすぎて", "output": "mr. miura has always loved this ramen so much that"}
+{"input": "自分のライブに屋台ごとケータリングしたほど。", "output": "and even catered a whole food stall for one of my shows."}
+{"input": "ごく一部の人間しか作り方を知らない", "output": "Only a small fraction of humans know how to make it."}
+{"input": "門外不出の秘伝のスープに", "output": "and a secret soup that no one should ever eat"}
+{"input": "ニンニクと豆板醤を入れ", "output": "and put in garlic and doubanjiang"}
+{"input": "豚バラ肉、自家製のしょうゆダレ。", "output": "pork belly, homemade soy sauce sauce."}
+{"input": "そこに、たっぷりの白菜をイン！", "output": "- And put some cabbage on it! - On it!"}
+{"input": "ブレンドした油を入れて煮込むことで", "output": "and then we put the blended oil in and simmer it"}
+{"input": "白菜の甘みが光る優しい味のスープに仕上がります。", "output": "The soup has a gentle taste with the sweetness of cabbage shining through."}
+{"input": "香り高い小麦を使ったスープに絡む中太麺に", "output": "a thick noodle mixed with a soup made from fragrant wheat"}
+{"input": "最後は大きなチャーシューをのせて完成！", "output": "The last step is to finish it with a large char siu!"}
+{"input": "白菜たっぷり優しいしょうゆ味のスープ。", "output": "A gentle soup flavored with soy sauce and plenty of cabbage."}
+{"input": "つるっとしたのど越しの麺とこだわりが詰まった", "output": "The noodles are smooth and tender, and it's packed with ingredients."}
+{"input": "三浦さんが昔から親しんでいるまさに行きつけの一杯です。", "output": "This is a regular drink Mr. Miura has enjoyed for a long time."}
+{"input": "≫スタジオにはどうとんぼり神座の", "output": "and in the studio, there's a dragon's mouth"}
+{"input": "おいしいラーメンをご用意しました。", "output": "We've prepared delicious ramen noodles."}
+{"input": "皆さん、お召し上がりください。", "output": "please enjoy your meal, everyone."}
+{"input": "≫まずはプースーからいただきます。", "output": "we'll start with the pousso soup."}
+{"input": "あっ、おいしい。優しいですね、甘みもあって。", "output": "oh, it's delicious. you're kind, aren't you? it also has a sweetness to it."}
+{"input": "≫甘みが好きなんですよね白菜から出てる", "output": "and you like the sweetness from cabbage! it comes from cabbage!"}
+{"input": "野菜の甘みというか。≫いただきますよ、もう。", "output": "the sweetness of the vegetables? well then, let's eat."}
+{"input": "うん！おいしい！", "output": "- Yeah! It's good!"}
+{"input": "≫おいしい！", "output": "- It's delicious!"}
+{"input": "≫さっき写真にありましたけどライブにケータリングで", "output": "and it was in the picture earlier, but they catered it for their concert!"}
+{"input": "来てもらうくらい。", "output": "and i'd probably have to invite them over."}
+{"input": "≫学生時代、結構ダンスレッスンとか行って", "output": "i took dance lessons quite a bit when i was a student"}
+{"input": "帰りとか、行きまくってて。", "output": "and i was going all over the place on my way home."}
+{"input": "≫学生時代、食べたってそれは大阪だったの？", "output": "≫Didn't you eat it in Osaka when you were a student?"}
+{"input": "≫それは渋谷でした。東京もいろいろ店舗があって。", "output": "and that was shibuya. and there are lots of shops in tokyo too."}
+{"input": "≫陣内さんは昔から食べてました？", "output": "have you been eating jin'naisan's food since before?"}
+{"input": "≫それこそどうとんぼりの神座に", "output": "and that's exactly what happens to the god of fortune"}
+{"input": "若手時代、毎日のように行ったんじゃないですかね。", "output": "I guess you went there almost every day when you were a young performer."}
+{"input": "夜に飲んだあと、みんなで。", "output": "and after we had a drink at night, we all went out for drinks."}
+{"input": "≫陣内さんにとっても思い出の。≫めちゃめちゃ懐かしいです。", "output": "it's also a memory for jinnaisan too. it feels really nostalgic."}
+{"input": "おいしいですね。≫千里ちゃん、おいしいね。", "output": "that's delicious. senrichan, it's delicious."}
+{"input": "≫こんなラーメンで甘さがあって野菜いっぱいとれて", "output": "and with this ramen, i can get enough sweetness and lots of vegetables!"}
+{"input": "最高ですね。", "output": "That sounds perfect!"}
+{"input": "≫やばい。豚バラもいいし。", "output": "oh no! piggybacking is good too."}
+{"input": "≫つけていただいてるんですけどちょっとピリ辛のニラみたいな。", "output": "and you're wearing it, but it's kind of spicy like chili chives."}
+{"input": "これを味変でちょっと入れると", "output": "and if you add a little of this in the flavor change"}
+{"input": "味がちょっとピリッと変わって。", "output": "and the flavor got a little bit more spicy."}
+{"input": "なかなか、この時間には…。", "output": "This time of day… it’s really tough..."}
+{"input": "≫いつも食べるのは大体遅い時間に？", "output": "do you usually eat late at night?"}
+{"input": "≫そうですねやっぱレッスン終わりとか。", "output": "that's right, maybe it's just the end of lessons."}
+{"input": "≫ちょっとパンチが効いてる感じになって。", "output": "and it started to feel like a little punchy."}
+{"input": "≫ご自身のライブ会場にラーメンをケータリングした時に", "output": "and when i catered ramen at my own live shows"}
+{"input": "三浦さんとお話ししたスタッフさんによりますと", "output": "the staff who talked to miurasan said that"}
+{"input": "チームの方や我々などにも優しく", "output": "and being kind to the team and us"}
+{"input": "丁寧に接していただけた。", "output": "and you treated me with great courtesy."}
+{"input": "その際、三浦さんからいいにおいがしたことも", "output": "and i also noticed that the smell smelled good from miurasan"}
+{"input": "記憶に残っていますとのことです。", "output": "and he said it was still in his memory."}
+{"input": "≫これのにおいなのかな？スープのにおいだったと", "output": "is it the smell of this? i thought it was the smell of soup"}
+{"input": "思いますけど。", "output": "i guess so."}
+{"input": "≫大知先生は、本当にね人柄がすごく良くて", "output": "dr. chihiro really has a really good personality"}
+{"input": "そこも先生というか。慕ってる。", "output": "and i feel like i'm the teacher here too. i admire him."}
+{"input": "優しくて本当人当たりが良くて。", "output": "and he's kind and genuinely approachable."}
+{"input": "いつもニコニコして。怒ったりしないでしょ？あんまり。", "output": "Please keep your face down. You don't get angry, do you? Not really."}
+{"input": "≫でも怒ることもありますよ結構。", "output": "but i can get angry too. that's okay."}
+{"input": "≫本当？嘘ですよ。", "output": "is that true? it's a lie."}
+{"input": "≫マネジャーさんとかはよく知ってると思います。", "output": "i think i know the managers pretty well."}
+{"input": "≫食べている最中ですが", "output": "and i'm eating it right now"}
+{"input": "三浦さんの行きつけもう１つご紹介します。", "output": "I’d like to introduce one more thing about Miura-san’s usual place of business."}
+{"input": "≫三浦大知さんの行きつけ店をもう１店舗ご紹介！", "output": "I'll introduce another restaurant frequented by Daichi Miura!"}
+{"input": "福岡県太宰府に本店を構える十二堂えとやの人気商品", "output": "The popular product of Jūnidō Etaya, whose head office is located in Dazaifu, Fukuoka Prefecture"}
+{"input": "梅の実ひじき。", "output": "the plum fruit of Hijiki."}
+{"input": "梅の名所としても有名な太宰府天満宮の梅をモチーフに", "output": "The motif is the plum blossoms of Dazaifu Tenmangu Shrine, which is also famous as a spot for plum blossoms."}
+{"input": "考案された商品なんだそう。", "output": "and it seems like this product was conceived as a product idea."}
+{"input": "厚みのあるヒジキはモチモチとした食感で", "output": "the thick hijiki has a chewy texture"}
+{"input": "独自の製法で仕上げ。", "output": "and finished using a unique method."}
+{"input": "梅は、より歯応えを楽しむことができるよう", "output": "the plum blossoms can be enjoyed with more bite"}
+{"input": "あえてカットサイズを変えるカリカリ食感にこだわりました。", "output": "We were particular about the crispy texture with a deliberately varying cut size."}
+{"input": "シソの風味も相まって箸が止まらなくなる", "output": "The flavor of the perilla leaves complements the aroma of the chili peppers and makes my chopsticks unstoppable."}
+{"input": "最強のご飯のお供です。", "output": "it's the best accompaniment to good rice."}
+{"input": "ご飯にはもちろんパスタやコロッケなど", "output": "and of course, you can have pasta or croquettes"}
+{"input": "アレンジ料理にもオススメの梅の実ひじき。", "output": "The plum fruit hijiki is also recommended for arranged dishes."}
+{"input": "三浦さんの胃袋をつかんで離さないひと品です。", "output": "It’s a dish that never lets Miura-san’s stomach catch on."}
+{"input": "≫続いてはスタジオに十二堂えとやの梅の実ひじきを", "output": "and then we saw the plum fruit of the Etoya twelve halls studio"}
+{"input": "ご用意いたしました。", "output": "I've prepared it for you."}
+{"input": "ご飯の上にのせましたので一緒にお召し上がりください。", "output": "I put it on top of the rice, so please enjoy it together."}
+{"input": "最高のセットですね。", "output": "that's a great set."}
+{"input": "≫これ、いただいたことあります。", "output": "i've already received this."}
+{"input": "有名ですよね。≫これも結構有名ですね。", "output": "and it's quite famous, isn't it? this one is pretty famous too."}
+{"input": "僕も福岡とかに行った時にいただいて", "output": "i got it when i went to fukuoka or something"}
+{"input": "そこから好きになって自分でも買い始めたりして。", "output": "And then I fell in love with it and started buying things myself."}
+{"input": "≫おいしい！このカリカリ梅なんですよね。", "output": "This is delicious! These crispy plums are right there."}
+{"input": "歯応えが良くて。", "output": "and it's nice and textured."}
+{"input": "あとシソの風味ですかね。≫ゴマが入って。", "output": "and the flavor of the perilla seeds. there's sesame seeds in it."}
+{"input": "もう、白ご飯に。≫合う！", "output": "Just eat the white rice now! It goes well!"}
+{"input": "≫なんか、いいっすね。神座と梅の実ひじき食べれて。", "output": "that sounds good. i can eat kamuzu and plum fruit hijiki!"}
+{"input": "最高ですね。≫合います。", "output": "that sounds perfect. i get it."}
+{"input": "≫これ出してほしいですね神座でね、このセット。", "output": "i'd really like you to put this up in the god's seat."}
+{"input": "≫大知先生もこれを一緒に食べるパターン", "output": "this is the pattern for you to eat this together!"}
+{"input": "初めてじゃないですか。≫同時に食べるの初めてです。", "output": "it's not the first time you've tried eating it together. it's my first time eating it at the same time."}
+{"input": "≫ライブでケータリングで今度これ…。", "output": "and this time we're catering for a live show..."}
+{"input": "≫僕からしたら夢のセットなので。", "output": "because this is my dream set."}
+{"input": "≫ご自身でごはん作ったりとかされるんですか？", "output": "are you going to make your own food?"}
+{"input": "≫僕、全然苦手で。やめましたね、自分で作るの。", "output": "i'm not good at it at all. i quit. i'm making it myself."}
+{"input": "ちょっと今は諦めちゃいました。≫奥さんに任せて？", "output": "i just gave up for a bit. can you leave it to your wife?"}
+{"input": "≫そうですね。奥さんが作ってくれるので。", "output": "i see. my wife will make it for me."}
+{"input": "下手というか変なこだわりたいみたいな", "output": "or rather, she seems to want to stick with her strange obsessions"}
+{"input": "気持ちとかが出てきて", "output": "and i started to feel something"}
+{"input": "すごい作ってる時間が長くなっちゃったりとか。", "output": "and sometimes i end up spending a lot of time making something amazing."}
+{"input": "≫男の人がやると、凝って洗い物いっぱいになったりね。", "output": "and when a man does it, he gets soaking wet doing all the washing."}
+{"input": "≫あと、チャーハンとかも自分の好みの油の感じとか", "output": "and also my favorite way to taste fried rice is through the texture of the oil"}
+{"input": "パラパラの感じにならなかったらすごく落ち込んだりとか。", "output": "And if it didn’t feel like something like “parapara,” it would make me feel really depressed or something."}
+{"input": "≫こだわりあるけど到達できない。", "output": "i'm very particular about it, but i can't quite get there."}
+{"input": "≫到達できなくて、何でこんな炒められないんだろうみたいな。", "output": "and i can't seem to get there, and i wonder why i can't cook this way."}
+{"input": "≫お話してるのに違うお客さんみたいな顔…。", "output": "and he looks like a different customer than he's talking to..."}
+{"input": "神座、止まんない。≫もうずっとね…。", "output": "The deity's seat won't stop… ever again…"}
+{"input": "うれしいです、何か。", "output": "i'm so happy. something?"}
+{"input": "≫僕もでも、聞きながら麺をつかんでました。うますぎる。", "output": "I was also holding the noodles while listening. I'm impressed."}
+{"input": "≫大知先生が紹介してくださってね。", "output": "it's thanks to dr. Ochi introducing me to you."}
+{"input": "≫こういう時のイメージって皆さん試食でちょっとつまんで", "output": "and everyone who thinks of the image in this situation will hold up a sample and take a little bite"}
+{"input": "終わるのかなと思ってたけど結構ずっと食べてて。", "output": "i thought it might end, but i've been eating it pretty much all this time."}
+{"input": "こんな食べるもんなんだと思って今結構、ビックリしてる。", "output": "i'm pretty surprised to think this is the kind of food we eat."}
+{"input": "≫陣内さん、完食の勢い！≫完食します。", "output": "jinnaisan, i'm getting ready to finish it! i'm going to finish it!"}
+{"input": "≫でも、おいしいですよね。≫素敵な行きつけ", "output": "but it's delicious, isn't it? a nice favorite place!"}
+{"input": "ご紹介していただきましたが。", "output": "and as you introduced me."}
+{"input": "≫まだ食べますよ。≫お召し上がりながら…。", "output": "I'm still going to eat it. While I'm eating..."}
+{"input": "三浦さんは９歳でメインボーカルを務めたグループ", "output": "The group Miura-san served as the main vocalist at the age of nine."}
+{"input": "Ｆｏｌｄｅｒとしてデビューされました。", "output": "He debuted as a fan fan of the band Facebook (Foaled)."}
+{"input": "≫映像出てますけどＦｏｌｄｅｒ。", "output": "The video's on Netflix."}
+{"input": "ちっちゃいよね、９歳！", "output": "- It's so small! He's nine!"}
+{"input": "グループ入って歌うたうって", "output": "and they join the group and sing along!"}
+{"input": "きっかけ自体は何だったんですか？", "output": "What was the trigger for this?"}
+{"input": "≫もともと沖縄出身で", "output": "and originally from okinawa"}
+{"input": "スクールがあってアクターズスクールという。", "output": "The school is called the Actors School because it has an acting school."}
+{"input": "そこに通ってて、本当に歌とダンスがとにかく好きで", "output": "and i went to that place, and i loved singing and dancing so much"}
+{"input": "レッスンしてたら", "output": "And I was in my lesson."}
+{"input": "こういう番組に出てみないかということで", "output": "and we thought maybe we could try appearing on this kind of show"}
+{"input": "グループ組んでみない？ということで", "output": "so why don't we form a group and try to decide whether we should form a group?"}
+{"input": "いつの間にやら。≫声変わり", "output": "and then something happened. my voice changed!"}
+{"input": "まだしてないですよね。≫この時はまだしてないです。", "output": "and we haven't done it yet, right? not yet. not yet at this time."}
+{"input": "≫そこから声変わりしても歌声は変わりなく…。", "output": "The singing voice remains unchanged even after the voice changes…"}
+{"input": "≫めちゃめちゃ高音じゃないですか。", "output": "and it's really a really high note, isn't it?"}
+{"input": "このあとに話しますけどこの当時、こういう世界に入る", "output": "and i'll talk to you about entering this world at this time"}
+{"input": "憧れとかそういう人いたんですか？", "output": "did you have someone who inspired you or something like that?"}
+{"input": "≫憧れはマイケル・ジャクソンですね。", "output": "and my dream is to be like michael jackson."}
+{"input": "一番最初はやっぱり。", "output": "and that's the first thing."}
+{"input": "≫大知先生って最初、和製マイケル・ジャクソンみたいな。", "output": "the first time dr. ochchi came along, he was like a Japanese-made michael jackson."}
+{"input": "そういうふうに言われてたこともあって", "output": "and because people were saying things like that"}
+{"input": "ダンス淘汰が上手だったから。", "output": "and i was good at selecting the best dancers."}
+{"input": "マイケル・ジャクソンやっぱり衝撃だった？", "output": "Did Michael Jackson really hit you hard then?"}
+{"input": "≫そうですね。", "output": "that's right."}
+{"input": "≫でもまだ幼い時でしょ。≫自分が初めて見聞きしたのは", "output": "but you're still young. the first thing i saw and heard was"}
+{"input": "６歳、７歳とかそのぐらいでしたけど", "output": "I was around 6 or 7 years old at the time."}
+{"input": "唯一無二感というかマイケルのポージングの", "output": "the one and only sense of being unique or even Michael's posing style"}
+{"input": "感じだったり。", "output": "it could be just a feeling."}
+{"input": "≫やっぱダンスのほうで最初、マイケルすげーなって？", "output": "and after all this time, who was it about michael who was really great at dancing?"}
+{"input": "≫最初はダンスでした。", "output": "and it started with dance."}
+{"input": "そこから楽曲とかも聴くようになって。", "output": "And then I started listening to music and things like that too."}
+{"input": "≫何を聴いたか覚えてる？最初に。", "output": "do you remember what i listened to at first?"}
+{"input": "≫「ブラック・オア・ホワイト」でした。", "output": "and it was black or white."}
+{"input": "ミュージックビデオでいろんな国のダンスを", "output": "and we did music videos of dances from all over the world"}
+{"input": "マイケルが踊っていくのを…。", "output": "I can't wait to hear about how Michael is dancing..."}
+{"input": "どのジャンルを踊ってもマイケル・ジャクソンに", "output": "and no matter what genre you dance in, you'll always find michael jackson"}
+{"input": "なるというか", "output": "- Or rather... it just happens."}
+{"input": "オリジナルな存在にすごく憧れました。", "output": "I really admired the originals."}
+{"input": "≫お会いしたことあるんですか？", "output": "have we met?"}
+{"input": "≫１回、アワードか何かで５〜６ｍ先にいるみたいなのが", "output": "-You know, once someone's five or six meters away from the award venue or something?"}
+{"input": "１回だけあったんですよ。", "output": "It happened just once."}
+{"input": "会話はしてないです。一瞬見たことはあったんですけど。", "output": "we weren't having a conversation. i saw him briefly, though."}
+{"input": "≫でも、さっき言ってたようにね。≫声変わりのお話ありましたが", "output": "but just like i said earlier"}
+{"input": "デビューしてから３年後三浦さん、ある決断をします。", "output": "Three years after his debut, Miura makes a certain decision."}
+{"input": "変声期を迎え活動休止期間へ突入します。", "output": "The baby will enter a period of inactivity as it enters its voice change period."}
+{"input": "≫大知先生は、結構…もうあれはどのくらいで休むんでしたっけ？", "output": "Mr. Ochi-sensei, how much longer did you say you were going to take a break?"}
+{"input": "≫ちょうど中学校に上がる時くらいですね。", "output": "it's around the time when we're about to enter junior high school."}
+{"input": "小学６年生の。≫結構それで普通に学生生活を", "output": "a sixth grader. that's quite enough for student life"}
+{"input": "送る期間があったんですよね。", "output": "and there was a period when we had to send them out."}
+{"input": "それがすごい大知先生を作り上げた要因だと思うんですよ。", "output": "And I think that was one of the factors that made Ochi Sensei such a great figure."}
+{"input": "≫若い時から芸能界いて普通に休んで", "output": "from a young age, you should rest normally in the entertainment industry"}
+{"input": "学生を…。", "output": "The student..."}
+{"input": "≫普通に部活とかガンガンやってたので。", "output": "i was always involved in club activities and things."}
+{"input": "≫部活は何を？≫部活", "output": "what do you do in the club? club activities!"}
+{"input": "バレーボールやってました。", "output": "i used to play volleyball."}
+{"input": "≫そこで普通に学生の友達とか部活やったりとか", "output": "and so i got to hang out with my student friends and join clubs"}
+{"input": "学生生活をちゃんと送るんですよね。", "output": "you have to make sure you're doing your school life properly."}
+{"input": "どのくらい休んでたんですか？≫休んでたのは５年くらい。", "output": "and how long have you been resting? you've been resting for about five years now."}
