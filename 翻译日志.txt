@@ -1,0 +1,310 @@
+(base) cyw@DESKTOP-6J260FU:~/pro$ python fill_with_deepseek.py 
+找到 48 个文件需要处理
+Processing: 20250425T114500_7fe2041027df.jsonl -> filled1.jsonl (140 lines)...
+[Line 1] Translated
+[Line 2] Translated
+[Line 3] Translated
+[Line 4] Translated
+[Line 5] Translated
+[Line 6] Translated
+[Line 7] Translated
+Error while processing input: '（杉原）　皆さま…。...': Expecting value: line 1 column 1 (char 0)
+[Line 8] Translation failed or incomplete.
+[Line 9] Translated
+[Line 10] Translated
+Error while processing input: 'クリームソースを仕上...': Expecting value: line 1 column 1 (char 0)
+[Line 11] Translation failed or incomplete.
+Error while processing input: 'では　まず　そのそら...': Expecting value: line 1 column 1 (char 0)
+[Line 12] Translation failed or incomplete.
+[Line 13] Translated
+Error while processing input: 'さやつきのまんまフレ...': Expecting value: line 1 column 1 (char 0)
+[Line 14] Translation failed or incomplete.
+[Line 15] Translated
+[Line 16] Translated
+[Line 17] Translated
+Error while processing input: 'ついてますね　ふかふ...': Expecting value: line 1 column 1 (char 0)
+[Line 18] Translation failed or incomplete.
+[Line 19] Translated
+Error while processing input: 'たっぷり４個入ってま...': Expecting value: line 1 column 1 (char 0)
+[Line 20] Translation failed or incomplete.
+[Line 21] Translated
+[Line 22] Translated
+[Line 23] Translated
+[Line 24] Translated
+[Line 25] Translated
+Error while processing input: 'では　せっかくなので...': Expecting value: line 1 column 1 (char 0)
+[Line 26] Translation failed or incomplete.
+Error while processing input: 'いいですか？むいたこ...': Expecting value: line 1 column 1 (char 0)
+[Line 27] Translation failed or incomplete.
+[Line 28] Translated
+[Line 29] Translated
+[Line 30] Translated
+[Line 31] Translated
+[Line 32] Translated
+[Line 33] Translated
+[Line 34] Translated
+[Line 35] Translated
+[Line 36] Translated
+[Line 37] Translated
+Error while processing input: 'この辺ですか？そうで...': Expecting value: line 1 column 1 (char 0)
+[Line 38] Translation failed or incomplete.
+Error while processing input: 'ホントだ　ホントだ　...': Expecting value: line 1 column 1 (char 0)
+[Line 39] Translation failed or incomplete.
+[Line 40] Translated
+[Line 41] Translated
+[Line 42] Translated
+[Line 43] Translated
+[Line 44] Translated
+[Line 45] Translated
+[Line 46] Translated
+[Line 47] Translated
+[Line 48] Translated
+[Line 49] Translated
+[Line 50] Translated
+[Line 51] Translated
+[Line 52] Translated
+[Line 53] Translated
+[Line 54] Translated
+[Line 55] Translated
+Error while processing input: '下からね　ぐぐぐって...': Expecting value: line 1 column 1 (char 0)
+[Line 56] Translation failed or incomplete.
+[Line 57] Translated
+[Line 58] Translated
+[Line 59] Translated
+[Line 60] Translated
+[Line 61] Translated
+[Line 62] Translated
+Error while processing input: '引き上げることができ...': Expecting value: line 1 column 1 (char 0)
+[Line 63] Translation failed or incomplete.
+[Line 64] Translated
+[Line 65] Translated
+[Line 66] Translated
+[Line 67] Translated
+[Line 68] Translated
+[Line 69] Translated
+[Line 70] Translated
+[Line 71] Translated
+Error while processing input: 'スパゲティ　ゆで上が...': Expecting value: line 1 column 1 (char 0)
+[Line 72] Translation failed or incomplete.
+[Line 73] Translated
+[Line 74] Translated
+[Line 75] Translated
+[Line 76] Translated
+Error while processing input: 'この後つぶすのである...': Expecting value: line 1 column 1 (char 0)
+[Line 77] Translation failed or incomplete.
+[Line 78] Translated
+[Line 79] Translated
+[Line 80] Translated
+[Line 81] Translated
+[Line 82] Translated
+[Line 83] Translated
+Error while processing input: 'ここで香り…　ベーコ...': Expecting value: line 1 column 1 (char 0)
+[Line 84] Translation failed or incomplete.
+[Line 85] Translated
+Error while processing input: 'これだけでも　おいし...': Expecting value: line 1 column 1 (char 0)
+[Line 86] Translation failed or incomplete.
+[Line 87] Translated
+Error while processing input: '少しにんにくも焼き色...': Expecting value: line 1 column 1 (char 0)
+[Line 88] Translation failed or incomplete.
+[Line 89] Translated
+[Line 90] Translated
+[Line 91] Translated
+[Line 92] Translated
+[Line 93] Translated
+[Line 94] Translated
+[Line 95] Translated
+Error while processing input: '春らしい　軽やかなパ...': Expecting value: line 1 column 1 (char 0)
+[Line 96] Translation failed or incomplete.
+[Line 97] Translated
+[Line 98] Translated
+Error while processing input: '豆もキレイな色になっ...': Expecting value: line 1 column 1 (char 0)
+[Line 99] Translation failed or incomplete.
+[Line 100] Translated
+[Line 101] Translated
+Error while processing input: '見ておきますね。ちょ...': Expecting value: line 1 column 1 (char 0)
+[Line 102] Translation failed or incomplete.
+[Line 103] Translated
+Error while processing input: '一緒に　ゆでてますの...': Expecting value: line 1 column 1 (char 0)
+[Line 104] Translation failed or incomplete.
+[Line 105] Translated
+Error while processing input: 'しっかり　湯も切って...': Expecting value: line 1 column 1 (char 0)
+[Line 106] Translation failed or incomplete.
+Error while processing input: 'では　加えます　沸い...': Expecting value: line 1 column 1 (char 0)
+[Line 107] Translation failed or incomplete.
+[Line 108] Translated
+[Line 109] Translated
+[Line 110] Translated
+Error while processing input: 'そら豆を軽くつぶしま...': Expecting value: line 1 column 1 (char 0)
+[Line 111] Translation failed or incomplete.
+Error while processing input: '軽くつぶして。おいし...': Expecting value: line 1 column 1 (char 0)
+[Line 112] Translation failed or incomplete.
+[Line 113] Translated
+Error while processing input: '味のめりはりになりま...': Expecting value: line 1 column 1 (char 0)
+[Line 114] Translation failed or incomplete.
+[Line 115] Translated
+Error while processing input: 'あ〜　おいしそうです...': Expecting value: line 1 column 1 (char 0)
+[Line 116] Translation failed or incomplete.
+[Line 117] Translated
+[Line 118] Translated
+[Line 119] Translated
+Error while processing input: 'このそら豆の　本当　...': Expecting value: line 1 column 1 (char 0)
+[Line 120] Translation failed or incomplete.
+[Line 121] Translated
+[Line 122] Translated
+[Line 123] Translated
+[Line 124] Translated
+[Line 125] Translated
+[Line 126] Translated
+[Line 127] Translated
+[Line 128] Translated
+[Line 129] Translated
+[Line 130] Translated
+[Line 131] Translated
+Error while processing input: 'スパゲティですぜひ皆...': Expecting value: line 1 column 1 (char 0)
+[Line 132] Translation failed or incomplete.
+Error while processing input: '『３分クッキング』テ...': Expecting value: line 1 column 1 (char 0)
+[Line 133] Translation failed or incomplete.
+[Line 134] Translated
+[Line 135] Translated
+[Line 136] Translated
+[Line 137] Translated
+[Line 138] Translated
+[Line 139] Translated
+[Line 140] Translated
+完成处理: filled1.jsonl
+Processing: 20250425T115500_7fe2041027e0.jsonl -> filled2.jsonl (92 lines)...
+Error while processing input: 'ヒルナンデス！羽鳥＆...': Expecting value: line 1 column 1 (char 0)
+[Line 1] Translation failed or incomplete.
+[Line 2] Translated
+Error while processing input: '＜エージーデオメン＞...': Expecting value: line 1 column 1 (char 0)
+[Line 3] Translation failed or incomplete.
+[Line 4] Translated
+[Line 5] Translated
+[Line 6] Translated
+[Line 7] Translated
+[Line 8] Translated
+[Line 9] Translated
+[Line 10] Translated
+Error while processing input: 'マンション　戸建ても...': Expecting value: line 1 column 1 (char 0)
+[Line 11] Translation failed or incomplete.
+[Line 12] Translated
+[Line 13] Translated
+[Line 14] Translated
+[Line 15] Translated
+[Line 16] Translated
+[Line 17] Translated
+[Line 18] Translated
+[Line 19] Translated
+[Line 20] Translated
+[Line 21] Translated
+[Line 22] Translated
+[Line 23] Translated
+Error while processing input: 'スーモ　家を買いたい...': Expecting value: line 1 column 1 (char 0)
+[Line 24] Translation failed or incomplete.
+[Line 25] Translated
+[Line 26] Translated
+[Line 27] Translated
+[Line 28] Translated
+[Line 29] Translated
+[Line 30] Translated
+[Line 31] Translated
+[Line 32] Translated
+[Line 33] Translated
+[Line 34] Translated
+[Line 35] Translated
+[Line 36] Translated
+[Line 37] Translated
+[Line 38] Translated
+[Line 39] Translated
+[Line 40] Translated
+[Line 41] Translated
+[Line 42] Translated
+[Line 43] Translated
+[Line 44] Translated
+[Line 45] Translated
+[Line 46] Translated
+[Line 47] Translated
+[Line 48] Translated
+Error while processing input: '瞬感　ミストＵＶ　「...': Expecting value: line 1 column 1 (char 0)
+[Line 49] Translation failed or incomplete.
+[Line 50] Translated
+Error while processing input: '第１ターミナルに誕生...': Expecting value: line 1 column 1 (char 0)
+[Line 51] Translation failed or incomplete.
+[Line 52] Translated
+[Line 53] Translated
+[Line 54] Translated
+[Line 55] Translated
+[Line 56] Translated
+[Line 57] Translated
+Error while processing input: 'そんな時は　これ！　...': Expecting value: line 1 column 1 (char 0)
+[Line 58] Translation failed or incomplete.
+[Line 59] Translated
+[Line 60] Translated
+[Line 61] Translated
+[Line 62] Translated
+[Line 63] Translated
+[Line 64] Translated
+Error while processing input: '（子ども）最近　ご飯...': Expecting value: line 1 column 1 (char 0)
+[Line 65] Translation failed or incomplete.
+[Line 66] Translated
+[Line 67] Translated
+[Line 68] Translated
+[Line 69] Translated
+[Line 70] Translated
+Error while processing input: '（二階堂）ミストの日...': Expecting value: line 1 column 1 (char 0)
+[Line 71] Translation failed or incomplete.
+[Line 72] Translated
+[Line 73] Translated
+[Line 74] Translated
+[Line 75] Translated
+[Line 76] Translated
+[Line 77] Translated
+[Line 78] Translated
+[Line 79] Translated
+[Line 80] Translated
+[Line 81] Translated
+[Line 82] Translated
+[Line 83] Translated
+[Line 84] Translated
+[Line 85] Translated
+[Line 86] Translated
+[Line 87] Translated
+[Line 88] Translated
+[Line 89] Translated
+[Line 90] Translated
+[Line 91] Translated
+[Line 92] Translated
+完成处理: filled2.jsonl
+Processing: 20250425T130500_7fe004003738.jsonl -> filled3.jsonl (59 lines)...
+[Line 1] Translated
+[Line 2] Translated
+[Line 3] Translated
+[Line 4] Translated
+[Line 5] Translated
+[Line 6] Translated
+[Line 7] Translated
+[Line 8] Translated
+Error while processing input: 'このあとも雨や雷雨と...': Expecting value: line 1 column 1 (char 0)
+[Line 9] Translation failed or incomplete.
+[Line 10] Translated
+[Line 11] Translated
+[Line 12] Translated
+[Line 13] Translated
+[Line 14] Translated
+[Line 15] Translated
+[Line 16] Translated
+[Line 17] Translated
+[Line 18] Translated
+[Line 19] Translated
+[Line 20] Translated
+[Line 21] Translated
+[Line 22] Translated
+[Line 23] Translated
+[Line 24] Translated
+[Line 25] Translated
+[Line 26] Translated
+[Line 27] Translated
+[Line 28] Translated
+[Line 29] Translated
+[Line 30] Translated
+[Line 31] Translated

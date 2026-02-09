@@ -7,27 +7,54 @@ import json
 os.environ['HF_ENDPOINT'] = 'https://hf-mirror.com'
 
 def _read_non_empty_lines(path: str, role: str) -> List[Tuple[int, str]]:
-    """Read lines; if jsonl, select the needed field.
+    """Read lines; support both JSON array and JSONL formats.
 
-    role: "src" -> "input" (Japanese source); others -> "output".
+    role: "src" -> "content" (Japanese source); others -> "output".
     """
-    is_jsonl = path.lower().endswith(".jsonl")
-    key = "input" if role == "src" else "output"
+    key = "content" if role == "src" else "output"
     lines: List[Tuple[int, str]] = []
-    with open(path, "r", encoding="utf-8") as f:
-        for line_no, raw in enumerate(f, 1):
-            text = raw.rstrip("\n")
-            if text.strip() == "":
-                continue
-            if is_jsonl:
+
+    # 判断文件类型
+    is_jsonl = path.lower().endswith(".jsonl")
+    is_json_array = path.lower().endswith(".json")
+
+    if is_json_array:
+        # JSON数组格式: [{...}, {...}, ...]
+        with open(path, "r", encoding="utf-8") as f:
+            try:
+                data = json.load(f)
+                if isinstance(data, list):
+                    for idx, obj in enumerate(data, 1):
+                        if isinstance(obj, dict):
+                            text = obj.get(key, "")
+                            if text.strip() != "":
+                                lines.append((idx, text))
+            except json.JSONDecodeError as e:
+                raise ValueError(f"无法解析JSON文件 {path}: {e}")
+    elif is_jsonl:
+        # JSONL格式: 每行一个JSON对象
+        with open(path, "r", encoding="utf-8") as f:
+            for line_no, raw in enumerate(f, 1):
+                text = raw.rstrip("\n")
+                if text.strip() == "":
+                    continue
                 try:
                     obj = json.loads(text)
                     text = obj.get(key, "")
                 except json.JSONDecodeError:
                     continue
-            if text.strip() == "":
-                continue
-            lines.append((line_no, text))
+                if text.strip() == "":
+                    continue
+                lines.append((line_no, text))
+    else:
+        # 普通文本格式
+        with open(path, "r", encoding="utf-8") as f:
+            for line_no, raw in enumerate(f, 1):
+                text = raw.rstrip("\n")
+                if text.strip() == "":
+                    continue
+                lines.append((line_no, text))
+
     return lines
 
 
@@ -102,7 +129,7 @@ def main() -> int:
     st_model = SentenceTransformer(args.model, device=device)
     print("开始评测...\n")
 
-    # 原文直接取自译文 jsonl 的 input 字段（两份译文应共享相同原文）
+    # 原文直接取自译文 jsonl 的 content 字段（两份译文应共享相同原文）
     src_lines = _read_non_empty_lines(path1, "src")
     qwen_lines = _read_non_empty_lines(path1, "hyp")
     google_lines = _read_non_empty_lines(path2, "hyp")
@@ -202,7 +229,7 @@ def main() -> int:
 
     with open(out_path, "w", encoding="utf-8") as f:
         f.write("# 翻译质量评估报告 (LaBSE 语义相似度)\n\n")
-        f.write(f"- 原文来源: `{path1}` (input 字段)\n")
+        f.write(f"- 原文来源: `{path1}` (content 字段)\n")
         f.write(f"- {name1} 文件: `{path1}`\n")
         f.write(f"- {name2} 文件: `{path2}`\n")
         f.write(f"- LaBSE 模型: `{args.model}`\n")
