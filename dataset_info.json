@@ -1,8 +1,0 @@
-{
-  "train_cleaned_filled": {
-    "file_name": "train_cleaned_filled.jsonl"
-  },
-  "test_cleaned_filled": {
-    "file_name": "test_cleaned_filled.jsonl"
-  }
-}

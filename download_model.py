@@ -8,9 +8,12 @@ print("--- 正在下载---")
 
 # 只改这一段
 try:
+    repo_id = input('网址：')
+    model_name = input('模型名：')
+    local_dir = os.path.join(os.path.expanduser('~'), model_name)
     snapshot_download(
-        repo_id=input('网址：'), 
-        local_dir=input('保存路径：'),            
+        repo_id=repo_id, 
+        local_dir=local_dir,            
         resume_download=True,
         max_workers=8
     )

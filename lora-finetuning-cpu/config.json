@@ -1,0 +1,22 @@
+{
+  "base_model": "/home/cyw/Qwen2.5-0.5B",
+  "data_path": "/home/cyw/pro/train_data_2/trans/filled.jsonl",
+  "output_dir": "./lora-tuned-model",
+  "batch_size": 2,
+  "micro_batch_size": 1,
+  "gradient_accumulation_steps": 4,
+  "num_epochs": 5,
+  "learning_rate": 5e-5,
+  "cutoff_len": 512,
+  "lora_r": 8,
+  "lora_alpha": 16,
+  "lora_dropout": 0.05,
+  "lora_target_modules": ["q_proj", "k_proj", "v_proj", "o_proj"],
+  "group_by_length": true,
+  "eval_during_training": true,
+  "enable_labse": false,
+  "run_final_eval": true,
+  "resume_from_checkpoint": "auto",
+  "save_steps": 10,
+  "logging_steps": 5
+}
