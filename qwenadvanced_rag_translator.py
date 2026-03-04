@@ -5,18 +5,20 @@ import torch
 from langchain_core.documents import Document
 from langchain_community.vectorstores import Chroma
 from langchain_community.embeddings import HuggingFaceEmbeddings
-from langchain.chains import RetrievalQA
+# from langchain.chains import RetrievalQA
 from langchain_core.prompts import PromptTemplate
 from langchain_community.llms import HuggingFacePipeline
 
 
 # Transformers imports
 from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline
+from sentence_transformers import SentenceTransformer, util
 
 # ================= 配置区 =================
 # 1. 模型相关
 MODEL_PATH = "Qwen/Qwen2.5-0.5B-Instruct"
 EMBEDDING_MODEL = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+LABSE_MODEL = "sentence-transformers/LaBSE"
 
 # 2. 文件路径
 GLOSSARY_FILE = "/home/cyw/pro/train_data_2/glossary.txt" # 包含角色词汇表、地名、翻译记忆库等
@@ -111,7 +113,11 @@ def main():
     )
     llm = HuggingFacePipeline(pipeline=pipe)
 
-    # 4. 创建 Prompt 模板
+    # 4. 加载 LaBSE 评分模型
+    print(f"2. 加载 LaBSE 评分模型: {LABSE_MODEL}")
+    labse_model = SentenceTransformer(LABSE_MODEL)
+
+    # 5. 创建 Prompt 模板
     system_prompt = (
         "You are an expert Japanese-to-English translator for TV subtitles. "
         "Use the provided 'Translation Memory' (retrieved context) to ensure consistency. "
@@ -128,14 +134,8 @@ def main():
     )
     prompt = PromptTemplate(template=template, input_variables=["context", "question"])
 
-    # 5. 创建 RetrievalQA 链
-    qa_chain = RetrievalQA.from_chain_type(
-        llm=llm,
-        chain_type="stuff",
-        retriever=glossary_retriever,
-        return_source_documents=True,
-        chain_type_kwargs={"prompt": prompt}
-    )
+    # 6. (已移除 RetrievalQA 链，改为手动执行RAG流程以修复依赖问题)
+    # qa_chain = RetrievalQA.from_chain_type(...) 
     
     print("\n✅ RAG 翻译系统已准备就绪！")
     print("========================================")
@@ -152,16 +152,34 @@ def main():
 
         print("翻译中...")
         try:
-            # LangChain的invoke会自动处理检索、构建prompt和调用LLM
-            result = qa_chain.invoke({"query": query})
+            # 1. 手动检索相关文档
+            docs = glossary_retriever.invoke(query)
+            
+            # 2. 构建上下文 (使用 translate metadata 如果可用，否则使用 page_content)
+            context_str = "\n".join([doc.metadata.get("translation", doc.page_content) for doc in docs])
+            
+            # 3. 填充Prompt
+            final_prompt_str = prompt.format(context=context_str, question=query)
+
+            # 4. 调用 LLM
+            # 注意: llm 是 HuggingFacePipeline, 也是Runnable
+            final_translation = llm.invoke(final_prompt_str)
             
             print("\n--- 最终翻译 ---")
-            print(result['result'].strip())
+            # 清理结果 (有些模型可能会输出额外内容，虽然 pipeline 设置了 return_full_text=False)
+            final_translation = final_translation.strip()
+            print(final_translation)
+            
+            # LaBSE Score
+            src_emb = labse_model.encode(query, convert_to_tensor=True)
+            tgt_emb = labse_model.encode(final_translation, convert_to_tensor=True)
+            score = util.pytorch_cos_sim(src_emb, tgt_emb).item()
+            print(f"\n--- LaBSE 评分: {score:.4f} ---")
             
             print("\n--- 检索到的相关记忆库条目 ---")
-            if result['source_documents']:
-                for i, doc in enumerate(result['source_documents']):
-                    print(f"  [{i+1}] {doc.metadata['translation']}")
+            if docs:
+                for i, doc in enumerate(docs):
+                    print(f"  [{i+1}] {doc.metadata.get('translation', 'N/A')}")
             else:
                 print("  (未找到相关条目)")
 

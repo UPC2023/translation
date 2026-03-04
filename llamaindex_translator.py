@@ -6,11 +6,13 @@ from llama_index.core.retrievers import VectorIndexRetriever
 from llama_index.vector_stores.chroma import ChromaVectorStore
 from llama_index.embeddings.huggingface import HuggingFaceEmbedding
 from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline
+from sentence_transformers import SentenceTransformer, util
 
 # ================= 配置区 =================
 # 1. 模型相关
 LLM_PATH = "/home/cyw/HY1.8B"
 EMBEDDING_MODEL = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+LABSE_MODEL = "sentence-transformers/LaBSE" # 新增：LaBSE评分模型
 
 # 2. ChromaDB 相关
 PERSIST_DIRECTORY_GLOSSARY = "/home/cyw/pro/db_chroma_glossary"
@@ -21,21 +23,21 @@ RETRIEVAL_TOP_K = 3
 
 print("--- RAG 翻译系统初始化 ---")
 
+# 确定运行设备
+device = "cuda" if torch.cuda.is_available() else "cpu"
+
 # 1. 设置 LlamaIndex 全局配置
-print(f"1. 加载 LLM: {LLM_PATH}")
+print(f"1. 加载 LLM: {LLM_PATH} (device={device})")
 # 修复 HY 模型 Tokenizer 问题
 tokenizer = AutoTokenizer.from_pretrained(LLM_PATH, trust_remote_code=True, use_fast=False)
 if tokenizer.pad_token is None:
     tokenizer.pad_token = tokenizer.eos_token
 
-# HY-MT 官方模板
-prompt_template = "将以下文本翻译为中文，注意只需要输出翻译后的结果，不要额外解释：\n\n{query_str}"
-
 model = AutoModelForCausalLM.from_pretrained(
     LLM_PATH,
     trust_remote_code=True,
     device_map="auto",
-    torch_dtype=torch.float16,
+    torch_dtype=torch.float16 if device == "cuda" else torch.float32,
 )
 
 text_gen = pipeline(
@@ -50,25 +52,27 @@ text_gen = pipeline(
 print(f"2. 加载嵌入模型: {EMBEDDING_MODEL}")
 embed_model = HuggingFaceEmbedding(model_name=EMBEDDING_MODEL)
 
-# 2. 连接到现有的 ChromaDB
-print(f"3. 连接到 ChromaDB 数据库: {PERSIST_DIRECTORY_GLOSSARY}")
+print(f"3. 加载 LaBSE 评分模型: {LABSE_MODEL} (device={device})")
+labse_model = SentenceTransformer(LABSE_MODEL, device=device)
+
+# 4. 连接到现有的 ChromaDB
+print(f"5. 连接到 ChromaDB 数据库: {PERSIST_DIRECTORY_GLOSSARY}")
 if not os.path.exists(PERSIST_DIRECTORY_GLOSSARY):
-    raise FileNotFoundError(f"错误：数据库目录未找到 {PERSIST_DIRECTORY_GLOSSARY}。请先运行 qwenadvanced_rag_translator.py 创建数据库。")
+    raise FileNotFoundError(f"错误：数据库目录未找到 {PERSIST_DIRECTORY_GLOSSARY}。请先运行 qwen_cot_rag.py 创建数据库。")
 
 db = chromadb.PersistentClient(path=PERSIST_DIRECTORY_GLOSSARY)
-chroma_collection = db.get_or_create_collection("chroma_collection") # 注意：这里的名字需要和创建时一致，qwenadvanced_rag_translator.py中是默认名
+chroma_collection = db.get_or_create_collection("chroma_collection")
 vector_store = ChromaVectorStore(chroma_collection=chroma_collection)
 index = VectorStoreIndex.from_vector_store(vector_store=vector_store, embed_model=embed_model)
 
-# 3. 创建查询引擎
-print("4. 创建查询引擎...")
+# 5. 创建查询引擎
+print("6. 创建查询引擎...")
 retriever = VectorIndexRetriever(index=index, similarity_top_k=RETRIEVAL_TOP_K)
 
-# 4. 定义翻译函数
+# 6. 定义翻译函数
 def translate_with_rag(text_to_translate):
     """
     使用RAG和LlamaIndex进行翻译。
-    如果找不到相关上下文，则回退到直接翻译。
     """
     print("\n翻译中...")
     
@@ -111,12 +115,28 @@ def translate_with_rag(text_to_translate):
         """
 
     # 3. 调用LLM
-    # 注意：我们不再使用 query_engine.query()，而是直接调用 llm.complete()
     response = text_gen(final_prompt)[0]["generated_text"].strip()
     return response
 
+# 7. 定义评分函数
+def score_translation(original_text, translated_text):
+    """使用LaBSE模型为翻译评分"""
+    print("\n评分中...")
+    try:
+        # 批量编码（这里只有两个句子，但保持API一致性）
+        embeddings = labse_model.encode(
+            [original_text, translated_text],
+            convert_to_tensor=True,
+            normalize_embeddings=True
+        )
+        # 计算余弦相似度
+        similarity = util.cos_sim(embeddings[0], embeddings[1])
+        return similarity.item()
+    except Exception as e:
+        print(f"LaBSE评分时出错: {e}")
+        return None
 
-# 5. 交互式翻译循环
+# 8. 交互式翻译循环
 print("\n✅ RAG 翻译系统已准备就绪！")
 print("========================================")
 print("🤖 请输入要翻译的日文，或输入 'exit' 退出。")
@@ -130,12 +150,19 @@ while True:
         continue
 
     try:
+        # 翻译
         final_translation = translate_with_rag(query)
         print("\n--- 最终翻译 ---")
         print(final_translation)
 
+        # 评分
+        labse_score = score_translation(query, final_translation)
+        if labse_score is not None:
+            print("\n--- LaBSE 语义相似度得分 ---")
+            print(f"{labse_score:.4f}")
+
     except Exception as e:
-        print(f"翻译过程中发生错误: {e}")
+        print(f"翻译或评分过程中发生错误: {e}")
 
 print("\n👋 系统已退出。")
 
